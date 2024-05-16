@@ -1,0 +1,23 @@
+<GDAL_WMS>
+  <Service name="WMS">
+    <Version>1.1.1</Version>
+    <ServerUrl>https://bhuvan-ras2.nrsc.gov.in/mapcache?&amp;SERVICE=WMS</ServerUrl>
+    <Layers>fld_cuml_2021_hp</Layers>
+    <SRS>EPSG%3A4326</SRS>
+    <ImageFormat>image%2Fpng</ImageFormat>
+    <Transparent>TRUE</Transparent>
+    <BBoxOrder>xyXY</BBoxOrder>
+  </Service>
+  <DataWindow>
+    <UpperLeftX>75.289307</UpperLeftX>
+    <UpperLeftY>33.321349</UpperLeftY>
+    <LowerRightX>79.562988</LowerRightX>
+    <LowerRightY>30.353916</LowerRightY>
+    <SizeX>1073741824</SizeX>
+    <SizeY>745553288</SizeY>
+  </DataWindow>
+  <BandsCount>4</BandsCount>
+  <BlockSizeX>1024</BlockSizeX>
+  <BlockSizeY>1024</BlockSizeY>
+  <OverviewCount>20</OverviewCount>
+</GDAL_WMS>
