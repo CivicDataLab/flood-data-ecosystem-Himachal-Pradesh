@@ -28,13 +28,6 @@ odisha_rc_gdf = gpd.read_file(
 files = glob.glob(
     path + "data\\tiffs\\removed_watermarks\\tiffs\\" + "cuml_"+ year + "_watermarkremoved" + "*.tif"
 )
-#files2 = glob.glob(
-#    path + "data/tiffs/removed_watermarks/" + year + "_??-??_" + month + "*.tif"
-#)
-#files3 = glob.glob(
-#    path + "data\\tiffs\\removed_watermarks\\tiffs\\" + year + "_??_" + month + "_??" + "*.tif"
-#)
-#files = files1 + files3# + files3
 print("Number of maps available for the month: "+ month, len(files))
 
 raster = rasterio.open(files[0])
