@@ -10,27 +10,24 @@ state_info = {"state": "Himachal-Pradesh", "code": "hp"}
 
 
 path = os.getcwd() + f"/flood-data-ecosystem-Himachal-Pradesh/Sources/BHUVAN"
-print("Base path: ", path)
+# print("Base path: ", path)
 files = glob.glob(path + "/data/tiffs/*.tif")
 print("Files with watermark: ", files)
 
-wm_removed_files = glob.glob(path + f"/data/tiffs/removed_watermarks/*.tif") 
-
-print(wm_removed_files)
+wm_removed_files = glob.glob(path + f"/data/tiffs/removed_watermarks/*.tif")
 
 dates_watermark_removed = []
-#/flood-data-ecosystem-Himachal-Pradesh/Sources/BHUVAN/data/tiffs/removed_watermarks/cuml_2021.tif"
+# /flood-data-ecosystem-Himachal-Pradesh/Sources/BHUVAN/data/tiffs/removed_watermarks/cuml_2021.tif"
 
 for file in wm_removed_files:
     dates_watermark_removed.append(file.split(r"/")[-1].split("_w")[0])
 
 for file in files:
-    file = file.replace('\\','/')
+    file = file.replace("\\", "/")
     date_string = file.split(r"/")[-1][:-4]
     if date_string in dates_watermark_removed:
         continue
     print(date_string)
-
 
     raster = rasterio.open(file)
     image1_ar = raster.read()

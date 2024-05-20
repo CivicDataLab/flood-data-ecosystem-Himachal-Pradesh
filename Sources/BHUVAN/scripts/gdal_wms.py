@@ -6,9 +6,11 @@ from osgeo import gdal
 
 gdal.DontUseExceptions()
 
-path = os.getcwd() + f"/flood-data-ecosystem-Himachal-Pradesh/Sources/BHUVAN"
+path = os.getcwd() + "/flood-data-ecosystem-Himachal-Pradesh/Sources/BHUVAN"
 
-date_strings = ["cuml_2021"]  # Sample date for assam - "2023_07_07_18", HP - cuml_2021, Orissa - 2022_16_08 / 2022_18_08_18
+date_strings = [
+    "cuml_2021"
+]  # Sample date for assam - "2023_07_07_18", HP - cuml_2021, Orissa - 2022_16_08 / 2022_18_08_18
 
 # Specify the state information to scrape data for.
 state_info = {"state": "Himachal-Pradesh", "code": "hp"}
@@ -17,13 +19,13 @@ state_info = {"state": "Himachal-Pradesh", "code": "hp"}
 for dates in date_strings:
 
     # Define your input and output paths
-    input_xml_path = path + f"/data/inundation.xml" 
+    input_xml_path = path + "/data/inundation.xml"
     output_tiff_path = path + f"/data/tiffs/{dates}.tif"
 
     layer_hp = "fld_cuml_2021_hp"
-    state_code = "hp"  
+    state_code = "hp"
     url_hp = "https://bhuvan-ras2.nrsc.gov.in/mapcache"
-    
+
     # Download the WMS(Web Map Sevice) layer and save as XML.
     command = [
         "gdal_translate",
@@ -49,7 +51,7 @@ for dates in date_strings:
         xRes=0.0001716660336923202072,
         yRes=-0.0001716684356881450775,
         creationOptions=["COMPRESS=DEFLATE", "TILED=YES"],
-        callback=gdal.TermProgress_nocb,#None #gdal.TermProgress,
+        callback=gdal.TermProgress_nocb,  # None #gdal.TermProgress,
     )
 
     print("Time took to Warp: ", timeit.default_timer() - starttime)

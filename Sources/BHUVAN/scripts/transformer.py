@@ -18,17 +18,20 @@ else:
     print("Month: ", year + month)
 
 tic = time.perf_counter()
-path = os.getcwd() + "\\IDS-DRR-HP\\Sources\\BHUVAN\\Himachal-Pradesh\\"
-odisha_rc_gdf = gpd.read_file(
-    os.getcwd() + "\\IDS-DRR-HP\\Maps\\HP\\HP_subdistrict_ids-added.shp"
-)
+path = os.getcwd() + "/Sources/BHUVAN/"
+odisha_rc_gdf = gpd.read_file(os.getcwd() + "/Maps/HP/HP_subdistrict_ids-added.shp")
 
-#files = glob.glob(
+# files = glob.glob(
 #    path + "data/tiffs/removed_watermarks/tiffs/" + year + "_??_" + month + "*.tif"
 files = glob.glob(
-    path + "data\\tiffs\\removed_watermarks\\tiffs\\" + "cuml_"+ year + "_watermarkremoved" + "*.tif"
+    path
+    + "data/tiffs/removed_watermarks/tiffs/"
+    + "cuml_"
+    + year
+    + "_watermarkremoved"
+    + "*.tif"
 )
-print("Number of maps available for the month: "+ month, len(files))
+print("Number of maps available for the month: " + month, len(files))
 
 raster = rasterio.open(files[0])
 raster_array = raster.read(1)
