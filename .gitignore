@@ -1,3 +1,16 @@
+#Large files
+*.nc
+*.tif
+Waterlevel_assam_stations.csv
+MissionAntyodaya2020_Assam.xlsx
+*.zip
+
+#Don't ignore zip files in Map
+!Maps/*.zip
+
+#Env Files / Secret Keys
+*.env
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -25,7 +38,6 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-.DS_Store
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -61,6 +73,7 @@ cover/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+.DS_Store
 
 # Flask stuff:
 instance/
