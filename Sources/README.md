@@ -2,20 +2,18 @@
 | ------------- | -------------  | ------------- |
 | BHARAT MAPS    | `Health Centres per RC` <br> `Road length per RC` <br> `Rail length per RC` | One Time |
 | BHUVAN  | `Inundation percentage`<br>`Inundation intensity` | Monthly |
+| Flood Forecast Stations (FFS)  | `riverlevel_mean`<br>`riverlevel_min`<br>`riverlevel_max`  | Monthly |
 | GCN250  | `Surface runoff`  | One Time |
-
-<!--| ANTYODAYA  | `net-sown-area-in-hac`<br>`avg-electricity`<br>`avg-tele`<br>`rc-piped-hhds-pct`<br>`rc-nosanitation-hhds-pct` | One Time |
- | Flood Forecast Stations (FFS)  | `riverlevel_mean`<br>`riverlevel_min`<br>`riverlevel_max`  | Monthly |
-| FRIMS  | `All damages variables`  | Monthly |
-
 | IMD   | `Rainfall`  | Monthly |
 | NASADEM   | `Elevation` <br> `Slope`  | One Time |
-| NERDRR  | `Proximity to embankment`  | One Time |
 | SENTINEL  | `NDVI`<br>`NDBI`  | Monthly |
-| TENDERS   | `All Tender related variables`  | Monthly |
-| WRIS   | `Distance from rivers` <br>  `Drainage density` | One Time| -->
 
-*Last updated: June 5, 2024*
+<!--| ANTYODAYA  | `net-sown-area-in-hac`<br>`avg-electricity`<br>`avg-tele`<br>`rc-piped-hhds-pct`<br>`rc-nosanitation-hhds-pct` | One Time |
+| NERDRR  | `Proximity to embankment`  | One Time |
+| TENDERS   | `All Tender related variables`  | Monthly |
+| WRIS   | `Distance from rivers` <br>  `Drainage density` | One Time| 
+
+*Last updated: June 5, 2024*-->
 
 <!--A detailed description of each of these variables is available in the [data-dictionary](https://docs.google.com/spreadsheets/d/1z-aNMPA8YuCb6Q4w2nDGi4OhgK9W1jbboskRzYgLUbY/edit#gid=1901128506)
 
