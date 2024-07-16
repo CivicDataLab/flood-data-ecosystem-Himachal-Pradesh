@@ -4,6 +4,7 @@
 Waterlevel_assam_stations.csv
 MissionAntyodaya2020_Assam.xlsx
 *.zip
+*.grd
 
 #Don't ignore zip files in Map
 !Maps/*.zip

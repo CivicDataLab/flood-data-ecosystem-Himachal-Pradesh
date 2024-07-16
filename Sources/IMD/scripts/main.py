@@ -1,5 +1,6 @@
 import os
 import sys
+from datetime import datetime
 
 import geopandas as gpd
 import imdlib as imd
@@ -20,20 +21,28 @@ CSV_DATA_FOLDER = os.path.join(DATA_FOLDER, "rain", "csv")
 ADMIN_BDRY_GDF = gpd.read_file(path + "<administrative_boundary_shapefile_path>")
 
 
-def download_data(year: int):
+def download_data(year: int, start_date: str, end_date: str):
     """
     Download year wise data in the DATA_FOLDER
     The year wise data has datapoint for all days of all months
     """
-    imd.get_data(
-        var_type="rain",
-        start_yr=year,
-        end_yr=year,
-        fn_format="yearwise",
-        file_dir=DATA_FOLDER,
-    )
-
-    return
+    current_year = datetime.now().year
+    if year == current_year:
+        imd.get_real_data(
+            var_type="rain",
+            start_dy=start_date,
+            end_dy=end_date,
+            file_dir=DATA_FOLDER,
+        )
+    else:
+        imd.get_data(
+            var_type="rain",
+            start_yr=year,
+            end_yr=year,
+            fn_format="yearwise",
+            file_dir=DATA_FOLDER,
+        )
+    return None
 
 
 def transform_resample_monthly_tif_filenames(tif_filename: str):
@@ -92,23 +101,31 @@ def transform_resample_monthly_tif_filenames(tif_filename: str):
     )
 
 
-def parse_and_format_data(year: int):
+def parse_and_format_data(year: int, start_date: str, end_date: str):
     """
     Parses the year wise data in the DATA_FOLDER and formats to required type
     """
-    data = imd.open_data(
-        var_type="rain",
-        start_yr=year,
-        end_yr=year,
-        fn_format="yearwise",
-        file_dir=DATA_FOLDER,
-    )
+    current_year = datetime.now().year
+    if year == current_year:
+        data = imd.open_real_data(
+            var_type="rain",
+            start_dy=start_date,
+            end_dy=end_date,
+            file_dir=DATA_FOLDER,
+        )
+    else:
+        data = imd.open_data(
+            var_type="rain",
+            start_yr=year,
+            end_yr=year,
+            fn_format="yearwise",
+            file_dir=DATA_FOLDER,
+        )
 
     dataset = data.get_xarray()
 
     # Remove NaN values
     dataset = dataset.where(dataset["rain"] != -999.0)
-
     # Group the dataset by month
     dataset = dataset.groupby("time.month")
 
@@ -134,7 +151,7 @@ def parse_and_format_data(year: int):
     # Save yearwise file as geotiff, this is used in getting crs
     data.to_geotiff("{}.tif".format(year), TIFF_DATA_FOLDER)
 
-    return
+    return None
 
 
 def retrieve_assam_revenue_circle_data(year: int):
@@ -156,12 +173,17 @@ def retrieve_assam_revenue_circle_data(year: int):
         "12",
     ]:
         month_and_year_filename = "{}_{}".format(str(year), str(month))
-
-        raster = rasterio.open(
-            os.path.join(
-                TIFF_DATA_FOLDER, "{}_resampled2.tif".format(month_and_year_filename)
+        try:
+            raster = rasterio.open(
+                os.path.join(
+                    TIFF_DATA_FOLDER,
+                    "{}_resampled2.tif".format(month_and_year_filename),
+                )
             )
-        )
+            print(f"Processing for {month_and_year_filename}")
+        except rasterio.errors.RasterioIOError:
+            print(f"Skipping for {month_and_year_filename} - File Not Found!!")
+            continue
 
         raster_array = raster.read(1)
 
@@ -184,19 +206,22 @@ def retrieve_assam_revenue_circle_data(year: int):
         os.makedirs(CSV_DATA_FOLDER, exist_ok=True)
 
         zonal_stats_df.to_csv(
-            CSV_DATA_FOLDER + "/{}.csv".format(month_and_year_filename)
+            CSV_DATA_FOLDER + "/{}.csv".format(month_and_year_filename), index=False
         )
 
-    return
+    return None
 
 
 if __name__ == "__main__":
 
     # Takes year as an input from the cli
     year = str(sys.argv[1])
-
     year = int(year)
 
-    download_data(year)
-    parse_and_format_data(year)
+    # IF the year is current year, specify start and end date
+    start_date = "2024-01-01"
+    end_date = "2024-06-30"
+
+    download_data(year, start_date=start_date, end_date=end_date)
+    parse_and_format_data(year, start_date=start_date, end_date=end_date)
     retrieve_assam_revenue_circle_data(year)
