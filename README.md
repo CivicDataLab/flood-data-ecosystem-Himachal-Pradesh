@@ -15,7 +15,7 @@ The repository contains codes to extract relevant datasets and the modelling app
 ---
 
 
-## Datasets
+## Procurement Datasets
 
 The repository includes scripts to extract and process various datasets essential for modeling flood risk in Himachal Pradesh. Below are some key datasets:
 
@@ -31,15 +31,16 @@ The repository includes scripts to extract and process various datasets essentia
 ## Sources Directory Structure
 
 ### **data/**
+Other Procurement Data and Geotagged Files
 
-The `data/` folder houses datasets essential for flood risk assessment and is organized as follows:
-
-- **raw/**: Contains unprocessed datasets obtained from various sources.
-- **processed/**: Houses datasets that have undergone cleaning and preprocessing, making them ready for analysis.
-- **external/**: Includes data sourced from third parties or external organizations.
-- **interim/**: Stores intermediate datasets generated during the data processing pipeline.
-- **final/**: Contains the final datasets used for modeling and analysis.
-
+- **Variables Folder**:
+  - Includes processed datasets and supporting variables.
+- **Geotagged Files**:
+  - Datasets include geotagged procurement data at the sub-district, tehsil, and district levels:
+    - `floodtenders_SDgeotagged.csv`
+    - `floodtenders_Tehsil-geotagged.csv`
+    - `floodtenders_districtgeotagged.csv`
+  - **[Flood Tenders - All Combined](https://github.com/CivicDataLab/flood-data-ecosystem-Himachal-Pradesh/blob/main/Sources/TENDERS/data/flood_tenders_all.csv)**
 ### **scripts/**
 
 - Contains scripts for data cleaning, transformation, and analysis to prepare the raw data for modeling and visualization.
