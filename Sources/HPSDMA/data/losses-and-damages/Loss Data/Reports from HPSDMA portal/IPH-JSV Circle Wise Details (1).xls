@@ -1,0 +1,1320 @@
+
+                        <table border="1" style="line-height: 30px; width: 100%">
+
+                            <tr style="background-color: #cee1c0; font-weight:bold;">
+                                <th rowspan="4" style="font-weight:bold; width:3%">sno.</th>
+                                <th rowspan="4" style="width:10%">Name of Circle</th>
+                                <th colspan="5"></th>
+                                <th colspan="2">
+                                    </th>
+                              
+                            </tr>
+                            <tr style="background-color: #cee1c0;">
+                                <th colspan="12">CIRCLE WISE DETAIL 
+                                    </th>
+                                <th colspan="3"></th>
+                               
+                            </tr>
+                            <tr style="background-color: #cee1c0; line-height: 50px;">
+
+                                <th colspan="2">Urban Water Supply Scheme</th>
+                                <th colspan="2">Rural Water Supply Scheme</th>
+                                <th colspan="2">Irrigation Scheme</th>
+                                <th colspan="2">Flood Control Works</th>
+                                <th colspan="2">Sewerage Scheme</th>
+                                <th colspan="2">Hand Pump</th>
+                                <th colspan="2">Total (In lakh)</th>
+                                <th style="width:6%; text-align:center">Status</th>
+                            </tr>
+                            <tr style="background-color: #cee1c0;">
+                                <th>Affected Schemes</th>
+                                <th>Amount</th>
+                                <th>Affected Schemes</th>
+                                <th>Amount (In Lakh)</th>
+                                <th>Affected Schemes</th>
+                                <th>Amount (In Lakh)</th>
+                                <th>Affected Schemes</th>
+                                <th>Amount (In Lakh)</th>
+                                <th>Affected Schemes</th>
+                                <th>Amount (In Lakh)</th>
+                                <th>Affected Schemes</th>
+                                <th>Amount (In Lakh)</th>
+                                 <th>Affected Schemes</th>
+                                <th>Amount (In Lakh)</th>
+                                <th></th>
+                            </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl01_lblRowNumber">1</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl01_lblUser">Bilaspur</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl01_Label3">10</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl01_Label4">18.70</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl01_Label12">237</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl01_Label7">1130.62</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl01_Label8" class="td1">8</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl01_Label9" align="right">63.94</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl01_Label10">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl01_Label1">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl01_Label2">5</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl01_Label5">20.50</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl01_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl01_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl01_Label6">260</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl01_Label11">1233.76</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl01_Label15">Approved</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl02_lblRowNumber">2</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl02_lblUser">Chamba</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl02_Label3">0</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl02_Label4">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl02_Label12">451</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl02_Label7">1710.75</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl02_Label8" class="td1">142</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl02_Label9" align="right">812.40</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl02_Label10">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl02_Label1">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl02_Label2">2</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl02_Label5">27.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl02_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl02_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl02_Label6">595</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl02_Label11">2550.15</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl02_Label15">Approved</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl03_lblRowNumber">3</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl03_lblUser">Dharampur</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl03_Label3">1</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl03_Label4">12.50</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl03_Label12">61</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl03_Label7">247.90</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl03_Label8" class="td1">61</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl03_Label9" align="right">488.60</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl03_Label10">4</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl03_Label1">37.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl03_Label2">6</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl03_Label5">36.50</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl03_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl03_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl03_Label6">133</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl03_Label11">822.50</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl03_Label15">Approved</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl04_lblRowNumber">4</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl04_lblUser">Dharmshala</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl04_Label3">33</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl04_Label4">316.40</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl04_Label12">956</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl04_Label7">5479.08</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl04_Label8" class="td1">300</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl04_Label9" align="right">2580.45</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl04_Label10">7</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl04_Label1">38.50</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl04_Label2">34</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl04_Label5">481.50</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl04_Label13">16</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl04_Label14">12.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl04_Label6">1346</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl04_Label11">8907.93</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl04_Label15">Approved</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl05_lblRowNumber">5</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl05_lblUser">Hamirpur</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl05_Label3">12</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl05_Label4">108.75</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl05_Label12">293</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl05_Label7">1660.22</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl05_Label8" class="td1">23</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl05_Label9" align="right">168.30</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl05_Label10">3</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl05_Label1">87.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl05_Label2">3</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl05_Label5">61.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl05_Label13">11</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl05_Label14">1.65</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl05_Label6">345</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl05_Label11">2086.92</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl05_Label15">Approved</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl06_lblRowNumber">6</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl06_lblUser">Kullu</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl06_Label3">31</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl06_Label4">288.90</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl06_Label12">650</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl06_Label7">4995.65</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl06_Label8" class="td1">267</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl06_Label9" align="right">3273.15</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl06_Label10">10</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl06_Label1">290.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl06_Label2">5</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl06_Label5">100.45</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl06_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl06_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl06_Label6">963</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl06_Label11">8948.15</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl06_Label15">Approved</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl07_lblRowNumber">7</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl07_lblUser">Nahan</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl07_Label3">0</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl07_Label4">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl07_Label12">365</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl07_Label7">1843.92</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl07_Label8" class="td1">53</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl07_Label9" align="right">388.10</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl07_Label10">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl07_Label1">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl07_Label2">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl07_Label5">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl07_Label13">1</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl07_Label14">6.50</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl07_Label6">419</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl07_Label11">2238.52</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl07_Label15">Approved</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl08_lblRowNumber">8</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl08_lblUser">Reckong Peo </span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl08_Label3">4</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl08_Label4">335.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl08_Label12">214</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl08_Label7">1994.30</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl08_Label8" class="td1">61</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl08_Label9" align="right">759.04</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl08_Label10">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl08_Label1">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl08_Label2">5</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl08_Label5">174.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl08_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl08_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl08_Label6">284</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl08_Label11">3262.34</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl08_Label15">Approved</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl09_lblRowNumber">9</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl09_lblUser">Rohroo</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl09_Label3">283</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl09_Label4">942.90</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl09_Label12">52</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl09_Label7">202.80</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl09_Label8" class="td1">47</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl09_Label9" align="right">290.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl09_Label10">13</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl09_Label1">91.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl09_Label2">4</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl09_Label5">43.50</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl09_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl09_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl09_Label6">399</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl09_Label11">1570.20</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl09_Label15">Approved</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl10_lblRowNumber">10</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl10_lblUser">Shimla-9</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl10_Label3">4</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl10_Label4">20.20</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl10_Label12">98</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl10_Label7">782.95</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl10_Label8" class="td1">12</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl10_Label9" align="right">163.10</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl10_Label10">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl10_Label1">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl10_Label2">1</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl10_Label5">75.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl10_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl10_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl10_Label6">115</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl10_Label11">1041.25</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl10_Label15">Approved</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl11_lblRowNumber">11</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl11_lblUser">Solan</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl11_Label3">16</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl11_Label4">165.14</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl11_Label12">424</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl11_Label7">2762.44</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl11_Label8" class="td1">125</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl11_Label9" align="right">601.32</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl11_Label10">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl11_Label1">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl11_Label2">13</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl11_Label5">130.80</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl11_Label13">3</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl11_Label14">3.50</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl11_Label6">581</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl11_Label11">3663.20</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl11_Label15">Approved</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl12_lblRowNumber">12</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl12_lblUser">SRFMP Una</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl12_Label3">0</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl12_Label4">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl12_Label12">0</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl12_Label7">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl12_Label8" class="td1">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl12_Label9" align="right">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl12_Label10">23</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl12_Label1">422.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl12_Label2">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl12_Label5">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl12_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl12_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl12_Label6">23</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl12_Label11">422.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl12_Label15">Approved</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl13_lblRowNumber">13</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl13_lblUser">Sundernagar</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl13_Label3">4</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl13_Label4">26.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl13_Label12">191</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl13_Label7">454.75</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl13_Label8" class="td1">15</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl13_Label9" align="right">205.95</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl13_Label10">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl13_Label1">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl13_Label2">1</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl13_Label5">2.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl13_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl13_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl13_Label6">211</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl13_Label11">688.70</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl13_Label15">Approved</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl14_lblRowNumber">14</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl14_lblUser">Bilaspur</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl14_Label3">1</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl14_Label4">3.20</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl14_Label12">15</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl14_Label7">65.94</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl14_Label8" class="td1">2</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl14_Label9" align="right">15.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl14_Label10">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl14_Label1">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl14_Label2">5</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl14_Label5">24.10</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl14_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl14_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl14_Label6">23</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl14_Label11">108.24</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl14_Label15">Pending for approve</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl15_lblRowNumber">15</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl15_lblUser">Chamba</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl15_Label3">0</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl15_Label4">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl15_Label12">8</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl15_Label7">44.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl15_Label8" class="td1">2</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl15_Label9" align="right">15.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl15_Label10">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl15_Label1">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl15_Label2">1</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl15_Label5">10.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl15_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl15_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl15_Label6">11</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl15_Label11">69.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl15_Label15">Pending for approve</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl16_lblRowNumber">16</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl16_lblUser">Dharampur</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl16_Label3">0</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl16_Label4">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl16_Label12">0</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl16_Label7">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl16_Label8" class="td1">10</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl16_Label9" align="right">61.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl16_Label10">1</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl16_Label1">10.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl16_Label2">2</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl16_Label5">13.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl16_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl16_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl16_Label6">13</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl16_Label11">84.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl16_Label15">Pending for approve</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl17_lblRowNumber">17</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl17_lblUser">Dharmshala</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl17_Label3">0</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl17_Label4">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl17_Label12">8</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl17_Label7">46.75</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl17_Label8" class="td1">2</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl17_Label9" align="right">95.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl17_Label10">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl17_Label1">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl17_Label2">6</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl17_Label5">57.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl17_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl17_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl17_Label6">16</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl17_Label11">198.75</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl17_Label15">Pending for approve</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl18_lblRowNumber">18</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl18_lblUser">Hamirpur</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl18_Label3">0</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl18_Label4">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl18_Label12">41</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl18_Label7">258.20</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl18_Label8" class="td1">2</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl18_Label9" align="right">8.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl18_Label10">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl18_Label1">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl18_Label2">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl18_Label5">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl18_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl18_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl18_Label6">43</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl18_Label11">266.20</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl18_Label15">Pending for approve</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl19_lblRowNumber">19</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl19_lblUser">Nahan</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl19_Label3">0</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl19_Label4">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl19_Label12">77</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl19_Label7">420.15</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl19_Label8" class="td1">11</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl19_Label9" align="right">58.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl19_Label10">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl19_Label1">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl19_Label2">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl19_Label5">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl19_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl19_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl19_Label6">88</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl19_Label11">478.15</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl19_Label15">Pending for approve</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl20_lblRowNumber">20</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl20_lblUser">Reckong Peo </span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl20_Label3">0</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl20_Label4">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl20_Label12">63</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl20_Label7">275.15</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl20_Label8" class="td1">78</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl20_Label9" align="right">783.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl20_Label10">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl20_Label1">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl20_Label2">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl20_Label5">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl20_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl20_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl20_Label6">141</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl20_Label11">1058.15</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl20_Label15">Pending for approve</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl21_lblRowNumber">21</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl21_lblUser">Shimla-9</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl21_Label3">0</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl21_Label4">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl21_Label12">0</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl21_Label7">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl21_Label8" class="td1">1</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl21_Label9" align="right">15.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl21_Label10">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl21_Label1">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl21_Label2">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl21_Label5">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl21_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl21_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl21_Label6">1</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl21_Label11">15.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl21_Label15">Pending for approve</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl22_lblRowNumber">22</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl22_lblUser">Solan</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl22_Label3">3</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl22_Label4">30.95</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl22_Label12">39</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl22_Label7">240.60</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl22_Label8" class="td1">11</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl22_Label9" align="right">34.20</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl22_Label10">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl22_Label1">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl22_Label2">2</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl22_Label5">33.20</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl22_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl22_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl22_Label6">55</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl22_Label11">338.95</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl22_Label15">Pending for approve</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td style="width:3%">
+                                <span id="Repeater3_ctl23_lblRowNumber">23</span></td>
+                            <td style="text-align: left; padding-left: 5px; width:8px;">
+                                <span id="Repeater3_ctl23_lblUser">Sundernagar</span></td>
+
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl23_Label3">8</span>
+                            </td>
+                            <td style="width:5%">
+                                <span id="Repeater3_ctl23_Label4">115.10</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl23_Label12">624</span>
+                            </td>
+                            <td style="width:5%;text-align:right">
+                                <span id="Repeater3_ctl23_Label7">2237.10</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl23_Label8" class="td1">40</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl23_Label9" align="right">298.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl23_Label10">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl23_Label1">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl23_Label2">5</span>
+                            </td>
+                            <td style="width:5%; text-align:right">
+                                <span id="Repeater3_ctl23_Label5">96.25</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl23_Label13">0</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl23_Label14">0.00</span>
+                            </td>
+                            <td style="width:5%; text-align:center">
+                                <span id="Repeater3_ctl23_Label6">677</span>
+                            </td>
+                            <td style="width:5%; text-align:right"">
+                                <span id="Repeater3_ctl23_Label11">2746.45</span>
+                            </td>
+                            <td style="width:5%; text-align:center"">
+                                <span id="Repeater3_ctl23_Label15">Pending for approve</span>
+                            </td>
+                        </tr>
+                    
+                        
+                        <tr style="line-height: 40px; font-weight: bold; background-color: #edd8d8;">
+                            <td></td>
+                            <td>Total:             
+                            </td>
+
+                            <td style="text-align:center">
+                                <span id="Repeater3_ctl24_totalurbanaffected">410</span>
+                            </td>
+
+                            <td>
+                                <span id="Repeater3_ctl24_totalAmounturban">2383.74</span>
+                            </td>
+                            <td style="text-align:center">
+                                <span id="Repeater3_ctl24_totalruralaffected">4867</span>
+                            </td>
+                            <td>
+                                <span id="Repeater3_ctl24_totalAmountrural">26853.27</span>
+                            </td>
+                            <td style="text-align:center">
+                                <span id="Repeater3_ctl24_totalirrigationaffected">1273</span>
+                            </td>
+                            <td>
+                                <span id="Repeater3_ctl24_totalAmountirrigation">11176.55</span>
+                            </td>
+
+                            <td style="text-align:center">
+                                <span id="Repeater3_ctl24_totalfoodaffected">61</span>
+                            </td>
+                            <td>
+                                <span id="Repeater3_ctl24_totalAmountfood">975.50</span>
+                            </td>
+                            <td style="text-align:center">
+                                <span id="Repeater3_ctl24_totalsewerageaffected">100</span>
+                            </td>
+                            <td>
+                                <span id="Repeater3_ctl24_totalAmountsewerage">1385.80</span>
+                            </td>
+                             <td style="text-align:center">
+                                <span id="Repeater3_ctl24_totalhandpump">31</span>
+                            </td>
+                            <td>
+                                <span id="Repeater3_ctl24_totalhandpumpamount">23.65</span>
+                            </td>
+                            <td style="text-align:center">
+                                <span id="Repeater3_ctl24_totalTotalschemes">6742</span>
+                            </td>
+                            <td>
+                                <span id="Repeater3_ctl24_totalTotalAmount">42798.51</span>
+                            </td>
+                            <td></td>
+                        </tr>
+                        
+                        </table>                       
+                    

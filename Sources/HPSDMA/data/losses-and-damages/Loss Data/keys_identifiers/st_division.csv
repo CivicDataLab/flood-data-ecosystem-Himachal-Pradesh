@@ -1,0 +1,143 @@
+﻿division_id,division_name,division_name_hind,Status,circle_id,dep_id
+1,Div. No-I Shimla-9,NULL,Active,NULL,39
+2,Nerwa Division,NULL,Active,NULL,39
+3,Sunni  Division,NULL,Active,NULL,39
+4,Matiana Division,NULL,Active,NULL,39
+5,Rohru ,NULL,Active,NULL,"22,39,34,38"
+6,Jubbal,NULL,Active,NULL,"39,34,38"
+7,Nahan,NULL,Active,NULL,"22,39,34,38"
+8,Paonta ,NULL,Active,NULL,"22,39,34,38"
+9,E.E.Nohradhar,NULL,Active,NULL,39
+10,EE Shillai,NULL,Active,NULL,"39,38"
+11,Solan ,NULL,Active,NULL,"22,39,34,38"
+12,Nalagarh ,NULL,Active,NULL,"22,39,34,38"
+13,Arki,NULL,Active,NULL,"39,34,38"
+14,Reckong Peo ,NULL,Active,NULL,"39,34"
+15,Rampur ,NULL,Active,NULL,"22,39,34,38"
+16,Kaza,NULL,Active,NULL,"39,34,38"
+17,Pooh,NULL,Active,NULL,39
+18,Dharamshala,NULL,Active,NULL,"22,39,34"
+19,Dehra,NULL,Active,NULL,"22,39,34"
+20,Palampur,NULL,Active,NULL,"22,39,34"
+21,Thural,NULL,Active,NULL,39
+22,Shahpur,NULL,Active,NULL,"39,34"
+23,EE Nagrota,NULL,Active,NULL,39
+24,EE Jaswan Pragpur,NULL,Active,NULL,39
+25,Nurpur,NULL,Active,NULL,"22,39,34"
+26,Indora,NULL,Active,NULL,39
+27,Jawali,NULL,Active,NULL,"39,34"
+28,Phina Singh Project,NULL,Active,NULL,39
+29,Fatehpur,NULL,Active,NULL,"39,34"
+30,S/terrace,NULL,Active,NULL,39
+31,Chamba,NULL,Active,NULL,"22,39,34"
+32,Dalhousie,NULL,Active,NULL,"22,34,39"
+33,Salooni,NULL,Active,NULL,39
+34,Tissa at Bhanjraru,NULL,Active,NULL,39
+35,Sunder Nagar,NULL,Active,NULL,39
+36,Mandi,NULL,Active,NULL,"22,39,34"
+37,Padhar,NULL,Active,NULL,39
+38,Baggi,NULL,Active,NULL,39
+39,Seraj,NULL,Active,NULL,"22,39"
+40,E.E.Thunag,NULL,Active,NULL,39
+41,EE Chauntra,NULL,Active,NULL,39
+42,Kullu,NULL,Active,NULL,"22,39,34"
+43,Keylong,NULL,Active,NULL,39
+44,"Division-II,Bhuntar at Kullu.",NULL,Active,NULL,39
+45,Anni,NULL,Active,NULL,39
+46,Hamirpur,NULL,Active,NULL,"22,39,34"
+47,Barsar,NULL,Active,NULL,39
+48,Sarkaghat,NULL,Active,NULL,"39,34,38"
+49,EE Dharampur,NULL,Deactive,NULL,"39,34"
+50,EE Bhoranj,NULL,Active,NULL,39
+51,Una No.-I,NULL,Active,NULL,39
+52,Una No.-II,NULL,Active,NULL,39
+53,T/Well Gagret,NULL,Active,NULL,"22,39"
+54,Bilaspur,NULL,Active,NULL,"39,34"
+55,Ghumarwin,NULL,Active,NULL,"39,34"
+56,Jhanduta,NULL,Active,NULL,39
+57,FC Div. Gagret,NULL,Active,NULL,39
+58,(SRFMD) Haroli,NULL,Active,NULL,39
+59,City (E),NULL,Active,NULL,34
+60,Shimla No. 1,NULL,Active,NULL,"34,38"
+61,Shimla No. 2,NULL,Active,NULL,34
+62,Theog,NULL,Active,NULL,"22,34,38"
+63,Suni,NULL,Active,NULL,34
+64,Parwanoo,NULL,Active,NULL,34
+65,Baddi,NULL,Active,NULL,34
+66,Rajgarh,NULL,Active,NULL,"22,34,38"
+67,Chopal,NULL,Active,NULL,"22,34,38"
+68,Ani,NULL,Active,NULL,34
+69,Kumarsain,NULL,Active,NULL,"34,38"
+70,Baijnath,NULL,Active,NULL,34
+71,Lambagaon,NULL,Active,NULL,34
+72,Kangra,NULL,Active,NULL,34
+73,Pangi,NULL,Active,NULL,"22,34"
+74,Amb,NULL,Active,NULL,34
+75,J/Nagar,NULL,Active,NULL,34
+76,Gohar,NULL,Active,NULL,"34,38"
+77,Sundernagar,NULL,Active,NULL,"34,38"
+78,Thalout,NULL,Active,NULL,NULL
+79,Manali,NULL,Active,NULL,NULL
+80,Nadaun,NULL,Active,NULL,NULL
+1002,Karcham,NULL,Active,NULL,38
+1003,Kasauli   ,NULL,Active,NULL,"38,34,39,12"
+1004,Shimla. (Rural ) at Dhami,NULL,Active,NULL,38
+1005,Shimla.III ,NULL,Active,NULL,38
+1006,Kalpa,NULL,Active,NULL,38
+1007,Nirmand,NULL,Active,NULL,38
+1008,Sangrah ,NULL,Active,NULL,38
+1009,Dodra Kawar,NULL,Active,NULL,38
+1010,Kotkhai,NULL,Active,NULL,38
+1011,Mandi - I,NULL,Active,NULL,38
+1012,Mandi-II,NULL,Active,NULL,"38,39"
+1013,Karsog ,NULL,Active,NULL,"34,38,39,12"
+1014,Nerchowk,NULL,Active,NULL,38
+1015,C.V.Udaipur,NULL,Active,NULL,NULL
+1016,Kullu-II,NULL,Active,NULL,NULL
+1017,Banjar,NULL,Active,NULL,NULL
+1018,Jogindernagar,NULL,Active,NULL,"22,38"
+1019,Tauni-Devi,NULL,Active,NULL,NULL
+1020,Una,NULL,Active,NULL,"22,34"
+1021,Bharwain,NULL,Active,NULL,NULL
+1022,Bangana,NULL,Active,NULL,NULL
+1023,Bilaspur-I,NULL,Active,NULL,NULL
+1024,Bilaspur-II,NULL,Active,NULL,NULL
+1025,Jaisinghpur,NULL,Active,NULL,NULL
+1026,Tanda,NULL,Active,NULL,NULL
+1027,Kotla-Behar,NULL,Active,NULL,NULL
+1028,Bharmour,NULL,Active,NULL,22
+1029,Killar (Pangi ),NULL,Active,NULL,NULL
+1030,Tissa,NULL,Active,NULL,NULL
+1031,Pandoh,NULL,Active,NULL,NULL
+1032,Kunihar,NULL,Active,NULL,22
+1033,Churah,NULL,Active,NULL,22
+1034,GHNP Shamshi,NULL,Active,NULL,22
+1035,WL Kullu,NULL,Active,NULL,22
+1036,Lahaul,NULL,Active,NULL,22
+1037,Parvati,NULL,Active,NULL,22
+1038,Seraj,NULL,Active,NULL,"22,38"
+1039,Nachan,NULL,Active,NULL,22
+1040,Sukeet,NULL,Active,NULL,NULL
+1041,Renukaji,NULL,Active,NULL,22
+1042,Kinnaur,NULL,Active,NULL,22
+1043,Kotgarh,NULL,Active,NULL,22
+1044,Shimla,NULL,Active,NULL,22
+1045,Shimla-Urban,NULL,Active,NULL,22
+1046,WL- Chamba,NULL,Active,NULL,22
+1047,WL-Hamirpur,NULL,Active,NULL,22
+1048,Spiti,NULL,Active,NULL,22
+1049,Zoos  Rescue,NULL,Active,NULL,22
+1050,WL Sarahan,NULL,Active,NULL,22
+1051,WL Shimla,NULL,Active,NULL,22
+1052,Nagrota Bagwan,NULL,Active,NULL,"22,34"
+1053,Gagret,NULL,Active,NULL,22
+1054,Suket,NULL,Active,NULL,22
+1055,Bhawarna,NULL,Active,NULL,38
+1056,Nadaun,NULL,Active,NULL,"39,34,38"
+1057,Sujanpur,NULL,Active,NULL,"39,34,38"
+1058,Dharampur,NULL,Active,NULL,38
+1059,Daulatpur Chowk,NULL,Active,NULL,"12,34,39"
+1060,    Balichowki,NULL,Active,NULL,"39,34,38"
+1061,Kotli,NULL,Active,NULL,"39,34,38"
+1062,Nirmand,NULL,Active,NULL,"22,39,34"
+1063,Daulatpur Chowk,NULL,Active,NULL,NULL

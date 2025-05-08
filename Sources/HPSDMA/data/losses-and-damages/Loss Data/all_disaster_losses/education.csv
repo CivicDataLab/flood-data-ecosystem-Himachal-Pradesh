@@ -1,0 +1,203 @@
+education_loss_id,disaster_id,department_id,district_id,schools_damaged,other_details,status,institute_type_id,RecordStatus,block_id,economic_loss,incidentdate,district_name,block_name
+2,335,5,25,1,heavy rainfall,Active,2,1,123,3.0,16-03-2020,SOLAN ,Patta Mehlog
+3,2603,5,-1,1,Short Circuit,Active,1002,0,0,0.2,21-06-2020,,
+5,2733,5,-1,2,GSSS Saloi and GSSS Oel Boundary Wall damaged,Active,1002,0,0,5.0,12-07-2020,,
+6,2733,5,-1,2,Boundary Wall damaged ,Active,1002,0,0,5.0,12-07-2020,,
+7,2733,5,-1,2,Boundary Wall damaged ,Active,1002,0,0,0.55,12-07-2020,,
+8,2733,5,26,2,"GSSS Salohi- Boundary Wall Damaged, GSSS Oel- Boundary Wall Damged",Active,1002,1,127,0.55,12-07-2020,UNA ,Garget 
+9,2777,5,26,1,GSSS Takka- Cycle stand shed collapsed due to rain and storm,Active,1002,1,130,0.8,10-07-2020,UNA ,Una 
+12,4163,5,15,1,School wall & toilets damaged,Active,2,1,4,2.0,29-07-2020,BILASPUR ,Jhandutta
+14,4271,5,26,1,GSSS SAMOOR KALAN,Active,1002,1,130,3.0,10-08-2020,UNA ,Una 
+17,4716,5,15,1,School Building may be damage due to landslide,Active,2,1,5,1.5,22-08-2020,BILASPUR ,Swarghat
+18,4597,5,-1,1,Partially Boundary wall collapsed due to heavy rain,Active,1002,0,0,2.5,14-08-2020,,
+22,5424,43,-1,2,GPS Saloh(Retaining wall of playground)and GPS Banet(Retaining wall and Boundary wall),Active,2,0,0,10.0,27-08-2020,,
+23,5424,1041,16,2,Loss due to Heavy Rain,Active,2,1,19,10.0,27-08-2020,CHAMBA ,Chowari
+24,5071,5,26,1,GSSS Mandli- Partially Boundary Wall Damaged,Active,1002,1,126,2.5,13-08-2020,UNA ,Bangana
+26,11121,1041,15,1,Soli and boulders has fallen in the wall of MDM Kitchen,Active,1002,1,2,2.0,25-07-2021,BILASPUR ,Ghumarwin-I
+27,11121,1041,15,1,Boundary Wall & Toilet damage due to rain,Active,2,1,1,2.0,25-07-2021,BILASPUR ,BILASPUR SADAR
+28,11121,1041,15,1,Wall of Room damaged due to heavy rain,Active,2,1,1,2.0,25-07-2021,BILASPUR ,BILASPUR SADAR
+29,11121,5,-1,1,"Boundary Wall, Stairs and Visor of Roof damaged due to heavy rain",Active,2,0,0,2.0,25-07-2021,,
+30,11121,1041,15,1,"Boundary Wall, Stairs and Visor of Roof damaged due to heavy rain",Active,2,1,1,2.0,25-07-2021,BILASPUR ,BILASPUR SADAR
+31,11121,1041,15,1,Boundary Wall,Active,2,1,1,2.0,25-07-2021,BILASPUR ,BILASPUR SADAR
+33,11416,5,-1,1,"DAMAGE OF BOUNDARY WALL,TOILETS,RETAINING WALL IN R/O GMS RAMPUR",Active,1002,0,0,7.0,28-07-2021,,
+34,11281,5,-1,1,"Damage of boundary wall, Toilets, retaining Wall IN R/o GMS Rampur",Active,1002,0,0,7.82,28-07-2021,,
+35,11281,5,-1,1,"Damage of boundary wall, Toilets, retaining Wall IN R/o GMS Rampur",Active,1002,0,0,7.82,28-07-2021,,
+36,11281,5,-1,1,"Damage of boundary wall, Toilets, retaining Wall IN R/o GMS Rampur",Active,1002,0,0,7.82,28-07-2021,,
+38,11615,5,26,1,"DAMAGE OF BOUNDARY WALL,TOILETS,RETAINING WALL IN R/O GMS RAMPUR",Active,1002,0,130,7.82,31-07-2021,UNA ,Una 
+39,11615,5,26,1,DAMAGE OF TOILETS IN R/O GPS RAMPUR,Active,2,0,130,1.63,31-07-2021,UNA ,Una 
+40,12805,5,18,1,,Active,1002,0,33,1.0,14-10-2021,KANGRA ,Lambagaon
+41,17557,5,21,1,Damage of Roof,Active,2,1,56,0.74,23-06-2022,LAHAUL AND SPITI ,Keylong-1
+42,19677,43,-1,0,"Toilet FD at GPS Chhat, GP Damli,",Active,2,0,0,0.7,17-08-2022,,
+43,19677,5,15,1,"Toilet FD  at GPS Chhat, GP Damli,",Active,2,1,4,0.7,17-08-2022,BILASPUR ,Jhandutta
+45,20015,5,26,1,Damage of Retaining wall and Boundary Wall,Active,2,0,125,7.28,11-08-2022,UNA ,Amb
+46,20288,5,15,1,"Kitchen damaged due to rain at GPS Chhat, P.O. Rishikesh, Tehsil Jhandutta",Active,2,1,4,1.0,29-08-2022,BILASPUR ,Jhandutta
+48,20278,5,-1,3,Damage of School Playground,Active,1002,0,0,929700.0,29-08-2022,,
+49,19586,5,-1,4,,Active,1002,0,0,1606700.0,10-08-2022,,
+50,20770,5,25,2,,Active,1002,2,119,350000.0,19-08-2022,SOLAN ,Dharampur
+51,20770,5,25,1,,Active,1002,2,121,677000.0,19-08-2022,SOLAN ,Kuthar
+52,20770,5,25,1,,Active,1002,2,124,579700.0,19-08-2022,SOLAN ,Ramshehar
+54,24316,5,15,1,Retaining wall and boundary wall fallen down due to heavy rain ,Active,2,1,1,2.0,23-06-2023,BILASPUR ,BILASPUR SADAR
+66,24503,5,15,1,Landsliding due to heavy rain,Active,2,1,1,0.5,04-07-2023,BILASPUR ,BILASPUR SADAR
+67,24503,5,15,1,Retaining Wall damaged due to heavy rain,Active,2,1,4,2.75,04-07-2023,BILASPUR ,Jhandutta
+68,24503,5,15,1,Retaining Wall damaged due to heavy rain,Active,2,1,2,2.0,04-07-2023,BILASPUR ,Ghumarwin-I
+71,24576,5,15,1,Retaining wall fallen down due to heavy rain ,Active,1002,1,4,1.5,09-07-2023,BILASPUR ,Jhandutta
+72,24621,5,15,1,Boundary wall damaged due to heavy rain.,Active,2,1,5,2.0,10-07-2023,BILASPUR ,Swarghat
+78,24721,5,15,1,Retaining Wall,Active,1002,1,4,500000.0,11-07-2023,BILASPUR ,Jhandutta
+79,24721,5,15,1,The stairs of the school building have fallen due to heavy rain,Active,2,1,2,35000.0,11-07-2023,BILASPUR ,Ghumarwin-I
+80,24721,5,-1,1,land sliding,Active,2,0,0,50000.0,11-07-2023,,
+81,24721,5,15,1,land sliding,Active,2,1,1,50000.0,11-07-2023,BILASPUR ,BILASPUR SADAR
+82,24721,5,15,1,The roof of two rooms of the school has damaged,Active,2,1,5,300000.0,11-07-2023,BILASPUR ,Swarghat
+83,24721,5,15,1,land sliding,Active,2,1,1,50000.0,11-07-2023,BILASPUR ,BILASPUR SADAR
+84,24781,5,15,1,"The wall adjacent to the playground of the school has sunk into the ground, due to which the playground has been damaged.",Active,2,2,5,0.5,12-07-2023,BILASPUR ,Swarghat
+85,24781,5,15,1,Land Sliding,Active,2,2,4,2.3,12-07-2023,BILASPUR ,Jhandutta
+86,24781,5,15,1,Land Sliding,Active,2,2,4,0.8,12-07-2023,BILASPUR ,Jhandutta
+87,24781,5,15,1,The wall of the school toilet is damage.,Active,2,2,1,1.5,12-07-2023,BILASPUR ,BILASPUR SADAR
+88,24781,5,15,1,Land Sliding,Active,2,2,5,0.5,12-07-2023,BILASPUR ,Swarghat
+89,24781,5,15,1,The walls of the old building and toilet have collapsed due to heavy rains,Active,2,2,3,4.0,12-07-2023,BILASPUR ,Ghumarwin-II
+90,24924,5,15,1,"Cracks have appeared in the rooms of the school building. Due to the daily rains, the ground is sinking inwards, due to which there is a possibility of damage in many places in the building.",Active,2,2,1,12.0,14-07-2023,BILASPUR ,BILASPUR SADAR
+91,24924,5,15,1,Part of the boundary wall has fallen,Active,2,2,3,0.7,14-07-2023,BILASPUR ,Ghumarwin-II
+92,24924,5,15,1,Retaining wall is damaged,Active,2,2,2,0.2,14-07-2023,BILASPUR ,Ghumarwin-I
+93,25029,5,15,1,Land Sliding,Active,2,2,4,1.0,17-07-2023,BILASPUR ,Jhandutta
+94,25029,5,15,1,Land Sliding,Active,1002,2,4,0.15,17-07-2023,BILASPUR ,Jhandutta
+95,25244,5,-1,1,"Retaining wall is damaged , all the pipe line of kitchen and toilet has been broken                     and toilet broken ",Active,2,0,0,200000.0,10-07-2023,,
+96,25244,5,20,1,"           Retaining wall is damaged, all the pipe line of kitchen and toilet has been broken ",Active,2,0,51,150000.0,10-07-2023,KULLU ,Kullu-II
+97,25244,5,20,1,Boundary wall is totally damaged and school path has also been damaged. ,Active,2,0,51,300000.0,10-07-2023,KULLU ,Kullu-II
+98,25244,5,-1,1,School path and toilets has been damaged and debris filled in its. ,Active,2,0,0,463000.0,10-07-2023,,
+99,25244,5,20,1,School path and toilets has been damaged and debris filled in its. ,Active,2,0,51,463000.0,10-07-2023,KULLU ,Kullu-II
+100,25244,5,20,1,Cracks developed in school building and kitchen shed and school retaining wall  have also been damaged ,Active,2,0,51,550000.0,10-07-2023,KULLU ,Kullu-II
+101,25244,5,-1,1,Cracks developed in school building and kitchen shed and school retaining wall  have also been damaged ,Active,2,0,0,550000.0,10-07-2023,,
+102,25244,5,20,1,School playground filled with debris due to landslide. ,Active,2,0,51,150000.0,10-07-2023,KULLU ,Kullu-II
+103,25244,5,20,1,School boundary wall has been damaged and play ground is also filled with debris ,Active,2,0,51,100000.0,10-07-2023,KULLU ,Kullu-II
+104,25244,5,20,1,Cracks developed in school baramda ,Active,2,0,55,250000.0,10-07-2023,KULLU ,Nirmand
+105,25244,5,-1,1,Foundation of school building has damaged and some part of school playground also damaged. ,Active,2,0,0,300000.0,10-07-2023,,
+106,25244,5,20,1,Foundation of school building has been damaged and some part of playground also damaged ,Active,2,0,55,250000.0,10-07-2023,KULLU ,Nirmand
+107,25244,5,20,1,Boundary Wall and school building has been damaged and school playground also damaged,Active,2,0,55,250000.0,10-07-2023,KULLU ,Nirmand
+108,25244,5,20,1,School boundary wall has been damaged. ,Active,2,0,55,300000.0,10-07-2023,KULLU ,Nirmand
+109,25244,5,20,1,Cracks developed in school buidling ,Active,2,0,55,150000.0,10-07-2023,KULLU ,Nirmand
+110,25244,5,20,1,Cracks developed in school building and school playground has also been damaged.,Active,2,0,55,400000.0,10-07-2023,KULLU ,Nirmand
+111,25244,5,20,1,School boundary wall has been damaged ,Active,2,0,55,300000.0,10-07-2023,KULLU ,Nirmand
+112,25244,5,20,1,School entry gate is collapsed adn cracks has been developed in school kitchen shed ,Active,2,0,55,250000.0,10-07-2023,KULLU ,Nirmand
+113,25244,5,20,1,The schools toilets are damaged ,Active,2,0,55,350000.0,10-07-2023,KULLU ,Nirmand
+114,25244,5,20,1,Cracks has been developed in school toilets,Active,2,0,55,150000.0,10-07-2023,KULLU ,Nirmand
+115,25244,5,20,1,Cracks has been developed in school building ,Active,2,0,55,300000.0,10-07-2023,KULLU ,Nirmand
+116,25244,5,20,1,Retaining wall of school play ground is damaged ,Active,2,0,55,250000.0,10-07-2023,KULLU ,Nirmand
+117,25258,5,20,1,School building and school campus washed out due to devastating flood,Active,1002,0,52,3000000.0,10-07-2023,KULLU ,Nager-Katrain
+118,25304,5,15,1, Retaining wall damage,Active,2,2,4,7.0,21-07-2023,BILASPUR ,Jhandutta
+119,25280,43,20,1,Cracks developed in boundary wall ,Active,2,0,50,100000.0,10-07-2023,KULLU ,Kullu
+120,25244,43,20,1,"cracks developed in school building , kitchen shed and toilets  ",Active,2,0,50,350000.0,10-07-2023,KULLU ,Kullu
+121,25196,43,20,1,Cracks developed in school baramda ,Active,2,0,50,150000.0,10-07-2023,KULLU ,Kullu
+122,25105,43,20,1,Boundary wall and school playground washed out ,Active,2,0,-1,300000.0,10-07-2023,KULLU ,
+123,25196,43,20,1,School playground damaged and cracks developed in school builiding ,Active,2,0,50,250000.0,10-07-2023,KULLU ,Kullu
+124,25280,43,20,1,Retaining wall damaged ,Active,2,0,50,20000.0,10-07-2023,KULLU ,Kullu
+125,25196,43,20,1,Cracks developed in boundary wall ,Active,2,0,50,100000.0,10-07-2023,KULLU ,Kullu
+126,25280,43,20,1,"School boundary wall damaged and playground, room filled with debris ",Active,2,0,50,600000.0,10-07-2023,KULLU ,Kullu
+127,25244,43,20,1,School boundary wall damaged ,Active,2,0,50,150000.0,10-07-2023,KULLU ,Kullu
+128,25280,43,20,1,Girls toilets has been damaged and cracks developed in school building ,Active,2,0,50,200000.0,10-07-2023,KULLU ,Kullu
+129,25699,5,15,1,Land sliding ,Active,2,2,3,2.5,31-07-2023,BILASPUR ,Ghumarwin-II
+130,25818,5,15,1,Land Sliding,Active,2,2,1,0.3,04-08-2023,BILASPUR ,BILASPUR SADAR
+131,25891,5,15,1,Land sliding ,Active,2,2,5,3.5,07-08-2023,BILASPUR ,Swarghat
+132,25891,5,15,1,Roof of the school building is damage,Active,2,2,5,5.0,07-08-2023,BILASPUR ,Swarghat
+133,25891,5,15,1,Roof of the school building is damage,Active,2,2,5,5.0,07-08-2023,BILASPUR ,Swarghat
+134,25214,5,15,1,Land sliding ,Active,1002,2,5,3.0,19-07-2023,BILASPUR ,Swarghat
+135,24621,5,15,1,Retaining wall damage,Active,2,2,4,5.0,10-07-2023,BILASPUR ,Jhandutta
+136,25748,5,15,1,Land sliding ,Active,2,2,4,1.2,10-07-2023,BILASPUR ,Jhandutta
+137,25748,5,15,1,Land sliding ,Active,2,2,4,1.0,10-07-2023,BILASPUR ,Jhandutta
+138,25748,5,15,1,"LAND SLIDING  , RAIN WATER IS FILED IN SCHOOL BUILDING ",Active,2,2,4,0.5,10-07-2023,BILASPUR ,Jhandutta
+139,24621,5,15,1,"THE WALL OF THE TOILET SEPTIC TANK IS DAMAGED,CAUSING DANGER TO THE TOILET ",Active,2,2,1,1.0,10-07-2023,BILASPUR ,BILASPUR SADAR
+140,25989,5,15,1,BOUNDARY WALL AND RETAINING WALL DAMAGE,Active,2,2,3,0.5,11-08-2023,BILASPUR ,Ghumarwin-II
+141,25989,5,15,1,GROUND SECUIRITY WALL HAS FALLEN,Active,2,2,3,50000.0,11-08-2023,BILASPUR ,Ghumarwin-II
+142,25989,5,15,1,"LAND SLIDING AND BUILDING IS UNSAFE, TWO TOILETS ARE COMPLETELY DAMAGED",Active,2,2,2,10.0,11-08-2023,BILASPUR ,Ghumarwin-I
+143,26022,5,15,1,COLLAPSE OF BOUNDARY WALL AND SEEPAGE IN ROOF OF CLASS ROOMS.,Active,2,2,2,1.1,14-08-2023,BILASPUR ,Ghumarwin-I
+144,26022,5,15,1,landslide due to heavy rainfall in the back of  school building and kitchen shed. Lifting of soil and wall is required to stop landslide ,Active,2,2,2,1.0,14-08-2023,BILASPUR ,Ghumarwin-I
+145,26098,5,15,1,Sliding of retaining wall of school Building,Active,2,2,3,5.0,16-08-2023,BILASPUR ,Ghumarwin-II
+146,26098,5,15,1,Retaining wall behind the school building wall is on the verge of collapse and may cause loss of lifes property. Rainwater flood into the class rooms through the school building wall.,Active,1002,2,2,2.0,16-08-2023,BILASPUR ,Ghumarwin-I
+147,26180,5,15,1,"Land Sliding, Cracks have come in the toilets.",Active,2,2,1,0.5,17-08-2023,BILASPUR ,BILASPUR SADAR
+148,26180,5,15,1,"One room totally damage,cracks due to land sliding.",Active,2,2,3,10.0,17-08-2023,BILASPUR ,Ghumarwin-II
+149,26180,5,15,1,Damage of school stairs due to heavy rain ,Active,2,2,2,0.3,17-08-2023,BILASPUR ,Ghumarwin-I
+150,26180,5,15,1,One of the wall of the room has developed cracks due to heavy rain ,Active,2,2,2,0.35,17-08-2023,BILASPUR ,Ghumarwin-I
+151,26180,5,15,1,Seepage in roof and floors of class rooms ,Active,2,2,2,0.5,17-08-2023,BILASPUR ,Ghumarwin-I
+152,26180,5,15,1,Retaining wall is damaged,Active,2,2,4,0.25,17-08-2023,BILASPUR ,Jhandutta
+153,26180,5,15,1,Cracks in Building wall,Active,2,2,4,7.0,17-08-2023,BILASPUR ,Jhandutta
+154,26180,5,15,1,Land Sliding,Active,2,2,4,3.0,17-08-2023,BILASPUR ,Jhandutta
+155,26180,5,15,1,Retaining wall is damaged,Active,2,2,4,3.0,17-08-2023,BILASPUR ,Jhandutta
+156,26180,5,15,1,Retaining wall is damaged and cracks have come in the toilets ,Active,2,2,1,2.0,17-08-2023,BILASPUR ,BILASPUR SADAR
+157,26180,5,15,1,Land Sliding,Active,2,2,1,1.0,17-08-2023,BILASPUR ,BILASPUR SADAR
+158,26180,5,15,1,landsliding in the back side of school  building the mud and water entered the class rooms. Major repair are needed to roofs leakage in classrooms. ,Active,2,2,3,5.0,17-08-2023,BILASPUR ,Ghumarwin-II
+159,26180,5,15,1,The wall in front of the school building has collapsed. As a result the road to the school has been blocked (partially).In the  future there may be a risk of falling rooms of the school building and damage to the playground ,Active,2,2,5,3.5,17-08-2023,BILASPUR ,Swarghat
+160,26180,5,15,1,"The wall of the school courtyard has callapsed, due to which the wall of the two rooms of the school are in danger. ",Active,2,2,5,1.0,17-08-2023,BILASPUR ,Swarghat
+161,26180,5,15,1,Land Sliding,Active,2,2,3,0.1,17-08-2023,BILASPUR ,Ghumarwin-II
+162,26236,5,15,1,Walls of three rooms has developed cracks and boundary wall behind land sliding due to heavy rainfall .,Active,2,2,2,1.5,18-08-2023,BILASPUR ,Ghumarwin-I
+163,26240,5,15,1,"A huge crack on ground in front of school building in school play ground ,that is increasing day by day and ground is steeping down slowly.",Active,2,2,4,20.0,19-08-2023,BILASPUR ,Jhandutta
+164,26289,5,15,1,A huge crack on school building wall ,Active,2,2,4,1.5,21-08-2023,BILASPUR ,Jhandutta
+165,26336,5,15,1,landsliding into school ground near building ,Active,2,2,1,0.5,22-08-2023,BILASPUR ,BILASPUR SADAR
+166,26336,5,15,1,Roof of two room damaged due to heavy rain fall ,Active,2,2,1,1.5,22-08-2023,BILASPUR ,BILASPUR SADAR
+167,26336,5,15,1,one room full damage and other rooms are bad condition due to heavy rain,Active,2,2,2,3.0,22-08-2023,BILASPUR ,Ghumarwin-I
+168,26336,5,15,1,Damage of boundry wall and broken in many parts,Active,2,2,2,2.0,22-08-2023,BILASPUR ,Ghumarwin-I
+169,26359,5,15,1,  Damage of school ground near toilet and room which is under construction,Active,2,2,1,1.0,23-08-2023,BILASPUR ,BILASPUR SADAR
+170,26366,5,15,1,HEAVY LAND SLIDE IN SCHOOL GROUND SCHOOL BUILDING IS JUST TWO FEET AWAY FROM THE SLIDE THE BUILDING IS IN DANGER,Active,1002,2,4,5.0,24-08-2023,BILASPUR ,Jhandutta
+171,26366,5,15,1,Major Cracks in the wall of school room due to heavy rainfall ,Active,2,2,1,0.5,24-08-2023,BILASPUR ,BILASPUR SADAR
+172,26366,5,15,1,Damage of school boundary wall near toilet and play ground ,Active,2,2,1,3.0,24-08-2023,BILASPUR ,BILASPUR SADAR
+173,26459,5,15,1,Kitchen Roof and boundary wall damage,Active,2,2,1,1.5,26-08-2023,BILASPUR ,BILASPUR SADAR
+174,26548,5,15,1,landslide due to heavy rainfall near the school building and water enter into the classrooms.,Active,1002,2,2,3.0,31-08-2023,BILASPUR ,Ghumarwin-I
+175,26548,5,15,1,Collapse of toilet incilator and wall due to heavy rain. ,Active,1002,2,1,2.0,31-08-2023,BILASPUR ,BILASPUR SADAR
+176,26548,5,15,1,Kitchen Roof  damage ,Active,2,2,1,0.12,31-08-2023,BILASPUR ,BILASPUR SADAR
+177,26693,5,15,1,Boundary Wall Damage and rain water come into the floor,Active,1002,2,1,1.5,11-09-2023,BILASPUR ,BILASPUR SADAR
+178,26693,1041,15,1,Damage of school ground near toilet and room which is under construction .,Active,2,2,1,0.0,11-09-2023,BILASPUR ,BILASPUR SADAR
+179,26726,5,15,1,Roof of the school building is damage,Active,2,0,5,5.0,14-09-2023,BILASPUR ,Swarghat
+180,26726,5,15,1,"BOUNDRY WALL,KITCHEN,  TOILET",Active,2,0,5,5.0,14-09-2023,BILASPUR ,Swarghat
+181,26726,5,15,1,BOUNDRY WALL DAMAGED,Active,2,0,5,2.0,14-09-2023,BILASPUR ,Swarghat
+182,29703,5,-1,2,02 Schools partially damaged ,Active,2,0,0,2.0,,,
+183,29270,5,23,1,Crack on school protection wall due to slide in path way ,Active,2,0,96,0.35,,SHIMLA ,Rohroo
+185,29435,5,22,1,"""Due to cloud burst at night the rooms and playground have been  filled with water. ",Active,2,0,1139,2.5,,MANDI ,Drang
+186,29435,5,22,1,The school building has been damaged.Two pillars of the verandah have also been broken ,Active,2,0,1139,2.0,,MANDI ,Drang
+188,29435,5,22,1,Due to heavy rains the entire verandah of the school has been damaged and the retaining wall attached to the toilet has also been damaged,Active,2,0,1139,2.5,,MANDI ,Drang
+189,29435,5,22,1,Due to heavy rains the retaining wall has been collapsed,Active,2,0,1139,4.0,,MANDI ,Drang
+190,29435,5,22,2,Due to heavy rains the retaining wall has been collapsed,Active,2,0,1139,4.0,,MANDI ,Drang
+191,29435,5,22,1,Cracks in school building walls.,Active,2,0,1139,2.0,,MANDI ,Drang
+194,29506,5,22,1,"Due to heavy rain one room wall and kitchen shed wall crack and two windows and lanter damage from back side,three units toilets damaged and school play ground slides along with dangas there are big stones above the school has been damaged ",Active,2,0,1139,4.0,,MANDI ,Drang
+195,29506,5,-1,1,"Due to heavy rain one room wall and kitchen shed wall crack and two windows and lanter damage from back side,three units toilets damaged and school play ground slides along with dangas there are big stones above the school has been damaged ",Active,2,0,0,4.0,,,
+197,29435,5,22,1,Back side of school building landslide and building wall damaged due to heavy rain  and 170sq.ft.sand(raw material) totally flowed by disaster ,Active,2,0,1139,0.6,,MANDI ,Drang
+198,29565,5,22,1,Due to heavy rain retaining wall  and kitchen shed of school damaged.,Active,1002,0,1139,3.0,,MANDI ,Drang
+199,29565,5,22,1,"Due to heavy rains, cracks have been appeared in the walls of a room, kitchen and toilet of the school. One wall of the toilet has become separated from the other wall.",Active,2,0,1139,2.0,,MANDI ,Drang
+201,29436,5,22,1,Total damage of tiolet due to havy rain,Active,2,0,1139,3.0,,MANDI ,Drang
+202,29436,5,22,1,Damage of Boundary wall & Play Ground,Active,2,0,140,0.5,,MANDI ,Gohar
+203,29436,5,22,1,"Due to heavey Rains, the roof of School building is totally damaged",Active,2,0,74,2.0,,MANDI ,Seraj
+204,29436,5,22,1,Damage of school building roof due to heavy rain. ,Active,2,0,119,5.0,,MANDI ,Dharampur
+205,29436,5,22,1,Damage of school building roof due to heavy rain.,Active,2,0,119,5.0,,MANDI ,Dharampur
+207,29436,5,-1,1,"1.The playground of school filled with debris,stones and water 2.The way for school from the road to the school has been destroyed 3.Stones and debris falls on the back side of the school building",Active,2,0,0,4.0,,,
+208,29436,5,22,1,"1.The playground of school filled with debris,stones and water 2.The way for school from the road to the school has been destroyed 3.Stones and debris falls on the back side of the school building",Active,2,0,60,4.0,,MANDI ,Sunder Nagar
+209,29436,5,22,1,"Due to heavy rains, the entire verandah of the school has been damaged and the retaining wall attached to the toilet has also been damaged",Active,2,0,72,3.0,,MANDI ,Karsog 
+210,29436,5,22,1,Due to heavy rain breast wall  totaly loss  ,Active,2,0,72,3.0,,MANDI ,Karsog 
+211,29436,5,22,1,Due to heavy rain Kitchan Shed  damaged,Active,2,0,72,1.0,,MANDI ,Karsog 
+212,29506,5,22,1,Due to heavy rain retaining wall of school has been damaged,Active,2,0,140,2.0,,MANDI ,Gohar
+213,29506,5,22,1,Due to heavy rain retaining wall of school has been damaged,Active,2,0,76,0.5,,MANDI ,Sadar
+214,29506,5,22,1,Due to heavy rain Kitchan Shed  damaged,Active,2,0,76,0.12,,MANDI ,Sadar
+215,29506,5,22,1,Due to heavy rain a big stone cracks one side of kitchen wall and boundary wall also damaged,Active,2,0,-1,0.3,,MANDI ,
+216,29506,5,22,1,Due to heavy rain a big stone cracks one side of kitchen wall and boundary wall also damaged,Active,2,0,76,0.3,,MANDI ,Sadar
+217,29608,5,22,1,Due to rain fifteen feet boundary wall of the school collapsed,Active,2,0,76,0.25,,MANDI ,Sadar
+218,29307,5,22,1,Due to heavy rain retaining wall of school has been damaged,Active,2,0,72,4.0,,MANDI ,Karsog 
+219,29590,5,22,1,Due to heavy rain retaining the boundary wall has been broken,Active,2,0,72,2.0,,MANDI ,Karsog 
+220,29590,5,22,1,Total damage of tiolet due to havy rain,Active,2,0,72,1.0,,MANDI ,Karsog 
+221,29590,5,22,1,Due to heavy rain One Room damaged,Active,2,0,72,3.0,,MANDI ,Karsog 
+222,29608,5,22,1,"due to heavy rain stairs cracks, cracks in the pillars,roofs of one room and Varanda totally damaged ",Active,2,0,1140,3.0,,MANDI ,Gopalpur
+223,29590,5,22,1, Due to heavy rain debris and stones are falling down the back side of school building. and the class rooms have been filled with debris and water.,Active,2,0,60,3.0,,MANDI ,Sunder Nagar
+224,29590,5,22,1,Due to heavy rain  land is sliding near the toilets and there are cracks in the toilets and water tank,Active,2,0,60,1.5,,MANDI ,Sunder Nagar
+225,29608,5,22,1,"Due to heavy rain on dated 07/08/2024 mojor cracks has been appeared in the walls and slab of the kitchen, water is also leaking from the walls of kitchen and the slab of the CRC Room",Active,2,0,60,5.0,,MANDI ,Sunder Nagar
+226,29590,5,22,1,three rooms lanter danaged ,Active,2,0,72,2.0,,MANDI ,Karsog 
+227,29590,5,22,1,"Two rooms slate wooden roof got damaged and got bent and leakage of water inside rooms  and cracks on room walls, boundary wall made of  angle and iron jali got damaged and broken from many parts due to heavy continuous rains",Active,2,0,60,6.0,,MANDI ,Sunder Nagar
+228,29590,5,22,1,"due to heavy rain walls cracks, cracks in the pillar.",Active,2,0,1140,2.0,,MANDI ,Gopalpur
+229,29590,5,22,1,The ceiling of one room of the school building is damaged and the plaster is falling down due to the seepage of water during the monsoon season.,Active,2,0,60,3.0,,MANDI ,Sunder Nagar
+230,29436,5,22,1,due to heavy rain fall the ground of school fell down with totally damage of boundary wall,Active,1002,0,60,5.0,,MANDI ,Sunder Nagar
+231,29608,5,22,1,due to heavy rain land depressed crack in wall and pillar,Active,2,0,60,3.0,,MANDI ,Sunder Nagar
+232,29608,5,22,1,Ground slided near the building wall due to heavy rain ,Active,2,0,60,3.0,,MANDI ,Sunder Nagar
+233,29608,5,22,1,School boundary wall has been damaged due to heavy rainfall on dated 7/8/2024 ,Active,2,0,119,2.0,,MANDI ,Dharampur
+234,29657,5,22,1,due to heavy rain back side of school landslide,Active,2,0,70,2.0,,MANDI ,Chauntra
+235,29324,5,22,1,due to heavy  rains retaining wall and boundary wall damaged ,Active,2,0,74,2.0,,MANDI ,Seraj
+236,29657,5,22,1,Damage of room wall due to leakage of water from lenter,Active,2,0,140,1.0,,MANDI ,Gohar
+237,29686,5,22,1,school boundary wall damaged due to heavy rain,Active,1002,0,70,1.0,,MANDI ,Chauntra
+238,30001,5,22,1,school boundary wall damaged due to heavy rain,Active,2,0,70,1.0,,MANDI ,Chauntra
+239,29436,5,22,1,Due to heavy rains the entire verandah of the school has been damaged and the retaining wall attached to the toilet has also been damaged,Active,2,0,1139,1.0,,MANDI ,Drang
+240,29565,5,22,1,Due to heavy rains one building of school have been totally damaged,Active,2,0,1139,0.5,,MANDI ,Drang
+241,29435,5,22,1,Hired building total loss alongwith school property ,Active,2,0,1139,22.5,,MANDI ,Drang
+243,29436,5,22,1,Due to water and mud entering the school room the items kept in the room have been damaged,Active,2,0,1139,1.5,,MANDI ,Drang
+244,29436,5,22,1,Due to heavy rain land slide behind the kitchen and mud entered in the School kitchen and play ground ,Active,2,0,70,2.0,,MANDI ,Chauntra

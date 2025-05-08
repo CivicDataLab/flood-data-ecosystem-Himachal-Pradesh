@@ -1,0 +1,47 @@
+﻿sub_cat_id,cat_id,sub_catname,status
+1,1,"Paddy,Maize,Ragi,Milets,Khariff pulses",Deleted
+2,1,Vegetable/Patato/Ginger/Oil seeds 3 etc,Deleted
+3,2,Over head tank ,Active
+4,2,Pipeline,Active
+5,2,Source Contaminates,Active
+6,2,Handpump,Active
+7,2,Other,Deleted
+8,3,Kaccha_Partially Damaged,Active
+9,3,Kaccha Fully Damaged,Active
+10,3,Pacca_Partially Damaged,Active
+11,3,Pacca Fully Damaged,Active
+12,4,Cow,Active
+13,4,Poulty Shed,Active
+14,4,Poulty Brids,Active
+15,4,Other,Deleted
+16,6,Wire Cut,Active
+17,6,Transformer Damaged,Active
+18,6,Other,Deleted
+19,7,Badly Damaged,Active
+20,7,Partially Damaged,Active
+21,7,Landslide,Active
+22,7,Blocked,Active
+23,8,Wire Cut,Active
+24,8,Tower Damaged,Active
+25,8,Other,Deleted
+26,10,other,Active
+1002,1002,Paddy,Active
+1003,1002,Maize,Active
+1004,1002,Ragi,Active
+1005,1002,Milets,Active
+1006,1002,Khariff Pulses,Active
+1007,1002,Others,Deleted
+1008,1003,Fruit,Active
+1009,1003,Vegetable,Active
+1010,1003,Potato,Active
+1011,1003,Ginger,Active
+1012,1003,Oil Seed,Active
+1013,1003,Others,Deleted
+1014,9,Road Blocked,Active
+1015,9,Strucutre,Active
+1016,9,Electric / Telecom Wire damaged,Active
+1017,9,Others,Deleted
+1018,4,Buffalo,Active
+1019,4,Bullock,Active
+1020,6,Poll Damaged,Active
+1021,8,Disruption of Services,Active

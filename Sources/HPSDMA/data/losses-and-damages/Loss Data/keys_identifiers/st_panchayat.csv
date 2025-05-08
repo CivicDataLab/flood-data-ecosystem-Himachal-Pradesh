@@ -1,0 +1,3578 @@
+﻿panchayat_id,district_id,block_id,panchayat_name,status
+100,15,1136,Seu,Active
+101,15,1136,Tadoun ,Active
+102,15,1136,Talwara,Active
+103,15,1136,Talyana,Active
+104,15,1136,Amarpur,Active
+105,15,1136,Auhar,Active
+106,15,1136,Bakroa,Active
+107,15,1136,Chhat,Active
+108,15,1136,Fatoh,Active
+109,15,1136,Kapahra,Active
+110,15,1136,Karloti,Active
+111,15,1136,Kotlubrahmna,Active
+112,15,1136,Paplah,Active
+113,15,4,Badgaon,Active
+114,15,4,Badol,Active
+115,15,4,Balghad,Active
+116,15,4,Balhsina,Active
+117,15,4,Baloh,Active
+118,15,4,Bargaon Galu,Active
+119,15,4,Barthin,Active
+120,15,4,Behna Brahmna,Active
+121,15,4,Behnajatta,Active
+122,15,4,Beri Miyan ,Active
+123,15,4,Bhadolikalan,Active
+124,15,4,Dahad,Active
+125,15,4,Damli,Active
+126,15,4,Dari Bhari ,Active
+127,15,4,Dhani,Active
+128,15,4,Dudiyan,Active
+129,15,4,Duslehra,Active
+130,15,4,Galian,Active
+131,15,4,Gehadwin,Active
+132,15,4,Ghandeer,Active
+133,15,4,Gharan,Active
+134,15,4,Hirapur,Active
+135,15,4,Jangla,Active
+136,15,4,Jejwin,Active
+137,15,4,Jhabola,Active
+138,15,4,Jhandutta,Active
+139,15,4,Kalol,Active
+140,15,4,Kosariyan,Active
+141,15,4,Kuljyar,Active
+142,15,4,Malangan,Active
+143,15,4,Malraon,Active
+144,15,4,Naghiyar,Active
+145,15,4,Nakhlehra,Active
+146,15,4,Paploa,Active
+147,15,4,Rohal,Active
+148,15,4,Salwar,Active
+149,15,4,Samoh,Active
+150,15,4,Sanihra,Active
+151,15,4,Sunhani,Active
+152,16,133,Awhan,Active
+153,16,133,Bagdhar,Active
+154,16,133,Balana,Active
+155,16,133,Balera,Active
+156,16,133,Banet,Active
+157,16,133,Banikhet,Active
+158,16,133,Bathri,Active
+159,16,133,Binna,Active
+160,16,133,Chalama,Active
+161,16,133,Chalara,Active
+162,16,133,Chuhan,Active
+163,16,133,Dhalog ,Active
+164,16,133,Dharun,Active
+165,16,133,Dhulara,Active
+166,16,133,Gadana,Active
+167,16,133,Gahar,Active
+168,16,133,Garnota,Active
+169,16,133,Ghatasani,Active
+170,16,133,Gola,Active
+171,16,133,Hatli,Active
+172,16,133,Howar,Active
+173,16,133,Jandrog,Active
+174,16,133,Jatruhan,Active
+175,16,133,Jiyunta,Active
+176,16,133,Jolna,Active
+177,16,133,Kahari,Active
+178,16,133,Kakira Jarei,Active
+179,16,133,Kakira Kasba,Active
+180,16,133,Kakroti,Active
+181,16,133,Kamla ,Active
+182,16,133,Kathet,Active
+183,16,133,Kathla,Active
+184,16,133,Khanora ,Active
+185,16,133,Khargat,Active
+186,16,133,Khedera,Active
+187,16,133,Kuddi,Active
+188,16,133,Kudnu,Active
+189,16,133,Malunda,Active
+190,16,133,Manhuta,Active
+191,16,133,Manola,Active
+192,16,133,Mel,Active
+193,16,133,Mornu,Active
+194,16,133,Morthu,Active
+195,16,133,Motla,Active
+196,16,133,Naini Khad,Active
+197,16,133,Ngali,Active
+198,16,133,Osal,Active
+199,16,133,Parchor,Active
+200,16,133,Parisiyara,Active
+201,16,133,Pathrotu,Active
+202,16,133,Pukhri,Active
+203,16,133,Raipur,Active
+204,16,133,Rajein,Active
+205,16,133,Ruliyani,Active
+206,16,133,Sadal,Active
+207,16,133,Samaut,Active
+208,16,133,Samleu,Active
+209,16,133,Sherpur,Active
+210,16,133,Sihunta,Active
+211,16,133,Sudli,Active
+212,16,133,Surpara,Active
+213,16,133,Tapper ,Active
+214,16,133,Taragarh,Active
+215,16,133,Thulel,Active
+216,16,133,Tikkri,Active
+217,16,133,Tundi,Active
+218,16,133,Tunuhartti,Active
+219,16,133,Turkara,Active
+220,16,133,Veili,Active
+221,16,11,Aura,Active
+222,16,11,Badgran,Active
+223,16,11,Bajol,Active
+224,16,11,Bharmaur,Active
+225,16,11,Chanhauta,Active
+226,16,11,Chobia,Active
+227,16,11,Diyol,Active
+228,16,11,Durghati,Active
+229,16,11,Garola,Active
+230,16,11,Ghared,Active
+231,16,11,Greema,Active
+232,16,11,Hadsar,Active
+233,16,11,Holi,Active
+234,16,11,Jagat,Active
+235,16,11,Khani,Active
+236,16,11,Kugti,Active
+237,16,11,Kuleth,Active
+238,16,11,Kuthehar,Active
+239,16,11,Kuwarsi,Active
+240,16,11,Lamu,Active
+241,16,11,Nayagran,Active
+242,16,11,Poolan,Active
+243,16,11,Praghala,Active
+244,16,11,Ranukothi,Active
+245,16,11,Sachuhi,Active
+246,16,11,Sah,Active
+247,16,11,Siyur,Active
+248,16,11,Tundah,Active
+249,16,11,Ulansa,Active
+250,16,6,Auda,Active
+251,16,6,Baraur,Active
+252,16,6,Bhanauta,Active
+253,16,6,Chaklu,Active
+254,16,6,Chandi,Active
+255,16,6,Cheel Bangla,Active
+256,16,6,Drada,Active
+257,16,6,Draman ,Active
+258,16,6,Dulahar,Active
+259,16,6,Haripur,Active
+260,16,6,Jadera,Active
+261,16,6,Jhulada,Active
+262,16,6,Kandla,Active
+263,16,6,Kela,Active
+264,16,6,Khajiyar,Active
+265,16,6,Kiyani,Active
+266,16,6,Kohladi,Active
+267,16,6,Kuthehad,Active
+268,16,6,Mansrund,Active
+269,16,6,Padhar,Active
+270,16,6,Paluhi,Active
+271,16,6,Palyur,Active
+272,16,6,Panjoh,Active
+273,16,6,Prahnvi,Active
+274,16,6,Prautha,Active
+275,16,6,Pukhri,Active
+276,16,6,Rajindu,Active
+277,16,6,Rajnagar,Active
+278,16,6,Rajpura,Active
+279,16,6,Rinda,Active
+280,16,6,Rupni,Active
+281,16,6,Saach,Active
+282,16,6,Saraul,Active
+283,16,6,Shillaghat,Active
+284,16,6,Sidhkund,Active
+285,16,6,Singi,Active
+286,16,6,Sungal ,Active
+287,16,6,Tikri,Active
+288,16,6,Udaipur,Active
+289,16,7,Kiri,Active
+290,16,7,Athluhi ,Active
+291,16,7,Sarahan,Active
+292,16,7,Gwar,Active
+293,16,7,Baat,Active
+294,16,7,Uteep,Active
+295,16,7,Luddu,Active
+296,16,7,Kariyan,Active
+297,16,7,Rajera,Active
+298,16,7,Beili,Active
+299,16,7,Gagla,Active
+300,16,7,Janghi,Active
+301,16,7,Kuthlehar ,Active
+302,16,7,Gurad,Active
+303,16,7,Dhulara,Active
+304,16,7,Kuned,Active
+305,16,7,Kilor,Active
+306,16,7,Preena,Active
+307,16,7,Radi,Active
+308,16,7,Baloth,Active
+309,16,7,Khundel,Active
+310,16,7,Lech,Active
+311,16,7,Koonr,Active
+312,16,7,Chatrari,Active
+313,16,7,Piyuhra,Active
+314,16,7,Gehra,Active
+315,16,7,Brehi,Active
+316,16,7,Sunara,Active
+317,16,7,Lothat,Active
+318,16,7,Bakan,Active
+319,16,7,Darwi,Active
+320,16,7,Mehla,Active
+321,16,7,Cheri ,Active
+322,16,7,Bandla,Active
+323,16,7,Bhadiyan,Active
+324,16,7,Jatkari,Active
+325,16,7,Kolka,Active
+326,16,7,Kapahada,Active
+327,16,7,Bakhatpur,Active
+328,16,7,Basodhan,Active
+329,16,7,Rathiyar,Active
+330,16,7,Mangla,Active
+331,16,12,Luj,Active
+332,16,12,Dharwas,Active
+333,16,12,Sural,Active
+334,16,12,Karyas,Active
+335,16,12,Karel,Active
+336,16,12,Kilad,Active
+337,16,12,Kothi,Active
+338,16,12,Hudhan Bhatori,Active
+339,16,12,Saach,Active
+340,16,12,Mindhal,Active
+341,16,12,Kumar,Active
+342,16,12,Sahli,Active
+343,16,12,Sechu,Active
+344,16,12,Shunn,Active
+345,16,12,Rei,Active
+346,16,12,Purthi,Active
+347,16,13,Sanwal,Active
+348,16,13,Shelala Bari,Active
+349,16,13,Dehgran,Active
+350,16,13,Jhajja Kothi,Active
+351,16,13,Thanei Kothi,Active
+352,16,13,Kuther Bhadhoda,Active
+353,16,13,Hartwas,Active
+354,16,13,Seikothi,Active
+355,16,13,Mangli,Active
+356,16,13,Baunderi,Active
+357,16,13,Junas ,Active
+358,16,13,Guila,Active
+359,16,13,Satyaas,Active
+360,16,13,Bairagarh,Active
+361,16,13,Ghulei,Active
+362,16,13,Devi Kothi,Active
+363,16,13,Tepa,Active
+364,16,13,Guwadi,Active
+365,16,13,Khush Nagri,Active
+366,16,13,Bhanjradu,Active
+367,16,13,Tissa-1,Active
+368,16,13,Tissa-2,Active
+369,16,13,Padhar,Active
+370,16,13,Jungra,Active
+371,16,13,Khajua,Active
+372,16,13,Thalli,Active
+373,16,13,Gadfari,Active
+374,16,13,Lesvin,Active
+375,16,13,Bharara,Active
+376,16,13,Tikkri Garh,Active
+377,16,13,Baghei Garh,Active
+378,16,13,Charda,Active
+379,16,13,Chanju,Active
+380,16,13,Dehra,Active
+381,16,13,Diyola,Active
+382,16,13,Jasaurgarh,Active
+383,16,13,Charoudi,Active
+384,16,13,Kareri ,Active
+385,16,13,Kalhel,Active
+386,16,13,Choli,Active
+387,16,13,Kohal,Active
+388,16,13,Saproth ,Active
+389,16,13,Cheenh ,Active
+390,16,13,Bnanter,Active
+391,16,13,Aiyal,Active
+392,16,17,Bhalei,Active
+393,16,17,Brangal,Active
+394,16,17,Guwalu,Active
+395,16,17,Ligga,Active
+396,16,17,Bhedela,Active
+397,16,17,Kharal,Active
+398,16,17,Siyula,Active
+399,16,17,Drekdi,Active
+400,16,17,Manjhli,Active
+401,16,17,Pichla Diyru,Active
+402,16,17,Diyur,Active
+403,16,17,Kihar,Active
+404,16,17,Karwal,Active
+405,16,17,Kilod,Active
+406,16,17,Daand,Active
+407,16,17,Kandhwara,Active
+408,16,17,Lanot,Active
+409,16,17,Sanuh,Active
+410,16,17,Bhandal,Active
+411,16,17,Wahangal,Active
+412,16,17,Auhra,Active
+413,16,17,Simni,Active
+414,16,17,Kaged,Active
+415,16,17,Salooni,Active
+416,16,17,Singa Dhar,Active
+417,16,17,Suri,Active
+418,16,17,Dighai,Active
+419,16,17,Salwan,Active
+420,16,17,Seri,Active
+421,16,17,Pukhri,Active
+422,16,17,Thakri Matti,Active
+423,16,17,Manjeer,Active
+424,16,17,Sundla,Active
+425,16,17,Byana,Active
+426,16,17,Nadal,Active
+427,16,17,Badka,Active
+428,16,17,Khrauthi,Active
+429,16,17,Bhjautra,Active
+430,16,17,Panjei,Active
+431,16,17,Mauda,Active
+432,16,17,Khadjauta,Active
+433,16,17,Himgiri,Active
+434,16,17,Bhunad,Active
+435,17,134,Kanjyan,Active
+436,17,134,Tikkar Buhla,Active
+437,17,134,Bagwara,Active
+438,17,134,Bhated,Active
+439,17,134,Duggha,Active
+440,17,134,Pauhanj,Active
+441,17,134,Nadsin,Active
+442,17,134,Bajdoh,Active
+443,17,134,Dadu ,Active
+444,17,134,Barin,Active
+445,17,134,Baloh,Active
+446,17,134,Pandehad,Active
+447,17,134,Bafdin,Active
+448,17,134,Bajrol,Active
+449,17,134,Badhani,Active
+450,17,134,Chamned,Active
+451,17,134,Utpur,Active
+452,17,134,Dari,Active
+453,17,134,Chamboh,Active
+454,17,134,Kot Langsa ,Active
+455,17,134,Gawardu,Active
+456,17,134,Bherda,Active
+457,17,134,Swahal,Active
+458,17,134,Samirpur,Active
+459,17,134,Jandaru,Active
+460,17,134,Dhalot,Active
+461,17,134,Patnaun,Active
+462,17,134,Skandar,Active
+463,17,134,Darvyar,Active
+464,17,134,Khanauli,Active
+465,17,134,Lamblu,Active
+466,17,134,Sarahakar,Active
+467,17,134,Kakkar,Active
+468,17,134,Kale Amb,Active
+469,17,134,Amman,Active
+470,17,134,Uhal,Active
+471,17,134,Chariyan Di Dhar,Active
+472,17,134,Dhanwan,Active
+473,17,134,Keharwin ,Active
+474,17,134,Tapre,Active
+475,17,134,Dimmi,Active
+476,17,134,Dharog,Active
+477,17,134,Barara,Active
+478,17,134,Panjot,Active
+479,17,134,Gasota,Active
+480,17,134,Bohni,Active
+481,17,23,Amroh,Active
+482,17,23,Paplah,Active
+483,17,23,Garsaad ,Active
+484,17,23,Jahu,Active
+485,17,23,Bhalwani.,Active
+486,17,23,Vahanwi,Active
+487,17,23,Karohata,Active
+488,17,23,Mundkhar,Active
+489,17,23,Sahanwin,Active
+490,17,23,Nandhan,Active
+491,17,23,Pandwin,Active
+492,17,23,Taal,Active
+493,17,23,Bhukkar,Active
+494,17,23,Badehar,Active
+495,17,23,Dhamrol,Active
+496,17,23,Manvin,Active
+497,17,23,Bhakera,Active
+498,17,23,Bhaunkar,Active
+499,17,23,Sadhrian.,Active
+500,17,23,Ukhali,Active
+501,17,23,Kharwad,Active
+502,17,23,Aghaar,Active
+503,17,23,Mehal,Active
+504,17,23,Hanoh,Active
+505,17,23,Kakkar.,Active
+506,17,23,Dhirad,Active
+507,17,23,ludar Mahadev,Active
+508,17,23,Karha,Active
+509,17,23,Jharlog,Active
+510,17,23,Bhoranj,Active
+511,17,23,Patta,Active
+512,17,23,Tikkar Minhansa,Active
+513,17,23,Tikkar Didwin,Active
+514,17,22,Chakmoh,Active
+515,17,22,Dhangota,Active
+516,17,22,Bhel ,Active
+517,17,22,Samtana,Active
+518,17,22,Janjri,Active
+519,17,22,Saur,Active
+520,17,22,Morasu Sultani,Active
+521,17,22,Kathiyana,Active
+522,17,22,Badagran,Active
+523,17,22,Ghori Dhaviri ,Active
+524,17,22,Jamli,Active
+525,17,22,Maharal,Active
+526,17,22,Sohari,Active
+527,17,22,Kyara Bag,Active
+528,17,22,Raili,Active
+529,17,22,Tippar,Active
+530,17,22,Dandu,Active
+531,17,22,Jyoli Devi,Active
+532,17,22,Bijhari,Active
+533,17,22,Samaila,Active
+534,17,22,Dandvi,Active
+535,17,22,Karer,Active
+536,17,22,Tikkar Rajputan,Active
+537,17,22,Jore Amb,Active
+538,17,22,Bhakreri,Active
+539,17,22,Garli,Active
+540,17,22,Lohdar,Active
+541,17,22,Kalwal,Active
+542,17,22,Sathwin,Active
+543,17,22,Pahlu,Active
+544,17,22,Nanawan,Active
+545,17,22,Usnadkalan,Active
+546,17,22,Badsar,Active
+547,17,22,Pathliyar ,Active
+548,17,22,Balyah,Active
+549,17,22,Banni,Active
+550,17,22,Kanoh,Active
+551,17,22,Kadsai,Active
+552,17,22,Dhavdiyana,Active
+553,17,22,Kalauhan,Active
+554,17,22,Makkar,Active
+555,17,22,Kulehda,Active
+556,17,22,Balh Bihal,Active
+557,17,22,Sakroh,Active
+558,17,22,Dalcheda,Active
+559,17,22,Ghangotkalan,Active
+560,17,22,Jhajhyani,Active
+561,17,22,Gyaragran,Active
+562,17,21,Amroh,Active
+563,17,21,Ropa,Active
+564,17,21,Kuthera,Active
+565,17,21,Jangal Ropa,Active
+566,17,21,Pharnol,Active
+567,17,21,Bassi Jhniyara,Active
+568,17,21,Dhned,Active
+569,17,21,Sasan,Active
+570,17,21,Brahladi,Active
+571,17,21,Majhog Sultani,Active
+572,17,21,Ser Balauni,Active
+573,17,21,Changer,Active
+574,17,21,Laleen ,Active
+575,17,21,Dei Ka Naun,Active
+576,17,21,Khiahlohakharian,Active
+577,17,21,Darogan patikot,Active
+578,17,21,Daruhi,Active
+579,17,21,Tibbi,Active
+580,17,21,Nalti,Active
+581,17,21,Bajuri,Active
+582,17,21,Neri,Active
+583,17,21,Balh,Active
+584,17,21,Anu,Active
+585,17,21,Mati Tihra,Active
+586,17,21,Nara,Active
+587,17,24,Lambri,Active
+588,17,24,Chamyana,Active
+589,17,24,Panoh,Active
+590,17,24,Chaloh,Active
+591,17,24,Rangar.,Active
+592,17,24,Spahal,Active
+593,17,24,Patlandar,Active
+594,17,24,Baghera,Active
+595,17,24,Jole ,Active
+596,17,24,Kheri,Active
+597,17,24,Bairi,Active
+598,17,24,Dhamriyana,Active
+599,17,24,Tihra,Active
+600,17,24,Jangal,Active
+601,17,24,Banal,Active
+602,17,24,Ree,Active
+603,17,24,Chabutra,Active
+604,17,24,Darla,Active
+605,17,24,Dera,Active
+606,17,24,karot,Active
+607,17,25,Kitpal,Active
+608,17,25,Gahli,Active
+609,17,25,Kamlah,Active
+610,17,25,Majheli,Active
+611,17,25,Ghaloon,Active
+612,17,25,Jhalan,Active
+613,17,25,Badaran,Active
+614,17,25,Gwal Pathar,Active
+615,17,25,Hathol,Active
+616,17,25,Bela,Active
+617,17,25,Faste,Active
+618,17,25,Balduhak,Active
+619,17,25,Putdiyal,Active
+620,17,25,Buni,Active
+621,17,25,Jasai,Active
+622,17,25,Kashmir,Active
+623,17,25,Behrad,Active
+624,17,25,Mansai,Active
+625,17,25,Uttap,Active
+626,17,25,Phahal,Active
+627,17,25,Saredi,Active
+628,17,25,Panyali,Active
+629,17,25,Lahra,Active
+630,17,25,Goeis ,Active
+631,17,25,Maid,Active
+632,17,25,Hareta,Active
+633,17,25,Galod Khas,Active
+634,17,25,Chodu,Active
+635,17,25,Jole Sappar,Active
+636,17,25,Lahar Kotlu,Active
+637,17,25,Bhumpal,Active
+638,17,25,Rangas,Active
+639,17,25,Amlehad,Active
+640,17,25,Bharmoti Khurd,Active
+641,17,25,Saproh,Active
+642,17,25,Bara,Active
+643,17,25,Naryah,Active
+644,17,25,Rail,Active
+645,17,25,Kotla Chilian,Active
+646,17,25,Jalari,Active
+647,17,25,Dangri,Active
+648,17,25,Mann,Active
+649,17,25,Malag,Active
+650,17,25,Sanahi,Active
+651,17,25,Badheda,Active
+652,17,25,Pansai,Active
+653,17,25,Dhaneta,Active
+654,17,25,Bhadru ,Active
+655,17,25,Gauna,Active
+656,17,25,Karaur,Active
+657,17,25,Bhadrol,Active
+658,17,25,Kaloor ,Active
+659,17,25,Kohla ,Active
+660,17,25,Majhiyar ,Active
+661,17,25,Basaral,Active
+662,17,25,Batran,Active
+663,17,25,Karandola Plasi,Active
+664,18,42,Bara Bhangal,Active
+665,18,42,Mandehad,Active
+666,18,42,Madho Nagar,Active
+667,18,42,Bhadrain,Active
+668,18,42,Kudeil,Active
+669,18,42,Beed,Active
+670,18,42,Chaugan ,Active
+671,18,42,Nanahar,Active
+672,18,42,Multhan,Active
+673,18,42,Majhairna,Active
+674,18,42,Ghared,Active
+675,18,42,Kothi,Active
+676,18,42,Bahi,Active
+677,18,42,Narghor ,Active
+678,18,42,Gadiyara,Active
+679,18,42,Dhanag,Active
+680,18,42,Bara Gran,Active
+681,18,42,Swad,Active
+682,18,42,Spedu,Active
+683,18,42,Kand,Active
+684,18,42,Kandral,Active
+685,18,42,Paprola Khas,Active
+686,18,42,Sehal,Active
+687,18,42,Gunehad,Active
+688,18,42,Diyol,Active
+689,18,42,Sansal,Active
+690,18,42,Sansai,Active
+691,18,42,Chaubeen,Active
+692,18,42,Mahakal,Active
+693,18,42,Sakdi,Active
+694,18,42,Pantehad,Active
+695,18,42,Kothi Kohar,Active
+696,18,42,Poling,Active
+697,18,42,Nerag,Active
+698,18,42,Rajehad,Active
+699,18,42,Haded,Active
+700,18,42,Khara Nall,Active
+701,18,42,Averi,Active
+702,18,42,Tikkri Duhki,Active
+703,18,42,Keori,Active
+704,18,42,Fatahar,Active
+705,18,42,Bhattu Panjala,Active
+706,18,42,Bandiyan,Active
+707,18,42,Kunsal,Active
+708,18,42,Mahal Patt,Active
+709,18,42,Dharman,Active
+710,18,42,Luwai,Active
+711,18,42,Manjhoti,Active
+712,18,41,Dadh,Active
+713,18,41,Kaloond,Active
+714,18,41,Khalet,Active
+715,18,41,Chowki ,Active
+716,18,41,Punner,Active
+717,18,41,Saloh,Active
+718,18,41,Arla,Active
+719,18,41,Jiya Khas,Active
+720,18,41,Gopalpur,Active
+721,18,41,Hangloh,Active
+722,18,41,Balla,Active
+723,18,41,Darognu,Active
+724,18,41,Lamlehad,Active
+725,18,41,Sidhpur Sarkari,Active
+726,18,41,Dhoarn,Active
+727,18,41,Ghughar,Active
+728,18,41,Bindra Ban,Active
+729,18,41,Katiyarkhad ,Active
+730,18,41,Bandla,Active
+731,18,41,Kothi Pahara,Active
+732,18,41,Kasba Jugehar ,Active
+733,18,41,Bhawarna,Active
+734,18,41,Maihja,Active
+735,18,41,Dhaneta,Active
+736,18,41,Badsar,Active
+737,18,41,Chachiyan,Active
+738,18,41,Lahla,Active
+739,18,41,Bagauda,Active
+740,18,41,Thalau Arla,Active
+741,18,41,Ghadh,Active
+742,18,41,Faredh,Active
+743,18,41,Drang,Active
+744,18,41,Lohna,Active
+745,18,41,Aima,Active
+746,18,41,Thandol,Active
+747,18,41,Ramehad,Active
+748,18,41,Banghiyar,Active
+749,18,41,Dehan,Active
+750,18,41,Rakh,Active
+751,18,41,Drati,Active
+752,18,41,Arath Jhikli,Active
+753,18,41,Bhagotla,Active
+754,18,41,Chandpur,Active
+755,18,41,Malahu,Active
+756,18,41,Bhatt Samoola,Active
+757,18,41,Paraur,Active
+758,18,40,Siylkad,Active
+759,18,40,Thil,Active
+760,18,40,Dol Khariyana,Active
+761,18,40,Ghurkal,Active
+762,18,40,Bhatoli Fakorian,Active
+763,18,40,Bankhandi,Active
+764,18,40,Shivnath,Active
+765,18,40,Aluha,Active
+766,18,40,Gahliyan,Active
+767,18,40,Ser Lohar,Active
+768,18,40,Pihri,Active
+769,18,40,Dohag Paloti,Active
+770,18,40,Drang,Active
+771,18,40,Thakur Dwara,Active
+772,18,40,Khavli,Active
+773,18,40,Dohag Dehriyan,Active
+774,18,40,Muhal,Active
+775,18,40,Paiesa,Active
+776,18,40,Gummer,Active
+777,18,40,Adhwani,Active
+778,18,40,Ghaloda,Active
+779,18,40,Silh,Active
+780,18,40,Balsun Darkata,Active
+781,18,40,Bari Khas,Active
+782,18,40,Boungta,Active
+783,18,40,Dhanot,Active
+784,18,40,Kathog,Active
+785,18,40,Hadoli,Active
+786,18,40,Amb Pathiyar,Active
+787,18,40,Gharna,Active
+788,18,40,Majheen,Active
+789,18,40,Luthan,Active
+790,18,40,Bug,Active
+791,18,40,Bhati Bohan,Active
+792,18,40,Barog Lahad,Active
+793,18,40,Kheriyan,Active
+794,18,40,Barikalan,Active
+795,18,40,Sihorpai,Active
+796,18,40,Nahalian,Active
+797,18,40,Jagotha,Active
+798,18,40,Jarundi,Active
+799,18,40,Ghalour,Active
+800,18,40,Mehwa,Active
+801,18,40,Dhwala,Active
+802,18,40,Kopra,Active
+803,18,40,Kamlota,Active
+804,18,40,Hiraan ,Active
+805,18,40,Tihri,Active
+806,18,40,Rajol,Active
+807,18,40,Jaklehad,Active
+808,18,40,Kaller,Active
+809,18,40,Tipri,Active
+810,18,40,Naushehra,Active
+811,18,40,Trippel,Active
+812,18,40,Bhater vasa ,Active
+813,18,40,Bangoli,Active
+814,18,40,Surani,Active
+815,18,40,Khundiyan,Active
+816,18,40,Salihar,Active
+817,18,40,Ghed,Active
+818,18,40,Lagru,Active
+819,18,40,Pukhru ,Active
+820,18,40,Haripur,Active
+821,18,40,Dareen,Active
+822,18,38,Kodan,Active
+823,18,38,Riyali,Active
+824,18,38,Tatwali,Active
+825,18,38,Dhameta,Active
+826,18,38,Jagnoli,Active
+827,18,38,Manoh Sihal,Active
+828,18,38,Bagdoli,Active
+829,18,38,Barot,Active
+830,18,38,Kutwasi,Active
+831,18,38,Samlet,Active
+832,18,38,Jakhara,Active
+833,18,38,Patta Jatiyan ,Active
+834,18,38,Jhumb Khas,Active
+835,18,38,Takoli Girthan,Active
+836,18,38,Samkehad,Active
+837,18,38,Jhonka ratiyal,Active
+838,18,38,Chalwara,Active
+839,18,38,Chalwara-2 ,Active
+840,18,38,Maira,Active
+841,18,38,Bharmad,Active
+842,18,38,Bhol Khas,Active
+843,18,38,Harnota,Active
+844,18,38,Duk,Active
+845,18,38,Guriyal,Active
+846,18,38,Khatiyar,Active
+847,18,38,Machhot,Active
+848,18,38,Sthana,Active
+849,18,38,Badi,Active
+850,18,38,Lohara,Active
+851,18,38,Hada,Active
+852,18,38,Hatli,Active
+853,18,38,Thehad,Active
+854,18,38,Sunet,Active
+855,18,38,Rey,Active
+856,18,38,Larath,Active
+857,18,38,Nagal,Active
+858,18,38,Sunahara,Active
+859,18,38,Banoli Khas,Active
+860,18,38,Luthiyal,Active
+861,18,38,Diyana,Active
+862,18,38,Poliyan,Active
+863,18,38,Baruna,Active
+864,18,38,Bhatiyan,Active
+865,18,38,Hadwal,Active
+866,18,38,Fatehpur,Active
+867,18,38,Sidhpur Ghad,Active
+868,18,38,Kharota,Active
+869,18,38,Dhasoli,Active
+870,18,38,Nangal,Active
+871,18,38,Papahan,Active
+872,18,38,Chakbari,Active
+873,18,38,Khehar,Active
+874,18,38,Hatpang,Active
+875,18,38,Golwan Khas ,Active
+876,18,38,Batrahan,Active
+877,18,38,Talara,Active
+878,18,38,Nerna,Active
+879,18,38,Rehan,Active
+880,18,38,Minta,Active
+881,18,38,Larunh,Active
+882,18,38,Kandaur,Active
+883,18,38,Chhater,Active
+884,18,38,ChhaterJogiyan,Active
+885,18,36,Indora,Active
+886,18,36,Ulehariyan,Active
+887,18,36,Madoli,Active
+888,18,36,Mohtali,Active
+889,18,36,Deeni Khas,Active
+890,18,36,Gadhrana ,Active
+891,18,36,Dagla,Active
+892,18,36,Surdwan,Active
+893,18,36,Malahari,Active
+894,18,36,Shekhupura,Active
+895,18,36,Gangath,Active
+896,18,36,Sirat,Active
+897,18,36,Kathgarh,Active
+898,18,36,Ghodan,Active
+899,18,36,Gagwal,Active
+900,18,36,Paral,Active
+901,18,36,Atahara,Active
+902,18,36,Basantpur,Active
+903,18,36,Thakurdwara,Active
+904,18,36,Surajpur,Active
+905,18,36,Gheta,Active
+906,18,36,Ghandra,Active
+907,18,36,Bhapu,Active
+908,18,36,Mand Miani,Active
+909,18,36,Beili Mahanta,Active
+910,18,36,Dah Kulara,Active
+911,18,36,Sanour,Active
+912,18,36,Indpur,Active
+913,18,36,Kangreri,Active
+914,18,36,Lodhwan,Active
+915,18,36,Mangwal,Active
+916,18,36,Bakradwan,Active
+917,18,36,Chhanni,Active
+918,18,36,Majra ,Active
+919,18,36,Makdoli,Active
+920,18,36,Kudsa,Active
+921,18,36,Tappa,Active
+922,18,36,Bhalakh,Active
+923,18,36,Raja Khasa,Active
+924,18,36,Chanour,Active
+925,18,36,Rappar,Active
+926,18,36,Daikwan,Active
+927,18,36,Milwan,Active
+928,18,36,Baleer,Active
+929,18,36,Chaloh,Active
+930,18,36,Toki,Active
+931,18,36,Palakh,Active
+932,18,36,Bhogrwan,Active
+933,18,36,Bahadpur,Active
+934,18,36,,Active
+935,18,45,Thakurdwara,Active
+936,18,45,Chakban Gheen,Active
+937,18,45,Haar Jalari,Active
+938,18,45,Sadarpur,Active
+939,18,45,Mataur,Active
+940,18,45,Haled Kalan,Active
+941,18,45,Jhikli Ichhi,Active
+942,18,45,Jogipur,Active
+943,18,45,Tarsuh,Active
+944,18,45,Veerta,Active
+945,18,45,Shamsheerpur Khas,Active
+946,18,45,Nandrool,Active
+947,18,45,Busal,Active
+948,18,45,Thana Khaas,Active
+949,18,45,Ranitaal,Active
+950,18,45,Rajal,Active
+951,18,45,Kulthi,Active
+952,18,45,Rajiana Khas,Active
+953,18,45,Sameerpur,Active
+954,18,45,Dadoli,Active
+955,18,45,Salol,Active
+956,18,45,Balol,Active
+957,18,45,Balu Galoa,Active
+958,18,45,Ghana,Active
+959,18,45,Bhati,Active
+960,18,45,Janyankad,Active
+961,18,45,Sohda,Active
+962,18,45,Ichhi Khas,Active
+963,18,45,Palera,Active
+964,18,45,Lunj Khas,Active
+965,18,45,Jamanabad,Active
+966,18,45,Kholi,Active
+967,18,45,Kachhyari,Active
+968,18,45,Takipur,Active
+969,18,45,Dhamer ,Active
+970,18,45,Tiyara,Active
+971,18,45,Abdullapur,Active
+972,18,45,Ghurkari,Active
+973,18,45,Daulatpur,Active
+974,18,45,Kohala,Active
+975,18,45,Morath Jasai,Active
+976,18,45,Ratiyar ,Active
+977,18,45,Chandrot,Active
+978,18,45,Bhangwar,Active
+979,18,45,Gahaliyan,Active
+980,18,45,Bohad Kwalu,Active
+981,18,45,Tarkhankad,Active
+982,18,45,Ansoli,Active
+983,18,45,Nandehad,Active
+984,18,45,Samaila,Active
+985,18,45,Uperla Lunj,Active
+986,18,45,Rajiyana 53 Meel,Active
+987,18,45,Thanpuri ,Active
+988,18,33,Haled,Active
+989,18,33,Molag,Active
+990,18,33,Sanhu,Active
+991,18,33,Thural,Active
+992,18,33,Kotlu,Active
+993,18,33,Draman,Active
+994,18,33,Harot,Active
+995,18,33,Jalag,Active
+996,18,33,Thandol,Active
+997,18,33,Jangal,Active
+998,18,33,Bair Ghat,Active
+999,18,33,Jalet,Active
+1000,18,33,Dhupkiyara,Active
+1001,18,33,Sol Bunehad,Active
+1002,18,33,Majhera,Active
+1003,18,33,Kona,Active
+1004,18,33,Tamber,Active
+1005,18,33,Bharanta,Active
+1006,18,33,Paplah,Active
+1007,18,33,Lambagaon,Active
+1008,18,33,Jaisinghpur,Active
+1009,18,33,Mungal,Active
+1010,18,33,Kuhan,Active
+1011,18,33,Batahan,Active
+1012,18,33,Suan,Active
+1013,18,33,Duhak,Active
+1014,18,33,Bandahu,Active
+1015,18,33,Dagoh,Active
+1016,18,33,Karanghat,Active
+1017,18,33,Asha Puri,Active
+1018,18,33,Dhaneeri,Active
+1019,18,33,Sakoh,Active
+1020,18,33,Chambi,Active
+1021,18,33,Upper Thehru,Active
+1022,18,33,Bhagetter,Active
+1023,18,33,Kosri,Active
+1024,18,33,Nahalna,Active
+1025,18,33,Baloh,Active
+1026,18,33,Rit(Gugga),Active
+1027,18,33,Balakrupi,Active
+1028,18,33,Baag Kuljan,Active
+1029,18,33,Bijapur,Active
+1030,18,33,Gandar,Active
+1031,18,33,Maila,Active
+1032,18,33,Budh,Active
+1033,18,33,Jagroop Nagar,Active
+1034,18,33,Lahru,Active
+1035,18,33,Talwad,Active
+1036,18,33,Bardam,Active
+1037,18,33,Sandhol,Active
+1038,18,33,Harsi,Active
+1039,18,33,Alampur,Active
+1040,18,33,Sari,Active
+1041,18,33,Matyal,Active
+1042,18,33,Kudang,Active
+1043,18,29,Mundla,Active
+1044,18,29,Malan,Active
+1045,18,29,Tharu,Active
+1046,18,29,Sandu Bragran,Active
+1047,18,29,Massal,Active
+1048,18,29,Jalot,Active
+1049,18,29,Baldhar,Active
+1050,18,29,Kandi,Active
+1051,18,29,Rumehad,Active
+1052,18,29,Touru,Active
+1053,18,29,Luhna,Active
+1054,18,29,Sunhi,Active
+1055,18,29,Aerla,Active
+1056,18,29,Jasor,Active
+1057,18,29,Palah Chaklu,Active
+1058,18,29,Lilly,Active
+1059,18,29,Sarotri,Active
+1060,18,29,Saruhat,Active
+1061,18,29,Hatwas,Active
+1062,18,29,Mumta,Active
+1063,18,29,Ghalun,Active
+1064,18,29,Ambari,Active
+1065,18,29,Sunhed,Active
+1066,18,29,Barana,Active
+1067,18,29,Lakha Mandal,Active
+1068,18,29,Sihund,Active
+1069,18,29,Pathiar,Active
+1070,18,29,Bhuned,Active
+1071,18,29,Kothi Jhikli,Active
+1072,18,29,Kaled,Active
+1073,18,29,Kawadi,Active
+1074,18,29,Bag Gulehad,Active
+1075,18,29,Danoa,Active
+1076,18,29,Ustehad,Active
+1077,18,29,Patialkar,Active
+1078,18,29,Sera Thana,Active
+1079,18,29,Khaba,Active
+1080,18,29,Raunkher,Active
+1081,18,29,Ghodav,Active
+1082,18,29,Keer Chamba ,Active
+1083,18,29,Amtrahad,Active
+1084,18,29,Muhalkar Chahri,Active
+1085,18,29,Khart Khas,Active
+1086,18,29,Salah Jandrah,Active
+1087,18,39,Aund,Active
+1088,18,39,Khajhan ,Active
+1089,18,39,Kopra,Active
+1090,18,39,Sadwan,Active
+1091,18,39,Pandrehad,Active
+1092,18,39,Nagni,Active
+1093,18,39,Gehi Lagod,Active
+1094,18,39,Kulhan ,Active
+1095,18,39,Bhadwar,Active
+1096,18,39,Kot Palahari,Active
+1097,18,39,Milakh,Active
+1098,18,39,Haathidhar,Active
+1099,18,39,Hatli Jambala,Active
+1100,18,39,Ladauri,Active
+1101,18,39,Danni,Active
+1102,18,39,Mamu Gurchaal,Active
+1103,18,39,Thehad,Active
+1104,18,39,Sulyali,Active
+1105,18,39,Panjahada,Active
+1106,18,39,Aghar ,Active
+1107,18,39,Basa Bajeera,Active
+1108,18,39,Jach,Active
+1109,18,39,Anoh,Active
+1110,18,39,Dhaneti Garla,Active
+1111,18,39,Punder,Active
+1112,18,39,Kheriyan,Active
+1113,18,39,Khel,Active
+1114,18,39,Mijhgran,Active
+1115,18,39,Hadal,Active
+1116,18,39,Khanni Uparli,Active
+1117,18,39,Thoda Bhaloon,Active
+1118,18,39,Bhaloon ,Active
+1119,18,39,Chhatroli,Active
+1120,18,39,Naga Bari,Active
+1121,18,39,Baduhi,Active
+1122,18,39,Khanni Jhikli,Active
+1123,18,39,Sukhar Chaudhariyan,Active
+1124,18,39,Charudi,Active
+1125,18,39,Kamnala,Active
+1126,18,39,Bhaleta,Active
+1127,18,39,Kandwal,Active
+1128,18,39,Rit,Active
+1129,18,39,Baranda,Active
+1130,18,30,Bilaspur,Active
+1131,18,30,Dhangar,Active
+1132,18,30,Nargala,Active
+1133,18,30,NandpurBhatoli,Active
+1134,18,30,Masroor,Active
+1135,18,30,Kothi Banda,Active
+1136,18,30,NagrotaSuriyan,Active
+1137,18,30,Ludhiyar,Active
+1138,18,30,Kuther,Active
+1139,18,30,Ghaad Bariyal,Active
+1140,18,30,Panalath,Active
+1141,18,30,Jarot,Active
+1142,18,30,Kehariyan,Active
+1143,18,30,Bhali,Active
+1144,18,30,Trilokpur,Active
+1145,18,30,Katholi,Active
+1146,18,30,Harsar,Active
+1147,18,30,Gathutter,Active
+1148,18,30,Siuni,Active
+1149,18,30,Spail,Active
+1150,18,30,Ludret,Active
+1151,18,30,Rajol,Active
+1152,18,30,Amlela,Active
+1153,18,30,Nadoli,Active
+1154,18,30,Katora,Active
+1155,18,30,Matlahad,Active
+1156,18,30,Palouhda,Active
+1157,18,30,Dhaar,Active
+1158,18,30,Ambal,Active
+1159,18,30,Solda,Active
+1160,18,30,Basa,Active
+1161,18,30,Guler,Active
+1162,18,30,Sakri,Active
+1163,18,30,Lahadu,Active
+1164,18,30,Jole,Active
+1165,18,30,Suknara,Active
+1166,18,30,Haar,Active
+1167,18,30,Faariyan,Active
+1168,18,30,Khabbal,Active
+1169,18,30,Ghaad,Active
+1170,18,30,Dol,Active
+1171,18,30,Jaangal,Active
+1172,18,30,Bhated,Active
+1173,18,30,Kotla,Active
+1174,18,30,Bahi Pathiyar,Active
+1175,18,30,Nana,Active
+1176,18,37,Chandropa,Active
+1177,18,37,Tanda,Active
+1178,18,37,Gadyara,Active
+1179,18,37,Chadhiyar,Active
+1180,18,37,Salyana,Active
+1181,18,37,Simbel,Active
+1182,18,37,Nauri Jhikli,Active
+1183,18,37,Agojar,Active
+1184,18,37,Tarehal,Active
+1185,18,37,Tikker Khas,Active
+1186,18,37,Banoori Khas,Active
+1187,18,37,Moli Chak ,Active
+1188,18,37,Rakker Bheri,Active
+1189,18,37,Bhuana,Active
+1190,18,37,Rajpur,Active
+1191,18,37,Jandpur,Active
+1192,18,37,Muhal Holta,Active
+1193,18,37,Muhal Banoori,Active
+1194,18,37,Vand Vihar,Active
+1195,18,37,Bharwana,Active
+1196,18,37,Sungal,Active
+1197,18,37,Simbel Khola,Active
+1198,18,37,Bhulana,Active
+1199,18,37,Daroog,Active
+1200,18,37,Rajot,Active
+1201,18,37,Andreta,Active
+1202,18,37,Kailashpur,Active
+1203,18,37,Bahdu,Active
+1204,18,37,Makol,Active
+1205,18,37,Badehar,Active
+1206,18,37,Ladoh,Active
+1207,18,37,Tatehal,Active
+1208,18,37,Pathiyarkar,Active
+1209,18,37,Sagoor,Active
+1210,18,37,Biyada,Active
+1211,18,37,Chhek,Active
+1212,18,37,Bhirdi,Active
+1213,18,135,Aloh,Active
+1214,18,135,Shantla,Active
+1215,18,135,Kuhna,Active
+1216,18,135,Kaloha,Active
+1217,18,135,Surd Dogri,Active
+1218,18,135,Bani,Active
+1219,18,135,Nahan Nagrota,Active
+1220,18,135,Naleti,Active
+1221,18,135,Haar,Active
+1222,18,135,Bara,Active
+1223,18,135,Nalsuha,Active
+1224,18,135,Baddal,Active
+1225,18,135,Nangal Chawk,Active
+1226,18,135,Rauri Kori,Active
+1227,18,135,Lug,Active
+1228,18,135,Swana,Active
+1229,18,135,Ujhe Khas,Active
+1230,18,135,Goral Dhar,Active
+1231,18,135,Kasba Jageer,Active
+1232,18,135,Rel,Active
+1233,18,135,Bari,Active
+1234,18,135,Haled,Active
+1235,18,135,Ghati,Active
+1236,18,135,Ridi Kuthera,Active
+1237,18,135,Nichla Bhalwal,Active
+1238,18,135,Samnoli,Active
+1239,18,135,Bassi,Active
+1240,18,135,Upper Pragpur,Active
+1241,18,135,Bathra,Active
+1242,18,135,Chudhred,Active
+1243,18,135,Dhajag,Active
+1244,18,135,Chalali,Active
+1245,18,135,Ghiyori,Active
+1246,18,135,Peer Saloohi,Active
+1247,18,135,Gudara,Active
+1248,18,135,Chouli,Active
+1249,18,135,Punani,Active
+1250,18,135,Dodra,Active
+1251,18,135,Tippri,Active
+1252,18,135,Ladiyara,Active
+1253,18,135,Siyul,Active
+1254,18,135,Amroh,Active
+1255,18,135,Gurnwad,Active
+1256,18,135,Ghamroor,Active
+1257,18,135,Kotla Behad,Active
+1258,18,135,Chanaur,Active
+1259,18,135,Kanol ,Active
+1260,18,135,Dhounta,Active
+1261,18,135,Garli,Active
+1262,18,135,Rakker,Active
+1263,18,135,Moohi,Active
+1264,18,135,Kudna,Active
+1265,18,135,Koulapur,Active
+1266,18,135,Bharoli Jadeed,Active
+1267,18,135,Katoh Tikker,Active
+1268,18,135,Sehri,Active
+1269,18,135,Maniyala,Active
+1270,18,135,Pragpur,Active
+1271,18,135,Baliayna,Active
+1272,18,135,Diyal,Active
+1273,18,135,Badhu,Active
+1274,18,135,Sunehat,Active
+1275,18,135,Dhaliyara,Active
+1276,18,135,Kadoa,Active
+1277,18,135,Bagli,Active
+1278,18,135,Jambal,Active
+1279,18,135,Beehan,Active
+1280,18,135,Nyad,Active
+1281,18,135,Kasba Kotla,Active
+1282,18,135,Dada Sibba,Active
+1283,18,135,Jandaur,Active
+1284,18,135,Bhaned,Active
+1285,18,135,Tyamal,Active
+1286,18,135,Chaplah,Active
+1287,18,135,Gangot,Active
+1288,18,44,Bharuplahar,Active
+1289,18,44,Mundla,Active
+1290,18,44,Rajol,Active
+1291,18,44,Ambari,Active
+1292,18,44,Tharu,Active
+1293,18,44,Rachhiyalu,Active
+1294,18,44,Haar Boh,Active
+1295,18,44,Rait,Active
+1296,18,44,Vandi,Active
+1297,18,44,Naganpatt ,Active
+1298,18,44,Kareri,Active
+1299,18,44,Beidi,Active
+1300,18,44,Ansui,Active
+1301,18,44,Kanol,Active
+1302,18,44,Gorda,Active
+1303,18,44,Bhadiada,Active
+1304,18,44,Basnoor,Active
+1305,18,44,Nerti,Active
+1306,18,44,Pragod,Active
+1307,18,44,Dargela,Active
+1308,18,44,Tatwani,Active
+1309,18,44,Kutharna,Active
+1310,18,44,Kuthma,Active
+1311,18,44,Thehad,Active
+1312,18,44,Harchakiyan ,Active
+1313,18,44,Shahpur,Active
+1314,18,44,Makroti,Active
+1315,18,44,Chadi,Active
+1316,18,44,Dareeni,Active
+1317,18,44,Rulehar,Active
+1318,18,44,Dhugiyari,Active
+1319,18,44,Sanoura ,Active
+1320,18,44,Majhgran,Active
+1321,18,44,Rehlu,Active
+1322,18,44,Kaliada,Active
+1323,18,44,Sudhed,Active
+1324,18,44,Preie,Active
+1325,18,44,Manei,Active
+1326,18,44,Sadun,Active
+1327,18,44,Harnera,Active
+1328,18,44,Bhaled,Active
+1329,18,44,Lapiyana,Active
+1330,18,44,Bhitlu,Active
+1331,18,44,Gharoh,Active
+1332,18,44,Bhanala,Active
+1333,18,44,Neharna,Active
+1334,18,44,Rirakmaar,Active
+1335,18,44,Bodusarna,Active
+1336,18,44,Dohab,Active
+1337,18,44,Dadhamb,Active
+1338,18,44,Sihuwan,Active
+1339,18,44,Kiyari,Active
+1340,18,44,Lanjhni,Active
+1341,18,44,Sarah,Active
+1342,18,136,Samba,Active
+1343,18,136,Jamula,Active
+1344,18,136,Jaind,Active
+1345,18,136,Baskehad,Active
+1346,18,136,Kahan Patt,Active
+1347,18,136,Kural,Active
+1348,18,136,Jharet,Active
+1349,18,136,Bhoura,Active
+1350,18,136,Kakdein,Active
+1351,18,136,Pudwa,Active
+1352,18,136,Gharana,Active
+1353,18,136,Chheinchhari,Active
+1354,18,136,Bhadrol,Active
+1355,18,136,Mansimbal,Active
+1356,18,136,Sihotu,Active
+1357,18,136,Sulah,Active
+1358,18,136,Marhun,Active
+1359,18,136,Baloa,Active
+1360,18,136,Garh Malkehad,Active
+1361,18,136,Garla,Active
+1362,18,136,Bhouda,Active
+1363,18,136,Daroh,Active
+1364,18,136,Chambi,Active
+1365,18,136,Bari,Active
+1366,18,136,Dain,Active
+1367,18,136,Kiyarwan,Active
+1368,18,136,Panapri,Active
+1369,18,136,Garh,Active
+1370,18,136,Bahe da Patt,Active
+1371,18,136,Dheera,Active
+1372,18,136,Reipur,Active
+1373,18,136,Voda,Active
+1374,18,136,Malnu,Active
+1375,18,136,Roda,Active
+1376,18,136,Naura,Active
+1377,18,136,Khera,Active
+1378,18,136,Muhadi,Active
+1379,18,136,Chowki,Active
+1380,18,136,Nanao,Active
+1381,18,136,Sihol,Active
+1382,18,136,Lahat,Active
+1383,18,136,Rajhun,Active
+1384,18,136,Khadot,Active
+1385,18,136,Khaduhal,Active
+1386,18,136,Gadiyara,Active
+1387,18,136,Bachhwai,Active
+1388,18,136,Gagal,Active
+1389,18,137,Bagli,Active
+1390,18,137,Sukad,Active
+1391,18,137,Dhagwar,Active
+1392,18,137,Gaggal,Active
+1393,18,137,Pasu,Active
+1394,18,137,Mandal,Active
+1395,18,137,Upli Dar,Active
+1396,18,137,Sounkni da Kot,Active
+1397,18,137,Sidhbari,Active
+1398,18,137,Rakkar,Active
+1399,18,137,Kaner,Active
+1400,18,137,Narwana Khas,Active
+1401,18,137,Tangroti,Active
+1402,18,137,Barwala,Active
+1403,18,137,Tang Narwana,Active
+1404,18,137,Jhiyol,Active
+1405,18,137,Kand Kardiana,Active
+1406,18,137,Chetru,Active
+1407,18,137,Bhatalla,Active
+1408,18,137,Kajlot,Active
+1409,18,137,Maned,Active
+1410,18,137,Paddar,Active
+1411,18,137,Balla ,Active
+1412,18,137,Tangroti Khas,Active
+1413,19,49,Sumra,Active
+1414,19,49,Shialkhar,Active
+1415,19,49,Chango,Active
+1416,19,49,Nako,Active
+1417,19,49,Liyo,Active
+1418,19,49,Hango,Active
+1419,19,49,Namgya,Active
+1420,19,49,Pooh,Active
+1421,19,49,Sunnam,Active
+1422,19,49,Giawung,Active
+1423,19,49,Ropa,Active
+1424,19,49,Spilo,Active
+1425,19,49,Kanam,Active
+1426,19,49,Labrang,Active
+1427,19,49,Asrang,Active
+1428,19,49,Lippa,Active
+1429,19,49,Jangi,Active
+1430,19,49,Rarang,Active
+1431,19,49,Ribba,Active
+1432,19,49,Rispa,Active
+1433,19,49,Charang,Active
+1434,19,49,Thangi,Active
+1435,19,49,Moorang,Active
+1436,19,49,Nesang,Active
+1437,19,47,Pangi,Active
+1438,19,47,Khwangi,Active
+1439,19,47,Telangi ,Active
+1440,19,47,Kothi,Active
+1441,19,47,Duni,Active
+1442,19,47,Kalpa,Active
+1443,19,47,Shudarang ,Active
+1444,19,47,Roghi,Active
+1445,19,47,Mebar,Active
+1446,19,47,Barang,Active
+1447,19,47,Pawari,Active
+1448,19,47,Purwani,Active
+1449,19,47,Chhitkul,Active
+1450,19,47,Rakcham,Active
+1451,19,47,Batseri,Active
+1452,19,47,Sangla,Active
+1453,19,47,Themgarang,Active
+1454,19,47,Kamru,Active
+1455,19,47,Chansu,Active
+1456,19,47,Shong,Active
+1457,19,47,Brua,Active
+1458,19,47,Sapni,Active
+1459,19,47,Kilba,Active
+1460,19,48,Chhota Kamba,Active
+1461,19,48,Nathpa,Active
+1462,19,48,Yangpa,Active
+1463,19,48,Urni,Active
+1464,19,48,Yula,Active
+1465,19,48,Panwi,Active
+1466,19,48,Ramni,Active
+1467,19,48,Punang ,Active
+1468,19,48,Taranda,Active
+1469,19,48,Kafnu,Active
+1470,19,48,Katgaon,Active
+1471,19,48,Nichar,Active
+1472,19,48,Sungra,Active
+1473,19,48,Ponda,Active
+1474,19,48,Bari,Active
+1475,19,48,Miru,Active
+1476,19,48,Chagaon,Active
+1477,19,48,Rupi,Active
+1478,20,50,Bandraul - D,Active
+1479,20,50,Banogi - D,Active
+1480,20,50,Bashing  - D,Active
+1481,20,50,Nalhach  - D,Active
+1482,20,50,Jindaur - D,Active
+1483,20,50,Kothisari - D,Active
+1484,20,50,Bastori - D,Active
+1485,20,50,Dughilag - D,Active
+1486,20,50,Majhat - D,Active
+1487,20,50,Falahan - D,Active
+1488,20,50,Dunkhri Gahar - D,Active
+1489,20,50,Mangarh - D,Active
+1490,20,50,Mashna - D,Active
+1491,20,50,Choparsa - D,Active
+1492,20,50,Barahaman - D,Active
+1493,20,50,Bhaliyani - D,Active
+1494,20,50,Bhumtir - D,Active
+1495,20,50,Shilanal - D,Active
+1496,20,50,Peej - D,Active
+1497,20,50,Balh - D,Active
+1498,20,50,Khadi Har - D,Active
+1499,20,50,Shilli Rajgiri - D,Active
+1500,20,50,Bhulang - D,Active
+1501,20,50,Mohal - D,Active
+1502,20,50,Jarar Bhutti Colony - D,Active
+1503,20,50,Shamshi - D,Active
+1504,20,50,Khokhan - D,Active
+1505,20,50,Kalehali - D,Active
+1506,20,50,Mashgan  - D,Active
+1507,20,50,Bajauara - D,Active
+1508,20,50,Haat - D,Active
+1509,20,50,Niyul - D,Active
+1510,20,50,Raila - D,Active
+1511,20,50,Devgarhgohi - D,Active
+1512,20,50,Talara - D,Active
+1513,20,50,Bhalan-2 - D,Active
+1514,20,50,Hurla - D,Active
+1515,20,50,Bhalan-1 - D,Active
+1516,20,50,Gadsa  - D,Active
+1517,20,50,Jeshtha - D,Active
+1518,20,50,Parli - D,Active
+1519,20,50,Manjhli - D,Active
+1520,20,50,Diyar - D,Active
+1521,20,50,Naraish - D,Active
+1522,20,50,Bhuin - D,Active
+1523,20,50,Bara Bhuin - D,Active
+1524,20,50,Jiya - D,Active
+1525,20,50,Shillihar - D,Active
+1526,20,50,Bashauna - D,Active
+1527,20,50,Chheiunr - D,Active
+1528,20,50,Chong - D,Active
+1529,20,50,Ratocha - D,Active
+1530,20,50,Shaat - D,Active
+1531,20,50,Jalugran - D,Active
+1532,20,50,Bradha - D,Active
+1533,20,50,Jari - D,Active
+1534,20,50,Punthal - D,Active
+1535,20,50,Kasol - D,Active
+1536,20,50,Manikaran - D,Active
+1537,20,50,Barshaini - D,Active
+1538,20,50,Pinni - D,Active
+1539,20,50,Talpinni - D,Active
+1540,20,50,Kashawri - D,Active
+1541,20,50,Danogi - D,Active
+1542,20,50,Tegu Behad - D,Active
+1543,20,50,Shurad - D,Active
+1544,20,50,Barahar - D,Active
+1545,20,50,Buai - D,Active
+1546,20,50,Roat - D,Active
+1547,20,50,Shachani - D,Active
+1548,20,54,Karsheigad,Active
+1549,20,54,Fanoti ,Active
+1550,20,54,Lagoti,Active
+1551,20,54,Takarasi,Active
+1552,20,54,Muhan,Active
+1553,20,54,Bishla Dhar,Active
+1554,20,54,Chowai,Active
+1555,20,54,Vehna,Active
+1556,20,54,Plehi,Active
+1557,20,54,Karad,Active
+1558,20,54,Pokhri ,Active
+1559,20,54,Khanag,Active
+1560,20,54,Lajheri,Active
+1561,20,54,Khani,Active
+1562,20,54,Kamand,Active
+1563,20,54,Buchhehar,Active
+1564,20,54,Deothi,Active
+1565,20,54,Shilli ,Active
+1566,20,54,Ropa,Active
+1567,20,54,Mundal ,Active
+1568,20,54,Kungas,Active
+1569,20,54,Karana,Active
+1570,20,54,Bakhnao,Active
+1571,20,54,Dalash,Active
+1572,20,54,Vyungal,Active
+1573,20,54,Dingi Dhar,Active
+1574,20,54,Kutherhad,Active
+1575,20,54,Taluna,Active
+1576,20,54,Anni,Active
+1577,20,54,Kohila,Active
+1578,20,54,Jaban,Active
+1579,20,54,Namhog,Active
+1580,20,52,Raison,Active
+1581,20,52,Bainchi,Active
+1582,20,52,Shirad,Active
+1583,20,52,Devgarh,Active
+1584,20,52,Mandal Garh,Active
+1585,20,52,Hurang,Active
+1586,20,52,Pichli Haar,Active
+1587,20,52,Duara,Active
+1588,20,52,Katrain,Active
+1589,20,52,Halan-2,Active
+1590,20,52,Bara Gran,Active
+1591,20,52,Pangan,Active
+1592,20,52,Riyara,Active
+1593,20,52,Baran,Active
+1594,20,52,Shalin,Active
+1595,20,52,Nasogi,Active
+1596,20,52,Manali,Active
+1597,20,52,Shnag,Active
+1598,20,52,Brua,Active
+1599,20,52,Palchan,Active
+1600,20,52,Vashisht,Active
+1601,20,52,Prini,Active
+1602,20,52,Jagat Sukh,Active
+1603,20,52,Gojra,Active
+1604,20,52,Halan-1,Active
+1605,20,52,Naggar,Active
+1606,20,52,Malana,Active
+1607,20,52,Nathan,Active
+1608,20,52,Jana,Active
+1609,20,52,Archandi,Active
+1610,20,52,Karadsu,Active
+1611,20,52,Gahar,Active
+1612,20,52,Kayas,Active
+1613,20,52,Neuli,Active
+1614,20,52,Puied,Active
+1615,20,52,Seogi,Active
+1616,20,52,Chansari ,Active
+1617,20,52,Talogi ,Active
+1618,20,52,Karjan,Active
+1619,20,52,Soyal,Active
+1620,20,53,Gadaparli,Active
+1621,20,53,Deuri Dhar,Active
+1622,20,53,Shainsher,Active
+1623,20,53,Shanghar,Active
+1624,20,53,Suchehad,Active
+1625,20,53,Banogi,Active
+1626,20,53,Dushahar,Active
+1627,20,53,Dhaugi,Active
+1628,20,53,Kanaun,Active
+1629,20,53,Kotla,Active
+1630,20,53,Larji,Active
+1631,20,53,Chakurtha,Active
+1632,20,53,Gopalpur,Active
+1633,20,53,Thatibeed,Active
+1634,20,53,Manglour,Active
+1635,20,53,Chanaun,Active
+1636,20,53,Deutha,Active
+1637,20,53,Palahach,Active
+1638,20,53,Kalwari,Active
+1639,20,53,Srikot,Active
+1640,20,53,Nauhanda,Active
+1641,20,53,Tung,Active
+1642,20,53,Mashiyar,Active
+1643,20,53,Shilhi,Active
+1644,20,53,Sharchi,Active
+1645,20,53,Kandi Dhar,Active
+1646,20,53,Kothi Chehni,Active
+1647,20,53,Kahdagad,Active
+1648,20,53,Tandi,Active
+1649,20,53,Bahu,Active
+1650,20,53,Shikari Ghat,Active
+1651,20,53,Balagad,Active
+1652,20,53,Khabal,Active
+1653,20,53,Mohni,Active
+1654,20,53,Seraj,Active
+1655,20,53,Teel ,Active
+1656,20,55,Nirmand,Active
+1657,20,55,Nor,Active
+1658,20,55,Bhalsi,Active
+1659,20,55,Sarahan,Active
+1660,20,55,Rahnu,Active
+1661,20,55,Durah,Active
+1662,20,55,Kot,Active
+1663,20,55,Lot,Active
+1664,20,55,Shilli,Active
+1665,20,55,Tunan,Active
+1666,20,55,Bahava,Active
+1667,20,55,Arsu,Active
+1668,20,55,Kushwa,Active
+1669,20,55,Nither,Active
+1670,20,55,Kharga,Active
+1671,20,55,Badi,Active
+1672,20,55,Gamog,Active
+1673,20,55,Nishani,Active
+1674,20,55,Twar ,Active
+1675,20,55,Gadejh,Active
+1676,20,55,Deem,Active
+1677,20,55,Dehra,Active
+1678,20,55,Ghatu,Active
+1679,20,55,Poshna,Active
+1680,20,55,Sargha,Active
+1681,20,55,Chayal,Active
+1682,21,138,Barbog,Active
+1683,21,138,Goshal,Active
+1684,21,138,Gaundhla,Active
+1685,21,138,Jobrang,Active
+1686,21,138,Kardang,Active
+1687,21,138,Koksar,Active
+1688,21,138,Kolog,Active
+1689,21,138,Ranika,Active
+1690,21,138,Sissu,Active
+1691,21,138,Shansha,Active
+1692,21,138,Tandi,Active
+1693,21,138,Varpa,Active
+1694,21,138,Mooling,Active
+1695,21,138,Goharma,Active
+1696,21,138,Yurnath,Active
+1697,21,138,Darcha,Active
+1698,21,138,Khangsar,Active
+1699,21,138,Jahalma,Active
+1700,21,138,Udaipur,Active
+1701,21,138,Tindi,Active
+1702,21,138,Triloknath,Active
+1703,21,138,Mooring,Active
+1704,21,138,Shakoli,Active
+1705,21,138,Tingrart,Active
+1706,21,138,Thirot,Active
+1707,21,138,Nalda,Active
+1708,21,138,Keylong,Active
+1709,21,138,Chirmat,Active
+1710,21,139,Losar,Active
+1711,21,139,Hul,Active
+1712,21,139,Khurik,Active
+1713,21,139,Kibber,Active
+1714,21,139,Langcha,Active
+1715,21,139,Daimul,Active
+1716,21,139,kaza,Active
+1717,21,139,Lalung,Active
+1718,21,139,Dankhar,Active
+1719,21,139,Tabo,Active
+1720,21,139,Giu,Active
+1721,21,139,Kungri,Active
+1722,21,139,Sagnam,Active
+1723,22,78,Bairi,Active
+1724,22,78,Bairkot,Active
+1725,22,78,Barswahan,Active
+1726,22,78,Behal,Active
+1727,22,78,Halyatar,Active
+1728,22,78,Kathyaun,Active
+1729,22,78,Kothi,Active
+1730,22,78,LowerRewalsar,Active
+1731,22,78,Luhakhar,Active
+1732,22,78,Riur,Active
+1733,22,78,Samlaun,Active
+1734,22,78,Sidhyani,Active
+1735,22,78,Dashera,Active
+1736,22,78,Baggi,Active
+1737,22,78,Balt,Active
+1738,22,78,Bhadyal,Active
+1739,22,78,Chalah,Active
+1740,22,78,Chamyar,Active
+1741,22,78,Galma,Active
+1742,22,78,Goda Gagal,Active
+1743,22,78,Kehad,Active
+1744,22,78,Kot,Active
+1745,22,78,Kummi,Active
+1746,22,78,Lohara,Active
+1747,22,78,Malthehar,Active
+1748,22,78,Nagchala,Active
+1749,22,78,Rajwari,Active
+1750,22,78,Sakroha,Active
+1751,22,78,Sali,Active
+1752,22,78,Salwahan,Active
+1753,22,78,Soyra,Active
+1754,22,78,Troh,Active
+1755,22,78,Brikhmani,Active
+1756,22,78,Dhaban,Active
+1757,22,78,Mandal,Active
+1758,22,78,Behna,Active
+1759,22,78,Diyargi,Active
+1760,22,78,Bhiarta,Active
+1761,22,78,Magar Padhru,Active
+1762,22,78,Nalsar,Active
+1763,22,78,Khandla,Active
+1764,22,78,Badsu,Active
+1765,22,78,Chandiyal,Active
+1766,22,78,Kothi Gehri,Active
+1767,22,78,Sardhwar,Active
+1768,22,78,Dusra Khabu,Active
+1769,22,1137,Aihju,Active
+1770,22,1137,Badehar,Active
+1771,22,1137,Baag,Active
+1772,22,1137,Bhadol,Active
+1773,22,1137,Chauntra,Active
+1774,22,1137,Padein ,Active
+1775,22,1137,Daled,Active
+1776,22,1137,Dhar,Active
+1777,22,1137,Dhelu,Active
+1778,22,1137,Drahal,Active
+1779,22,1137,Bhadyada Buhla,Active
+1780,22,1137,Drubbal,Active
+1781,22,1137,Galu,Active
+1782,22,1137,Golwan,Active
+1783,22,1137,Ropari Kalehadu,Active
+1784,22,1137,Kathaun,Active
+1785,22,1137,Khaddar,Active
+1786,22,1137,Kharihaar,Active
+1787,22,1137,Kolang,Active
+1788,22,1137,Kuthehara,Active
+1789,22,1137,Langna,Active
+1790,22,1137,Matehar,Active
+1791,22,1137,Matru,Active
+1792,22,1137,Passal,Active
+1793,22,1137,Sangnehar ,Active
+1794,22,1137,Pihad Bedhlu,Active
+1795,22,1137,Pipli,Active
+1796,22,1137,Ropri,Active
+1797,22,1137,Simas,Active
+1798,22,1137,Talkehar,Active
+1799,22,1137,TikkriMushehra,Active
+1800,22,1137,Tikkru,Active
+1801,22,1137,Tulaah,Active
+1802,22,1137,Trembly ,Active
+1803,22,1137,Upri Dhar,Active
+1804,22,1137,Utpur,Active
+1805,22,1137,Main Bharola,Active
+1806,22,1137,Maman Banander,Active
+1807,22,1137,Bhadyada ,Active
+1808,22,1137,Khuddi,Active
+1809,22,1138,Banal,Active
+1810,22,1138,Beri,Active
+1811,22,1138,Binga,Active
+1812,22,1138,Brang,Active
+1813,22,1138,Chanhota ,Active
+1814,22,1138,Basantpur,Active
+1815,22,1138,Darwad,Active
+1816,22,1138,Datwar,Active
+1817,22,1138,Dhalara,Active
+1818,22,1138,Dharmapur,Active
+1819,22,1138,Bharouri ,Active
+1820,22,1138,Dhawali,Active
+1821,22,1138,Ghanala,Active
+1822,22,1138,Grayoh,Active
+1823,22,1138,Gwaila,Active
+1824,22,1138,Kamlah,Active
+1825,22,1138,Koon,Active
+1826,22,1138,Kothi Cholthra,Active
+1827,22,1138,Kothuwan,Active
+1828,22,1138,Lagehad,Active
+1829,22,1138,Longni,Active
+1830,22,1138,Paihad,Active
+1831,22,1138,Sandhot,Active
+1832,22,1138,Sajao Piplu,Active
+1833,22,1138,Saklana,Active
+1834,22,1138,Samour,Active
+1835,22,1138,Sandhol,Active
+1836,22,1138,Neri ,Active
+1837,22,1138,Sidhpur,Active
+1838,22,1138,Sohar,Active
+1839,22,1138,Sari,Active
+1840,22,1138,Siyoh,Active
+1841,22,1138,Khanour ,Active
+1842,22,1138,Tanehar,Active
+1843,22,1138,Tanyaar,Active
+1844,22,1138,Taur Jajar,Active
+1845,22,1138,Taur Khola,Active
+1846,22,1138,Tihra,Active
+1847,22,1138,Garodu,Active
+1848,22,1138,Beri Upper,Active
+1849,22,1138,Paplog,Active
+1850,22,1138,Sarskan,Active
+1851,22,1138,Bhoor,Active
+1852,22,1138,Kot,Active
+1853,22,1138,Badhehad,Active
+1854,22,1139,Balh,Active
+1855,22,1139,Bari Dhar,Active
+1856,22,1139,Barot,Active
+1857,22,1139,Bhararu,Active
+1858,22,1139,Kas ,Active
+1859,22,1139,Bhatheri,Active
+1860,22,1139,Sanwar ,Active
+1861,22,1139,Chalarag,Active
+1862,22,1139,Chukku,Active
+1863,22,1139,Dhamchayan,Active
+1864,22,1139,Dalah,Active
+1865,22,1139,Siyun ,Active
+1866,22,1139,Gwali ,Active
+1867,22,1139,Grodu Nichla,Active
+1868,22,1139,Gumma,Active
+1869,22,1139,Kdhar ,Active
+1870,22,1139,Haar Gunain,Active
+1871,22,1139,Jilhan,Active
+1872,22,1139,Jimjima,Active
+1873,22,1139,Kathog,Active
+1874,22,1139,Kufri,Active
+1875,22,1139,Bhadwahan ,Active
+1876,22,1139,Kunnu,Active
+1877,22,1139,Latraan,Active
+1878,22,1139,Lapas,Active
+1879,22,1139,Masauli,Active
+1880,22,1139,Nauhli,Active
+1881,22,1139,Ner Gharwasra,Active
+1882,22,1139,Pali,Active
+1883,22,1139,Shilag ,Active
+1884,22,1139,Ropa,Active
+1885,22,1139,Silh Badhwani,Active
+1886,22,1139,Sudhar,Active
+1887,22,1139,Tikker,Active
+1888,22,1139,Urla,Active
+1889,22,1139,Bardhan,Active
+1890,22,1139,Vata Ri Bihun,Active
+1891,22,1139,Ropa Padhar,Active
+1892,22,1139,Taraswan,Active
+1893,22,1139,Darat Bagla,Active
+1894,22,140,Balhari,Active
+1895,22,140,Bada,Active
+1896,22,140,Basa,Active
+1897,22,140,Bassi,Active
+1898,22,140,Chachiot,Active
+1899,22,140,Chhaprahan,Active
+1900,22,140,Bela ,Active
+1901,22,140,Dhishti,Active
+1902,22,140,Dharot,Active
+1903,22,140,Gohar,Active
+1904,22,140,Jahal,Active
+1905,22,140,Jhungi,Active
+1906,22,140,Kandha,Active
+1907,22,140,Kharsi,Active
+1908,22,140,Kutahachi,Active
+1909,22,140,Lot,Active
+1910,22,140,Majhothi,Active
+1911,22,140,Murhag,Active
+1912,22,140,Nandi,Active
+1913,22,140,Noun,Active
+1914,22,140,Parwada,Active
+1915,22,140,Saroa,Active
+1916,22,140,Seri,Active
+1917,22,140,Shala,Active
+1918,22,140,Shilhanu,Active
+1919,22,140,Syanj,Active
+1920,22,140,Tharjoon,Active
+1921,22,140,Tunna,Active
+1922,22,140,Sharan,Active
+1923,22,140,Kiling,Active
+1924,22,140,Musrani,Active
+1925,22,140,Tandi,Active
+1926,22,140,Kandi Kamrunag,Active
+1927,22,140,Chail Chawk,Active
+1928,22,140,Delg Tikkri,Active
+1929,22,140,Bahawa,Active
+1930,22,140,Mashogal,Active
+1931,22,1140,Baldwara,Active
+1932,22,1140,Barchwar,Active
+1933,22,1140,Bhadarwar,Active
+1934,22,1140,Bhambla,Active
+1935,22,1140,Bharnal,Active
+1936,22,1140,Chauri,Active
+1937,22,1140,Chowk,Active
+1938,22,1140,Dhanalag,Active
+1939,22,1140,Fatehpur,Active
+1940,22,1140,Gahar,Active
+1941,22,1140,Samsoh ,Active
+1942,22,1140,Gaunta,Active
+1943,22,1140,Gehra,Active
+1944,22,1140,Gopalpur,Active
+1945,22,1140,Jaihmat,Active
+1946,22,1140,Jamni,Active
+1947,22,1140,Khahan,Active
+1948,22,1140,Khalardu,Active
+1949,22,1140,Khudla,Active
+1950,22,1140,Kot,Active
+1951,22,1140,Maseran,Active
+1952,22,1140,Bag ,Active
+1953,22,1140,Narola,Active
+1954,22,1140,Navahi,Active
+1955,22,1140,Jukain ,Active
+1956,22,1140,Nawani,Active
+1957,22,1140,Patri Ghat,Active
+1958,22,1140,Pounta,Active
+1959,22,1140,Pingla,Active
+1960,22,1140,Rakhoh,Active
+1961,22,1140,Samaila,Active
+1962,22,1140,Sulpur Jaboth,Active
+1963,22,1140,Thouna,Active
+1964,22,1140,Tikker,Active
+1965,22,1140,Bakarta,Active
+1966,22,1140,Rakhota,Active
+1967,22,1140,Dhalwan,Active
+1968,22,1140,Kalthar,Active
+1969,22,1140,Kasmaila,Active
+1970,22,1140,Hari Behna,Active
+1971,22,1140,Darpa,Active
+1972,22,1140,Chowk,Active
+1973,22,1140,Ropri,Active
+1974,22,1140,Jhanjhel ,Active
+1975,22,1140,ParsadaHawani,Active
+1976,22,72,Bagaila,Active
+1977,22,72,Bagshad,Active
+1978,22,72,Bakhrot,Active
+1979,22,72,Balidhar,Active
+1980,22,72,Balindi,Active
+1981,22,72,Bhanera,Active
+1982,22,72,Bhanthal,Active
+1983,22,72,Kharkan ,Active
+1984,22,72,Chowri-dhar,Active
+1985,22,72,Khadra ,Active
+1986,22,72,Churag,Active
+1987,22,72,Manola ,Active
+1988,22,72,Dabrot,Active
+1989,22,72,Gowalpur,Active
+1990,22,72,Kahnu,Active
+1991,22,72,Kalashan,Active
+1992,22,72,Kandha,Active
+1993,22,72,Kandhi Sapnot,Active
+1994,22,72,Karsog,Active
+1995,22,72,Snarli ,Active
+1996,22,72,Dachein ,Active
+1997,22,72,Kuthehar,Active
+1998,22,72,Lower Karsog,Active
+1999,22,72,Mahog,Active
+2000,22,72,Mamel,Active
+2001,22,72,Mendhi,Active
+2002,22,72,Mashog,Active
+2003,22,72,Belar ,Active
+2004,22,72,Naanj,Active
+2005,22,72,Pangna,Active
+2006,22,72,Pokhi,Active
+2007,22,72,Sahaj,Active
+2008,22,72,Sawindhar,Active
+2009,22,72,Sarahan,Active
+2010,22,72,Seri,Active
+2011,22,72,Shahot,Active
+2012,22,72,Shakra,Active
+2013,22,72,Shorshan,Active
+2014,22,72,Sorta,Active
+2015,22,72,Sawa Mahun,Active
+2016,22,72,Shaindhal ,Active
+2017,22,72,Tatta Pani,Active
+2018,22,72,Teban,Active
+2019,22,72,Thakur Thana,Active
+2020,22,72,Thalli,Active
+2021,22,72,Kheel,Active
+2022,22,72,Mehran,Active
+2023,22,72,Matehal,Active
+2024,22,72,Kelo Dhar,Active
+2025,22,72,Richhni,Active
+2026,22,72,Bahi Sarhi,Active
+2027,22,72,Bindla,Active
+2028,22,72,Parlog,Active
+2029,22,72,Sartiyola,Active
+2030,22,76,Bari Gumanu,Active
+2031,22,76,Bhargaon,Active
+2032,22,76,Dwahan ,Active
+2033,22,76,Beer,Active
+2034,22,76,Dhaniara,Active
+2035,22,76,Khalanu,Active
+2036,22,76,Kotli,Active
+2037,22,76,Laag Dhar,Active
+2038,22,76,Nichla Lot,Active
+2039,22,76,Sadhyana,Active
+2040,22,76,Sai,Active
+2041,22,76,Ksaan ,Active
+2042,22,76,Sehli,Active
+2043,22,76,Baggi ,Active
+2044,22,76,Tarnoh,Active
+2045,22,76,Sadoh ,Active
+2046,22,76,UpparliSarwari,Active
+2047,22,76,Kot Dhalyaas ,Active
+2048,22,76,Bharoun,Active
+2049,22,76,Dewri,Active
+2050,22,76,Dhar,Active
+2051,22,76,Ghraan,Active
+2052,22,76,Mehni ,Active
+2053,22,76,Jagar,Active
+2054,22,76,Siyog ,Active
+2055,22,76,Kmaand,Active
+2056,22,76,Kataula,Active
+2057,22,76,Katindi,Active
+2058,22,76,Manjhwar,Active
+2059,22,76,Naag Dhar,Active
+2060,22,76,Navlaye,Active
+2061,22,76,Padhiyun,Active
+2062,22,76,Pandoh,Active
+2063,22,76,Shegli,Active
+2064,22,76,Shiva,Active
+2065,22,76,Talyahar,Active
+2066,22,76,Sanyarad ,Active
+2067,22,76,Tandu,Active
+2068,22,76,Tilli Kehanwaal,Active
+2069,22,76,Tung,Active
+2070,22,76,Nasloh ,Active
+2071,22,76,Taryambli,Active
+2072,22,76,Bijni,Active
+2073,22,76,Tihri,Active
+2074,22,76,Marathu,Active
+2075,22,76,Natned,Active
+2076,22,76,Janed,Active
+2077,22,76,Sain,Active
+2078,22,1141,Baga Chanogi,Active
+2079,22,1141,Jaishla ,Active
+2080,22,1141,Bagra Thaach,Active
+2081,22,1141,Baryogi,Active
+2082,22,1141,Bhatki Dhar,Active
+2083,22,1141,Cheuni,Active
+2084,22,1141,Chhatri,Active
+2085,22,1141,Gatu,Active
+2086,22,1141,Gudah,Active
+2087,22,1141,Janjehali,Active
+2088,22,1141,Kakra Dhar,Active
+2089,22,1141,Kalhani,Active
+2090,22,1141,Sunah Lamba Thaach,Active
+2091,22,1141,Road,Active
+2092,22,1141,Shikawari,Active
+2093,22,1141,Shilhi Bagi,Active
+2094,22,1141,Thana,Active
+2095,22,1141,Bung(Bung) ,Active
+2096,22,1141,Thunag,Active
+2097,22,1141,Bahal ,Active
+2098,22,1141,Tungadhar,Active
+2099,22,1141,Dhar,Active
+2100,22,1141,Pukhrer,Active
+2101,22,1141,Dheem Kataru,Active
+2102,22,1141,Jhared,Active
+2103,22,1142,Bayla,Active
+2104,22,1142,Bandli,Active
+2105,22,1142,Baroti,Active
+2106,22,1142,Batwada,Active
+2107,22,1142,Jaral,Active
+2108,22,1142,Behli(Drumat),Active
+2109,22,1142,Balag,Active
+2110,22,1142,Bhanwad,Active
+2111,22,1142,Boie,Active
+2112,22,1142,Chambi,Active
+2113,22,1142,Chamukha,Active
+2114,22,1142,Chhatar,Active
+2115,22,1142,Dehar,Active
+2116,22,1142,Ghanyara,Active
+2117,22,1142,Dhwal,Active
+2118,22,1142,Dol Dhar,Active
+2119,22,1142,Dungrai,Active
+2120,22,1142,Ghangnu(Smaun),Active
+2121,22,1142,Ghiri,Active
+2122,22,1142,Bhalana ,Active
+2123,22,1142,Jai Devi,Active
+2124,22,1142,Jambla,Active
+2125,22,1142,Jarol ,Active
+2126,22,1142,Bober ,Active
+2127,22,1142,Jugahan,Active
+2128,22,1142,Kalauhad,Active
+2129,22,1142,Kanaid,Active
+2130,22,1142,Kangu,Active
+2131,22,1142,Kapahi,Active
+2132,22,1142,Arthi ,Active
+2133,22,1142,Khilra,Active
+2134,22,1142,Mahadev,Active
+2135,22,1142,Maloh,Active
+2136,22,1142,Nalag,Active
+2137,22,1142,Paura Kothi,Active
+2138,22,1142,Rohanda,Active
+2139,22,1142,Salwana,Active
+2140,22,1142,Sojha,Active
+2141,22,1142,Seri Kothi,Active
+2142,22,1142,Slapper,Active
+2143,22,1142,Uparli Behli,Active
+2144,22,1142,Palouhata,Active
+2145,22,1142,Tihri,Active
+2146,22,1142,Barton,Active
+2147,22,1142,Churad,Active
+2148,22,1142,Chanol,Active
+2149,22,1142,Slapper Colony,Active
+2150,22,1142,Chowk,Active
+2151,22,1142,Bhaur,Active
+2152,22,1142,Badho Rohada,Active
+2153,22,1142,Marhada Badhain,Active
+2154,22,1142,Nihri,Active
+2155,22,1142,Ghadoi,Active
+2156,22,1142,Presi,Active
+2157,22,1142,Jaral,Active
+2158,22,1143,Bali Chowki,Active
+2159,22,1143,Dev Dhar,Active
+2160,22,1143,Maani,Active
+2161,22,1143,Khani,Active
+2162,22,1143,Khalwahan,Active
+2163,22,1143,Thata,Active
+2164,22,1143,Bung(Jehalgad) ,Active
+2165,22,1143,Thacha Dhar,Active
+2166,22,1143,Khouli ,Active
+2167,22,1143,Bhanwas,Active
+2168,22,1143,Thachi,Active
+2169,22,1143,Panjai,Active
+2170,22,1143,Somgaad,Active
+2171,22,1143,Murah,Active
+2172,22,1143,Nalbagi,Active
+2173,22,1143,Khola Naal,Active
+2174,22,1143,Kuklah,Active
+2175,22,1143,Kashaud,Active
+2176,22,1143,Kaau,Active
+2177,22,1143,Ghat,Active
+2178,22,1143,Kota Dhar,Active
+2179,22,1143,Kot,Active
+2180,22,1143,Farsh ,Active
+2181,22,1143,Nagwain,Active
+2182,22,1143,Jhiri,Active
+2183,22,1143,Bhatwari,Active
+2184,22,1143,Kigas,Active
+2185,22,1143,Takoli ,Active
+2186,22,1143,Kathiyari,Active
+2187,22,1143,Chehti Garh,Active
+2188,22,1143,Pali ,Active
+2189,22,1143,Aut,Active
+2190,22,1143,Bahandi,Active
+2191,22,1143,Naau,Active
+2192,23,141,Karyali,Active
+2193,23,141,Bainsh,Active
+2194,23,141,Okhru ,Active
+2195,23,141,Dharogra,Active
+2196,23,141,Chanawag,Active
+2197,23,141,Bag,Active
+2198,23,141,Ghaini,Active
+2199,23,141,Basantpur,Active
+2200,23,141,Majhiwar,Active
+2201,23,141,Rewag,Active
+2202,23,141,Shakrori,Active
+2203,23,141,Himri,Active
+2204,23,141,Nehra,Active
+2205,23,141,Devla,Active
+2206,23,141,Ogli,Active
+2207,23,141,Pahal,Active
+2208,23,141,Khatnol,Active
+2209,23,141,Juni,Active
+2210,23,141,Madhod ,Active
+2211,23,141,Ghariyana,Active
+2212,23,141,Dumehar,Active
+2213,23,141,Chalahal,Active
+2214,23,141,Neen,Active
+2215,23,141,Chebri,Active
+2216,23,141,Thachi,Active
+2217,23,141,Kotla ,Active
+2218,23,82,Gawas,Active
+2219,23,82,Thana,Active
+2220,23,82,Gaonsari,Active
+2221,23,82,Khashdhar,Active
+2222,23,82,Tikkari,Active
+2223,23,82,Dhakgaon,Active
+2224,23,82,Shiladesh,Active
+2225,23,82,Sundha Bhauda,Active
+2226,23,82,Kaloti,Active
+2227,23,82,Todsa,Active
+2228,23,82,Chirgaon,Active
+2229,23,82,Bamfad ,Active
+2230,23,82,Tagnoo Janglik,Active
+2231,23,82,Pekha,Active
+2232,23,82,Mayla ,Active
+2233,23,82,Rohal,Active
+2234,23,82,Sari Basa,Active
+2235,23,82,Ranol,Active
+2236,23,82,Sindasli,Active
+2237,23,82,Diswani,Active
+2238,23,82,Kharshali,Active
+2239,23,82,Masli,Active
+2240,23,82,Khabal,Active
+2241,23,82,Jangla,Active
+2242,23,82,Kulgaon ,Active
+2243,23,82,Dhamoli,Active
+2244,23,82,Kwar,Active
+2245,23,82,Dhandarwari ,Active
+2246,23,82,Dodra,Active
+2247,23,82,Jakha,Active
+2248,23,82,Jiskoon ,Active
+2249,23,23,Sarain,Active
+2250,23,23,Lingjar ,Active
+2251,23,23,Sari,Active
+2252,23,23,Nanhar,Active
+2253,23,23,Chanju Chopal,Active
+2254,23,23,Bamta,Active
+2255,23,23,Pauria,Active
+2256,23,23,Ruslah,Active
+2257,23,23,Tharoch,Active
+2258,23,23,Nerwa,Active
+2259,23,23,Halahu,Active
+2260,23,23,Khoond Newal,Active
+2261,23,23,Kiran,Active
+2262,23,23,Dhwas,Active
+2263,23,23,Jodna,Active
+2264,23,23,Jhina,Active
+2265,23,23,Thana,Active
+2266,23,23,Matal,Active
+2267,23,23,Dewat,Active
+2268,23,23,Pujarli,Active
+2269,23,23,Madhana,Active
+2270,23,23,Kedi,Active
+2271,23,23,Polia ,Active
+2272,23,23,Pawahan,Active
+2273,23,23,Chanjan,Active
+2274,23,23,Telor,Active
+2275,23,23,Khaddar,Active
+2276,23,23,Jaban Chamrog,Active
+2277,23,23,Makdog,Active
+2278,23,23,Khagna,Active
+2279,23,23,Gorli,Active
+2280,23,23,Mashrohn,Active
+2281,23,23,Bharanu,Active
+2282,23,23,Mundli ,Active
+2283,23,23,Manu Bhabhia,Active
+2284,23,23,Bijmal,Active
+2285,23,23,Bohar,Active
+2286,23,23,Deiya Dochi,Active
+2287,23,23,Tikkari,Active
+2288,23,23,Dhanat,Active
+2289,23,88,Kuddu,Active
+2290,23,88,Solang,Active
+2291,23,88,Jhagtan,Active
+2292,23,88,Anti,Active
+2293,23,88,Kot Kayna,Active
+2294,23,88,Jai Pidi Mata,Active
+2295,23,88,Nakradi,Active
+2296,23,88,Dhar,Active
+2297,23,88,Kalbog,Active
+2298,23,88,Nagan,Active
+2299,23,88,Kiari,Active
+2300,23,88,Himari,Active
+2301,23,88,Premnagar,Active
+2302,23,88,Devri Khaneti,Active
+2303,23,88,Darkoti,Active
+2304,23,88,Pandli,Active
+2305,23,88,Jhalta,Active
+2306,23,88,Pandranu,Active
+2307,23,88,Mandal,Active
+2308,23,88,Rawin,Active
+2309,23,88,Mandhol,Active
+2310,23,88,Shilli,Active
+2311,23,88,Sawra,Active
+2312,23,88,Kathasu,Active
+2313,23,88,Ratnari,Active
+2314,23,88,Ramnagar,Active
+2315,23,88,Purag,Active
+2316,23,88,Bagi(Devgarh),Active
+2317,23,88,Mahasu,Active
+2318,23,88,Pralibadruni,Active
+2319,23,88,Tharola,Active
+2320,23,88,Bagdumehar,Active
+2321,23,88,Giltari,Active
+2322,23,88,Nandpur,Active
+2323,23,88,Bhohlar,Active
+2324,23,88,Thana,Active
+2325,23,88,Sari,Active
+2326,23,88,Parali,Active
+2327,23,88,Badhal,Active
+2328,23,88,Barthata,Active
+2329,23,91,Balog,Active
+2330,23,91,Halog,Active
+2331,23,91,Ghech,Active
+2332,23,91,Shakrah,Active
+2333,23,91,Neri,Active
+2334,23,91,Dhamun,Active
+2335,23,91,Thari,Active
+2336,23,91,Jalel,Active
+2337,23,91,Junga,Active
+2338,23,91,Badhech ,Active
+2339,23,91,Patgehar,Active
+2340,23,91,Mulbari,Active
+2341,23,91,Mashobra,Active
+2342,23,91,Gumma ,Active
+2343,23,91,Darbhog,Active
+2344,23,91,Piran,Active
+2345,23,91,Dhali,Active
+2346,23,91,Bathmana Jabri,Active
+2347,23,91,Mayli,Active
+2348,23,91,Galot,Active
+2349,23,91,Kanda ,Active
+2350,23,91,Bhaloh ,Active
+2351,23,91,Dhudhalti,Active
+2352,23,91,Bhont,Active
+2353,23,91,Ganewag Nehra,Active
+2354,23,91,Ghanahati,Active
+2355,23,91,Chayli,Active
+2356,23,91,Baichari,Active
+2357,23,91,Chanog,Active
+2358,23,91,Anandpur,Active
+2359,23,91,Rampur,Active
+2360,23,91,Rajhana,Active
+2361,23,91,Chamyana,Active
+2362,23,91,Kufri,Active
+2363,23,91,Janed Ghat,Active
+2364,23,91,Satlai,Active
+2365,23,91,Koti,Active
+2366,23,91,Mulkoti,Active
+2367,23,91,Cheiri,Active
+2368,23,91,Pagog,Active
+2369,23,91,Bagi,Active
+2370,23,91,Tutu,Active
+2371,23,91,Pujarli,Active
+2372,23,91,Malyana,Active
+2373,23,91,Kot,Active
+2374,23,91,Baldeyan,Active
+2375,23,91,Naldehra,Active
+2376,23,91,Dummi,Active
+2377,23,1144,Bhuti,Active
+2378,23,1144,Kumarsain,Active
+2379,23,1144,Deeb,Active
+2380,23,1144,Shamathala,Active
+2381,23,1144,Jaar,Active
+2382,23,1144,Bhareri,Active
+2383,23,1144,Jarol,Active
+2384,23,1144,Sinhal,Active
+2385,23,1144,Jadoon,Active
+2386,23,1144,Thana Dhar,Active
+2387,23,1144,Bara Gaon,Active
+2388,23,1144,Madhawani,Active
+2389,23,1144,Kirti,Active
+2390,23,1144,Shalota,Active
+2391,23,1144,Banahar,Active
+2392,23,1144,Mailan,Active
+2393,23,1144,Malendi,Active
+2394,23,1144,Mangsu,Active
+2395,23,1144,Kangal,Active
+2396,23,1144,Mogra ,Active
+2397,23,1144,Kotighat,Active
+2398,23,1144,Kotghar,Active
+2399,23,1144,Shivan,Active
+2400,23,1144,Jhanjheli,Active
+2401,23,1144,Khaneti,Active
+2402,23,1144,Krewathi,Active
+2403,23,95,Koot,Active
+2404,23,95,Kiyav ,Active
+2405,23,95,Labana Sadana,Active
+2406,23,95,Sarahan,Active
+2407,23,95,Dofda,Active
+2408,23,95,Singla,Active
+2409,23,95,Dansa,Active
+2410,23,95,Bhadawali,Active
+2411,23,95,Narian,Active
+2412,23,95,Munish,Active
+2413,23,95,Kashapat,Active
+2414,23,95,Fancha,Active
+2415,23,95,Sarpara,Active
+2416,23,95,Shahdhar,Active
+2417,23,95,Dhar Gaura,Active
+2418,23,95,Rachauli,Active
+2419,23,95,Lalsa,Active
+2420,23,95,Dutt Nagar,Active
+2421,23,95,Nirath ,Active
+2422,23,95,Bahli,Active
+2423,23,95,Devthi,Active
+2424,23,95, Jaghori,Active
+2425,23,95,Tiyaval Jeori,Active
+2426,23,95,Baghal ,Active
+2427,23,95,Kinu,Active
+2428,23,95,Gopalpur,Active
+2429,23,95,Jhakri,Active
+2430,23,95,Devnagar,Active
+2431,23,95,Taklech,Active
+2432,23,95,Kuhal,Active
+2433,23,95,Darkali,Active
+2434,23,93,Nankhari,Active
+2435,23,93,Khamadi,Active
+2436,23,93,Krangla,Active
+2437,23,93,Baglati,Active
+2438,23,93,Addu ,Active
+2439,23,93,Thaili Chakti,Active
+2440,23,93,Khunni Panoli,Active
+2441,23,93,Gahan ,Active
+2442,23,93,Tipper Majholi,Active
+2443,23,93,Delath,Active
+2444,23,93,Sholi,Active
+2445,23,93,Jahu,Active
+2446,23,93,Kaledamajheoti,Active
+2447,23,93,Badhach,Active
+2448,23,93,Kungal balti,Active
+2449,23,93,Badog,Active
+2450,23,93,Khadahan,Active
+2451,23,96,Lower Koti,Active
+2452,23,96,Seema Rantadi,Active
+2453,23,96,Adhal,Active
+2454,23,96,Kutara,Active
+2455,23,96,Samarkot,Active
+2456,23,96,Bachunch,Active
+2457,23,96,Bhalara ,Active
+2458,23,96,Karasa,Active
+2459,23,96,Ukhli ,Active
+2460,23,96,Kadiwan,Active
+2461,23,96,Tikkar,Active
+2462,23,96,Sheel,Active
+2463,23,96,Bral ,Active
+2464,23,96,Shekhal,Active
+2465,23,96,Samoli,Active
+2466,23,96,Barasli,Active
+2467,23,96,Dalgaon,Active
+2468,23,96,Bhaloon,Active
+2469,23,96,Khangtedi,Active
+2470,23,96,Pujarli-IV,Active
+2471,23,96,Kutari(Ghasni),Active
+2472,23,96,Hastadi,Active
+2473,23,96,Katlah,Active
+2474,23,96,Munchada,Active
+2475,23,96,Bashla,Active
+2476,23,96,Karalash,Active
+2477,23,96,Bhamnoli,Active
+2478,23,96,Jagothi,Active
+2479,23,96,Dharara,Active
+2480,23,96,Pujarli-III,Active
+2481,23,96,Sharontha,Active
+2482,23,96,Karchari,Active
+2483,23,100,Shadi,Active
+2484,23,100,Kaljar matyana ,Active
+2485,23,100,Roni Matyana ,Active
+2486,23,100,Kalinda Matyana ,Active
+2487,23,100,Dhar Kandru,Active
+2488,23,100,Bharana,Active
+2489,23,100,Mahog,Active
+2490,23,100,Sariwan,Active
+2491,23,100,Jais,Active
+2492,23,100,Shanteya,Active
+2493,23,100,Cheog,Active
+2494,23,100,Dadaas ,Active
+2495,23,100,Satog,Active
+2496,23,100,Mahori,Active
+2497,23,100,Basadhar,Active
+2498,23,100,Tikker ,Active
+2499,23,100,Ghorna,Active
+2500,23,100,Ghoond,Active
+2501,23,100,Balag,Active
+2502,23,100,Bagain,Active
+2503,23,100,Kot Shilaru,Active
+2504,23,100,Kelvi,Active
+2505,23,100,Dharmpur,Active
+2506,23,100,Sandhu,Active
+2507,23,100,Basa Theog,Active
+2508,23,100,Deori Ghat,Active
+2509,23,100,Majhar,Active
+2510,23,100,Tiyali,Active
+2511,23,100,Dharech,Active
+2512,23,100,Kaleend,Active
+2513,23,100,Kuthar,Active
+2514,23,100,Devthi,Active
+2515,23,100,Balghar,Active
+2516,23,100,Dhamandri,Active
+2517,23,100,Kyar,Active
+2518,23,100,Kyara,Active
+2519,23,100,Kathog,Active
+2520,23,100,Kyartu,Active
+2521,23,100,Chikad,Active
+2522,23,100,Bharada,Active
+2523,23,100,Sarog,Active
+2524,23,100,Barog,Active
+2525,23,100,Bani,Active
+2526,23,100,Nahol,Active
+2527,23,100,Sharmla,Active
+2528,23,100,Mundu,Active
+2529,23,100,Pargaiya,Active
+2530,23,100,Bagri,Active
+2531,23,100,Sainj,Active
+2532,23,100,Kamah,Active
+2533,23,90,Juddu Shilla,Active
+2534,23,90,Dhotali ,Active
+2535,23,90,Jubli,Active
+2536,23,90,Kanda Banah,Active
+2537,23,90,Majholi,Active
+2538,23,90,Bandal ,Active
+2539,23,90,Malat,Active
+2540,23,90,Dharchanana,Active
+2541,23,90,Jhokad,Active
+2542,23,90,Kulag,Active
+2543,23,90,Naura Boura ,Active
+2544,23,90,Bawat,Active
+2545,23,90,Bhalu,Active
+2546,23,90,Chadoli,Active
+2547,24,103,Bhajaun,Active
+2548,24,103,Palhori,Active
+2549,24,103,Shivpur,Active
+2550,24,103,Bhangani,Active
+2551,24,103,Dobri Salwala,Active
+2552,24,103,Kathwar,Active
+2553,24,103,Jamniwala,Active
+2554,24,103,Majra,Active
+2555,24,103,Badripur,Active
+2556,24,103,Poka,Active
+2557,24,103,Kolar,Active
+2558,24,103,Manpur Devra,Active
+2559,24,103,Rajpur,Active
+2560,24,103,Amboya ,Active
+2561,24,103,Rampur Bharapur,Active
+2562,24,103,Gorkhuwala,Active
+2563,24,103,Korga,Active
+2564,24,103,Pipliwala,Active
+2565,24,103,Shawga,Active
+2566,24,103,Chacheti,Active
+2567,24,103,Manglawala Kartarpur,Active
+2568,24,103,Tatiyana,Active
+2569,24,103,Jamna,Active
+2570,24,103,Fulpur,Active
+2571,24,103,Danda,Active
+2572,24,103,Kamrar,Active
+2573,24,103,Sainwala,Active
+2574,24,103,Barhana,Active
+2575,24,103,Nagheta,Active
+2576,24,103,Sharli Manpur,Active
+2577,24,103,Chandni,Active
+2578,24,103,Kando Cheog,Active
+2579,24,103,Ajauli,Active
+2580,24,103,Byas,Active
+2581,24,103,Mishravala,Active
+2582,24,103,Nihal Garh,Active
+2583,24,103,Danda Kala Amb,Active
+2584,24,103,Bhatanwali,Active
+2585,24,103,Puruwala,Active
+2586,24,103,Sataun,Active
+2587,24,103,Banaur,Active
+2588,24,103,Bhanet Haldwari,Active
+2589,24,103,Shilla,Active
+2590,24,103,Bokalpav ,Active
+2591,24,103,Kanti Mashwa,Active
+2592,24,103,Kando Kansar,Active
+2593,24,103,Madhana,Active
+2594,24,103,Malgi,Active
+2595,24,103,Patliyon,Active
+2596,24,103,Navada,Active
+2597,24,103,Bahral,Active
+2598,24,103,Sakhauli,Active
+2599,24,103,Thonta Jakhal,Active
+2600,24,103,Haripur Khol,Active
+2601,24,103,Amrkot,Active
+2602,24,103,Bharog Baneri,Active
+2603,24,103,Badwas,Active
+2604,24,103,Shiva,Active
+2605,24,103,Dugana,Active
+2606,24,103,Dhaula Kuan,Active
+2607,24,103,Kundiyon,Active
+2608,24,103,Parduni,Active
+2609,24,103,Kunaja,Active
+2610,24,103,Khodri,Active
+2611,24,110,Nei Neti,Active
+2612,24,110,Chogtali,Active
+2613,24,110,Tikkar,Active
+2614,24,110,Bohal Taliyan,Active
+2615,24,110,Dimber,Active
+2616,24,110,Dibber,Active
+2617,24,110,Koti Padhog,Active
+2618,24,110,Rana Ghat,Active
+2619,24,110,Jadol Taproli,Active
+2620,24,110,Deedag,Active
+2621,24,110,Bhuira,Active
+2622,24,110,Shalana,Active
+2623,24,110,Thod Niwar,Active
+2624,24,110,Habban,Active
+2625,24,110,Nehar Pab,Active
+2626,24,110,Devthi Majhgaon,Active
+2627,24,110,Kotla Bangi,Active
+2628,24,110,Tali Bhujjal,Active
+2629,24,110,Matal Bhakhog,Active
+2630,24,110,Shilanji,Active
+2631,24,110,Kathli Bharan,Active
+2632,24,110,Ser Jagas,Active
+2633,24,110,Thaina Bastori ,Active
+2634,24,110,Shaya Sanaura,Active
+2635,24,110,Neharti Baghot,Active
+2636,24,110,Karganoo,Active
+2637,24,110,Bhanat,Active
+2638,24,110,Neri Kotli,Active
+2639,24,110,Dahan,Active
+2640,24,110,Kothiyan Jajar,Active
+2641,24,105,Kola wala bhoond,Active
+2642,24,105,Veer Vikram baag,Active
+2643,24,105,Devni ,Active
+2644,24,105,Kyari,Active
+2645,24,105,Trilokpur,Active
+2646,24,105,Surla,Active
+2647,24,105,Banethi,Active
+2648,24,105,Mahipur,Active
+2649,24,105,Nehli Dheera,Active
+2650,24,105,Barma Papri,Active
+2651,24,105,Navni,Active
+2652,24,105,Paliyon,Active
+2653,24,105,Salani Katola,Active
+2654,24,105,Rama Dhaun,Active
+2655,24,105,Thana Kasoga,Active
+2656,24,105,Dhagera ,Active
+2657,24,105,Nahan,Active
+2658,24,105,Sen Ki Ser ,Active
+2659,24,105,Satiwala,Active
+2660,24,105,Panjahal,Active
+2661,24,105,Kotla Molar,Active
+2662,24,105,Bagger ,Active
+2663,24,105,Katha Sheetla,Active
+2664,24,105,Birla,Active
+2665,24,105,Panaar,Active
+2666,24,105,Bankala,Active
+2667,24,105,Devka Pudla,Active
+2668,24,105,Nehar Swar,Active
+2669,24,105,Parada,Active
+2670,24,105,Matar,Active
+2671,24,105,Kala Amb,Active
+2672,24,105,Dadahu,Active
+2673,24,105,Chakli,Active
+2674,24,105,Amwala Sainwala,Active
+2675,24,111,Bhawai,Active
+2676,24,111,Ranfua Jabrog,Active
+2677,24,111,Sangrah,Active
+2678,24,111,Shilla Bara,Active
+2679,24,111,Khala Kiar,Active
+2680,24,111,Koti Dhiman,Active
+2681,24,111,Bhatgarh,Active
+2682,24,111,Jarag,Active
+2683,24,111,Ganog,Active
+2684,24,111,oghat,Active
+2685,24,111,Rajana,Active
+2686,24,111,Khud Drabal,Active
+2687,24,111,Maina Gharel,Active
+2688,24,111,Baunal kakog ,Active
+2689,24,111,Jamu Koti,Active
+2690,24,111,Gawahi,Active
+2691,24,111,Shamra,Active
+2692,24,111,Redli,Active
+2693,24,111,Chokar,Active
+2694,24,111,Bharari,Active
+2695,24,111,Deva manal,Active
+2696,24,111,Charna,Active
+2697,24,111,Ghanduri,Active
+2698,24,111,Vyong Tatwa,Active
+2699,24,111,Tikkri Dasakna,Active
+2700,24,111,Diudi Khandah,Active
+2701,24,111,Gehal,Active
+2702,24,111,Badaul,Active
+2703,24,111,Bhlauna,Active
+2704,24,111,Sangna,Active
+2705,24,111,Lana Palar,Active
+2706,24,111,Ludhiana,Active
+2707,24,111,Bhutli Manal,Active
+2708,24,111,Sainj,Active
+2709,24,111,Bhattan Bhajaund,Active
+2710,24,111,Ser Tandula,Active
+2711,24,111,Lanacheta,Active
+2712,24,111,Satahan,Active
+2713,24,111,Andheri,Active
+2714,24,111,Nohra Dhar,Active
+2715,24,111,Devna,Active
+2716,24,109,Koti Utrou,Active
+2717,24,109,Jarva Junaili,Active
+2718,24,109,Panog,Active
+2719,24,109,Kunht,Active
+2720,24,109,Kando Bhatnol,Active
+2721,24,109,Naya Panjor,Active
+2722,24,109,Bali Koti,Active
+2723,24,109,Ashyari,Active
+2724,24,109,Kota Pav,Active
+2725,24,109,Bandli,Active
+2726,24,109,Shiri Kiari,Active
+2727,24,109,Gwali,Active
+2728,24,109,Manal ,Active
+2729,24,109,Kiari Gundah,Active
+2730,24,109,Ajrauli,Active
+2731,24,109,Koti Boanch,Active
+2732,24,109,Hallanh,Active
+2733,24,109,Millah,Active
+2734,24,109,Sakhauli,Active
+2735,24,109,Shillai,Active
+2736,24,109,Naya Panjor,Active
+2737,24,109,Pab Manal,Active
+2738,24,109,Loja Manal,Active
+2739,24,109,Bela,Active
+2740,24,109,Naini Dhar,Active
+2741,24,109,Rast,Active
+2742,24,109,Jhkando,Active
+2743,24,109,Drabal,Active
+2744,24,109,Bakras,Active
+2745,24,142,Dinger Kinner,Active
+2746,24,142,Sirmauri Mandir,Active
+2747,24,142,Mangarh,Active
+2748,24,142,Naina Tikker,Active
+2749,24,142,Bani Bakhauli,Active
+2750,24,142,Surla Janot,Active
+2751,24,142,Bagthan,Active
+2752,24,142,Lana Bhalta,Active
+2753,24,142,Katli,Active
+2754,24,142,Balah Ghinni,Active
+2755,24,142,Dhar Tikkari,Active
+2756,24,142,Drabli,Active
+2757,24,142,Kotla Panjola,Active
+2758,24,142,Narag,Active
+2759,24,142,Jaihar,Active
+2760,24,142,Lana Baka,Active
+2761,24,142,Shariya,Active
+2762,24,142,Dilman,Active
+2763,24,142,Tikkri Kuthar,Active
+2764,24,142,Kathar,Active
+2765,24,142,Rajyon,Active
+2766,24,142,Daro Devria,Active
+2767,24,142,Chamenji,Active
+2768,24,142,Sadna Ghat,Active
+2769,24,142,Bajga,Active
+2770,24,142,Wasni,Active
+2771,24,142,Neri Navan,Active
+2772,24,142,Mahlog Lal Tikker,Active
+2773,24,142,Sarahan,Active
+2774,24,142,Bag Pashog,Active
+2775,25,144,Kishanpura,Active
+2776,25,144,Majra,Active
+2777,25,144,Baruna,Active
+2778,25,144,Nandpur,Active
+2779,25,144,Baircha,Active
+2780,25,144,Suned,Active
+2781,25,144,Kashmirpura,Active
+2782,25,144,Baiyala,Active
+2783,25,144,Bavasni,Active
+2784,25,144,Bhiunkhri,Active
+2785,25,144,Goljamala,Active
+2786,25,144,Chamdar,Active
+2787,25,144,Malhaini,Active
+2788,25,144,Baheri,Active
+2789,25,144,Bhatian,Active
+2790,25,144,Jokhari,Active
+2791,25,144,Gadiach ,Active
+2792,25,144,Kyar Kanaita,Active
+2793,25,144,Dharmana,Active
+2794,25,144,Dhang Nihli,Active
+2795,25,144,Manlog Kalan,Active
+2796,25,144,Chiyachi,Active
+2797,25,144,Karsauli,Active
+2798,25,144,Haripur Sandoli,Active
+2799,25,144,Nawa Gram,Active
+2800,25,144,Matuli,Active
+2801,25,144,Bhatoli Kalan,Active
+2802,25,144,Gholowal,Active
+2803,25,144,Ram Shahar,Active
+2804,25,144,Manjholi,Active
+2805,25,144,Doli,Active
+2806,25,144,Ratwari,Active
+2807,25,144,Nand,Active
+2808,25,144,Jagni ,Active
+2809,25,144,Dhabota,Active
+2810,25,144,Sauri,Active
+2811,25,144,Thana,Active
+2812,25,144,Malaun,Active
+2813,25,144,Pole da Khala,Active
+2814,25,144,Dhela,Active
+2815,25,144,Diggal,Active
+2816,25,144,Bhogpur,Active
+2817,25,144,Malpur,Active
+2818,25,144,Lehi,Active
+2819,25,144,Jongho,Active
+2820,25,144,Lunas,Active
+2821,25,144,Mitian,Active
+2822,25,144,Badhokari,Active
+2823,25,144,Khera,Active
+2824,25,144,Jagatpura,Active
+2825,25,144,Rajpura,Active
+2826,25,144,Mastanpura,Active
+2827,25,144,Kundlu,Active
+2828,25,144,Koidi,Active
+2829,25,144,Sai,Active
+2830,25,144,Barian,Active
+2831,25,144,Lag,Active
+2832,25,144,Saur,Active
+2833,25,144,Kirpalpur,Active
+2834,25,144,Gullar wala,Active
+2835,25,144,Panjehara,Active
+2836,25,144,Manpura,Active
+2837,25,144,Lodhi Majra,Active
+2838,25,144,Plasi Kalan,Active
+2839,25,144,Baglehar,Active
+2840,25,144,Chadog,Active
+2841,25,144,Radiayali,Active
+2842,25,144,Khilliyan,Active
+2843,25,144,Bagheri ,Active
+2844,25,143,Salogra,Active
+2845,25,143,Jaunaji,Active
+2846,25,143,Kothon ,Active
+2847,25,143,Shamti ,Active
+2848,25,143,Chewa,Active
+2849,25,143,Koro,Active
+2850,25,143,Kaba Kalan,Active
+2851,25,143,Jabal Jamrot,Active
+2852,25,143,Jadli,Active
+2853,25,143,Bharti,Active
+2854,25,143,Barog,Active
+2855,25,143,Mashiwar,Active
+2856,25,143,Dharot,Active
+2857,25,143,Parag,Active
+2858,25,143,Shamrod,Active
+2859,25,143,Dhangri,Active
+2860,25,143,Bohli,Active
+2861,25,143,Neri Kalan,Active
+2862,25,143,Patta Barauri,Active
+2863,25,143,Kakar Hati,Active
+2864,25,143,Chamat Bharech,Active
+2865,25,143,Anji,Active
+2866,25,143,Ser Banera,Active
+2867,25,143,Seri,Active
+2868,25,143,Basal,Active
+2869,25,143,Oachghat,Active
+2870,25,143,Nouni Majhgaon ,Active
+2871,25,143,Devthi,Active
+2872,25,143,Anhech,Active
+2873,25,143,Bhojnagar,Active
+2874,25,143,Haripur,Active
+2875,25,143,Shadiyana,Active
+2876,25,143,Top ki Berh,Active
+2877,25,143,Saproon,Active
+2878,25,143,Sanhol,Active
+2879,25,119,Kotbeja,Active
+2880,25,119,Baroti wala,Active
+2881,25,119,Chamian,Active
+2882,25,119,Jagjeet Nagar,Active
+2883,25,119,Krishan Garh,Active
+2884,25,119,Nalka,Active
+2885,25,119,Chamoh,Active
+2886,25,119,Anji Matla,Active
+2887,25,119,Barian,Active
+2888,25,119,Rauri,Active
+2889,25,119,Mandhala,Active
+2890,25,119,Kalu Jhanda,Active
+2891,25,119,Surajpur,Active
+2892,25,119,Patta Nali,Active
+2893,25,119,Jageshu,Active
+2894,25,119,Nahri,Active
+2895,25,119,Banasar,Active
+2896,25,119,Bhawguri,Active
+2897,25,119,Ganol,Active
+2898,25,119,Chandi,Active
+2899,25,119,Kot,Active
+2900,25,119,Ghadsi,Active
+2901,25,119,Taksal,Active
+2902,25,119,Dhakriana,Active
+2903,25,119,Pratha,Active
+2904,25,119,Narayani ,Active
+2905,25,119,Goyla,Active
+2906,25,119,Jadla,Active
+2907,25,119,Kasauli Garkhal,Active
+2908,25,119,Bhugar Kanaita,Active
+2909,25,119,Jabli,Active
+2910,25,119,Badlag,Active
+2911,25,119,Gulhadi,Active
+2912,25,119,Nichli Gangudi,Active
+2913,25,119,Darwan,Active
+2914,25,119,Dharampur,Active
+2915,25,119,Gharkalsanawar,Active
+2916,25,119,Hurang,Active
+2917,25,1145,Dumehar,Active
+2918,25,1145,Sarli ,Active
+2919,25,1145,Banoh,Active
+2920,25,1145,Kunher,Active
+2921,25,1145,Sarma,Active
+2922,25,1145,Mangu,Active
+2923,25,1145,Sanghoi,Active
+2924,25,1145,Basantpur,Active
+2925,25,1145,Daseran,Active
+2926,25,1145,Danwti,Active
+2927,25,1145,Ghanagu ,Active
+2928,25,1145,Navgaon,Active
+2929,25,1145,Parnu,Active
+2930,25,1145,Kunihar,Active
+2931,25,1145,Hatkot,Active
+2932,25,1145,Kothi,Active
+2933,25,1145,Rohanj Jalana,Active
+2934,25,1145,Maan,Active
+2935,25,1145,Plania,Active
+2936,25,1145,Balera,Active
+2937,25,1145,Sevra Chandi,Active
+2938,25,1145,Palog,Active
+2939,25,1145,Darla,Active
+2940,25,1145,Saryanj,Active
+2941,25,1145,Devra,Active
+2942,25,1145,Batal ,Active
+2943,25,1145,Kotli,Active
+2944,25,1145,Dadhogi ,Active
+2945,25,1145,Chamayaval,Active
+2946,25,1145,Sananbragian,Active
+2947,25,1145,Barog Hanuman,Active
+2948,25,1145,Chakhar,Active
+2949,25,1145,Mangal,Active
+2950,25,1145,Surajpur,Active
+2951,25,1145,Barog,Active
+2952,25,1145,Bhumti,Active
+2953,25,1145,Materni,Active
+2954,25,1145,Dhundan,Active
+2955,25,1145,Bakhalag,Active
+2956,25,1145,Giyana,Active
+2957,25,1145,Kuirushehrol,Active
+2958,25,1145,Danoghat,Active
+2959,25,1145,Kashlog,Active
+2960,25,1145,Bairal,Active
+2961,25,1145,Saniyari Mor,Active
+2962,25,120,Kanair,Active
+2963,25,120,Jaghana ,Active
+2964,25,120,Sayari,Active
+2965,25,120,Kahla,Active
+2966,25,120,Mumleeg,Active
+2967,25,120,Satrol,Active
+2968,25,120,Delgi,Active
+2969,25,120,Paudhana,Active
+2970,25,120,Chawsha,Active
+2971,25,120,Kot,Active
+2972,25,120,Wakna,Active
+2973,25,120,Basha,Active
+2974,25,120,Bisha,Active
+2975,25,120,Kwarag,Active
+2976,25,120,Sirinagar,Active
+2977,25,120,Mahi,Active
+2978,25,120,Tundal,Active
+2979,25,120,Banjani,Active
+2980,25,120,Chail,Active
+2981,25,120,Nagali,Active
+2982,25,120,Dangheel,Active
+2983,25,120,Jhajha,Active
+2984,25,120,Sakouri,Active
+2985,25,120,Hinner,Active
+2986,26,130,Batuhi,Active
+2987,26,130,Jankaur,Active
+2988,26,130,Sanoli,Active
+2989,26,130,Kuthar Khurd,Active
+2990,26,130,Tiuri,Active
+2991,26,130,Ajouli,Active
+2992,26,130,Sasan,Active
+2993,26,130,Lower Basal,Active
+2994,26,130,Upper Dehlan,Active
+2995,26,130,Lamlehri,Active
+2996,26,130,Behdala,Active
+2997,26,130,Bangarh,Active
+2998,26,130,Basoli,Active
+2999,26,130,Kuryala,Active
+3000,26,130,Kotla Kalan,Active
+3001,26,130,Kotla Kalan Upper ,Active
+3002,26,130,Reinsari,Active
+3003,26,130,Jhalera ,Active
+3004,26,130,RaipurSahoda,Active
+3005,26,130,Nari,Active
+3006,26,130,Dhamandri,Active
+3007,26,130,Ajnoli,Active
+3008,26,130,Badauli,Active
+3009,26,130,Kuthar Kalan,Active
+3010,26,130,Sunehra,Active
+3011,26,130,Chalola,Active
+3012,26,130,Fatehpur,Active
+3013,26,130,Majra,Active
+3014,26,130,Dathwara,Active
+3015,26,130,Samoor Kalan,Active
+3016,26,130,Malahat,Active
+3017,26,130,Basal Upper,Active
+3018,26,130,Jhamber,Active
+3019,26,130,Charatgarh,Active
+3020,26,130,Tabba,Active
+3021,26,130,Arniyala Upper,Active
+3022,26,130,Lamlehra,Active
+3023,26,130,Dehlan Lower,Active
+3024,26,130,Binewal,Active
+3025,26,130,Jakhera,Active
+3026,26,130,Kotla Khurd,Active
+3027,26,130,Rampur,Active
+3028,26,130,Mehatpur,Active
+3029,26,130,Malukpur,Active
+3030,26,130,Badsala,Active
+3031,26,130,Panoh,Active
+3032,26,130,Bhadoliyan Kalan,Active
+3033,26,130,Barnoh,Active
+3034,26,130,Lalsingi,Active
+3035,26,130,Bhatoli,Active
+3036,26,130,Nangrah,Active
+3037,26,130,Madanpur,Active
+3038,26,130,Nangal Salangri,Active
+3039,26,130,Arniyala Lower,Active
+3040,26,130,Abada Barana,Active
+3041,26,130,Khanpur,Active
+3042,26,130,Chatara,Active
+3043,26,130,Danjoli,Active
+3044,26,130,Badehar,Active
+3045,26,130,Jhurowal ,Active
+3046,26,130,Takka,Active
+3047,26,130,Udaipur,Active
+3048,26,127,Marwari,Active
+3049,26,127,Madwara,Active
+3050,26,127,Salohberi,Active
+3051,26,127,Joh,Active
+3052,26,127,Pirthipur,Active
+3053,26,127,Dangoh Khurd,Active
+3054,26,127,Dangoh Khas,Active
+3055,26,127,Abheypur,Active
+3056,26,127,Bhaderkali,Active
+3057,26,127,Raipur,Active
+3058,26,127,Babehad,Active
+3059,26,127,Chalet,Active
+3060,26,127,Mawa Kahola,Active
+3061,26,127,Nangal Jaryala,Active
+3062,26,127,Ghanari,Active
+3063,26,127,Diyoli,Active
+3064,26,127,Sanghnei,Active
+3065,26,127,Ambota,Active
+3066,26,127,Gagret Upper,Active
+3067,26,127,Kaloh,Active
+3068,26,127,Badhoh,Active
+3069,26,127,Oel,Active
+3070,26,127,Tatehra,Active
+3071,26,127,Mawa Sindhiyan,Active
+3072,26,127,Kuthera Jaswalan,Active
+3073,26,127,Loharli,Active
+3074,26,127,Jadla,Active
+3075,26,127,Badehra Rajputa,Active
+3076,26,127,Guglehar,Active
+3077,26,127,Amboa,Active
+3078,26,127,Gondpur Banehra Upper,Active
+3079,26,127,Gondpur Banehra Lower,Active
+3080,26,127,Nakdoh,Active
+3081,26,127,Ramnagar ,Active
+3082,26,127,Kailashnagar ,Active
+3083,26,127,Kuneran,Active
+3084,26,127,Amlehar,Active
+3085,26,127,Bhanjal Upper,Active
+3086,26,127,Bhanjal Lower,Active
+3087,26,126,Dhundla,Active
+3088,26,126,Malangar,Active
+3089,26,126,Lathiyani,Active
+3090,26,126,Tanoh,Active
+3091,26,126,Bohru,Active
+3092,26,126,Changer ,Active
+3093,26,126,Thahra,Active
+3094,26,126,Jol,Active
+3095,26,126,Ambehra Dheeraj,Active
+3096,26,126,Baduhi,Active
+3097,26,126,Chauki Khas,Active
+3098,26,126,Momnayar,Active
+3099,26,126,Thana kalan,Active
+3100,26,126,Sukriyal,Active
+3101,26,126,Piplu,Active
+3102,26,126,Arlu Khas,Active
+3103,26,126,Budhan,Active
+3104,26,126,Proian Kalan,Active
+3105,26,126,Muchhali,Active
+3106,26,126,Dohgi,Active
+3107,26,126,Diyungli,Active
+3108,26,126,Bariyan,Active
+3109,26,126,Raipur,Active
+3110,26,126,Sohari,Active
+3111,26,126,Kharyalta,Active
+3112,26,126,Tihra,Active
+3113,26,126,Balh ,Active
+3114,26,126,Chaproh Kalan,Active
+3115,26,126,Dihar,Active
+3116,26,126,Dhanet,Active
+3117,26,126,Budwar,Active
+3118,26,126,Chamyari,Active
+3119,26,126,Takoli,Active
+3120,26,126,Sihana,Active
+3121,26,126,Mandli,Active
+3122,26,126,Cholli,Active
+3123,26,126,Palahta,Active
+3124,26,126,Hatli Kesru,Active
+3125,26,126,Jasana,Active
+3126,26,126,Karmali,Active
+3127,26,129,Nangal Khurd,Active
+3128,26,129,Palkawah,Active
+3129,26,129,Karampur ,Active
+3130,26,129,Poliyan beet,Active
+3131,26,129,Kungrat,Active
+3132,26,129,Chandpur ,Active
+3133,26,129,Singa,Active
+3134,26,129,Bathuri,Active
+3135,26,129,Dulehar,Active
+3136,26,129,Bhadiyaran ,Active
+3137,26,129,Dharampur,Active
+3138,26,129,Panjawar,Active
+3139,26,129,Lower Panjawar ,Active
+3140,26,129,Saloh,Active
+3141,26,129,Dhaluwal ,Active
+3142,26,129,Haroli,Active
+3143,26,129,Bhadsali,Active
+3144,26,129,Bhadsali Haar ,Active
+3145,26,129,Kutharbeet,Active
+3146,26,129,Batkalan,Active
+3147,26,129,Lalri,Active
+3148,26,129,Sansowal,Active
+3149,26,129,Khad,Active
+3150,26,129,Chetran,Active
+3151,26,129,Pubowal,Active
+3152,26,129,Halera vilna ,Active
+3153,26,129,Badhera,Active
+3154,26,129,Lower Bhadera ,Active
+3155,26,129,Gondpur Bullah,Active
+3156,26,129,Nagdoli,Active
+3157,26,129,Baliwal,Active
+3158,26,129,Roda,Active
+3159,26,129,Pandoga,Active
+3160,26,129,Hira Nagar,Active
+3161,26,129,Beetan,Active
+3162,26,129,Bathu,Active
+3163,26,129,Gondpur Jaichand,Active
+3164,26,129,Hira,Active
+3165,26,129,Bhadouri,Active
+3166,26,129,Chattarpur,Active
+3167,26,129,Kangar,Active
+3168,26,129,Ispur,Active
+3169,26,125,Ghangret,Active
+3170,26,125,Badhmana,Active
+3171,26,125,Chaproh,Active
+3172,26,125,Bhater,Active
+3173,26,125,Amb,Active
+3174,26,125,Spouri,Active
+3175,26,125,Jawar,Active
+3176,26,125,Ripoh Misran,Active
+3177,26,125,Katohar Khurd,Active
+3178,26,125,Suri,Active
+3179,26,125,Behar Jaswan,Active
+3180,26,125,Takarla,Active
+3181,26,125,Nandpur,Active
+3182,26,125,Dhusara,Active
+3183,26,125,Gindpur Malaun,Active
+3184,26,125,Nari(Chintpurni),Active
+3185,26,125,Duhal Bhatwala,Active
+3186,26,125,Dharmshala Mahanta,Active
+3187,26,125,Dharmshala Mahanta Khas ,Active
+3188,26,125,Bhagra,Active
+3189,26,125,Mubarikpur,Active
+3190,26,125,Prambh,Active
+3191,26,125,Andora Upper,Active
+3192,26,125,Amb Tilla,Active
+3193,26,125,Nehri Noranga,Active
+3194,26,125,Poliyan Prohita,Active
+3195,26,125,Katoher kalan,Active
+3196,26,125,Jawehad,Active
+3197,26,125,Ladoli,Active
+3198,26,125,Hamboli,Active
+3199,26,125,Churdu,Active
+3200,26,125,Satother,Active
+3201,26,125,Kharoh,Active
+3202,26,125,Jawal,Active
+3203,26,125,Duhal Bhangwala,Active
+3204,26,125,Lohara Upper,Active
+3205,26,125,Mandholi,Active
+3206,26,125,Shivpur,Active
+3207,26,125,Chowar,Active
+3208,26,125,Andora Lower,Active
+3209,26,125,Rajpur Jaswan,Active
+3210,26,125,Kuthera Kherla,Active
+3211,26,125,Mairi Khas,Active
+3212,26,125,Kathiari,Active
+3213,26,125,Tayai,Active
+3214,26,125,Thathal,Active
+3215,26,125,Diyara,Active
+3216,26,125,Bhera,Active
+3217,26,125,Lohara Lower,Active
+3218,26,125,Karluhi,Active
+3219,26,125,Sidh Chalet,Active
+3220,20,50,Bagaura,Active
+3221,20,50,Balh,Active
+3222,20,50,Bandrol,Active
+3223,20,50,Banogi,Active
+3224,20,50,Bara Bhuin,Active
+3225,20,50,Barahar,Active
+3226,20,50,Barashaini,Active
+3227,20,50,Bashing,Active
+3228,20,50,Bashona,Active
+3229,20,50,Bastori,Active
+3230,20,50,Bhalan I,Active
+3231,20,50,Bhalan II,Active
+3232,20,50,Bhalyani,Active
+3233,20,50,Bhrain,Active
+3234,20,50,Bhuin,Active
+3235,20,50,Bhulang,Active
+3236,20,50,Bhumteer,Active
+3237,20,50,Bradha,Active
+3238,20,50,Brahman,Active
+3239,20,50,Buai,Active
+3240,20,50,Chhenwar,Active
+3241,20,50,Chong,Active
+3242,20,50,Choparsa,Active
+3243,20,50,Danogi,Active
+3244,20,50,Devgarh Gohi,Active
+3245,20,50,Diyar,Active
+3246,20,50,Dughilag,Active
+3247,20,50,Dunkhrigahar,Active
+3248,20,50,Fallan,Active
+3249,20,50,Garsa,Active
+3250,20,50,Hat,Active
+3251,20,50,Hurla,Active
+3252,20,50,Jallugram,Active
+3253,20,50,Jarad Bhuttu Colony,Active
+3254,20,50,Jari,Active
+3255,20,50,Jeshtha,Active
+3256,20,50,Jia,Active
+3257,20,50,Jindore,Active
+3258,20,50,Kalehli,Active
+3259,20,50,Kasol,Active
+3260,20,50,Khadihar,Active
+3261,20,50,Khokhan,Active
+3262,20,50,Kothi Sari,Active
+3263,20,50,Majhat,Active
+3264,20,50,Mangarh,Active
+3265,20,50,Manikaran,Active
+3266,20,50,Manjhali,Active
+3267,20,50,Mashgan,Active
+3268,20,50,Mashna,Active
+3269,20,50,Mohal,Active
+3270,20,50,Nalhach,Active
+3271,20,50,Naresh,Active
+3272,20,50,Neul,Active
+3273,20,50,Parli,Active
+3274,20,50,Peej,Active
+3275,20,50,Pinni,Active
+3276,20,50,Punthal,Active
+3277,20,50,Raila,Active
+3278,20,50,Ratocha,Active
+3279,20,50,Rote,Active
+3280,20,50,Sachani,Active
+3281,20,50,Shaat,Active
+3282,20,50,Shamshi,Active
+3283,20,50,Shilanal,Active
+3284,20,50,Shili Rajgiri,Active
+3285,20,50,Shilihar,Active
+3286,20,50,Shurar,Active
+3287,20,50,Talara,Active
+3288,20,50,Talpini,Active
+3289,20,50,Tegubehar,Active
+3290,23,83,Bagan,Active
+3291,23,83,Bamta,Active
+3292,23,83,Bagahar Chowki,Active
+3293,23,83,Bharanu,Active
+3294,23,83,Bijmal,Active
+3295,23,83,Bohar,Active
+3296,23,83,Chainjan,Active
+3297,23,83,Chanju Chopal,Active
+3298,23,83,Deiya Dochi,Active
+3299,23,83,Dewat,Active
+3300,23,83,Dhannat,Active
+3301,23,83,Dhawas,Active
+3302,23,83,Gada,Active
+3303,23,83,Gorli Maraog,Active
+3304,23,83,Halau,Active
+3305,23,83,Jawag Chamrog,Active
+3306,23,83,Jhiknipul,Active
+3307,23,83,Jhina,Active
+3308,23,83,Jorna,Active
+3309,23,83,Kedi,Active
+3310,23,83,Khaddar,Active
+3311,23,83,Khagna,Active
+3312,23,83,Khund Newal,Active
+3313,23,83,Kiran,Active
+3314,23,83,Kutah,Active
+3315,23,83,Lalpani,Active
+3316,23,83,Lingjar,Active
+3317,23,83,Madhana,Active
+3318,23,83,Makrog,Active
+3319,23,83,Manu Bhaviya,Active
+3320,23,83,Mashron,Active
+3321,23,83,Matal,Active
+3322,23,83,Mundli,Active
+3323,23,83,Nanahar,Active
+3324,23,83,Nerwa Chanlog,Active
+3325,23,83,Pandrara,Active
+3326,23,83,Pouria,Active
+3327,23,83,Pawahan,Active
+3328,23,83,Polliya,Active
+3329,23,83,Pujarli,Active
+3330,23,83,Ruslah,Active
+3331,23,83,Sarain,Active
+3332,23,83,Sari,Active
+3333,23,83,Telor,Active
+3334,23,83,Thana,Active
+3335,23,83,Tharoch,Active
+3336,23,83,Thundal,Active
+3337,23,83,Tikkari,Active
+3338,23,86,Anti,Active
+3339,23,86,Badhal,Active
+3340,23,86,Bagahar,Active
+3341,23,86,Bag Dumehar,Active
+3342,23,86,Baghi (Adhiyala),Active
+3343,23,86,Bakhol,Active
+3344,23,86,Barthata,Active
+3345,23,86,Bholad,Active
+3346,23,86,Darkoti,Active
+3347,23,86,Devgarh,Active
+3348,23,86,Devri Khaneti,Active
+3349,23,86,Dhar,Active
+3350,23,86,Garawag,Active
+3351,23,86,Giltari(BP),Active
+3352,23,86,Gumma,Active
+3353,23,86,Halaila (Premnagar),Active
+3354,23,86,Jaipidi Mata (Deora),Active
+3355,23,86,Janol (Ramnagar),Active
+3356,23,86,Jhagtan,Active
+3357,23,86,Jhalta,Active
+3358,23,86,Kalbog,Active
+3359,23,86,Kathasu,Active
+3360,23,86,Kotkayana,Active
+3361,23,86,Kuddu,Active
+3362,23,86,Kyari,Active
+3363,23,86,Mahasu,Active
+3364,23,86,Mandal,Active
+3365,23,86,Mandhol,Active
+3366,23,86,Nagan,Active
+3367,23,86,Nandpur,Active
+3368,23,86,Pandli (Kotkhai),Active
+3369,23,86,Pandranu,Active
+3370,23,86,Panog,Active
+3371,23,86,Parali,Active
+3372,23,86,Parali (Badrooni),Active
+3373,23,86,Purag,Active
+3374,23,86,Ratnari,Active
+3375,23,86,Rawala Kyar (Melath),Active
+3376,23,86,Rawin,Active
+3377,23,86,Sawra (Saraswati Nagar),Active
+3378,23,86,Sayri,Active
+3379,23,86,Shilli,Active
+3380,23,86,Solang,Active
+3381,23,86,Thana,Active
+3382,23,86,Tharola,Active
+3383,23,86,Jhadag,Active
+3384,23,86,Nakradi,Active
+3385,23,86,Himri,Active
+3386,23,86,Ghunda,Active
+3387,23,86,Kyaravi,Active
+3388,23,86,Chogan Kulti,Active
+3389,23,1147,Halog,Active
+3390,23,1147,Ghech,Active
+3391,23,1147,Shakrah,Active
+3392,23,1147,Neri,Active
+3393,23,1147,Dhamun,Active
+3394,23,1147,Thari,Active
+3395,23,1147,Jalel,Active
+3396,23,1147,Bathmana Jabri,Active
+3397,23,1147,Mayli,Active
+3398,23,1147,Galot,Active
+3399,23,1147,Kanda,Active
+3400,23,1147,Bhaloh,Active
+3401,23,1147,Dhudhalti,Active
+3402,23,1147,Ganewag Nehra,Active
+3403,23,1147,Ghanahati,Active
+3404,23,1147,Chayli,Active
+3405,23,1147,Baichari,Active
+3406,23,1147,Chanog,Active
+3407,23,1147,Anandpur,Active
+3408,23,1147,Rampur,Active
+3409,23,1147,Mulbari,Active
+3410,23,1147,Bagi,Active
+3411,23,1147,Tutu Majthati,Active
+3412,23,1147,Kot,Active
+3413,23,1147,Pahal,Active
+3414,23,1147,Okhru,Active
+3415,23,1147,Bainsh,Active
+3416,23,1147,Shoghi,Active
+3417,23,1147,Badai,Active
+3418,23,1147,Girab Khurad,Active
+3419,23,1147,Janol,Active
+3420,23,1147,Ghandal,Active
+3421,23,1147,Chalhog,Active
+3422,23,1147,Sangti-Sanhog,Active
+3423,22,60,Bayla,Active
+3424,0,NULL,NULL,Active
+3425,19,49,Akpa Khash,Active
+3426,19,49,Chuling,Active
+3427,19,49,Dubling,Active
+3428,19,48,Bara Kamba,Active
+3433,19,47,Yuwarangi,Active
+3434,19,48,Chaura,Active
+3435,19,48,Karaba,Active
+3436,19,48,Yangpa II,Active
+3437,17,134,Niharkhan Basla,Active
+3438,17,134,Jamthal,Active
+3439,17,134,Digthali ,Active
+3440,17,134,Drobar,Active
+3441,17,134,Solang Jurasi,Active
+3442,17,134,Oyal,Active
+3443,17,134,Nog ,Active
+3444,17,134,Malokhar,Active
+3445,17,134,Benla-Brahamna,Active
+3446,15,1135,Manjher,Active
+3447,15,1135,Gwalthai ,Active
+3448,15,1136,Panoh,Active
+3449,15,1136,Palasla,Active
+3450,17,134,Sandyar ,Active
+3451,15,1136,Dakri,Active
+3452,15,1136,Lanjta,Active
+3453,15,1136,Balh Curani,Active
+3454,15,1136,Tiyun Khas,Active
+3455,15,1136,Bari Manjherwa,Active
+3456,15,1136,Awari Khalin,Active
+3457,15,1136,Panol,Active
+3458,15,4,Nihan,Active
+3459,15,4,Vijay Nagar,Active
+3460,17,4,Bala,Active
+3461,16,133,Malunda,Active
+3462,16,11,Graunda,Active
+3463,16,11,Sehali,Active
+3464,16,6,Nihui,Active
+3465,16,6,Bhadoh,Active
+3466,16,6,Chambi,Active
+3467,16,6,Ghaghrota,Active
+3468,16,6,Kuraina,Active
+3469,16,6,Hamal,Active
+3470,16,7,Tapoon,Active
+3471,16,7,Gaan,Active
+3472,16,7,Pahgadi,Active
+3473,16,7,Kumharka,Active
+3474,16,7,Dhimla,Active
+3475,16,12,Shaur,Active
+3476,16,12,Phindru,Active
+3477,16,12,Kupha,Active
+3478,16,13,Nera,Active
+3479,16,13,Bhalodi,Active
+3480,16,13,Bhawala,Active
+3481,16,13,Dori,Active
+3482,16,13,Shiri,Active
+3483,16,13,Chilli(Santewa),Active
+3484,16,13,Vihali,Active
+3485,16,13,Dehrog,Active
+3486,16,17,Hadla,Active
+3487,20,50,Jaan,Active
+3488,20,50,Chalal,Active
+3489,20,50,Rela-II,Active
+3490,20,50,Dalashni,Active
+3491,20,50,Balh-II,Active
+3492,20,50,Parganoo,Active
+3493,20,54,Kotaseri,Active
+3494,20,54,Karana,Active
+3495,20,54,Batala,Active
+3496,20,54,Binan,Active
+3497,20,54,Laphali,Active
+3498,20,52,Sarsai,Active
+3499,20,52,Raoogi,Active
+3500,20,52,Soyal-I,Active
+3501,20,52,Salingcha,Active
+3502,20,52,Grahan,Active
+3503,20,52,Chatani,Active
+3504,20,52,Bandal,Active
+3505,20,52,Chowki Dhobi,Active
+3506,20,52,Chachoga,Active
+3507,20,52,Rumsu,Active
+3508,20,52,Larankelo,Active
+3509,20,53,Jamad,Active
+3510,20,53,Pekhri,Active
+3511,20,53,Sajvad,Active
+3512,20,55,Junghi,Active
+3513,20,55,Koti,Active
+3514,20,55,Bra,Active
+3515,20,55,Jagatkhana,Active
+3516,20,55,Baridhar,Active
+3517,20,55,Bakhan,Active
+3518,20,1149,Naresh,Active
+3519,20,1149,Diyar,Active
+3520,20,1149,Manjhali,Active
+3521,20,1149,Parli,Active
+3522,20,1149,Jeshta,Active
+3523,20,1149,Garsa,Active
+3524,20,1149,Bhallan-I,Active
+3525,20,1149,Bhallan-II,Active
+3526,20,1149,Sachani,Active
+3527,20,1149,Hurla,Active
+3528,20,1149,Rot,Active
+3529,20,1149,Dalashani,Active
+3530,20,1149,Talara,Active
+3531,20,1149,Devgarh Gohi,Active
+3532,20,1149,Raila,Active
+3533,20,1149,Raila-II,Active
+3534,20,1149,Bajaura,Active
+3535,20,1149,Kalehali,Active
+3536,20,1149,Neul,Active
+3537,20,1149,Haat,Active
+3538,20,1149,Mashgan,Active
+3539,20,1149,Bhrain,Active
+3540,20,1149,Danogi,Active
+3541,20,1149,Jiya,Active
+3542,20,1149,Chhenwar,Active
+3543,20,1149,Shillihar,Active
+3544,20,1149,Bhuin,Active
+3545,20,1149,Bara Bhuin,Active
+3546,20,1149,Bashone,Active
+3547,20,1149,Pinni,Active
+3548,20,1149,Talpinni,Active
+3549,20,1149,Parganu,Active
+3550,20,1149,Khokhan,Active
+3551,20,1149,Shat,Active
+3552,20,1149,Ratocha,Active
+3553,20,1149,Punthal,Active
+3554,20,1149,Manikaran,Active
+3555,20,1149,Kasol,Active
+3556,20,1149,Jaan,Active
+3557,20,1149,Jari,Active
+3558,20,1149,Jalugran,Active
+3559,20,1149,Chong,Active
+3560,20,1149,Chalal,Active
+3561,20,1149,Barshaini,Active
+3562,20,1149,Bardha,Active
+3563,20,1149,Shurar,Active
+3564,20,1149,Tegubehar,Active
+3565,20,1149,Shamshi,Active
+3566,20,1149,Malana,Active
+3567,15,1135,BASSI,Active
+3568,15,1135,BEHAL,Active
+3569,15,1135,BHAKHRA,Active
+3570,15,1135,DABAT,Active
+3571,15,1135,DHAROT,Active
+3572,15,1135,GHUWANDAL,Active
+3573,15,1135,KHARKARI,Active
+3574,15,1135,KODAWALA,Active
+3575,15,1135,KOLANWALA TOBA,Active
+3576,15,1135,KOT KHAS,Active
+3577,15,1135,KUTEHLA,Active
+3578,15,1135,LEHRI,Active
+3579,15,1135,MAJARI,Active
+3580,15,1135,MAKRI,Active
+3581,15,1135,MANDYALI,Active
+3582,15,1135,NAKRANA,Active
+3583,15,1135,RAUD JAMAN,Active
+3584,15,1135,RI,Active
+3585,15,1135,SALOA,Active
+3586,15,1135,SWAHAN,Active
+3587,15,1135,TALI,Active
+3588,15,1135,TANBAUL,Active
+3589,15,1135,TARSUH,Active
+3590,15,1135,TARWAR,Active
+3591,15,1135,TOBA SANGWANA,Active
+3592,15,1136,BAM,Active
+3593,15,1136,BAROTA,Active
+3594,15,1136,BHAPRAL,Active
+3595,15,1136,BHARARI,Active
+3596,15,1136,BHULSWAI,Active
+3597,15,1136,DABHLA,Active
+3598,15,1136,DADHOL,Active
+3599,15,1136,DANGAR,Active
+3600,15,1136,GAHAR,Active
+3601,15,1136,GATWAR,Active
+3602,15,1136,GHANDALWIN,Active
+3603,15,1136,GHUMARWIN,Active
+3604,15,1136,HAMBOT,Active
+3605,15,1136,HARLOG,Active
+3606,15,1136,HATWAR,Active
+3607,15,1136,HAWAN,Active
+3608,15,1136,KASARU,Active
+3609,15,1136,KOT,Active
+3610,15,1136,KOTHI,Active
+3611,15,1136,KUH MAJHWAR,Active
+3612,15,1136,KUTHERA,Active
+3613,15,1136,LADDA,Active
+3614,15,1136,LEHRI SARAIL,Active
+3615,15,1136,LOHARWIN,Active
+3616,15,1136,MAHRI KATHLA,Active
+3617,15,1136,MALYAWAR,Active
+3618,15,1136,MARHANA,Active
+3619,15,1136,MORSINGI,Active
+3620,15,1136,NINAWAN,Active
+3621,15,1136,PADYALAG,Active
+3622,15,1136,PANTEHRA,Active
+3623,15,1136,PATER,Active
+3624,15,1136,PATTA,Active
+3625,15,1136,ROHIN,Active
+3626,15,1136,SALAON UPERLI,Active
+3627,15,1136,SANDYAR,Active
+3628,15,1136,SARIUN KHAS,Active
+3629,15,1,BALH BALWANA,Active
+3630,15,1,BAMTA,Active
+3631,15,1,BANDLA,Active
+3632,15,1,BARMANA,Active
+3633,15,1,BARNU DIGTHALI,Active
+3634,15,1,BERI RAJADIAN,Active
+3635,15,1,BENLA BRAHMNA,Active
+3636,15,1,BHOLI,Active
+3637,15,1,BINAULA,Active
+3638,15,1,CHANDPUR,Active
+3639,15,1,CHHAKOH,Active
+3640,15,1,CHHAROL,Active
+3641,15,1,DAROBER,Active
+3642,15,1,DEOLI,Active
+3643,15,1,DEOTH,Active
+3644,15,1,DHAR TATOH,Active
+3645,15,1,DHAUN KOTHI,Active
+3646,15,1,DOBHA,Active
+3647,15,1,GHAYAL,Active
+3648,15,1,HARNORA,Active
+3649,15,1,JAMTHAL,Active
+3650,15,1,JUKHALA,Active
+3651,15,1,KACHOLI,Active
+3652,15,1,KALLAR,Active
+3653,15,1,KANDROUR,Active
+3654,15,1,KOTHIPURA,Active
+3655,15,1,KOTLA,Active
+3656,15,1,KUDDI,Active
+3657,15,1,MAKARI MARKAND,Active
+3658,15,1,MALOKHAR,Active
+3659,15,1,MAITHI,Active
+3660,15,1,NAMHOL,Active
+3661,15,1,NICHLI  BHATER,Active
+3662,15,1,NIHARKHAN BASLA,Active
+3663,15,1,NAUNI,Active
+3664,15,1,NOG,Active
+3665,15,1,OEL,Active
+3666,15,1,PANJEL KHURD,Active
+3667,15,1,PANJGAIN,Active
+3668,15,1,RAGHUNATHPURA,Active
+3669,15,1,RAJPURA,Active
+3670,15,1,RANI KOTLA,Active
+3671,15,1,SAI  KHARSI,Active
+3672,15,1,SIYOHLA,Active
+3673,15,1,SIHRA,Active
+3674,15,1,SIKROHA,Active
+3675,15,1,SOLAG JURASI,Active
+3676,15,1,SOLDHA,Active
+3677,15,1,SUIN SURHWAR,Active
+3678,15,1, MC SADAR,Active
+3679,15,1136,MC GHUMARWIN,Active
+3680,15,4,NP TALAI,Active

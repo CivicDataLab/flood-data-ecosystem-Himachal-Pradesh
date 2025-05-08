@@ -1,0 +1,12 @@
+cattle_type_id,cattle_category_id,cattle_type,status,entry_by,entry_date,ip_addr
+1,1,Cow,Active,0,39:30.9,122.176.47.24
+2,1,Buffalo,Active,0,09:06.4,122.176.47.24
+3,1,Camel,Active,0,09:20.0,122.176.47.24
+4,1,Sheep,Active,0,09:53.9,122.176.47.24
+5,1,Goat,Active,0,10:02.1,122.176.47.24
+6,2,Horse,Active,0,10:18.5,::1
+7,2,Buffalo,Active,0,18:55.4,::1
+8,2,Camel,Active,0,19:25.1,::1
+9,2,Calf,Active,0,20:58.7,::1
+10,2,Donkey,Active,0,21:07.1,::1
+11,2,Pony,Active,0,21:20.7,::1

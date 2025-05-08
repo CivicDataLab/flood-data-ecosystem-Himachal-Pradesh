@@ -6,6 +6,8 @@ MissionAntyodaya2020_Assam.xlsx
 *.zip
 *.grd
 scraped_data.csv
+#Sources/HPSDMA/data/losses-and-damages/Loss Data/Memorandums on losses and damages/
+*.pdf
 
 #Don't ignore zip files in Map
 !Maps/*.zip

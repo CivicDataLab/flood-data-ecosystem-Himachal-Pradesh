@@ -1,0 +1,40 @@
+﻿panchayat_id,district_id,block_id,panchayat_name,status
+1,NULL,NULL,Badgaon,Active
+2,NULL,NULL,Badol,Active
+3,NULL,NULL,Balghad,Active
+4,NULL,NULL,Balhsina,Active
+5,NULL,NULL,Baloh,Active
+6,NULL,NULL,Bargaon Galu,Active
+7,NULL,NULL,Barthin,Active
+8,NULL,NULL,Behna Brahmna,Active
+9,NULL,NULL,Behnajatta,Active
+10,NULL,NULL,Beri Miyan ,Active
+11,NULL,NULL,Bhadolikalan,Active
+12,NULL,NULL,Dahad,Active
+13,NULL,NULL,Damli,Active
+14,NULL,NULL,Dari Bhari ,Active
+15,NULL,NULL,Dhani,Active
+16,NULL,NULL,Dudiyan,Active
+17,NULL,NULL,Duslehra,Active
+18,NULL,NULL,Galian,Active
+19,NULL,NULL,Gehadwin,Active
+20,NULL,NULL,Ghandeer,Active
+21,NULL,NULL,Gharan,Active
+22,NULL,NULL,Hirapur,Active
+23,NULL,NULL,Jangla,Active
+24,NULL,NULL,Jejwin,Active
+25,NULL,NULL,Jhabola,Active
+26,NULL,NULL,Jhandutta,Active
+27,NULL,NULL,Kalol,Active
+28,NULL,NULL,Kosariyan,Active
+29,NULL,NULL,Kuljyar,Active
+30,NULL,NULL,Malangan,Active
+31,NULL,NULL,Malraon,Active
+32,NULL,NULL,Naghiyar,Active
+33,NULL,NULL,Nakhlehra,Active
+34,NULL,NULL,Paploa,Active
+35,NULL,NULL,Rohal,Active
+36,NULL,NULL,Salwar,Active
+37,NULL,NULL,Samoh,Active
+38,NULL,NULL,Sanihra,Active
+39,NULL,NULL,Sunhani,Active

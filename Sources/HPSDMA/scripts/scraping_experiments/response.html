@@ -1,0 +1,697 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Report: Disaster Wise Death
+</title><meta charset="utf-8" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="css/style.css" rel="stylesheet" /><link href="css/media.css" rel="stylesheet" /><link href="css/font-awesome.min.css" rel="stylesheet" /><link href="css/stylenew.css" rel="stylesheet" /><link href="../../js/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <script src="../../js/jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="../../js/jquery-ui.js" type="text/javascript"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../comnUtils/jsValidatorv4.js" type="text/javascript"></script>
+    <script src="../../comnUtils/js-config.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../../comnUtils/header.js"></script>
+    <script>
+        $(function () {
+            $('#txttodate').datepicker(
+             {
+                 dateFormat: 'dd/mm/yy',
+                 changeMonth: true,
+                 changeYear: true,
+                 yearRange: '1950:2100'
+             });
+            $('#txtfromdate').datepicker(
+            {
+                dateFormat: 'dd/mm/yy',
+                changeMonth: true,
+                changeYear: true,
+                yearRange: '1950:2100'
+            });
+        });
+    </script>
+    <script type="text/javascript" language="javascript">
+        function DisableBackButton() {
+            window.history.forward()
+        }
+        DisableBackButton();
+        window.onload = DisableBackButton;
+        window.onpageshow = function (evt) { if (evt.persisted) DisableBackButton() }
+        window.onunload = function () { void (0) }
+    </script>
+    <script type="text/javascript">
+        $(function () {
+
+            $("#PWeight").hide();
+        });
+    </script>
+     <script type="text/javascript">
+         function PrintDiv() {
+             var divToPrint = document.getElementById('divprint');
+             var popupWin = window.open('', '_blank', 'width=1000,height=400,location=no,left=200px');
+             popupWin.document.open();
+             popupWin.document.write('<html><body onload="window.print()">' + divToPrint.innerHTML + '</html>');
+             popupWin.document.close();
+         }
+         </script>
+    <script type="text/javascript">
+        var run = false;
+        $(document).ready(function () {
+            if (!run) {
+
+                formChecks("form1", "div", null, false);
+                run = false;
+            }
+        });
+
+
+    </script>
+    <style type="text/css" xml:space="preserve">
+        .error_strings {
+            font-family: Verdana;
+            font-size: 12px;
+            color: #660000;
+            color: red;
+            width: 100%;
+            border: 0px solid white;
+        }
+        table{margin: 0px auto;
+    width: 100%;}
+
+        th {
+            text-align: center;
+            width: auto;
+            height: auto;
+        }
+        td{ text-align:center;}
+
+        .verical {
+            transform: rotate(270deg);
+            height: 180px;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <form name="form1" method="post" action="./rpt_disasterwisedeath.aspx?cmp=2004&amp;EncHid=10364.16287" id="form1">
+<div>
+<input type="hidden" name="ToolkitScriptManager11_HiddenField" id="ToolkitScriptManager11_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=DQGXJqc5ZA_uSmwSU9hpMjz0kt4v4ZgSBHk11JxhZcBjNHdpnhu3Bgs1ELRLc5aNpHF-YMNpJ1VoiRQB8rxUrJ3tXGc1&amp;t=637103544965614113" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=cYVaoeax7A5dc6o0lnd6UTYKq08iQ6lyia6NOn6lhmrVQzzLZRJcjrRUESCvXd1wyV06uF0sj8NOHvQA6_88r4tK1NKVbii_-PUtOTcQ-XpD9AMiTdhbhOq61pK0sIOkOSZTDnrSwsI6MVPtO6sEdfbDIRA1&amp;t=ffffffffecf19baa" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=cXMh3SJhbAgCfD-vSfcBDZv_X9kPIBMtF1hrsbG7D7AK8JOBx_SGzhlluCAGwQg7i62BkBRraVpXU0DiCRZYK4dRJSrK5XE1n_SHRVLR6u0JxV0O5k1OxKKfTGpw8JO5bCOJyn_ruYebQAtX1z1xVAS8CRII6FOnAHjVcAPC8IYb0vTO0&amp;t=ffffffffecf19baa" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C49EA5B4" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="8GxllOsXvQfUOoltTNzMA++LOBSuHQCgzTqXilpM/TcsEkZwurjGQdCHNKOzwGBL12YkS4m2VRa9SoAUoeI0xzM31zvqv3hQM2jjodCSFNwRkXI9It9tk4cGy5C/h7JsBhyMEYkRiG1d9WrHMbEQ7JEt8bdwx/0wGZz4dp0gdTtqwh10uohhliViTeOOzalsNBIuPIvdfLVNKpIYuXpmQqDmmU4=" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager11', 'form1', [], [], [], 90, '');
+//]]>
+</script>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+<section id="header">
+    <div class="container-fluid">
+    
+            <div class="row text-center" style="padding: 20px 0px 20px 0px;" >
+                <div class="col-md-2 emblembheader" style="float:left; width:10%;"><img src="../../images/himachal_logo.png"  height="70"></div>
+                <div class="col-md-8 textcenter" style="float:left; width:79%; text-align:center;"><h1 class="header-top"><span class="title">HIMACHAL PRADESH STATE </br>DISASTER MANAGEMENT AUTHORITY</span></h1></div>
+                <div class="col-md-2 emblembheader" style="float:left; width:10%;"><img src="../../images/logo_2hp.png" height="80" /></div>
+            </div>
+    
+    
+        
+    </div>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul id="header1_menu1" class="nav navbar-nav"> <li class='active'><a href='Default.aspx?&EncHid=47962.39864'>Home <span class='sr-only'>(current)</span></a></li> <li><a href=humanloss.aspx?cmp=1&EncHid=47962.39864 class='dir'><span>Human</span></a></li><li><a href=Disaster.aspx?cmp=2&EncHid=47962.39864 class='dir'><span>Disaster </span></a></li><li><a href=cattleloss1.aspx?cmp=3&EncHid=47962.39864 class='dir'><span>Cattle</span></a></li><li><a href=hotricultureloss1.aspx?cmp=4&EncHid=47962.39864 class='dir'><span>Horticulture</span></a></li><li><a href=agricultureloss1.aspx?cmp=5&EncHid=47962.39864 class='dir'><span>Agriculture</span></a></li><li><a href=structureloss.aspx?cmp=6&EncHid=47962.39864 class='dir'><span>Structure</span></a></li><li><a href=ihploss.aspx?cmp=7&EncHid=47962.39864 class='dir'><span>JSV</span></a></li><li><a href=generalabstract.aspx?cmp=8&EncHid=47962.39864 class='dir'><span>PWD</span></a></li><li><a href=powerloss.aspx?cmp=9&EncHid=47962.39864 class='dir'><span>Power</span></a></li><li><a href=educationloss.aspx?cmp=10&EncHid=47962.39864 class='dir'><span>Education</span></a></li><li><a href=healthdepartmentloss.aspx?cmp=1002&EncHid=47962.39864 class='dir'><span>Health</span></a></li><li><a href=fisheriesdepartmentloss.aspx?cmp=1003&EncHid=47962.39864 class='dir'><span>Fisheries</span></a></li><li><a href=fundallot.aspx?cmp=3016&EncHid=47962.39864 class='dir'><span>Fund Allotment</span></a></li><li><a href=fundutilized.aspx?cmp=3017&EncHid=47962.39864 class='dir'><span>Fund Utilized</span></a></li><li><a href=forestdepartment.aspx?cmp=3021&EncHid=47962.39864 class='dir'><span>Forest Department</span></a></li><li><a href=municipalcorporationnew.aspx?cmp=4024&EncHid=47962.39864 class='dir'><span>Urban Development</span></a></li><li><a href=RuralDevelopment.aspx?cmp=4025&EncHid=47962.39864 class='dir'><span>Rural Development</span></a></li><li><a href=highereducationloss.aspx?cmp=9024&EncHid=47962.39864 class='dir'><span>Higher Education</span></a></li><li><li class='dropdown'><a href='#' data-toggle='dropdown' class='dropdown-toggle'  role='button' aria-haspopup='true' aria-expanded='false'>Reports<span class='caret'></span></a><ul class='dropdown-menu dropdown-menu-width'><li><a href=Rpt_Departmentofrevenue.aspx?cmp=2003&EncHid=47962.39864 class='dir'><span>Department of Revenue</span></a></li><li><a href=rpt_disasterwisedeath.aspx?cmp=2004&EncHid=47962.39864 class='dir'><span>Disaster Wise Death </span></a></li><li><a href=rpt_zonewisecircle.aspx?cmp=2005&EncHid=47962.39864 class='dir'><span>Rain damages Zone wise</span></a></li><li><a href=rpt_circlewisedetail.aspx?cmp=2006&EncHid=47962.39864 class='dir'><span>JSV Department Loss</span></a></li><li><a href=rpt_cattleloss.aspx?cmp=2008&EncHid=47962.39864 class='dir'><span>Animal Husbandary</span></a></li><li><a href=Rpt_statement_winter.aspx?cmp=2009&EncHid=47962.39864 class='dir'><span>Main Report</span></a></li><li><a href=Rainfallreport.aspx?cmp=2010&EncHid=47962.39864 class='dir'><span>Rain Fall Report</span></a></li><li><a href=rainfallyearwise.aspx?cmp=3003&EncHid=47962.39864 class='dir'><span>Rain Fall Year wise</span></a></li><li><a href=rpt_humanloss.aspx?cmp=3004&EncHid=47962.39864 class='dir'><span>Human Loss Details</span></a></li><li><a href=rpt_fundrequirement.aspx?cmp=3008&EncHid=47962.39864 class='dir'><span>Fund Requirement</span></a></li><li><a href=rpt_damagedhouses.aspx?cmp=3009&EncHid=47962.39864 class='dir'><span>Damaged Houses</span></a></li><li><a href=rpt_educationloss.aspx?cmp=3010&EncHid=47962.39864 class='dir'><span>Education  Report</span></a></li><li><a href=rpt_fisheries.aspx?cmp=3011&EncHid=47962.39864 class='dir'><span>Fisheries  Report</span></a></li><li><a href=rpt_pwd_loss.aspx?cmp=3012&EncHid=47962.39864 class='dir'><span>PWD Report</span></a></li><li><a href=rpt_municipal.aspx?cmp=3013&EncHid=47962.39864 class='dir'><span>Urban Report</span></a></li><li><a href=rpt_healthloss.aspx?cmp=3014&EncHid=47962.39864 class='dir'><span>Health Department Report</span></a></li><li><a href=rpt_powerloss.aspx?cmp=3015&EncHid=47962.39864 class='dir'><span>Power</span></a></li><li><a href=rpt_fundAllotment.aspx?cmp=3018&EncHid=47962.39864 class='dir'><span>Fund Allotment Report</span></a></li><li><a href=rpt_fundutilized.aspx?cmp=3019&EncHid=47962.39864 class='dir'><span>Fund Utilization Report</span></a></li><li><a href=rpt_forestdepartment.aspx?cmp=3023&EncHid=47962.39864 class='dir'><span>Forest Department Report</span></a></li><li><a href=rpt_structureloss.aspx?cmp=5024&EncHid=47962.39864 class='dir'><span>Structure Report</span></a></li><li><a href=rpt_municipal.aspx?cmp=5026&EncHid=47962.39864 class='dir'><span>Urban Development</span></a></li><li><a href=rpt_rural_development.aspx?cmp=5027&EncHid=47962.39864 class='dir'><span>Rural Development</span></a></li><li><a href=rpt_main_report.aspx?cmp=6024&EncHid=47962.39864 class='dir'><span>Complete Report</span></a></li><li><a href=CrowdSourceApp.aspx?cmp=7024&EncHid=47962.39864 class='dir'><span>Crowd Source Application</span></a></li><li><a href=rpt_agri2.aspx?cmp=8024&EncHid=47962.39864 class='dir'><span>Agriculture Report</span></a></li><li><a href=rpt_horti2.aspx?cmp=8025&EncHid=47962.39864 class='dir'><span>Horticulture Report</span></a></li><li><a href=rpt_highereducationloss.aspx?cmp=9025&EncHid=47962.39864 class='dir'><span>Higher Education Report</span></a></li></ul></li><li class='dropdown'><a href='#' class='dropdown-toggle' data-toggle='#' >Trained Personnel<span class='caret'></span></a><ul class='dropdown-menu dropdown-menu-width'><li><a href=trendpersonal.aspx?cmp=3005&EncHid=47962.39864 class='dir'><span>Add Institute</span></a></li><li><a href=TrainerDetails.aspx?cmp=3006&EncHid=47962.39864 class='dir'><span>Add Trained Personnel</span></a></li><li><a href=rpt_trainedlist.aspx?cmp=3007&EncHid=47962.39864 class='dir'><span>Trained Personnel Report</span></a></li></ul></li><li class='dropdown'><a href='#' class='dropdown-toggle' data-toggle='#' >Trained Volunteer<span class='caret'></span></a><ul class='dropdown-menu dropdown-menu-width'><li><a href=TrainedVolunteer.aspx?cmp=9026&EncHid=47962.39864 class='dir'><span>Trained Volunteer</span></a></li><li><a href=TrainedVolunteerReport.aspx?cmp=9027&EncHid=47962.39864 class='dir'><span>Trained Volunteer Report</span></a></li></ul></li><li><a href=trainedMasons.aspx?cmp=9028&EncHid=47962.39864 class='dir'><span>Trained Masons</span></a></li><li><a href=trainedMasonreport.aspx?cmp=9029&EncHid=47962.39864 class='dir'><span>Trained Masons Report</span></a></li></ul>
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span id="header1_lblname">Welcome HPSDMA</span>
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-menu-width">
+                            <li><a href="#">
+                                hpsdma-hod@gmail.com</a></li>
+                            <li><a href='ChangePass.aspx?EncHid=47962.39864'><span>Change Password</span></a></li>
+                            <li><a href='LogOff.aspx?EncHid=47962.39864'><span>Log Off</span></a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+           
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+</section>
+ <div style="float:right; font-size:20px"><span id="header1_lbllastlogin" style="color:Green;">last login: 11/11/2024 IP:122.172.80.246</span></div>
+ <section id="inner-abbner"  class="no-print">
+     </section>
+
+ <link href="bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
+
+        <div class="container">
+            <div class="col-lg-12">
+                <div class="well bs-component">
+                    <div class="form-horizontal">
+                        <fieldset>
+                            <legend style="text-align: center">Disaster Wise Death Details</legend>
+
+                            <div class="form-group">
+                                <div class="col-md-6">
+                                    <label for="txtfromdate" class="col-lg-6 control-label">From Date</label>
+                                    <div class="col-lg-6">
+                                        <input name="txtfromdate" type="text" value="01/04/2021" id="txtfromdate" autocomplete="off" class="form-control txtfromdate|text|y|1|5000|alnum_spc|Please enter from date." placeholder="From date" />
+                                     <span style="color:red; font-size:12px">DD/MM/YYYYYY</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="txttodate" class="col-lg-6 control-label">To Date</label>
+                                    <div class="col-lg-6">
+                                        <input name="txttodate" type="text" value="01/06/2021" id="txttodate" autocomplete="off" class="form-control txttodate|text|y|1|5000|alnum_spc|Please enter to date." placeholder="To date" />
+                                     <span style="color:red; font-size:12px">DD/MM/YYYYYY</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-lg-4 control-label"></label>
+                                <div class="col-lg-8">
+                                    
+                                    <input type="submit" name="btnview" value="View" onclick="return validation();" id="btnview" class="btn btn-success" />
+
+                                    <input type="hidden" name="lblid" id="lblid" />
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+         
+    <div class="well bs-component" id="divprint">
+          
+            <div id="tabl" class="text-center" style="line-height: 40px; font-weight: bold;">
+                <img src="../../images/print_ic.gif" style="float:right" onclick="PrintDiv();" />      <input type="image" name="btnxl" id="btnxl" src="../../images/xl.png" style="border-width:0px;float:right; height:30px;width:30px" />          
+                Disaster Wise Death (<span id="fromdate">01 April 2021</span> to  <span id="todate">01 June 2021</span>)
+            </div>
+           
+            
+                    <table border="1" style="line-height: 30px; width: 100%">
+
+                        <tr style="background-color: #cee1c0; line-height: 50px;">
+                            <th>sno.</th>
+                            <th>District</th>
+                            <th>Road Accident</th>
+                            <th>Flash Flood/Cloudbrust</th>
+                            <th>Landslide/House Collapse</th>
+                            <th>Drowning</th>
+                            <th>Fire</th>
+                            <th>Lightening</th>
+                            <th>Others</th>
+                            <th>Total Death</th>
+                        </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="Repeater1_ctl01_lblRowNumber">1</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="Repeater1_ctl01_lblUser">BILASPUR </span></td>
+
+                        <td>
+                            <span id="Repeater1_ctl01_Label3">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl01_Label38">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl01_Label4">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl01_Label8">1</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl01_Label36">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl01_Label37">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl01_Label9">1</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl01_Label10">2</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="Repeater1_ctl02_lblRowNumber">2</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="Repeater1_ctl02_lblUser">CHAMBA </span></td>
+
+                        <td>
+                            <span id="Repeater1_ctl02_Label3">14</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl02_Label38">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl02_Label4">4</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl02_Label8">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl02_Label36">1</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl02_Label37">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl02_Label9">6</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl02_Label10">25</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="Repeater1_ctl03_lblRowNumber">3</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="Repeater1_ctl03_lblUser">HAMIRPUR </span></td>
+
+                        <td>
+                            <span id="Repeater1_ctl03_Label3">4</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl03_Label38">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl03_Label4">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl03_Label8">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl03_Label36">2</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl03_Label37">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl03_Label9">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl03_Label10">6</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="Repeater1_ctl04_lblRowNumber">4</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="Repeater1_ctl04_lblUser">KANGRA </span></td>
+
+                        <td>
+                            <span id="Repeater1_ctl04_Label3">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl04_Label38">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl04_Label4">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl04_Label8">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl04_Label36">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl04_Label37">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl04_Label9">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl04_Label10">0</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="Repeater1_ctl05_lblRowNumber">5</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="Repeater1_ctl05_lblUser">KINNAUR </span></td>
+
+                        <td>
+                            <span id="Repeater1_ctl05_Label3">2</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl05_Label38">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl05_Label4">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl05_Label8">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl05_Label36">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl05_Label37">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl05_Label9">3</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl05_Label10">5</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="Repeater1_ctl06_lblRowNumber">6</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="Repeater1_ctl06_lblUser">KULLU </span></td>
+
+                        <td>
+                            <span id="Repeater1_ctl06_Label3">9</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl06_Label38">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl06_Label4">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl06_Label8">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl06_Label36">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl06_Label37">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl06_Label9">3</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl06_Label10">12</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="Repeater1_ctl07_lblRowNumber">7</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="Repeater1_ctl07_lblUser">LAHAUL AND SPITI </span></td>
+
+                        <td>
+                            <span id="Repeater1_ctl07_Label3">1</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl07_Label38">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl07_Label4">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl07_Label8">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl07_Label36">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl07_Label37">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl07_Label9">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl07_Label10">1</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="Repeater1_ctl08_lblRowNumber">8</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="Repeater1_ctl08_lblUser">MANDI </span></td>
+
+                        <td>
+                            <span id="Repeater1_ctl08_Label3">25</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl08_Label38">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl08_Label4">1</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl08_Label8">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl08_Label36">2</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl08_Label37">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl08_Label9">13</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl08_Label10">41</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="Repeater1_ctl09_lblRowNumber">9</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="Repeater1_ctl09_lblUser">SHIMLA </span></td>
+
+                        <td>
+                            <span id="Repeater1_ctl09_Label3">8</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl09_Label38">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl09_Label4">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl09_Label8">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl09_Label36">1</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl09_Label37">2</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl09_Label9">6</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl09_Label10">17</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="Repeater1_ctl10_lblRowNumber">10</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="Repeater1_ctl10_lblUser">SIRMAUR </span></td>
+
+                        <td>
+                            <span id="Repeater1_ctl10_Label3">10</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl10_Label38">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl10_Label4">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl10_Label8">2</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl10_Label36">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl10_Label37">1</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl10_Label9">4</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl10_Label10">17</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="Repeater1_ctl11_lblRowNumber">11</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="Repeater1_ctl11_lblUser">SOLAN </span></td>
+
+                        <td>
+                            <span id="Repeater1_ctl11_Label3">15</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl11_Label38">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl11_Label4">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl11_Label8">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl11_Label36">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl11_Label37">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl11_Label9">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl11_Label10">15</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="Repeater1_ctl12_lblRowNumber">12</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="Repeater1_ctl12_lblUser">UNA </span></td>
+
+                        <td>
+                            <span id="Repeater1_ctl12_Label3">7</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl12_Label38">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl12_Label4">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl12_Label8">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl12_Label36">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl12_Label37">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl12_Label9">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl12_Label10">7</span>
+                        </td>
+                    </tr>
+                
+                    <tr style="line-height: 40px; font-weight: bold; background-color: #edd8d8;">
+                        <td></td>
+                        <td>Total:             
+                        </td>
+
+                        <td>
+                            <span id="Repeater1_ctl13_totalRoadAccident">95</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl13_totalflassflood">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl13_totalLandslideHouseCollapse">5</span>
+                        </td>
+
+                        <td>
+                            <span id="Repeater1_ctl13_totalDrowing">3</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl13_totalfire">6</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl13_totalLightening">3</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl13_totalOther">36</span>
+                        </td>
+                        <td>
+                            <span id="Repeater1_ctl13_totaloftotal">148</span>
+                        </td>
+
+                    </tr>
+                    </table>
+                
+
+        </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get('ToolkitScriptManager11_HiddenField').value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+</form>
+
+</body>
+</html>

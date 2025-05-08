@@ -1,0 +1,734 @@
+DistrictId,DistrictCode,District_version,DistrictName,DistrictName_hindi,StateCode,Census_2001_Code,Census_2011_Code,status
+603,603,1,NICOBARS,NICOBARS,35,2,638,Active
+632,632,1,NORTH AND MIDDLE ANDAMAN,NORTH AND MIDDLE ANDAMAN,35,NULL,639,Active
+602,602,1,SOUTH ANDAMANS,SOUTH ANDAMANS,35,1,640,Active
+502,502,1,ANANTAPUR ,अनंतपुर ,28,22,553,Active
+503,503,1,CHITTOOR ,चित्तूर ,28,23,554,Active
+505,505,1,EAST  GODAVARI ,ईस्ट  गोदावरी ,28,14,545,Active
+506,506,1,GUNTUR ,गुंटूर ,28,17,548,Active
+510,510,1,KRISHNA ,कृष्णा ,28,16,547,Active
+511,511,1,KURNOOL ,कुर्नूल ,28,21,552,Active
+517,517,1,PRAKASAM ,प्रकाशम् ,28,18,549,Active
+515,515,1,SPSR  NELLORE ,स्पश्र  नेल्लोरे ,28,19,550,Active
+519,519,1,SRIKAKULAM ,श्रीकाकुलम ,28,11,542,Active
+520,520,1,VISAKHAPATANAM ,विशाखापटनम ,28,13,544,Active
+521,521,1,VIZIANAGARAM ,विजयनगरम ,28,12,543,Active
+523,523,1,WEST  GODAVARI ,वेस्ट गोदावरी ,28,15,546,Active
+504,504,1, Y . S . R . (Kadapa)  ,य . स . र . (कडपा),28,20,551,Active
+628,628,1,ANJAW ,अन्जाव ,12,NULL,260,Active
+229,229,1,CHANGLANG ,चांगलांग ,12,12,253,Active
+230,230,1,DIBANG  VALLEY ,दिबांग वैली ,12,10,257,Active
+231,231,1,EAST  KAMENG ,ईस्ट कामेंग ,12,3,247,Active
+232,232,2,EAST  SIANG ,ईस्ट सिआंग ,12,8,251,Active
+677,677,1,Kra  Daadi ,करा दादी ,12,NULL,0,Active
+233,233,2,KURUNG  KUMEY ,कुरूंग कुमेय ,12,14,256,Active
+234,234,2,LOHIT ,लोहित ,12,11,259,Active
+666,666,1,LONGDING ,लोंगडिंग ,12,NULL,0,Active
+235,235,1,LOWER DIBANG VALLEY ,लोअर दिबांग वैली ,12,15,258,Active
+236,236,1,LOWER  SUBANSIRI ,लोअर सुबनसिरी ,12,5,255,Active
+678,678,1,NAMSAI ,नामसे ,12,NULL,0,Active
+237,237,1,PAPUM  PARE ,पापुम परे ,12,4,248,Active
+679,679,1,SIANG ,सिआंग ,12,NULL,0,Active
+238,238,1,TAWANG ,तवांग ,12,1,245,Active
+239,239,2,TIRAP ,तिरप ,12,13,254,Active
+240,240,1,UPPER  SIANG ,उप्पेर सिआंग ,12,9,252,Active
+241,241,1,UPPER  SUBANSIRI  ,उप्पेर सुबनसिरी  ,12,6,249,Active
+242,242,1,WEST  KAMENG ,वेस्ट कामेंग ,12,2,246,Active
+243,243,2,WEST  SIANG ,वेस्ट सिआंग ,12,7,250,Active
+616,616,1,BAKSA ,बक्सा ,18,NULL,324,Active
+280,280,1,BARPETA ,बारपेटा ,18,5,303,Active
+281,281,1,BONGAIGAON ,बोंगईगांव ,18,4,319,Active
+282,282,1,CACHAR ,कछार ,18,21,316,Active
+612,612,1,CHIRANG ,चिरांग ,18,NULL,320,Active
+283,283,1,DARRANG ,दर्रांग ,18,8,325,Active
+284,284,1,DHEMAJI ,धेमाजी ,18,13,308,Active
+285,285,1,DHUBRI ,धुबरी ,18,2,301,Active
+286,286,1,DIBRUGARH ,डिब्रूगढ़ ,18,15,310,Active
+299,299,2,DIMA  HASAO ,दिमा हसाओ ,18,20,315,Active
+287,287,1,GOALPARA ,गोआलपाड़ा ,18,3,302,Active
+288,288,1,GOLAGHAT ,गोलाघाट ,18,18,313,Active
+289,289,1,HAILAKANDI  ,हैलाकांदी,18,23,318,Active
+290,290,1,JORHAT ,जोरहाट ,18,17,312,Active
+291,291,1,KAMRUP ,कामरूप ,18,6,321,Active
+618,618,1,KAMRUP  METRO ,कामरूप मेट्रो ,18,NULL,322,Active
+292,292,1,KARBI  ANGLONG ,कारबी आंगलोंग ,18,19,314,Active
+293,293,1,KARIMGANJ ,करीमगंज ,18,22,317,Active
+294,294,1,KOKRAJHAR ,कोकराझार ,18,1,300,Active
+295,295,1,LAKHIMPUR ,लखीमपुर ,18,12,307,Active
+296,296,1,MARIGAON ,मृगों ,18,9,304,Active
+297,297,1,NAGAON ,नागाओं ,18,10,305,Active
+298,298,1,NALBARI ,नलबारी ,18,7,323,Active
+300,300,1,SIVASAGAR ,सिवसागर ,18,16,311,Active
+301,301,1,SONITPUR ,सोनितपुर ,18,11,306,Active
+302,302,1,TINSUKIA ,तिंसुकिअ ,18,14,309,Active
+617,617,1,UDALGURI ,उदालगुरी ,18,NULL,326,Active
+188,188,1,Araria  ,अररिया,10,7,209,Active
+611,611,1,ARWAL ,अरवल ,10,33,240,Active
+189,189,1,AURANGABAD ,औरंगाबाद ,10,34,235,Active
+190,190,1,BANKA ,बांका ,10,23,225,Active
+191,191,1,BEGUSARAI ,बेगुसराई ,10,20,222,Active
+192,192,1,BHAGALPUR ,भागलपुर ,10,22,224,Active
+193,193,1,BHOJPUR ,भोजपुर ,10,29,231,Active
+194,194,1,BUXAR ,बक्सर ,10,30,232,Active
+195,195,1,DARBHANGA ,दरभंगा ,10,13,215,Active
+196,196,1,GAYA ,गया ,10,35,236,Active
+197,197,1,GOPALGANJ ,गोपालगंज ,10,15,217,Active
+198,198,1,JAMUI ,जमुई ,10,37,238,Active
+199,199,1,JEHANABAD ,जहानाबाद ,10,33,239,Active
+200,200,1,KAIMUR (BHABUA ) ,कैमूर (भबुआ ) ,10,31,233,Active
+201,201,1,Katihar,कटिहार ,10,10,212,Active
+202,202,1,KHAGARIA ,खगरीअ ,10,21,223,Active
+203,203,1,KISHANGANJ ,किशनगंज ,10,8,210,Active
+204,204,1,LAKHISARAI ,लखीसराय ,10,25,227,Active
+205,205,1,MADHEPURA ,मधेपुरा ,10,11,213,Active
+206,206,1,MADHUBANI ,मधुबनी ,10,5,207,Active
+207,207,1,MUNGER ,मुंगेर ,10,24,226,Active
+208,208,1,MUZAFFARPUR ,मुजफ्फरपुर ,10,14,216,Active
+209,209,1,NALANDA ,नालंदा ,10,27,229,Active
+210,210,1,NAWADA ,नवादा ,10,36,237,Active
+211,211,1,WEST  CHAMPARAN ,पश्चिम  चम्पारण ,10,1,203,Active
+212,212,1,PATNA ,पटना ,10,28,230,Active
+213,213,1,PURBI  CHAMPARAN ,पूरबी चम्पारण ,10,2,204,Active
+214,214,1,Purnea ,पूर्णियां,10,9,211,Active
+215,215,1,ROHTAS ,रोहतास ,10,32,234,Active
+216,216,1,SAHARSA ,सहरसा ,10,12,214,Active
+217,217,1,SAMASTIPUR ,समस्तीपुर ,10,19,221,Active
+218,218,1,SARAN  ,सारण,10,17,219,Active
+219,219,1,SHEIKHPURA ,शेखपुरा ,10,26,228,Active
+220,220,1,SHEOHAR    , शिवहर,10,3,205,Active
+221,221,1,SITAMARHI ,सीतामढ़ी ,10,4,206,Active
+222,222,1,SIWAN ,सिवान ,10,16,218,Active
+223,223,1,SUPAUL ,सुपौल ,10,6,208,Active
+224,224,1,VAISHALI ,वैशाली ,10,18,220,Active
+44,44,1,CHANDIGARH ,चंडीगढ़ ,4,1,55,Active
+646,646,1,BALODA  ,बालोदा,22,NULL,0,Active
+644,644,1,BALODA  BAZAR ,बलोदा बाजार ,22,NULL,0,Active
+649,649,1,BALRAMPUR ,बलरामपुर ,22,NULL,0,Active
+374,374,1,BASTAR ,बस्तर ,22,15,414,Active
+650,650,1,BEMETARA ,बेमेतरा ,22,NULL,0,Active
+636,636,1,BIJAPUR ,बीजापुर ,22,16,417,Active
+375,375,1,BILASPUR ,बिलासपुर ,22,7,406,Active
+376,376,1,DANTEWADA ,दंतेवाड़ा ,22,16,416,Active
+377,377,1,DHAMTARI ,धमतरी ,22,13,412,Active
+378,378,1,DURG ,दुर्ग ,22,10,409,Active
+645,645,1,GARIYABAND ,गरियाबंद ,22,NULL,645,Active
+379,379,1,JANJGIR -CHAMPA ,जांजगीर -चंपा ,22,6,405,Active
+380,380,1,JASHPUR ,जशपुर ,22,3,402,Active
+382,382,1,KABIRDHAM ,कबीरधाम ,22,8,407,Active
+381,381,1,KANKER ,कांकेर ,22,14,413,Active
+643,643,1,KONDAGAON ,कोंडागांव ,22,NULL,0,Active
+383,383,1,KORBA ,कोरबा ,22,5,404,Active
+384,384,1,KOREA ,कोरिया ,22,1,400,Active
+385,385,1,MAHASAMUND ,महासमुंद ,22,12,411,Active
+647,647,1,MUNGELI ,मुंगेली ,22,NULL,0,Active
+637,637,1,NARAYANPUR ,नारायणपुर ,22,NULL,415,Active
+386,386,1,RAIGARH,रायगढ़ ,22,4,403,Active
+387,387,1,RAIPUR ,रायपुर ,22,11,410,Active
+388,388,1,RAJNANDGAON ,राजनांदगाव ,22,9,408,Active
+642,642,1,SUKMA ,सुकमा ,22,NULL,0,Active
+648,648,1,SURAJPUR ,सूरजपुर ,22,NULL,0,Active
+389,389,1,SURGUJA ,सुरगुजा ,22,2,401,Active
+465,465,1,DADRA AND NAGAR HAVELI ,दादरा एंड नगर हवेली ,26,1,496,Active
+463,463,1,DAMAN ,दमन ,25,2,495,Active
+464,464,1,DIU ,दिउ ,25,1,494,Active
+77,77,1,CENTRAL ,सेंट्रल ,7,6,95,Active
+78,78,2,EAST ,ईस्ट ,7,4,93,Active
+79,79,1,NEW  DELHI ,नई दिल्ली ,7,5,94,Active
+80,80,1,NORTH ,नार्थ ,7,2,91,Active
+81,81,2,NORTH  EAST ,नार्थ   ईस्ट ,7,3,92,Active
+82,82,1,NORTH  WEST ,नार्थ वेस्ट ,7,1,90,Active
+671,671,1,SHAHDARA ,शाहदरा ,7,NULL,0,Active
+83,83,2,SOUTH ,साउथ ,7,9,98,Active
+670,670,1,South  East ,साउथ  ईस्ट ,7,NULL,0,Active
+84,84,1,SOUTH  WEST DELHI   , दक्षिण पश्चिम दिल्ली,7,8,97,Active
+85,85,1,WEST ,वेस्ट ,7,7,96,Active
+551,551,1,NORTH  GOA ,नार्थ गोवा ,30,1,585,Active
+552,552,1,SOUTH  GOA ,साउथ गोवा ,30,2,586,Active
+438,438,2,AHMEDABAD ,अहमदाबाद ,24,7,474,Active
+439,439,1,AMRELI ,अमरेली ,24,13,480,Active
+440,440,1,ANAND ,आनंद ,24,15,482,Active
+672,672,1,ARVALLI ,अरवल्ली ,24,NULL,0,Active
+441,441,1,Banaskantha,बनासकांठा,24,2,469,Active
+442,442,1,BHARUCH ,भरुच ,24,21,488,Active
+443,443,2,BHAVNAGAR ,भावनगर ,24,14,481,Active
+676,676,1,BOTAD ,बोटाद ,24,NULL,0,Active
+668,668,1,CHHOTAUDEPUR ,छोटाउदेपुर ,24,NULL,0,Active
+444,444,1,DANG ,दांग ,24,23,489,Active
+674,674,1,DEVBHUMI  DWARKA ,देवभूमि द्वारका ,24,NULL,0,Active
+445,445,1,Dahod   ,दाहोद,24,18,485,Active
+446,446,1,GANDHINAGAR ,गांधीनगर ,24,6,473,Active
+675,675,1,GIR  SOMNATH ,गिर सोमनाथ ,24,NULL,0,Active
+447,447,2,JAMNAGAR ,जामनगर ,24,10,477,Active
+448,448,2,JUNAGADH ,जूनागढ़ ,24,12,479,Active
+449,449,1,KACHCHH ,कच्छ ,24,1,468,Active
+450,450,2,KHEDA ,खेड़ा ,24,16,483,Active
+451,451,1,MAHESANA ,महेसाणा ,24,4,471,Active
+669,669,1,Mahisagar ,महिसागर ,24,NULL,0,Active
+673,673,1,MORBI ,मोरबी ,24,NULL,0,Active
+452,452,1,NARMADA ,नर्मदा ,24,20,487,Active
+453,453,1,NAVSARI ,नवसारी ,24,24,490,Active
+454,454,2,Panchmahal  ,पंचमहल,24,17,484,Active
+455,455,1,Patan ,पाटन,24,3,470,Active
+456,456,1,PORBANDAR ,पोरबंदर ,24,11,478,Active
+457,457,2,RAJKOT ,राजकोट ,24,9,476,Active
+458,458,2,Sabarkantha,साबरकांठा,24,5,472,Active
+459,459,1,SURAT ,सूरत ,24,22,492,Active
+460,460,2,SURENDRANAGAR ,सुरेंद्रनगर ,24,8,475,Active
+641,641,1,TAPI ,तापी ,24,NULL,493,Active
+461,461,2,Vadodra ,वडोदरा,24,19,486,Active
+462,462,1,VALSAD ,वलसाड ,24,25,491,Active
+58,58,1,AMBALA ,अम्बाला ,6,2,70,Active
+59,59,1,BHIWANI ,भिवानी ,6,13,81,Active
+60,60,1,FARIDABAD ,फरीदाबाद ,6,19,88,Active
+61,61,1,FATEHABAD ,फतेहाबाद ,6,10,78,Active
+62,62,1,Gurugram  ,गुरुग्राम,6,18,86,Active
+63,63,1,HISAR ,हिसार ,6,12,80,Active
+64,64,1,JHAJJAR ,झज्जर ,6,15,83,Active
+65,65,1,JIND   ,जीन्द,6,9,77,Active
+66,66,1,KAITHAL ,कैथल ,6,5,73,Active
+67,67,1,KARNAL  ,करनाल,6,6,74,Active
+68,68,1,KURUKSHETRA ,कुरुक्षेत्र ,6,4,72,Active
+69,69,1,Mahendergarh,महेन्द्रगढ़,6,16,84,Active
+604,604,1,MEWAT ,मेवात ,6,NULL,87,Active
+619,619,1,PALWAL  ,पलवल,6,NULL,89,Active
+70,70,1,PANCHKULA ,पंचकूला ,6,1,69,Active
+71,71,1,PANIPAT ,पानीपत ,6,7,75,Active
+72,72,1,REWARI ,रेवाड़ी ,6,17,85,Active
+73,73,1,ROHTAK ,रोहतक ,6,14,82,Active
+74,74,1,SIRSA ,सिरसा ,6,11,79,Active
+75,75,1,SONIPAT ,सोनीपत ,6,8,76,Active
+76,76,1,YAMUNANAGAR ,यमुनानगर ,6,3,71,Active
+15,15,1,BILASPUR ,बिलासपुर ,2,8,30,Active
+16,16,1,CHAMBA ,चम्बा ,2,1,23,Active
+17,17,1,HAMIRPUR ,हमीरपुर ,2,6,28,Active
+18,18,1,KANGRA ,काँगड़ा ,2,2,24,Active
+19,19,1,KINNAUR ,किन्नौर ,2,12,34,Active
+20,20,1,KULLU ,कुल्लू ,2,4,26,Active
+21,21,1,LAHAUL AND SPITI ,लाहुल एंड स्पीति ,2,3,25,Active
+22,22,1,MANDI ,मंडी ,2,5,27,Active
+23,23,1,SHIMLA ,शिमला ,2,11,33,Active
+24,24,1,SIRMAUR ,सिरमौर ,2,10,32,Active
+25,25,1,SOLAN ,सोलन ,2,9,31,Active
+26,26,1,UNA ,उन ,2,7,29,Active
+1,1,1,ANANTNAG  ,अनन्तनागा,1,6,14,Active
+2,2,1,BADGAM  ,बड़गाम  ,1,4,2,Active
+623,623,1,BANDIPORA  ,बांदीपोरा ,1,NULL,9,Active
+3,3,1,BARAMULLA  ,बारामुल्ला ,1,2,8,Active
+4,4,1,DODA  ,डोडा,1,9,16,Active
+626,626,1,GANDERBAL   ,गांदेरबल ,1,NULL,11,Active
+5,5,1,JAMMU  ,जम्मू ,1,13,21,Active
+6,6,1,KARGIL   ,कारगिल ,1,8,4,Active
+7,7,1,KATHUA  ,कठुआ ,1,14,7,Active
+620,620,1,KISHTWAR ,किश्तवार ,1,9,18,Active
+622,622,1,KULGAM , कुलगाम ,1,NULL,15,Active
+8,8,1,KUPWARA ,कुपवाड़ा ,1,1,1,Active
+9,9,1,LEH LADAKH  ,लेह लदाख ,1,7,3,Active
+10,10,1,POONCH ,पूँछ ,1,11,5,Active
+11,11,1,PULWAMA ,पुलवामा ,1,5,12,Active
+12,12,1,RAJAURI ,राजौरी ,1,12,6,Active
+621,621,1,RAMBAN ,रामबाण ,1,9,17,Active
+627,627,1,REASI ,रासि ,1,NULL,20,Active
+624,624,1,SAMBA ,साम्बा ,1,NULL,22,Active
+625,625,1,SHOPIAN ,शोपियन ,1,NULL,13,Active
+13,13,1,SRINAGAR ,श्रीनगर ,1,3,10,Active
+14,14,1,UDHAMPUR ,उधमपुर ,1,10,19,Active
+322,322,1,BOKARO  ,बोकारो ,20,13,355,Active
+323,323,1,CHATRA  ,छात्र ,20,3,347,Active
+324,324,1,DEOGHAR  ,देओघर ,20,7,350,Active
+325,325,1,DHANBAD  ,धनबाद ,20,12,354,Active
+326,326,1,DUMKA  ,दुमका ,20,11,362,Active
+327,327,1,EAST SINGHBUM    ,पूर्वी सिंहभूम,20,18,357,Active
+328,328,1,GARHWA  ,गढ़वा ,20,1,346,Active
+329,329,1,GIRIDIH ,गिरिडीह ,20,6,349,Active
+330,330,1,Godda ,गोड्डा,20,8,351,Active
+331,331,1, Gumla ,गुमला ,20,16,366,Active
+332,332,1,HAZARIBAGH  ,हज़ारीबाग़ ,20,4,360,Active
+333,333,1,JAMTARA  ,जामतारा ,20,20,363,Active
+606,606,1,KHUNTI  ,खूंटी ,20,14,365,Active
+334,334,1,KODERMA  ,कोडरमा ,20,5,348,Active
+335,335,1,LATEHAR  ,लातेहार ,20,2,359,Active
+336,336,1,LOHARDAGA  ,लोहरदगा ,20,15,356,Active
+337,337,1,PAKUR  ,पाकुर ,20,10,353,Active
+338,338,1,PALAMU  ,पलामू ,20,2,358,Active
+607,607,1,RAMGARH  ,रामगढ ,20,4,361,Active
+339,339,1,RANCHI  ,रांची ,20,14,364,Active
+340,340,1,SAHIBGANJ ,साहिबगंज ,20,9,352,Active
+341,341,1,SARAIKELA KHARSAWAN,सराईकेला खरसावां ,20,17,369,Active
+342,342,1,SIMDEGA  ,सिमडेगा ,20,21,367,Active
+343,343,1,WEST SINGHBHUM,वेस्ट सिंघभूम ,20,17,368,Active
+524,524,1,BAGALKOT ,बागलकोट ,29,2,556,Active
+528,528,2,BALLARI ,बल्लारी ,29,12,565,Active
+527,527,2,BELAGAVI ,बेलगावी ,29,1,555,Active
+526,526,2,Bangalore Rural ,बैंगलोर  रूरल ,29,21,583,Active
+525,525,1,Bangalore Urban  ,बैंगलोर  अर्बन ,29,20,572,Active
+529,529,1,BIDAR ,बीदर ,29,5,558,Active
+531,531,1,CHAMARAJANAGARA  ,चामराजनगर  ,29,27,578,Active
+630,630,1,CHIKBALLAPUR ,चिकबल्लापुर ,29,19,582,Active
+532,532,2, CHIKKAMANGALURU,चिकमगलूर,29,17,570,Active
+533,533,1,CHITRADURGA ,चित्रदुर्गा ,29,13,566,Active
+534,534,1,DAKSHINA KANNADA ,दक्षिण कन्नड़ ,29,24,575,Active
+535,535,1,DAVANGERE ,दावणगेरे ,29,14,567,Active
+536,536,1,DHARWAD ,धारवाड़ ,29,9,562,Active
+537,537,1,GADAG ,गदग ,29,8,561,Active
+539,539,1,HASSAN ,हस्सान ,29,23,574,Active
+540,540,1,HAVERI ,हावेरी ,29,11,564,Active
+538,538,2,Gulbarga ,गुलबर्गा ,29,4,579,Active
+541,541,1,KODAGU ,कोडागु ,29,25,576,Active
+542,542,1,KOLAR ,कोलर ,29,19,581,Active
+543,543,1,KOPPAL ,कोप्पल ,29,7,560,Active
+544,544,1,MANDYA ,मांड्या ,29,22,573,Active
+545,545,2,MYSURU ,मैसूरु ,29,26,577,Active
+546,546,1,RAICHUR ,रायचूर ,29,6,559,Active
+631,631,1,RAMANAGARA ,रमनगरा ,29,21,584,Active
+547,547,2,SHIVAMOGGA ,शिवमोग्गा ,29,15,568,Active
+548,548,2,TUMKUR,तुमकुर ,29,18,571,Active
+549,549,1,UDUPI ,उडुपी ,29,16,569,Active
+550,550,1,UTTAR KANNAD       ,उत्तर कन्नड़ ,29,10,563,Active
+530,530,2,Vijayapura,विजयपुरा,29,3,557,Active
+635,635,1,YADGIR ,यादगीर ,29,4,580,Active
+554,554,1,ALAPPUZHA     , अलप्पुज़ः   ,32,11,598,Active
+555,555,1,ERNAKULAM   , एर्नाकुलम ,32,8,595,Active
+556,556,1,IDUKKI ,इडुक्की   ,32,9,596,Active
+557,557,1,KANNUR ,कन्नूर,32,2,589,Active
+558,558,1,KASARAGOD ,कासरगोड    ,32,1,588,Active
+559,559,1,KOLLAM ,कोल्लम ,32,13,600,Active
+560,560,1,KOTTAYAM ,कोट्टायम,32,10,597,Active
+561,561,1,KOZHIKODE ,कोजहिकोडे,32,4,591,Active
+562,562,1,MALAPPURAM ,मलप्पुरम,32,5,592,Active
+563,563,1,PALAKKAD ,पलक्कड़,32,6,593,Active
+564,564,1,PATHANAMTHITTA ,पथानामथिट्टा,32,12,599,Active
+565,565,1,THIRUVANANTHAPURAM ,थिरुवनंतपुरम,32,14,601,Active
+566,566,1,THRISSUR ,थ्रिस्सूर,32,7,594,Active
+567,567,1,WAYANAD ,वायनाड,32,3,590,Active
+553,553,1,LAKSHADWEEP DISTRICT,लक्षद्वीप डिस्ट्रिक्ट ,31,1,587,Active
+667,667,1,AGAR MALWA , अगर मालवा ,23,NULL,0,Active
+639,639,1,ALIRAJPUR      ,अलीराजपुर ,23,24,465,Active
+390,390,1,ANUPPUR , अनूपपुर ,23,16,461,Active
+391,391,1,ASHOKNAGAR ,अशोकनगर ,23,46,459,Active
+392,392,1,BALAGHAT ,बालाघाट ,23,45,457,Active
+393,393,1,BARWANI  ,बड़वानी,23,28,441,Active
+394,394,1,BETUL ,बैतूल ,23,35,447,Active
+395,395,1,BHIND ,भिंड ,23,3,420,Active
+396,396,1,BHOPAL ,भोपाल ,23,32,444,Active
+397,397,1,BURHANPUR ,बुरहानपुर ,23,29,467,Active
+398,398,1,CHHATARPUR ,छतरपुर ,23,9,425,Active
+399,399,1,CHHINDWARA ,छिंदवाड़ा ,23,43,455,Active
+400,400,1,DAMOH ,दमोह ,23,12,428,Active
+401,401,1,DATIA  ,दतिया,23,5,422,Active
+402,402,1,DEWAS , देवास ,23,23,437,Active
+403,403,1,DHAR ,धार ,23,25,438,Active
+404,404,1,DINDORI ,डिंडोरी ,23,41,453,Active
+405,405,1,KHANDWA,खंडवा ,23,29,466,Active
+406,406,1,GUNA ,गुना ,23,7,458,Active
+407,407,1,GWALIOR ,ग्वालियर ,23,4,421,Active
+408,408,1,HARDA ,हरदा ,23,36,448,Active
+409,409,1,HOSHANGABAD , होशंगाबाद ,23,37,449,Active
+410,410,1,INDORE ,इंदौर ,23,26,439,Active
+411,411,1,JABALPUR ,जबलपुर ,23,39,451,Active
+412,412,1,Jhabua      ,झाबुआ,23,24,464,Active
+413,413,1,KATNI ,कटनी ,23,38,450,Active
+414,414,1,KHARGONE ,खरगोन ,23,27,440,Active
+415,415,1,MANDLA ,मंडला ,23,42,454,Active
+416,416,1,Mandsaur ,मन्दसौर,23,19,433,Active
+417,417,1,MORENA ,मुरैना ,23,2,419,Active
+418,418,1,NARSINGHPUR    ,नरसिंहपुर ,23,40,452,Active
+419,419,1,NEEMUCH ,नीमच ,23,18,432,Active
+420,420,1,PANNA , पन्ना ,23,10,426,Active
+421,421,1,RAISEN ,रायसेन ,23,34,446,Active
+422,422,1,RAJGARH ,राजगढ़ ,23,30,442,Active
+423,423,1,RATLAM ,रतलाम ,23,20,434,Active
+424,424,1,REWA ,रीवा ,23,14,430,Active
+425,425,1,SAGAR , सागर ,23,11,427,Active
+426,426,1,SATNA   ,सतना  ,23,13,429,Active
+427,427,1,SEHORE ,सीहोर ,23,33,445,Active
+428,428,1,SEONI  ,सिवनी,23,44,456,Active
+429,429,1,SHAHDOL ,शहडोल ,23,16,460,Active
+430,430,2,SHAJAPUR ,शाजापुर ,23,22,436,Active
+431,431,1,SHEOPUR ,शेओपुर ,23,1,418,Active
+432,432,1,SHIVPURI ,शिवपुरी ,23,6,423,Active
+433,433,1,SIDHI ,सीधी ,23,17,462,Active
+638,638,1,SINGRAULI ,सिंगरौली ,23,NULL,463,Active
+434,434,1,TIKAMGARH ,टीकमगढ़ ,23,8,424,Active
+435,435,1,UJJAIN ,उज्जैन ,23,21,435,Active
+436,436,1,UMARIA ,उमरिअ ,23,15,431,Active
+437,437,1,VIDISHA ,विदिशा ,23,31,443,Active
+466,466,1,AHMEDNAGAR  ,अहमदनगर ,27,26,522,Active
+467,467,1,AKOLA  ,अकोला ,27,5,501,Active
+468,468,1,AMRAVATI  ,अमरावती ,27,7,503,Active
+469,469,1,AURANGABAD  ,औरंगाबाद ,27,19,515,Active
+470,470,1,BEED  ,बीड ,27,27,523,Active
+471,471,1,BHANDARA  ,भंडारा ,27,10,506,Active
+472,472,1,BULDHANA   ,बुलढाणा ,27,4,500,Active
+473,473,1,CHANDRAPUR  ,चंद्रपुर ,27,13,509,Active
+474,474,1,DHULE     ,धुळे ,27,2,498,Active
+475,475,1,GADCHIROLI  ,गडचिरोली ,27,12,508,Active
+476,476,1,GONDIA,गोंदिया,27,11,507,Active
+477,477,1,HINGOLI  ,हिंगोली ,27,16,512,Active
+478,478,2,JALGAON  ,जलगाओं ,27,3,499,Active
+479,479,1,JALNA  ,जलना ,27,18,514,Active
+480,480,1,KOLHAPUR  ,कोल्हापुर ,27,34,530,Active
+481,481,1,LATUR  ,लातूर ,27,28,524,Active
+482,482,1,MUMBAI  ,मुंबई ,27,23,519,Active
+483,483,1,MUMBAI  SUBURBAN   ,मुंबई सबअर्बन ,27,22,518,Active
+484,484,1,NAGPUR  ,नागपुर ,27,9,505,Active
+485,485,1,NANDED   ,नांदेड      ,27,15,511,Active
+486,486,1,NANDURBAR  ,नंदुरबार ,27,1,497,Active
+487,487,1,NASHIK  ,नाशिक ,27,20,516,Active
+488,488,1,OSMANABAD  ,ओस्मानाबाद ,27,29,525,Active
+665,665,1,PALGHAR  ,पालघर ,27,NULL,0,Active
+489,489,1,PARBHANI  ,परभणी ,27,17,513,Active
+490,490,1,PUNE  ,पुणे ,27,25,521,Active
+491,491,1,RAIGAD   ,रायगड,27,24,520,Active
+492,492,1,RATNAGIRI ,रत्नागिरी ,27,32,528,Active
+493,493,1,SANGLI  ,सांगली ,27,35,531,Active
+494,494,1,SATARA  ,सतारा ,27,31,527,Active
+495,495,1,SINDHUDURG  ,सिंधुदुर्ग ,27,33,529,Active
+496,496,1,SOLAPUR   ,सोलापूर,27,30,526,Active
+497,497,2,THANE  ,ठाणे ,27,21,517,Active
+498,498,1,WARDHA  ,वर्धा ,27,8,504,Active
+499,499,1,WASHIM  ,वाशिम ,27,6,502,Active
+500,500,1,YAVATMAL  ,यवतमाल ,27,14,510,Active
+252,252,1,BISHNUPUR ,बिष्णुपुर ,14,4,275,Active
+253,253,1,CHANDEL ,चंदेल ,14,9,280,Active
+254,254,1,CHURACHANDPUR ,चुराचांदपुर ,14,3,274,Active
+255,255,1,IMPHAL EAST,इम्फाल ईस्ट ,14,7,278,Active
+256,256,1,IMPHAL WEST  ,इम्फाल वेस्ट ,14,6,277,Active
+257,257,1,SENAPATI ,सेनापति ,14,1,272,Active
+258,258,1,TAMENGLONG ,तमेंगलोंग ,14,2,273,Active
+259,259,1,THOUBAL ,थौबल ,14,5,276,Active
+260,260,1,UKHRUL ,उखरुल ,14,8,279,Active
+261,261,1,AIZAWL ,ऐज़ौल ,15,3,283,Active
+262,262,1,CHAMPHAI ,चम्फाई ,15,4,284,Active
+263,263,1,KOLASIB ,कोलासिब ,15,2,282,Active
+264,264,1,LAWNGTLAI ,लवंगत्लई ,15,7,287,Active
+265,265,1,LUNGLEI ,लुंगलेई ,15,6,286,Active
+266,266,1,MAMIT ,ममित ,15,1,281,Active
+267,267,1,Siaha    , सिआह,15,8,288,Active
+268,268,1,SERCHHIP ,सेरछिप ,15,5,285,Active
+244,244,1,DIMAPUR ,दीमापुर ,13,6,265,Active
+614,614,1,KIPHIRE ,किफिर ,13,2,269,Active
+245,245,1,KOHIMA ,कोहिमा ,13,7,270,Active
+615,615,1,LONGLENG ,लोंगलेंग ,13,2,268,Active
+246,246,1,MOKOKCHUNG ,मोकोकचुंग ,13,3,262,Active
+247,247,1,MON ,में ,13,1,261,Active
+613,613,1,PEREN ,पेरें ,13,7,271,Active
+248,248,1,PHEK ,फेक ,13,8,266,Active
+249,249,1,TUENSANG ,तुएनसांग ,13,2,267,Active
+250,250,1,WOKHA ,वोखा ,13,5,264,Active
+251,251,1,ZUNHEBOTO ,जुन्हेबोटो ,13,4,263,Active
+344,344,1,ANUGUL ,अनुगुल ,21,15,384,Active
+345,345,1,BOLANGIR , बोलांगीर ,21,24,393,Active
+346,346,1,BALESHWAR ,बालेश्वर ,21,8,377,Active
+347,347,1,BARGARH ,बरगढ़ ,21,1,370,Active
+348,348,1,BHADRAK ,भद्रक ,21,9,378,Active
+349,349,1,BOUDH ,बौद्ध ,21,22,391,Active
+350,350,1,CUTTACK ,कुट्टक ,21,12,381,Active
+351,351,1,DEOGARH ,डोगरह ,21,4,373,Active
+352,352,1,DHENKANAL ,ढेंकानाल ,21,14,383,Active
+353,353,1,GAJAPATI ,गजपति ,21,20,389,Active
+354,354,1,GANJAM ,गंजाम ,21,19,388,Active
+355,355,1,JAGATSINGHAPUR ,जगतसिंहपुर ,21,11,380,Active
+356,356,1,JAJAPUR ,जाजपुर ,21,13,382,Active
+357,357,1,JHARSUGUDA ,झारसुगुड़ा ,21,2,371,Active
+358,358,1,KALAHANDI ,कालाहांडी ,21,26,395,Active
+359,359,1,KANDHAMAL ,कंधमाल ,21,21,390,Active
+360,360,1,KENDRAPARA     ,केन्द्रापड़ा   ,21,10,379,Active
+361,361,1,KEONJHAR ,क्योंझर ,21,6,375,Active
+362,362,1,KHORDHA ,खोर्धा ,21,17,386,Active
+363,363,1,KORAPUT ,कोरापुट ,21,29,398,Active
+364,364,1,MALKANGIRI ,मलकानगिरी ,21,30,399,Active
+365,365,1,MAYURBHANJ ,मयूरभंज ,21,7,376,Active
+366,366,1,NABARANGPUR ,नबरंगपुर ,21,28,397,Active
+367,367,1,NAYAGARH ,नयागढ़ ,21,16,385,Active
+368,368,1,NUAPADA ,नुआपाड़ा ,21,25,394,Active
+369,369,1,PURI ,पूरी ,21,18,387,Active
+370,370,1,RAYAGADA ,रायगड़ा ,21,27,396,Active
+371,371,1,SAMBALPUR ,सम्बलपुर ,21,3,372,Active
+372,372,1,SONEPUR    ,सोनपुर ,21,23,392,Active
+373,373,1,SUNDARGARH ,सुंदरगढ़ ,21,5,374,Active
+598,598,1,KARAIKAL ,कराईकल ,34,4,637,Active
+599,599,1,MAHE ,माहे ,34,3,636,Active
+600,600,1,PUDUCHERRY ,पुडुचेर्री ,34,2,635,Active
+601,601,1,YANAM ,यनम ,34,1,634,Active
+27,27,1,AMRITSAR ,अमृतसर ,3,2,49,Active
+605,605,1,BARNALA ,बरनाला ,3,NULL,54,Active
+28,28,1,BATHINDA ,बठिंडा ,3,14,46,Active
+29,29,1,FARIDKOT ,फरीदकोट ,3,13,45,Active
+30,30,1,FATEHGARH SAHIB   ,फतेहगढ़ साहिब ,3,8,40,Active
+651,651,1,FAZILKA ,फाजिल्का ,3,NULL,0,Active
+31,31,1,FIROZPUR ,फ़िरोज़पुर ,3,11,43,Active
+32,32,2,GURDASPUR ,गुरदासपुर ,3,1,35,Active
+33,33,1,HOSHIARPUR    ,होशियारपुर ,3,5,38,Active
+34,34,1,JALANDHAR ,जालंधर ,3,4,37,Active
+35,35,1,KAPURTHALA ,कपूरथला ,3,3,36,Active
+36,36,3,LUDHIANA  ,लुधिअना ,3,9,41,Active
+37,37,2,MANSA ,मनसा ,3,15,47,Active
+38,38,1,MOGA ,मोगा ,3,10,42,Active
+40,40,1,NAWANSHAHR ,नवांशहर ,3,6,39,Active
+662,662,1,PATHANKOT ,पठानकोट ,3,NULL,0,Active
+41,41,1,PATIALA ,पटिआला ,3,17,48,Active
+42,42,1,RUPNAGAR ,रूपनगर ,3,7,51,Active
+43,43,1,SANGRUR ,संगरूर ,3,16,53,Active
+608,608,1,S.A.S Nagar Mohali ,एस.ए.एस  नगर मोहाली ,3,NULL,52,Active
+39,39,2,SRI MUKTSAR SAHIB    ,श्री मुक्तसर साहिब ,3,12,44,Active
+609,609,2,Tarn Taran         ,तरन तारन,3,NULL,50,Active
+86,86,1,AJMER  ,अजमेर ,8,21,119,Active
+87,87,1,ALWAR ,अलवर ,8,6,104,Active
+88,88,1,BANSWARA ,बांसवाड़ा ,8,28,125,Active
+89,89,1,BARAN ,बरन ,8,31,128,Active
+90,90,1,BARMER  ,बाड़मेर,8,17,115,Active
+91,91,1,BHARATPUR ,भरतपुर ,8,7,105,Active
+92,92,1,BHILWARA ,भीलवाड़ा ,8,24,122,Active
+93,93,1,BIKANER ,बीकानेर ,8,3,101,Active
+94,94,1,Bundi  ,बूँदी,8,23,121,Active
+95,95,1,Chittorgarh   ,चित्तौड़गढ़ ,8,29,126,Active
+96,96,1,CHURU ,चूरू   ,8,4,102,Active
+97,97,1,DAUSA ,दौसा ,8,11,109,Active
+98,98,1,DHOLPUR ,धौलपुर ,8,8,106,Active
+99,99,1,DUNGARPUR ,डूंगरपुर ,8,27,124,Active
+100,100,1,Shri Ganganagar ,श्री गंगानगर ,8,1,99,Active
+101,101,1,HANUMANGARH ,हनुमानगढ़ ,8,2,100,Active
+102,102,1,JAIPUR ,जयपुर ,8,12,110,Active
+103,103,1,JAISALMER ,जैसलमेर ,8,16,114,Active
+104,104,1,JALORE,जालौर,8,18,116,Active
+105,105,1,JHALAWAR ,झालावाड़ ,8,32,129,Active
+106,106,1,JHUNJHUNU  ,झुंझुनूं ,8,5,103,Active
+107,107,1,JODHPUR ,जोधपुर ,8,15,113,Active
+108,108,1,KARAULI ,करौली ,8,9,107,Active
+109,109,1,KOTA ,कोटा ,8,30,127,Active
+110,110,1,NAGAUR ,नागौर ,8,14,112,Active
+111,111,1,PALI ,पाली ,8,20,118,Active
+629,629,1,PRATAPGARH ,प्रतापगढ़ ,8,NULL,131,Active
+112,112,1,RAJSAMAND ,राजसमंद ,8,25,123,Active
+113,113,1,SAWAI MADHOPUR  ,सवाईमाधोपुर,8,10,108,Active
+114,114,1,SIKAR ,सीकर ,8,13,111,Active
+115,115,1,SIROHI ,सिरोही ,8,19,117,Active
+116,116,1,TONK ,टोंक ,8,22,120,Active
+117,117,1,UDAIPUR ,उदयपुर ,8,26,130,Active
+225,225,1,EAST DISTRICT   ,ईस्ट डिस्ट्रिक्ट ,11,4,244,Active
+226,226,1,NORTH DISTRICT     ,नार्थ डिस्ट्रिक्ट ,11,1,241,Active
+227,227,1,SOUTH DISTRICT     ,साउथ डिस्ट्रिक्ट ,11,3,243,Active
+228,228,1,WEST DISTRICT      ,वेस्ट डिस्ट्रिक्ट ,11,2,242,Active
+610,610,1,Ariyalur ,अरियालुर ,33,17,616,Active
+568,568,1,CHENNAI ,चेन्नई ,33,2,603,Active
+569,569,1,COIMBATORE ,कोइम्बटोरे ,33,12,632,Active
+570,570,1,CUDDALORE  ,कड्डलोर,33,18,617,Active
+571,571,1,DHARMAPURI ,धर्मपुरी ,33,5,630,Active
+572,572,1,DINDIGUL ,डिंडीगुल ,33,13,612,Active
+573,573,1,ERODE ,इरोड ,33,10,610,Active
+574,574,1,KANCHEEPURAM ,कांचीपुरम ,33,3,604,Active
+575,575,1,KANNIYAKUMARI ,कन्नियाकुमारी ,33,30,629,Active
+576,576,1,KARUR ,क्रूर ,33,14,613,Active
+577,577,1,KRISHNAGIRI ,कृष्णागिरी ,33,5,631,Active
+578,578,1,MADURAI ,मदुरै ,33,24,623,Active
+579,579,1,NAGAPATTINAM ,नागपट्टिनम ,33,19,618,Active
+580,580,1,NAMAKKAL ,नमक्कल ,33,9,609,Active
+581,581,1,PERAMBALUR ,पेरम्बलूर ,33,16,615,Active
+582,582,1,PUDUKKOTTAI ,पुदुक्कोट्टई ,33,22,621,Active
+583,583,1,RAMANATHAPURAM ,रामनाथपुरम ,33,27,626,Active
+584,584,1,SALEM ,सालेम ,33,8,608,Active
+585,585,1,SIVAGANGA ,शिवगंगा ,33,23,622,Active
+586,586,1,THANJAVUR ,थंजावुर ,33,21,620,Active
+588,588,1,THENI ,थेनि ,33,25,624,Active
+587,587,1,THE NILGIRIS   ,थे नीलगिरिस ,33,11,611,Active
+589,589,1,TIRUVALLUR ,तिरुवल्लुर ,33,1,602,Active
+590,590,1,THIRUVARUR ,तिरुवरुर ,33,20,619,Active
+591,591,1,TIRUCHIRAPPALLI ,तिरूचिराप्पल्ली ,33,15,614,Active
+592,592,1,TIRUNELVELI ,तिरुनेलवेली ,33,29,628,Active
+634,634,1,TIRUPPUR ,तिरुप्पुर ,33,NULL,633,Active
+593,593,1,TIRUVANNAMALAI ,तिरुवन्नामलाई ,33,6,606,Active
+594,594,1,TUTICORIN ,तूतीकोरिन ,33,28,627,Active
+595,595,1,VELLORE ,वेल्लोर ,33,4,605,Active
+596,596,1,VILLUPURAM ,विल्लुपुरम ,33,7,607,Active
+597,597,1,VIRUDHUNAGAR ,विरुधुनगर ,33,26,625,Active
+501,501,2,Adilabad,आदिलाबाद ,36,1,532,Active
+507,507,2,HYDERABAD ,हैदराबाद ,36,5,536,Active
+508,508,2,KARIMNAGAR ,करीमनगर ,36,3,534,Active
+509,509,2,KHAMMAM ,खम्मम ,36,10,541,Active
+512,512,2,MAHABUBNAGAR,महबूबनगर ,36,7,538,Active
+513,513,2,MEDAK ,मेडक ,36,4,535,Active
+514,514,2,NALGONDA ,नलगोंडा ,36,8,539,Active
+516,516,2,NIZAMABAD ,निज़ामाबाद ,36,2,533,Active
+518,518,2,RANGAREDDI ,रंगारेड्डी ,36,6,537,Active
+522,522,2,WARANGAL ,वारंगल ,36,9,540,Active
+269,269,1,Dhalai ,ढलाई ,16,3,291,Active
+654,654,1,Gomati ,गोमती ,16,NULL,0,Active
+652,652,1,Khowai ,खोवै ,16,NULL,0,Active
+270,270,1,North Tripura   ,नार्थ त्रिपुरा ,16,4,292,Active
+653,653,1,Sepahijala ,सिपाहीजला ,16,NULL,0,Active
+271,271,1,South Tripura ,साउथ त्रिपुरा ,16,2,290,Active
+655,655,1,Unakoti ,उनाकोटी ,16,NULL,0,Active
+272,272,1,West Tripura   ,वेस्ट त्रिपुरा ,16,1,289,Active
+45,45,1,ALMORA ,अल्मोड़ा ,5,9,64,Active
+46,46,1,BAGESHWAR ,बागेश्वर ,5,8,63,Active
+47,47,1,CHAMOLI ,चमोली ,5,2,57,Active
+48,48,1,CHAMPAWAT ,चम्पावत ,5,10,65,Active
+49,49,1,DEHRADUN ,देहरादून ,5,5,60,Active
+50,50,1,HARIDWAR ,हरिद्वार ,5,13,68,Active
+51,51,1,NAINITAL ,नैनीताल ,5,11,66,Active
+52,52,1,PAURI GARHWAL  ,पौड़ी गढ़वाल,5,6,61,Active
+53,53,1,PITHORAGARH ,पिथौरागढ़ ,5,7,62,Active
+54,54,1,RUDRA PRAYAG , रूद्र प्रयाग ,5,3,58,Active
+55,55,1,TEHRI GARHWAL  ,टिहरी गढ़वाल,5,4,59,Active
+56,56,1,UDHAM SINGH NAGAR ,ऊधम सिंह नगर ,5,12,67,Active
+57,57,1,UTTAR KASHI      ,उत्तर कशी ,5,1,56,Active
+118,118,1,AGRA ,आगरा ,9,15,146,Active
+119,119,1,ALIGARH ,अलीगढ ,9,12,143,Active
+120,120,1,ALLAHABAD   ,इलाहाबाद,9,45,175,Active
+121,121,1, AMBEDKAR NAGAR ,अम्बेदकर नगर,9,48,178,Active
+640,640,2,Amethi ,अमेठी ,9,NULL,0,Active
+154,154,2,AMROHA ,अमरोहा ,9,6,137,Active
+122,122,1,AURAIYA ,औरैया ,9,32,162,Active
+123,123,1,AZAMGARH ,आजमगढ़ ,9,61,191,Active
+124,124,1,BAGHPAT ,बाघपत ,9,8,139,Active
+125,125,1,BAHRAICH ,बहराइच ,9,50,180,Active
+126,126,1,BALLIA ,बल्लीअ ,9,63,193,Active
+127,127,1,BALRAMPUR ,बलरामपुर ,9,52,182,Active
+128,128,1,BANDA ,बाँदा ,9,40,170,Active
+129,129,1,BARABANKI ,बाराबंकी ,9,46,176,Active
+130,130,1,BAREILLY   ,बरेली,9,20,150,Active
+131,131,1,BASTI ,बस्ती ,9,55,185,Active
+179,179,2,BHADOHI ,भदोही ,9,68,198,Active
+132,132,1,BIJNOR ,बिजनौर ,9,3,134,Active
+133,133,2,BUDAUN  ,बदायूँ,9,19,149,Active
+134,134,1,BULANDSHAHR  ,बुलन्दशहर,9,11,142,Active
+135,135,1,CHANDAULI ,चंदौली ,9,66,196,Active
+136,136,1,CHITRAKOOT ,चित्रकूट ,9,41,171,Active
+137,137,1,DEORIA  ,देवरिया                ,9,60,190,Active
+138,138,1,ETAH   ,एटा,9,17,201,Active
+139,139,1,ETAWAH    ,इटावा,9,31,161,Active
+140,140,1,FAIZABAD ,फैज़ाबाद ,9,47,177,Active
+141,141,1,FARRUKHABAD ,फर्रुखाबाद ,9,29,159,Active
+142,142,1,FATEHPUR ,फतेहपुर ,9,42,172,Active
+143,143,1,FIROZABAD ,फ़िरोज़ाबाद ,9,16,147,Active
+144,144,1,GAUTAM BUDDHA NAGAR         ,गौतम बुद्धा नगर ,9,10,141,Active
+145,145,2,GHAZIABAD ,ग़ज़िआबाद ,9,9,140,Active
+146,146,1,GHAZIPUR ,ग़ाज़ीपुर ,9,65,195,Active
+147,147,1,GONDA ,गोंडा ,9,53,183,Active
+148,148,1,GORAKHPUR ,गोरखपुर ,9,58,188,Active
+149,149,1,HAMIRPUR ,हमीरपुर ,9,38,168,Active
+661,661,2,HAPUR ,हापुड़ ,9,NULL,0,Active
+150,150,1,HARDOI ,हरदोई ,9,25,155,Active
+163,163,2,HATHRAS ,हाथरस ,9,13,144,Active
+151,151,1,JALAUN ,जालौन ,9,35,165,Active
+152,152,1,JAUNPUR ,जौनपुर ,9,64,194,Active
+153,153,1,JHANSI ,झाँसी ,9,36,166,Active
+155,155,1,KANNAUJ ,कन्नौज ,9,30,160,Active
+156,156,1,KANPUR DEHAT     ,कानपूर देहात ,9,33,163,Active
+157,157,1,KANPUR NAGAR   ,कानपूर नगर ,9,34,164,Active
+633,633,2,Kasganj ,कासगंज ,9,NULL,202,Active
+158,158,1,KAUSHAMBI ,कौशाम्बी ,9,44,174,Active
+159,159,1,LAKHIMPUR KHERI  ,लखीमपुर खीरी ,9,23,153,Active
+160,160,1,KUSHI NAGAR    ,कृषि नगर ,9,59,189,Active
+161,161,1,LALITPUR ,ललितपुर ,9,37,167,Active
+162,162,1,LUCKNOW ,लखनऊ ,9,27,157,Active
+164,164,1,MAHARAJGANJ ,महराजगंज ,9,57,187,Active
+165,165,1,MAHOBA ,महोबा ,9,39,169,Active
+166,166,1,MAINPURI ,मैनपुरी ,9,18,148,Active
+167,167,1,MATHURA ,मथुरा ,9,14,145,Active
+168,168,1,MAU ,मौ ,9,62,192,Active
+169,169,1,MEERUT ,मेरठ ,9,7,138,Active
+170,170,1,MIRZAPUR ,मिर्ज़ापुर ,9,69,199,Active
+171,171,2,MORADABAD   ,मुरादाबाद,9,4,135,Active
+172,172,2,MUZAFFARNAGAR ,मुज़फ्फरनगर ,9,2,133,Active
+173,173,1,PILIBHIT ,पीलीभीत ,9,21,151,Active
+174,174,1,PRATAPGARH ,प्रतापगढ़ ,9,43,173,Active
+175,175,1,RAEBARELI ,रायबरेली ,9,28,158,Active
+176,176,1,RAMPUR ,रामपुर ,9,5,136,Active
+177,177,1,SAHARANPUR ,सहारनपुर ,9,1,132,Active
+659,659,2,SAMBHAL ,संभल ,9,NULL,0,Active
+178,178,1, SANTKABIR NAGAR ,संतकबीर नगर,9,56,186,Active
+180,180,1,SHAHJAHANPUR ,शाहजहांपुर ,9,22,152,Active
+660,660,2,SHAMLI ,शामली ,9,NULL,0,Active
+181,181,1,SHRAVASTI ,श्रावस्ती ,9,51,181,Active
+182,182,1,SIDDHARTH NAGAR     ,सिद्धार्थ नगर ,9,54,184,Active
+183,183,1,SITAPUR ,सीतापुर ,9,24,154,Active
+184,184,1,SONBHADRA ,सोनभद्र ,9,70,200,Active
+185,185,1,SULTANPUR ,सुल्तानपुर ,9,49,179,Active
+186,186,1,UNNAO ,उन्नाओ ,9,26,156,Active
+187,187,1,VARANASI ,वाराणसी ,9,67,197,Active
+303,303,1,North  24  Parganas ,नार्थ २४ परगनास ,19,11,337,Active
+304,304,1,24 PARAGANAS SOUTH  ,24 परगनास साउथ ,19,18,343,Active
+664,664,1,Alipurduar ,अलीपुरदुआर ,19,NULL,0,Active
+305,305,1,BANKURA ,बांकुरा ,19,13,339,Active
+306,306,1,BARDHAMAN ,बर्धमान ,19,9,335,Active
+307,307,1,BIRBHUM ,बीरभूम ,19,8,334,Active
+308,308,1,COOCHBEHAR ,कूचबिहार ,19,3,329,Active
+309,309,1,DARJEELING ,दार्जीलिंग ,19,1,327,Active
+310,310,1,DINAJPUR DAKSHIN       ,दिनाजपुर दाक्षिण  ,19,5,331,Active
+311,311,1,Uttar Dinajpur  ,उत्तर दिनाजपुर,19,4,330,Active
+312,312,1,HOOGHLY ,हूघली ,19,12,338,Active
+313,313,1,HOWRAH   ,हावड़ा,19,16,341,Active
+314,314,2,JALPAIGURI ,जलपाईगुड़ी ,19,2,328,Active
+315,315,1,KOLKATA ,कोलकाता ,19,17,342,Active
+316,316,1,Malda  ,मालदा,19,6,332,Active
+317,317,1,MEDINIPUR EAST   ,मेदिनीपुर ईस्ट ,19,15,345,Active
+318,318,1,MEDINIPUR WEST    ,मेदिनीपुर वेस्ट ,19,15,344,Active
+319,319,1,MURSHIDABAD ,मुर्शिदाबाद ,19,7,333,Active
+320,320,1,NADIA ,नाडिया ,19,10,336,Active
+321,321,1,PURULIA ,पुरुलिअ ,19,14,340,Active
+680,NULL,NULL,abc ,एब्स ,20,NULL,NULL,Deleted
+681,NULL,NULL,Bolangir ,बोलांगीर ,21,NULL,NULL,Deleted
+682,NULL,NULL,PURBA MEDINIPUR ,पुरबा मेदिनीपुर ,19,NULL,NULL,Active
+685,NULL,NULL,NELLORE  ,नेल्लोरे ,28,NULL,NULL,Deleted
+686,NULL,NULL,KICCHA ,किच्छा ,5,NULL,NULL,Deleted
+1686,NULL,NULL,MANCHERIAL,मांचेरिअल  ,36,NULL,NULL,Active
+1687,NULL,NULL,KUMARAMBHEEM ASIFABAD       ,कुमारंभीम असिफाबाद ,36,NULL,NULL,Active
+1688,NULL,NULL,SANGAREDDY,संगरेड्डी ,36,NULL,NULL,Active
+1689,NULL,NULL,KAMAREDDY,कामारेड्डी ,36,NULL,NULL,Active
+1690,NULL,NULL,NANDED,नांदेड़ ,36,NULL,NULL,Deleted
+1691,NULL,NULL,Bhadradri Kothagudem,भद्रदृ कोठागुडेम ,36,NULL,NULL,Active
+1692,NULL,NULL,JAGTIAL,जागतिअल ,36,NULL,NULL,Active
+1693,NULL,NULL,JANGAON,जंघाओं ,36,NULL,NULL,Active
+1694,NULL,NULL,JAYASHANKAR BHUPALPALLY,जयशंकर भूपालापल्ली ,36,NULL,NULL,Active
+1695,NULL,NULL,JOGULAMBA GADWAL  ,जोगुलाम्बा गढ़वाल,36,NULL,NULL,Active
+1696,NULL,NULL,MAHABUBABAD,महबूबाबाद ,36,NULL,NULL,Active
+1697,NULL,NULL,MEDCHAL - MALKAJGIRI ,मेडल - मलकाजगिरी ,36,NULL,NULL,Active
+1698,NULL,NULL,NAGARKURNOOL ,नगरकुरनूल ,36,NULL,NULL,Active
+1699,NULL,NULL,NIRMAL ,निर्मल ,36,NULL,NULL,Active
+1700,NULL,NULL,PEDDAPALLI ,पेड्डापल्ली ,36,NULL,NULL,Active
+1702,NULL,NULL,RANGA REDDY ,रंगा रेड्डी ,36,NULL,NULL,Active
+1703,NULL,NULL,SIDDIPET ,सिद्दिपेट ,36,NULL,NULL,Active
+1704,NULL,NULL,SURYAPET ,सूर्यापेट ,36,NULL,NULL,Active
+1705,NULL,NULL,VIKARABAD ,विकराबाद ,36,NULL,NULL,Active
+1706,NULL,NULL,WANAPARTHY ,वनापर्थी ,36,NULL,NULL,Active
+1707,NULL,NULL,WARANGAL RURAL ,वारंगल रूरल ,36,NULL,NULL,Active
+1708,NULL,NULL,WARANGAL  URBAN ,वारंगल अर्बन ,36,NULL,NULL,Active
+1709,NULL,NULL,YADADRI BHUVANAGIRI ,यदाद्रि भुवनगिरि ,36,NULL,NULL,Active
+1710,NULL,NULL,Nuh   , नूहं,6,NULL,NULL,Active
+1711,NULL,NULL,Charkhi Dadri   ,चरखी दादरी,6,NULL,NULL,Active
+1714,NULL,NULL,West Garo Hills ,वेस्ट गारो हिल्स ,17,NULL,NULL,Active
+1715,NULL,NULL,CHAMPA ,चांपा,22,NULL,NULL,Active
+1717,NULL,NULL, makrana ,मकराना ,8,NULL,NULL,Active
+1721,NULL,NULL,BHATAPARA ,भाटापारा ,22,NULL,NULL,Active
+1723,NULL,NULL,Paschim  Bardhaman ,पश्चिम बर्धमान ,19,NULL,NULL,Active
+1724,NULL,NULL,Bhupalapally   , भुपालपल्ली,36,NULL,NULL,Active
+1725,NULL,NULL,Paschim  Medinipur ,पश्चिम मेदिनीपुर ,19,NULL,NULL,Active
+1726,NULL,NULL,test ,टेस्ट ,21,NULL,NULL,Active
+1728,NULL,NULL,Kalimpong  ,कलिम्पोंग ,19,NULL,NULL,Active
+1730,NULL,NULL,Kamjong ,कामजोंग ,14,NULL,NULL,Active
+1734,NULL,NULL,Poudi Uproda , पौड़ी उपरोड़ा ,22,NULL,NULL,Active
+1735,NULL,NULL,Noney ,नोने ,14,NULL,NULL,Active
+1736,NULL,NULL,Uddham Singh Nagar ,ऊधम सिह नगर,9,NULL,NULL,Active
+1737,NULL,NULL, PURBA BARDHAMAN     , पुरबा बर्धमान,19,NULL,NULL,Active
+1701,NULL,NULL,RAJANNA SIRCILLA , राजांना सिर्सिल्ला ,36,NULL,NULL,Active
+1720,NULL,NULL,Bishnupur ,बिष्णुपुर ,19,NULL,NULL,Deleted
+1729,NULL,NULL,GULBARGA  ,गुलबर्गा,29,NULL,NULL,Active
+1731,NULL,NULL,KHIRI,खीरी,9,NULL,NULL,Deleted
+1732,NULL,NULL,Banaskantha ,बनासकांठा ,8,NULL,NULL,Active
+1733,NULL,NULL,Poudi Uproda , पौड़ी उपरोड़ा ,22,NULL,NULL,Active
+1738,NULL,NULL,Kadapa  Division ,कडपा डिवीज़न ,28,NULL,NULL,Deleted
+1739,NULL,NULL,Jammalamadugu ,जममलमडुगु ,28,NULL,NULL,Active
+1741,NULL,NULL,Peddapalli ,पेद्दापल्ली,28,NULL,NULL,Active
+1742,NULL,NULL,Peddapalli ,पेद्दापल्ली,28,NULL,NULL,Active
+683,NULL,NULL,DELHI EPE  ,दिल्ली ेपे  ,7,NULL,NULL,Active
+684,NULL,NULL,VIJAYAWADA ,विजयवाड़ा ,28,NULL,NULL,Active
+1716,NULL,NULL,Agartala ,अगरतला ,16,NULL,NULL,Active
+1718,NULL,NULL,Bharatpur,भरतपुर ,3,NULL,NULL,Deleted
+1719,NULL,NULL,Kakching ,कक्चिंग ,14,NULL,NULL,Active
+1727,NULL,NULL,North Delhi ,नार्थ दिल्ली ,7,NULL,NULL,Active
+1743,NULL,NULL,BAMORI ,बामोरी ,23,NULL,NULL,Active
+1712,NULL,NULL,South Salmara Mankachar ,साउथ सलमारा मांकचर ,18,NULL,NULL,Active
+1713,NULL,NULL,Phulbari ,फुलबारी ,17,NULL,NULL,Deleted
+1740,NULL,NULL,Thoothukudi  ,थूथुकुडी,33,NULL,NULL,Active
+1722,NULL,NULL,Kalayat ,कलायत ,6,NULL,NULL,Active

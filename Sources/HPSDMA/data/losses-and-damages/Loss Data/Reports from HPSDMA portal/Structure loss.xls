@@ -1,0 +1,980 @@
+
+                    <table border="1" style="line-height: 30px;">
+
+                        <tr style="background-color: #cee1c0; line-height: 50px;">
+                           <th >sno.</th>
+                            <th >District</th>
+                             <th> Structure type</th>
+                            <th >Structure Loss</th>
+                            <th> Amount (In Lakh)</th>  
+                             <th>Status</th>        
+                        </tr>                      
+                       
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl01_lblRowNumber">1</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl01_lblUser" style="font-weight:normal;">BILASPUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl01_Label3" style="font-weight:normal;">Cowsheds</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl01_Label4" style="font-weight:normal;">52</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl01_lbldetails" style="font-weight:normal;">51.63</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl01_lblstatus" style="font-weight:normal;">Approved</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl02_lblRowNumber">2</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl02_lblUser" style="font-weight:normal;">BILASPUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl02_Label3" style="font-weight:normal;">Kachha House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl02_Label4" style="font-weight:normal;">19</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl02_lbldetails" style="font-weight:normal;">45.2</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl02_lblstatus" style="font-weight:normal;">Approved</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl03_lblRowNumber">3</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl03_lblUser" style="font-weight:normal;">BILASPUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl03_Label3" style="font-weight:normal;">Pacca House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl03_Label4" style="font-weight:normal;">16</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl03_lbldetails" style="font-weight:normal;">43.55</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl03_lblstatus" style="font-weight:normal;">Approved</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl04_lblRowNumber">4</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl04_lblUser" style="font-weight:normal;">BILASPUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl04_Label3" style="font-weight:normal;">Shops</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl04_Label4" style="font-weight:normal;">3</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl04_lbldetails" style="font-weight:normal;">36</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl04_lblstatus" style="font-weight:normal;">Approved</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl05_lblRowNumber">5</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl05_lblUser" style="font-weight:normal;">HAMIRPUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl05_Label3" style="font-weight:normal;">Cowsheds</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl05_Label4" style="font-weight:normal;">58</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl05_lbldetails" style="font-weight:normal;">32.04</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl05_lblstatus" style="font-weight:normal;">Approved</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl06_lblRowNumber">6</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl06_lblUser" style="font-weight:normal;">HAMIRPUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl06_Label3" style="font-weight:normal;">Cowsheds</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl06_Label4" style="font-weight:normal;">1</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl06_lbldetails" style="font-weight:normal;">2</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl06_lblstatus" style="font-weight:normal;">Pending for Approve</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl07_lblRowNumber">7</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl07_lblUser" style="font-weight:normal;">HAMIRPUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl07_Label3" style="font-weight:normal;">Kachha House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl07_Label4" style="font-weight:normal;">46</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl07_lbldetails" style="font-weight:normal;">34.39</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl07_lblstatus" style="font-weight:normal;">Approved</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl08_lblRowNumber">8</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl08_lblUser" style="font-weight:normal;">HAMIRPUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl08_Label3" style="font-weight:normal;">Kachha House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl08_Label4" style="font-weight:normal;">5</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl08_lbldetails" style="font-weight:normal;">6.11</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl08_lblstatus" style="font-weight:normal;">Pending for Approve</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl09_lblRowNumber">9</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl09_lblUser" style="font-weight:normal;">HAMIRPUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl09_Label3" style="font-weight:normal;">Pacca House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl09_Label4" style="font-weight:normal;">11</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl09_lbldetails" style="font-weight:normal;">6.9</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl09_lblstatus" style="font-weight:normal;">Approved</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl10_lblRowNumber">10</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl10_lblUser" style="font-weight:normal;">HAMIRPUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl10_Label3" style="font-weight:normal;">Shops</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl10_Label4" style="font-weight:normal;">4</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl10_lbldetails" style="font-weight:normal;">15.3</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl10_lblstatus" style="font-weight:normal;">Approved</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl11_lblRowNumber">11</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl11_lblUser" style="font-weight:normal;">HAMIRPUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl11_Label3" style="font-weight:normal;">Shops</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl11_Label4" style="font-weight:normal;">1</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl11_lbldetails" style="font-weight:normal;">3</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl11_lblstatus" style="font-weight:normal;">Pending for Approve</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl12_lblRowNumber">12</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl12_lblUser" style="font-weight:normal;">KINNAUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl12_Label3" style="font-weight:normal;">Cowsheds</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl12_Label4" style="font-weight:normal;">3</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl12_lbldetails" style="font-weight:normal;">0.65</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl12_lblstatus" style="font-weight:normal;">Pending for freeze</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl13_lblRowNumber">13</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl13_lblUser" style="font-weight:normal;">KINNAUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl13_Label3" style="font-weight:normal;">Huts</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl13_Label4" style="font-weight:normal;">1</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl13_lbldetails" style="font-weight:normal;">2.55</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl13_lblstatus" style="font-weight:normal;">Pending for freeze</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl14_lblRowNumber">14</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl14_lblUser" style="font-weight:normal;">KINNAUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl14_Label3" style="font-weight:normal;">Huts</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl14_Label4" style="font-weight:normal;">1</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl14_lbldetails" style="font-weight:normal;">0.2</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl14_lblstatus" style="font-weight:normal;">Pending for Approve</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl15_lblRowNumber">15</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl15_lblUser" style="font-weight:normal;">KINNAUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl15_Label3" style="font-weight:normal;">Kachha House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl15_Label4" style="font-weight:normal;">12</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl15_lbldetails" style="font-weight:normal;">29.5</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl15_lblstatus" style="font-weight:normal;">Pending for Approve</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl16_lblRowNumber">16</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl16_lblUser" style="font-weight:normal;">KINNAUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl16_Label3" style="font-weight:normal;">Labour Sheds</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl16_Label4" style="font-weight:normal;">1</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl16_lbldetails" style="font-weight:normal;">0.5</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl16_lblstatus" style="font-weight:normal;">Pending for Approve</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl17_lblRowNumber">17</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl17_lblUser" style="font-weight:normal;">KINNAUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl17_Label3" style="font-weight:normal;">Pacca House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl17_Label4" style="font-weight:normal;">3</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl17_lbldetails" style="font-weight:normal;">33.44</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl17_lblstatus" style="font-weight:normal;">Pending for freeze</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl18_lblRowNumber">18</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl18_lblUser" style="font-weight:normal;">KULLU </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl18_Label3" style="font-weight:normal;">Cowsheds</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl18_Label4" style="font-weight:normal;">5</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl18_lbldetails" style="font-weight:normal;">18</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl18_lblstatus" style="font-weight:normal;">Pending for freeze</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl19_lblRowNumber">19</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl19_lblUser" style="font-weight:normal;">KULLU </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl19_Label3" style="font-weight:normal;">Cowsheds</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl19_Label4" style="font-weight:normal;">1</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl19_lbldetails" style="font-weight:normal;">0.5</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl19_lblstatus" style="font-weight:normal;">Approved</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl20_lblRowNumber">20</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl20_lblUser" style="font-weight:normal;">KULLU </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl20_Label3" style="font-weight:normal;">Cowsheds</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl20_Label4" style="font-weight:normal;">9</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl20_lbldetails" style="font-weight:normal;">17.55</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl20_lblstatus" style="font-weight:normal;">Pending for Approve</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl21_lblRowNumber">21</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl21_lblUser" style="font-weight:normal;">KULLU </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl21_Label3" style="font-weight:normal;">Huts</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl21_Label4" style="font-weight:normal;">4</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl21_lbldetails" style="font-weight:normal;">30</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl21_lblstatus" style="font-weight:normal;">Pending for freeze</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl22_lblRowNumber">22</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl22_lblUser" style="font-weight:normal;">KULLU </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl22_Label3" style="font-weight:normal;">Kachha House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl22_Label4" style="font-weight:normal;">25</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl22_lbldetails" style="font-weight:normal;">1500379.09</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl22_lblstatus" style="font-weight:normal;">Pending for freeze</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl23_lblRowNumber">23</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl23_lblUser" style="font-weight:normal;">KULLU </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl23_Label3" style="font-weight:normal;">Kachha House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl23_Label4" style="font-weight:normal;">24</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl23_lbldetails" style="font-weight:normal;">1038</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl23_lblstatus" style="font-weight:normal;">Pending for Approve</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl24_lblRowNumber">24</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl24_lblUser" style="font-weight:normal;">KULLU </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl24_Label3" style="font-weight:normal;">Pacca House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl24_Label4" style="font-weight:normal;">10</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl24_lbldetails" style="font-weight:normal;">329</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl24_lblstatus" style="font-weight:normal;">Pending for freeze</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl25_lblRowNumber">25</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl25_lblUser" style="font-weight:normal;">KULLU </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl25_Label3" style="font-weight:normal;">Pacca House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl25_Label4" style="font-weight:normal;">3</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl25_lbldetails" style="font-weight:normal;">33.5</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl25_lblstatus" style="font-weight:normal;">Pending for Approve</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl26_lblRowNumber">26</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl26_lblUser" style="font-weight:normal;">KULLU </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl26_Label3" style="font-weight:normal;">Shops</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl26_Label4" style="font-weight:normal;">2</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl26_lbldetails" style="font-weight:normal;">51.5</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl26_lblstatus" style="font-weight:normal;">Pending for freeze</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl27_lblRowNumber">27</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl27_lblUser" style="font-weight:normal;">MANDI </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl27_Label3" style="font-weight:normal;">Cowsheds</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl27_Label4" style="font-weight:normal;">160</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl27_lbldetails" style="font-weight:normal;">69.03</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl27_lblstatus" style="font-weight:normal;">Approved</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl28_lblRowNumber">28</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl28_lblUser" style="font-weight:normal;">MANDI </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl28_Label3" style="font-weight:normal;">Cowsheds</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl28_Label4" style="font-weight:normal;">5</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl28_lbldetails" style="font-weight:normal;">7.3</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl28_lblstatus" style="font-weight:normal;">Pending for Approve</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl29_lblRowNumber">29</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl29_lblUser" style="font-weight:normal;">MANDI </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl29_Label3" style="font-weight:normal;">Kachha House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl29_Label4" style="font-weight:normal;">29</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl29_lbldetails" style="font-weight:normal;">530</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl29_lblstatus" style="font-weight:normal;">Pending for freeze</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl30_lblRowNumber">30</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl30_lblUser" style="font-weight:normal;">MANDI </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl30_Label3" style="font-weight:normal;">Kachha House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl30_Label4" style="font-weight:normal;">126</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl30_lbldetails" style="font-weight:normal;">445.43</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl30_lblstatus" style="font-weight:normal;">Approved</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl31_lblRowNumber">31</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl31_lblUser" style="font-weight:normal;">MANDI </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl31_Label3" style="font-weight:normal;">Kachha House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl31_Label4" style="font-weight:normal;">33</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl31_lbldetails" style="font-weight:normal;">590</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl31_lblstatus" style="font-weight:normal;">Pending for Approve</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl32_lblRowNumber">32</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl32_lblUser" style="font-weight:normal;">MANDI </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl32_Label3" style="font-weight:normal;">Pacca House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl32_Label4" style="font-weight:normal;">9</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl32_lbldetails" style="font-weight:normal;">67.4</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl32_lblstatus" style="font-weight:normal;">Approved</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl33_lblRowNumber">33</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl33_lblUser" style="font-weight:normal;">MANDI </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl33_Label3" style="font-weight:normal;">Shops</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl33_Label4" style="font-weight:normal;">9</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl33_lbldetails" style="font-weight:normal;">91.65</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl33_lblstatus" style="font-weight:normal;">Approved</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl34_lblRowNumber">34</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl34_lblUser" style="font-weight:normal;">SIRMAUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl34_Label3" style="font-weight:normal;">Cowsheds</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl34_Label4" style="font-weight:normal;">46</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl34_lbldetails" style="font-weight:normal;">8.03</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl34_lblstatus" style="font-weight:normal;">Approved</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl35_lblRowNumber">35</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl35_lblUser" style="font-weight:normal;">SIRMAUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl35_Label3" style="font-weight:normal;">Huts</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl35_Label4" style="font-weight:normal;">1</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl35_lbldetails" style="font-weight:normal;">0.6</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl35_lblstatus" style="font-weight:normal;">Approved</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl36_lblRowNumber">36</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl36_lblUser" style="font-weight:normal;">SIRMAUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl36_Label3" style="font-weight:normal;">Kachha House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl36_Label4" style="font-weight:normal;">49</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl36_lbldetails" style="font-weight:normal;">102.41</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl36_lblstatus" style="font-weight:normal;">Approved</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl37_lblRowNumber">37</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl37_lblUser" style="font-weight:normal;">SIRMAUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl37_Label3" style="font-weight:normal;">Pacca House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl37_Label4" style="font-weight:normal;">35</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl37_lbldetails" style="font-weight:normal;">62.45</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl37_lblstatus" style="font-weight:normal;">Approved</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl38_lblRowNumber">38</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl38_lblUser" style="font-weight:normal;">SIRMAUR </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl38_Label3" style="font-weight:normal;">Shops</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl38_Label4" style="font-weight:normal;">8</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl38_lbldetails" style="font-weight:normal;">53.66</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl38_lblstatus" style="font-weight:normal;">Approved</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl39_lblRowNumber">39</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl39_lblUser" style="font-weight:normal;">SOLAN </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl39_Label3" style="font-weight:normal;">Pacca House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl39_Label4" style="font-weight:normal;">1</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl39_lbldetails" style="font-weight:normal;">0.7</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl39_lblstatus" style="font-weight:normal;">Pending for freeze</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl40_lblRowNumber">40</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl40_lblUser" style="font-weight:normal;">UNA </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl40_Label3" style="font-weight:normal;">Cowsheds</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl40_Label4" style="font-weight:normal;">2</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl40_lbldetails" style="font-weight:normal;">1.12</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl40_lblstatus" style="font-weight:normal;">Pending for freeze</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl41_lblRowNumber">41</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl41_lblUser" style="font-weight:normal;">UNA </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl41_Label3" style="font-weight:normal;">Cowsheds</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl41_Label4" style="font-weight:normal;">1</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl41_lbldetails" style="font-weight:normal;">0.5</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl41_lblstatus" style="font-weight:normal;">Pending for Approve</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl42_lblRowNumber">42</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl42_lblUser" style="font-weight:normal;">UNA </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl42_Label3" style="font-weight:normal;">Huts</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl42_Label4" style="font-weight:normal;">37</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl42_lbldetails" style="font-weight:normal;">5.6</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl42_lblstatus" style="font-weight:normal;">Pending for Approve</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl43_lblRowNumber">43</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl43_lblUser" style="font-weight:normal;">UNA </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl43_Label3" style="font-weight:normal;">Pacca House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl43_Label4" style="font-weight:normal;">1</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl43_lbldetails" style="font-weight:normal;">0.3</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl43_lblstatus" style="font-weight:normal;">Pending for freeze</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl44_lblRowNumber">44</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl44_lblUser" style="font-weight:normal;">UNA </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl44_Label3" style="font-weight:normal;">Pacca House</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl44_Label4" style="font-weight:normal;">1</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl44_lbldetails" style="font-weight:normal;">6.5</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl44_lblstatus" style="font-weight:normal;">Pending for Approve</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="RepeatInformation_ctl45_lblRowNumber">45</span></td>
+                        <td style="text-align:left; padding-left:5px;">
+                            <span id="RepeatInformation_ctl45_lblUser" style="font-weight:normal;">UNA </span></td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl45_Label3" style="font-weight:normal;">Shops</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl45_Label4" style="font-weight:normal;">16</span>
+                        </td>                        
+                        <td>
+                            <span id="RepeatInformation_ctl45_lbldetails" style="font-weight:normal;">26.95</span>
+                        </td>  
+                        <td>
+                            <span id="RepeatInformation_ctl45_lblstatus" style="font-weight:normal;">Pending for Approve</span>
+                        </td>   
+                        
+                    </tr>
+                
+                    <tr style="line-height: 40px; font-weight: bold; background-color: #edd8d8;">
+                        <td></td>
+                        <td>Total:             
+                        </td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl46_person_dead"></span>
+                        </td>
+                        
+                        <td>
+                            <span id="RepeatInformation_ctl46_structure_loss1">889</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl46_lbltotal">1504309.73</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl46_lblstatus"></span>
+                        </td>
+                       
+                    </tr>
+                    </table>
+                

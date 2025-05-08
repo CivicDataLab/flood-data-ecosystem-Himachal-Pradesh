@@ -1,0 +1,681 @@
+
+                    <table border="1" style="line-height: 30px; width: 100%">
+                        <tr style="background-color: #cee1c0">
+                            <th rowspan="3" style="width:3%">sno.</th>
+                            <th rowspan="3" style="width:10%">Name of affected</br> District</th>
+                            <th colspan="14">No of houses damaged</th>
+                        </tr>
+                        <tr style="background-color: #cee1c0">
+                            <th colspan="2">Fully damaged </br>pucca houses</th>
+                            <th colspan="2">Fully damaged </br>Katcha houses </th>
+                            <th colspan="2">Partially / Severely </br>damaged pucca houses</th>
+                            <th colspan="2">Partially / Severely </br>damaged Katcha houses</th>
+                            <th colspan="2">Cowsheds / Gharats / </br>business premises</th>
+                            <th colspan="2">labor sheds damaged </th>
+                            <th rowspan="2">No.</th>
+                            <th rowspan="2">Amount (In lakhs)</th>
+                        </tr>
+                        <tr style="background-color: #cee1c0">
+                            <td style="width:6%">No.</td>
+                            <td style="width:6%">Amount (Lacs)</td>
+                            <td style="width:6%">No.</td>
+                            <td style="width:6%">Amount (Lacs)</td>
+                            <td style="width:6%">No.</td>
+                            <td style="width:6%">Amount (Lacs)</td>
+                            <td style="width:6%">No.</td>
+                            <td style="width:6%">Amount (Lacs)</td>
+                            <td style="width:6%">No.</td>
+                            <td style="width:6%">Amount (Lacs)</td>
+                            <td style="width:6%">No.</td>
+                            <td style="width:6%">Amount (Lacs)</td>
+                        </tr>
+                
+                    <tr>
+                        <td style="width:3%">
+                            <span id="RepeatInformation_ctl01_lblRowNumber">1</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="RepeatInformation_ctl01_lblUser" style="font-weight:bold;">BILASPUR </span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl01_Label7" style="font-weight:bold;">11</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl01_Label1" style="font-weight:bold;">34.35</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl01_Label8" style="font-weight:bold;">13</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl01_Label2" style="font-weight:bold;">38.8</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl01_Label9" style="font-weight:bold;">5</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl01_Label3" style="font-weight:bold;">9.2</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl01_Label10" style="font-weight:bold;">6</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl01_Label4" style="font-weight:bold;">6.4</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl01_Label5" style="font-weight:bold;">52</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl01_Label6" style="font-weight:bold;">51.63</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl01_Label13" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl01_Label14" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl01_Label11" style="font-weight:bold;">87</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl01_Label12" style="font-weight:bold;">140.38</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width:3%">
+                            <span id="RepeatInformation_ctl02_lblRowNumber">2</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="RepeatInformation_ctl02_lblUser" style="font-weight:bold;">CHAMBA </span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl02_Label7" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl02_Label1" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl02_Label8" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl02_Label2" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl02_Label9" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl02_Label3" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl02_Label10" style="font-weight:bold;">0</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl02_Label4" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl02_Label5" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl02_Label6" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl02_Label13" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl02_Label14" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl02_Label11" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl02_Label12" style="font-weight:bold;">0</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width:3%">
+                            <span id="RepeatInformation_ctl03_lblRowNumber">3</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="RepeatInformation_ctl03_lblUser" style="font-weight:bold;">HAMIRPUR </span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl03_Label7" style="font-weight:bold;">11</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl03_Label1" style="font-weight:bold;">6.9</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl03_Label8" style="font-weight:bold;">40</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl03_Label2" style="font-weight:bold;">23.82</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl03_Label9" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl03_Label3" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl03_Label10" style="font-weight:bold;">11</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl03_Label4" style="font-weight:bold;">16.68</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl03_Label5" style="font-weight:bold;">59</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl03_Label6" style="font-weight:bold;">34.04</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl03_Label13" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl03_Label14" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl03_Label11" style="font-weight:bold;">121</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl03_Label12" style="font-weight:bold;">81.44</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width:3%">
+                            <span id="RepeatInformation_ctl04_lblRowNumber">4</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="RepeatInformation_ctl04_lblUser" style="font-weight:bold;">KANGRA </span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl04_Label7" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl04_Label1" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl04_Label8" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl04_Label2" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl04_Label9" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl04_Label3" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl04_Label10" style="font-weight:bold;">0</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl04_Label4" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl04_Label5" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl04_Label6" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl04_Label13" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl04_Label14" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl04_Label11" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl04_Label12" style="font-weight:bold;">0</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width:3%">
+                            <span id="RepeatInformation_ctl05_lblRowNumber">5</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="RepeatInformation_ctl05_lblUser" style="font-weight:bold;">KINNAUR </span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl05_Label7" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl05_Label1" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl05_Label8" style="font-weight:bold;">5</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl05_Label2" style="font-weight:bold;">5.5</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl05_Label9" style="font-weight:bold;">3</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl05_Label3" style="font-weight:bold;">33.44</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl05_Label10" style="font-weight:bold;">8</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl05_Label4" style="font-weight:bold;">24</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl05_Label5" style="font-weight:bold;">3</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl05_Label6" style="font-weight:bold;">0.65</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl05_Label13" style="font-weight:bold;">2</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl05_Label14" style="font-weight:bold;">0.5</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl05_Label11" style="font-weight:bold;">21</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl05_Label12" style="font-weight:bold;">64.09</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width:3%">
+                            <span id="RepeatInformation_ctl06_lblRowNumber">6</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="RepeatInformation_ctl06_lblUser" style="font-weight:bold;">KULLU </span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl06_Label7" style="font-weight:bold;">8</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl06_Label1" style="font-weight:bold;">102.5</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl06_Label8" style="font-weight:bold;">6</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl06_Label2" style="font-weight:bold;">34</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl06_Label9" style="font-weight:bold;">5</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl06_Label3" style="font-weight:bold;">260</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl06_Label10" style="font-weight:bold;">43</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl06_Label4" style="font-weight:bold;">1501383.09</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl06_Label5" style="font-weight:bold;">15</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl06_Label6" style="font-weight:bold;">36.05</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl06_Label13" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl06_Label14" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl06_Label11" style="font-weight:bold;">77</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl06_Label12" style="font-weight:bold;">1501815.64</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width:3%">
+                            <span id="RepeatInformation_ctl07_lblRowNumber">7</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="RepeatInformation_ctl07_lblUser" style="font-weight:bold;">LAHAUL AND SPITI </span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl07_Label7" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl07_Label1" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl07_Label8" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl07_Label2" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl07_Label9" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl07_Label3" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl07_Label10" style="font-weight:bold;">0</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl07_Label4" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl07_Label5" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl07_Label6" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl07_Label13" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl07_Label14" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl07_Label11" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl07_Label12" style="font-weight:bold;">0</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width:3%">
+                            <span id="RepeatInformation_ctl08_lblRowNumber">8</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="RepeatInformation_ctl08_lblUser" style="font-weight:bold;">MANDI </span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl08_Label7" style="font-weight:bold;">6</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl08_Label1" style="font-weight:bold;">9.4</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl08_Label8" style="font-weight:bold;">103</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl08_Label2" style="font-weight:bold;">225.78</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl08_Label9" style="font-weight:bold;">3</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl08_Label3" style="font-weight:bold;">58</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl08_Label10" style="font-weight:bold;">85</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl08_Label4" style="font-weight:bold;">1339.65</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl08_Label5" style="font-weight:bold;">165</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl08_Label6" style="font-weight:bold;">76.33</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl08_Label13" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl08_Label14" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl08_Label11" style="font-weight:bold;">362</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl08_Label12" style="font-weight:bold;">1709.16</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width:3%">
+                            <span id="RepeatInformation_ctl09_lblRowNumber">9</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="RepeatInformation_ctl09_lblUser" style="font-weight:bold;">SHIMLA </span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl09_Label7" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl09_Label1" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl09_Label8" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl09_Label2" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl09_Label9" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl09_Label3" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl09_Label10" style="font-weight:bold;">0</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl09_Label4" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl09_Label5" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl09_Label6" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl09_Label13" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl09_Label14" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl09_Label11" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl09_Label12" style="font-weight:bold;">0</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width:3%">
+                            <span id="RepeatInformation_ctl10_lblRowNumber">10</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="RepeatInformation_ctl10_lblUser" style="font-weight:bold;">SIRMAUR </span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl10_Label7" style="font-weight:bold;">33</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl10_Label1" style="font-weight:bold;">50.45</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl10_Label8" style="font-weight:bold;">34</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl10_Label2" style="font-weight:bold;">18.84</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl10_Label9" style="font-weight:bold;">2</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl10_Label3" style="font-weight:bold;">12</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl10_Label10" style="font-weight:bold;">15</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl10_Label4" style="font-weight:bold;">83.57</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl10_Label5" style="font-weight:bold;">46</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl10_Label6" style="font-weight:bold;">8.03</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl10_Label13" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl10_Label14" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl10_Label11" style="font-weight:bold;">130</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl10_Label12" style="font-weight:bold;">172.89</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width:3%">
+                            <span id="RepeatInformation_ctl11_lblRowNumber">11</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="RepeatInformation_ctl11_lblUser" style="font-weight:bold;">SOLAN </span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl11_Label7" style="font-weight:bold;">1</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl11_Label1" style="font-weight:bold;">0.7</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl11_Label8" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl11_Label2" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl11_Label9" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl11_Label3" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl11_Label10" style="font-weight:bold;">0</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl11_Label4" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl11_Label5" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl11_Label6" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl11_Label13" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl11_Label14" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl11_Label11" style="font-weight:bold;">1</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl11_Label12" style="font-weight:bold;">0.7</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width:3%">
+                            <span id="RepeatInformation_ctl12_lblRowNumber">12</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="RepeatInformation_ctl12_lblUser" style="font-weight:bold;">UNA </span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl12_Label7" style="font-weight:bold;">2</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl12_Label1" style="font-weight:bold;">6.8</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl12_Label8" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl12_Label2" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl12_Label9" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl12_Label3" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl12_Label10" style="font-weight:bold;">0</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl12_Label4" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl12_Label5" style="font-weight:bold;">3</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl12_Label6" style="font-weight:bold;">1.62</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl12_Label13" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl12_Label14" style="font-weight:bold;">0</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl12_Label11" style="font-weight:bold;">5</span>
+                        </td>
+                        <td style="width:6%">
+                            <span id="RepeatInformation_ctl12_Label12" style="font-weight:bold;">8.42</span>
+                        </td>
+                    </tr>
+                
+                    <tr style="line-height: 40px; font-weight: bold; background-color: #edd8d8;">
+                        <td></td>
+                        <td>Total:             
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl13_totalhdfp" style="font-weight:bold;">72</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl13_totalhdfp_lakh" style="font-weight:bold;">211.1</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl13_totalhdfk" style="font-weight:bold;">201</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl13_totalhdfk_lakh" style="font-weight:bold;">346.74</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl13_totalhdpp" style="font-weight:bold;">18</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl13_totalhdpp_lakh" style="font-weight:bold;">372.64</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl13_totalhdpk" style="font-weight:bold;">168</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl13_totalhdpk_lakh" style="font-weight:bold;">1502853.39</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl13_totalgharats" style="font-weight:bold;">343</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl13_totalgharats_lakh" style="font-weight:bold;">208.35</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl13_totallaborsheds" style="font-weight:bold;">2</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl13_totallaborsheds_lakh" style="font-weight:bold;">0.5</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl13_total_no" style="font-weight:bold;">804</span>
+                        </td>
+                        <td>
+                            <span id="RepeatInformation_ctl13_totalTotallakh" style="font-weight:bold;">1503992.72</span>
+                        </td>
+                    </tr>
+                    </table>
+                

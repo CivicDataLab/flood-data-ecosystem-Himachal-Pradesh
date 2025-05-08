@@ -1,0 +1,69 @@
+<div id="divprint" class="well bs-component">
+              <table border="1" style="line-height: 30px;">
+        <tr style="background-color: #cee1c0; line-height: 50px;">
+            <th>Sr.no</th>
+            <th>Items/Sectors</th>
+             <th>Amount required (Rs. in lakhs) </th>
+            </tr>
+        
+        
+        <tr>
+            <td>1.</td><td>Gradtuitous Relief</td><td></td>
+            </tr>
+                 
+             <tr><td>(a)</td><td>GR for Human lives lost </td><td><span id="lblhuman">2936481.36</span></td></tr>
+            <tr><td>2</td><td>Search & Rescue operation:</td><td></td></tr>
+             <tr>
+            <td>a</td><td>Helicopter Support</td><td></td>
+            </tr>
+                 
+             <tr><td>3</td><td>Relief measures(for relief campus) </td><td></td></tr>
+            <tr><td>4</td><td>Agriculture+ Hotriculture</td><td><span id="lblagrhot"></span></td></tr>
+            
+                  <tr>
+            <td>a</td><td>Agriculture crop loss</td><td><span id="lblagrloss">0.00</span></td>
+            </tr>
+                 
+             <tr><td>(b)</td><td>Hotriculture crop loss </td><td><span id="lblhotloss">0.00</span></td>
+</tr>
+            <tr><td>(c)</td><td>Loss of Agri/hotriculture land</td><td><span id="lbllandloss">14549.49</span></td></tr>
+            
+                  <tr>
+            <td>5.</td><td>Animal Husbandary-Assistance to small and marginal Farmers for loss of animals</td><td><span id="lblanimalloss">0.00</span></td>
+            </tr>
+                 
+             <tr><td>6</td><td>Fishery</td><td><span id="lblfishery">7647937.92</span></td></tr>
+            <tr><td>7</td><td>Housing</td><td><span id="lblhousing"></span></td></tr>
+            
+                  <tr>
+            <td>8.</td><td>Community assets</td><td><span id="lblassets"></span></td>
+            </tr>
+                 
+             <tr><td>9</td><td>Infrastructure </td><td><span id="lblinfra"></span></td></tr>
+            <tr><td>(a)</td><td>PWD</td><td><span id="lblpwd">125121074.82</span></td></tr>
+                  <tr>
+            <td>(b).</td><td>IPH</td><td><span id="lbliph">4257834.24</span></td>
+            </tr>
+                 
+             
+            <tr><td>(c)</td><td>Power</td><td><span id="lblpower">493177670.13853</span></td></tr>
+                  <tr>
+            <td>(d)</td><td>Animal Husbandary(structure loss)</td><td><span id="lblanimalstru"></span></td>
+            </tr>
+                 
+             <tr><td>(e)</td><td>Health</td><td><span id="lblhealth">84968406.47</span></td></tr>
+            <tr><td>(f)</td><td>Education</td><td><span id="lbledu">13539137.78</span></td></tr>
+                  <tr>
+            <td>(g)</td><td>BRO (Roads)</td><td><span id="lblbro"></span></td>
+            </tr>
+                 
+             
+            
+            
+            
+            
+            
+            
+    
+    </table>
+        </div>

@@ -1,0 +1,34 @@
+﻿Disaster_type_id,DisasterType,status,entry_date,entry_by,ipadd
+1,Flood,Active,23:56.3,0,NULL
+2,Fire,Active,24:25.6,0,NULL
+3,Earthquake,Active,24:36.4,0,NULL
+4,Landslide,Active,24:46.5,0,NULL
+5,Avalanche,Active,24:55.1,0,NULL
+1002,Cloudbrust,Active,58:01.8,0,NULL
+1003,Drought,Active,58:28.2,0,NULL
+1004,Hailstorm,Active,58:45.8,0,NULL
+1005,Pest attack,Active,59:51.7,0,NULL
+1006,Coldwave,Active,00:03.2,0,NULL
+1007,Lightening,Active,00:09.1,0,NULL
+1008,Sinking of Land,Active,01:29.4,0,NULL
+2002,Road Accident,Active,55:27.8,0,NULL
+2003,Drowning,Active,56:00.8,0,NULL
+2004,Boat Mishap,Active,45:24.8,0,NULL
+2005,Food Poisoning,Active,45:38.6,0,NULL
+2006,Fall from Tree/Steep Rock,Active,46:14.0,0,NULL
+2007,Non-explosive burst,Active,46:39.1,0,NULL
+2008,Snake-bite,Active,46:48.7,0,NULL
+2009,Dog bite,Active,47:00.1,0,NULL
+2010,Death due to electroction,Active,47:28.4,0,NULL
+2011,Death/injured due to hit by Stray/Pet Animal,Active,48:09.6,0,NULL
+2012,"Vehicle Accident (Water, Land & Air )",Active,30:02.0,0,NULL
+2013,Accidental Drowning,Active,32:20.2,0,NULL
+2014,Snow Avalanches/ Glaciers,Active,32:47.4,0,NULL
+2016,Electrocution,Active,34:12.3,0,NULL
+2017,Wasps/ Honey Bees /Hornet,Active,34:30.8,0,NULL
+2020,Excessive Rain,Active,36:12.4,0,NULL
+2021,Epidemics,Active,36:33.7,0,NULL
+2022,Land Strom,Active,36:57.5,0,NULL
+2023,Frost & Cold Wave,Active,37:18.5,0,NULL
+2024,Tsunami,Active,37:37.1,0,NULL
+2025,Cyclone,Active,37:55.7,0,NULL

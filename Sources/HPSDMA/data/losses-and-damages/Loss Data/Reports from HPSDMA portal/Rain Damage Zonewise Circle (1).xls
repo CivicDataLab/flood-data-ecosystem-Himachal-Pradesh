@@ -1,0 +1,240 @@
+
+                    <table border="1" style="line-height: 30px; width: 100%">
+
+                        <tr style="background-color: #cee1c0; line-height: 50px;">
+                            <th>sno.</th>
+                            <th>Name of zone/Circle</th>
+                            <th>Total No. of road closed on
+                                <span id="Repeater2_ctl00_lblcurrentdate">01 March 2024</span></th>
+                            <th colspan="3">Likely date of opening of roads</th>
+                            <th>Total damaged amount(in lacs)</th>
+                            <th colspan="4">Detail of machinery deployed</th>
+                            <th>Total machinery deployed</th>
+                        </tr>
+                        <tr style="background-color: #cee1c0;">
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th>
+                                <span id="Repeater2_ctl00_lbldate">01 March 2024</span></th>
+                            <th>
+                                <span id="Repeater2_ctl00_lbldate2">02 March 2024</span></th>
+                            <th>After
+                                <span id="Repeater2_ctl00_lbldate3">02 March 2024</span></th>
+                            <th></th>
+                            <th colspan="2">JCB</th>
+                            <th>Dozer</th>
+                            <th>Tipper</th>
+                            <th></th>
+                        </tr>
+                        <tr style="background-color: #cee1c0;">
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th>Dept</th>
+                            <th>Hired</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="Repeater2_ctl01_lblRowNumber">1</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="Repeater2_ctl01_lblUser">Shimla</span></td>
+
+                        <td>
+                            <span id="Repeater2_ctl01_Label3">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl01_Label4">0</span>
+                        </td>
+
+                        <td>
+                            <span id="Repeater2_ctl01_Label7">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl01_Label8">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl01_Label9">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl01_Label10">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl01_Label1">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl01_Label2">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl01_Label5">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl01_Label11">0</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="Repeater2_ctl02_lblRowNumber">2</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="Repeater2_ctl02_lblUser">Mandi</span></td>
+
+                        <td>
+                            <span id="Repeater2_ctl02_Label3">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl02_Label4">0</span>
+                        </td>
+
+                        <td>
+                            <span id="Repeater2_ctl02_Label7">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl02_Label8">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl02_Label9">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl02_Label10">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl02_Label1">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl02_Label2">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl02_Label5">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl02_Label11">0</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="Repeater2_ctl03_lblRowNumber">3</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="Repeater2_ctl03_lblUser">Hamirpur</span></td>
+
+                        <td>
+                            <span id="Repeater2_ctl03_Label3">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl03_Label4">0</span>
+                        </td>
+
+                        <td>
+                            <span id="Repeater2_ctl03_Label7">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl03_Label8">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl03_Label9">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl03_Label10">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl03_Label1">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl03_Label2">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl03_Label5">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl03_Label11">0</span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <span id="Repeater2_ctl04_lblRowNumber">4</span></td>
+                        <td style="text-align: left; padding-left: 5px;">
+                            <span id="Repeater2_ctl04_lblUser">Kangra</span></td>
+
+                        <td>
+                            <span id="Repeater2_ctl04_Label3">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl04_Label4">0</span>
+                        </td>
+
+                        <td>
+                            <span id="Repeater2_ctl04_Label7">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl04_Label8">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl04_Label9">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl04_Label10">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl04_Label1">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl04_Label2">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl04_Label5">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl04_Label11">0</span>
+                        </td>
+                    </tr>
+                
+                    <tr style="line-height: 40px; font-weight: bold; background-color: #edd8d8;">
+                        <td></td>
+                        <td>Total:             
+                        </td>
+
+                        <td>
+                            <span id="Repeater2_ctl05_totalRoadAccident">0</span>
+                        </td>
+
+                        <td>
+                            <span id="Repeater2_ctl05_totalLandslideHouseCollapse">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl05_totalRockFall">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl05_totalDrowing">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl05_Label6">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl05_totalOther">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl05_totaloftotal">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl05_Hired">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl05_Dozer">0</span>
+                        </td>
+                        <td>
+                            <span id="Repeater2_ctl05_Totalmachinery">0</span>
+                        </td>
+
+                    </tr>
+                    </table>
+                

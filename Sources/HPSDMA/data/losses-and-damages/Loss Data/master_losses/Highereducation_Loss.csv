@@ -1,0 +1,347 @@
+﻿education_loss_det_id,education_loss_id,disaster_id,school_name,damage_details,status,entry_by,entry_date,ip_addr,schooldayslost,classroomsdamaged,Recordstatus,remark,amountloss,updated_by
+1,2,2733,GSSS Salohi,,Active,2186,2020-09-02 12:55:14.107,117.220.54.91,0,0,0,Boundary Wall Damaged,25.00,NULL
+2,2,2733,GSSS Oel,,Active,2186,2020-09-02 12:55:14.123,117.220.54.91,0,0,0,Boundary Wall Damaged,30.00,NULL
+3,3,16,test1,,Active,2186,2020-09-02 16:41:37.350,10.26.35.87,0,0,0,testing,5.80,NULL
+4,3,16,test 2,,Active,2186,2020-09-02 16:41:37.363,10.26.35.87,0,0,0,testing 2,5.45,NULL
+5,4,2733,"GSSS SALOI ",,Active,2186,2020-09-02 17:09:53.830,117.220.52.76,0,0,0,"GSSS SALOI BOUNDARY WALL DAMAGED ",0.25,NULL
+6,4,2733,"GSSS OEL ",,Active,2186,2020-09-02 17:09:53.847,117.220.52.76,0,0,0,"GSSS OEL BOUNDARY WALL DAMAGED ",0.30,NULL
+7,5,2777,GSSS TAKKA,,Active,2186,2020-09-02 17:28:44.630,117.220.55.18,0,0,0,GSSS TAKKA Cycle Stand shed collapsed due to heavy rain,0.80,NULL
+8,6,4271,"GSSS SAMOOR KALAN ",,Active,2186,2020-09-02 18:02:28.873,117.220.55.18,0,0,0,GSSS SAMOOR KALAN Wall Damaged Partially,3.00,NULL
+9,8,5071,GSSS Mandli Block Bangana,,Active,2195,2020-09-02 18:13:33.310,117.220.55.18,0,0,0,GSSS MANDLI Boundary Wall Damaged,2.50,NULL
+10,9,5145,GSSS Beetan,,Active,2186,2020-09-04 14:03:22.057,164.100.138.237,0,0,0,Cracks in boundary wall,0.50,NULL
+11,10,5425,GSSS Girls Chamba,,Active,2042,2020-09-22 15:34:22.570,117.206.197.203,0,0,0,Boundary wall damage,1.95,NULL
+12,10,5425,GSSS Kiri,,Active,2042,2020-09-22 15:34:22.570,117.206.197.203,0,0,0,Boundary wall damage,0.10,NULL
+13,11,5426,GSSS Gagla,,Active,2042,2020-09-22 15:36:45.247,117.206.197.203,0,0,0,Boundary wall damaged,0.50,NULL
+14,12,5427,GSSS kakira,,Active,2042,2020-09-22 15:41:54.063,117.206.197.203,0,0,0,Boundary wall damaged,1.00,NULL
+15,13,5792,G.H.S. Bhalan,,Active,2106,2020-10-05 15:15:02.870,117.212.96.236,0,0,0,Damage of R/Wall due to the landslide,3.17,NULL
+16,14,5797,GSSS Gagla,,Active,2042,2020-10-07 16:23:19.927,117.207.54.124,0,0,0,Land sliding on 09/09/2020- 11.00 A.M. due to Heavy Rain,0.70,NULL
+18,15,5820,GSSS,,Active,2042,2020-10-07 16:39:16.007,117.207.54.124,0,0,0,"Land sliding on 09/08/2020- 10.00 P.M. ",5.00,NULL
+21,20,5820,GSSS Samra,,Active,2042,2020-10-07 16:52:16.743,117.207.54.124,0,0,0,"Land sliding on 09/08/2020- 10.00 P.M. ",0.50,NULL
+23,25,7788,GHS,,Active,2170,2021-02-22 13:09:31.370,59.95.217.165,0,0,0,It is urgent to repair this retaining wall to safeguard the school building.,2.00,NULL
+26,26,7793,GHS Shehrol,,Active,2170,2021-02-22 13:32:50.387,59.95.217.165,0,0,0,It is urgent to repair this retaining wall to safeguard the school playground..,0.50,NULL
+27,29,7893,GSSS Kanda,,Active,2170,2021-03-09 17:26:38.030,59.95.214.204,0,0,0,The funds are required to repair the damaged school building.,10.00,NULL
+28,30,7994,GHS Jasana,,Active,2186,2021-03-27 11:24:27.303,164.100.138.237,0,0,0,Boundary wall collapsed & MDM Kitchen walls occurred several cracks due to heavy hailstorm,1.90,NULL
+29,32,8692,"GSSS Bharach ",,Active,1005,2021-06-23 13:03:49.563,117.247.212.122,0,0,0,"Roof of GSSS Bharach  damaged due to hail storm  ",4.62,NULL
+32,42,11150,GSSS SAHLA,,Active,2042,2021-07-28 12:56:26.767,59.89.181.104,0,0,0,DAMAGE OF ROOM DUE TO HEAVY RAIL FALL,4.00,NULL
+33,43,11156,GSSS SAHLA,,Active,2042,2021-07-28 13:25:29.030,59.89.181.104,0,0,0,DAMAGE OF ROOM DUE TO HEAVY RAIL FALL,4.00,NULL
+34,45,11157,GSSS RUNHKOTHI,,Active,2042,2021-07-28 13:44:33.067,59.89.181.104,0,0,0,DAMAGE OF SCHOOL PATH 1 & 2,0.85,NULL
+35,46,8877,GSSS TISSA,,Active,2042,2021-07-28 14:30:34.117,59.89.181.104,0,0,0,DAMAGE OF SCHOOL WALL,0.50,NULL
+36,47,11156,GHS SINGI,,Active,2042,2021-07-28 14:34:29.767,59.89.181.104,0,0,0,DAMAGE OF OLD ROOM ROOF DUE TO HEAVY RAIN FALL,0.50,NULL
+37,48,11173,GHS JATKARI,,Active,2042,2021-07-28 14:53:58.437,59.89.181.104,0,0,0,damage  covered by rain to the retaining wall of school play ground on 12/07/2021,2.25,NULL
+38,49,11175,GHS PANDTAH,,Active,2042,2021-07-28 15:13:28.060,59.89.181.104,0,0,0,mud collected up to building and mud washed  a way with wall of bulding,0.50,NULL
+39,50,11174,GHS KARYAS PANGI,,Active,2042,2021-07-28 15:32:31.150,59.89.181.104,0,0,0,breast wall of play ground and school boundary wall damaged due to heavy rain on dated 12/07/2021,3.50,NULL
+40,51,11178,GHS PANJOH,,Active,2042,2021-07-28 15:42:59.610,59.89.181.104,0,0,0,Due to lightening three fan and one UPS damaged,0.30,NULL
+41,52,11179,GSSS LAHRA,,Active,2042,2021-07-28 15:45:09.797,59.89.181.104,0,0,0,Broken celling of school coridoor and retaining wall of school,1.50,NULL
+42,33,11146,GSSS KAKIRA,,Active,2042,2021-07-29 10:34:33.010,117.207.53.162,0,0,0,Damage due to Heavy Rainfall,5.00,NULL
+43,53,11269,GSSS Garohan,,Active,2042,2021-07-29 15:43:16.933,117.207.53.162,0,0,0,Damage of boundary wall due to heavy rainfall,1.00,NULL
+44,54,11270,GSSS khusnageri,,Active,2042,2021-07-29 15:45:57.260,117.207.53.162,0,0,0,Damage of retaining wall due to heavy rainfall,5.00,NULL
+45,55,11447,GSSS Garola,,Active,2042,2021-08-04 13:47:56.047,117.207.52.166,0,0,0,Damage due to Heavy Rainfall,5.00,NULL
+46,56,11449,GHS Jatkari,,Active,2042,2021-08-04 13:53:47.560,117.207.52.166,0,0,0,Damage of retaining wall due to heavy rainfall,5.00,NULL
+47,58,11606,"GSSS Hatli ",,Active,2186,2021-08-12 15:47:54.560,103.200.84.93,0,0,0,"Land Sliding and required retaining wall for safety of building ",7.00,NULL
+48,59,11773,GSSS Sasan,,Active,2186,2021-08-19 13:35:08.623,103.200.84.138,0,0,0,Collapsed School Boundary Wall due to heavy rain,3.18,NULL
+49,60,12129,GHS Sadroni,,Active,2042,2021-09-03 14:38:59.603,117.207.49.71,0,0,0,"Damage of school Building ",5.00,NULL
+53,62,12124,Govt.,,Active,2026,2021-09-13 12:27:38.500,117.214.212.94,0,0,0,The,307934.00,NULL
+56,64,2682,GSSS,,Active,2026,2021-09-13 14:29:11.677,106.192.21.171,0,0,0,Damage,597606.00,NULL
+57,65,12383,GSSS Darlaghat,,Active,2170,2021-09-17 16:02:48.020,106.192.137.149,0,0,0,It is urgent to repair the retaining wall to safeguard the school building and to make a new septic tank to run the toilets.,4.00,NULL
+59,66,12715,GSSS Sanawar,,Active,2170,2021-10-06 16:12:21.770,117.220.16.73,0,0,0,It is urgent to repair this retaining wall to safeguard the school building.,7.00,NULL
+61,68,12729,GSSS Sanawar,,Active,2170,2021-10-07 16:53:23.647,117.220.19.191,0,0,0,It is urgent to repair this retaining wall.,15.00,NULL
+62,70,12856,GHS Himgirikothi,,Active,2042,2021-10-26 17:24:02.050,117.207.50.213,0,0,0,"Damage of school Building DUE TO THUNDER STORM ",5.00,NULL
+63,71,16501,GMSSS BHARIAN KOTHI,,Active,2042,2022-02-03 12:39:23.127,117.212.77.94,0,0,0,Damage of retaining wall due to heavy rainfall,8.00,NULL
+64,72,16504,GMSSS Bhariankothi,,Active,2042,2022-02-03 13:31:17.590,117.212.77.94,0,0,0,Damage due to rain,800000.00,NULL
+69,74,15499,GSSS,,Active,0,2022-06-11 13:00:40.080,36.255.230.84,0,0,0,kindly,1.68,4344
+71,79,18120,GSSS Baha,,Active,2170,2022-07-27 16:53:18.787,117.201.54.225,0,0,0,It is urgent to repair the retaining wall to safeguard the school playground,10.00,NULL
+1071,81,19723,GHS SAROG,,Active,2042,2022-08-20 15:39:33.900,117.207.50.151,0,0,0,DAMGED OF SAFETY WALL OF GHS SAROG DUE TO HEAVY RAIN,413461.00,NULL
+1072,82,19722,GSSS KAKIRA,,Active,2042,2022-08-20 15:44:17.917,117.207.50.151,0,0,0,DAMAGED OF PROCTECTION WALL OF SCHOOL PLAY GROUND DUE TO HEAVY RAIN,500000.00,NULL
+1073,83,19724,GSSS BAAT,,Active,2042,2022-08-20 15:45:44.270,117.207.50.151,0,0,0,"DAMAGED OF KITCHN SHED,TOILETS & PLAYGROUND",500000.00,NULL
+1074,84,19725,GSSS THULEL,,Active,2042,2022-08-20 15:47:15.207,117.207.50.151,0,0,0,FLLOD ENTERD IN SCHOOL BUILDING & CLASS ROOM OF GSSS THULEL,300000.00,NULL
+1075,85,20195,GSSS MORTHU,,Active,2042,2022-08-30 10:45:19.113,117.212.74.215,0,0,0,03 ROOM AND ONE TOILETS ARE BADLY DAMAGED DUE TO LANDSLIDE,800000.00,NULL
+1076,86,20197,GSSS PARCHHORE,,Active,2042,2022-08-30 10:48:39.623,117.212.74.215,0,0,0,DAMAGED OF RETAINING WALL AND BOYS GIRLS TOILET,500000.00,NULL
+1077,87,20197,GSSS DADRIYARA,,Active,2042,2022-08-30 10:51:12.260,117.212.74.215,0,0,0,DAMAGED OF KITCHEN WALL AND KITCHEN SHED,400000.00,NULL
+1078,88,20197,GSSS THULEL,,Active,2042,2022-08-30 10:53:52.557,117.212.74.215,0,0,0,03 ROOM AND ONE TOILETS ARE BADLY DAMAGED DUE TO LANDSLIDE ONE KITCHEN SHED,1200000.00,NULL
+1079,92,20002,GSSS Sarsoo,,Active,2154,2022-09-02 17:04:36.950,117.220.29.54,0,0,0,Due to heavy rainfall,40000.00,NULL
+1080,94,17807,Govt. High School Balt,,Active,2138,2022-09-05 12:58:51.280,117.214.220.243,0,0,0,Damaged Boundary wall Due to heavy rainfall.,0.30,NULL
+1081,95,17683,GSSS Rajwari,,Active,2138,2022-09-05 13:01:30.273,117.214.220.243,0,0,0,Damaged retaining wall/Danga Due to heavy rainfall.,2.00,NULL
+1082,96,19764,GSSS Kheel,,Active,2138,2022-09-05 13:07:12.907,117.214.220.243,0,0,0,"A portion of school building, stairs and ground damaged due to landslide incident occurred nearby school premises. ",20.00,NULL
+1083,97,19763,GSSS Baggi (Kataula),,Active,2138,2022-09-05 13:17:49.590,117.214.220.243,0,0,0,"Due to cloud burst incident a major portion of school ground washed away causing threat for demolition of school building and other components. A Protection wall for the embankment of Baggi Nallah flowing nearby the school is required to be constructed on priority basis. ",92.50,NULL
+1084,98,19501,GSSS Katindhi,,Active,2138,2022-09-05 13:20:34.147,117.214.220.243,0,0,0,Retaining wall has been collapsed due to heavy rainfall.,5.00,NULL
+1085,99,20018,GSSS Karkoh,,Active,2138,2022-09-05 13:29:36.567,117.214.220.243,0,0,0,Land slide has been occurred in the playground above stairs behind the old school building.,1.00,NULL
+1087,102,19350,GSSS Bharari (Seraj),,Active,2138,2022-09-06 11:19:06.130,117.215.248.8,0,0,0,Collapsed  four toilets due to heavy rainfall.,2.00,NULL
+1088,103,17896,Govt. Utkrishit Vidyalaya Sianj,,Active,2138,2022-09-06 11:21:06.627,117.215.248.8,0,0,0,Damaged retaining wall due to heavy rainfall.,1.00,NULL
+1089,104,17674,GSSS Dhawal,,Active,2138,2022-09-06 11:25:08.440,117.215.248.8,0,0,0,Boys toilets and boundary wall including iron fencing has been collapsed due to heavy rainfall,5.00,NULL
+1091,106,11621,GSSS Murrah,,Active,2138,2022-09-06 11:33:47.183,117.215.248.8,0,0,0,Damaged Danga due to heavy rainfall.,5.00,NULL
+1094,109,19765,GSSS Kothuwan,,Active,2138,2022-09-06 11:42:21.577,117.215.248.8,0,0,0,"Land slide of the back side of the school building caused damage of windows, door and furniture of school building due to heavy rainfall.",4.00,NULL
+1095,110,19350,GHS Aut,,Active,2138,2022-09-06 11:51:48.647,117.215.248.8,0,0,0,Cracks developed in two rooms due to submerging of land caused due to heavy rainfall alongside cutting work for the construction work ongoing forelane. Also Water Entering in school campus and rooms during extreme down pouring situation. Building structure declared unsafe and new building is to be constructed on a suitable piece of land.,100.00,NULL
+1096,111,19764,GSSS Baryara,,Active,2138,2022-09-06 16:19:25.220,117.215.248.8,0,0,0,"Land slide and submerging of land caused due to heavy rainfall resultantly two sides of playground  have been badly damaged and also inviting danger for the safety of school building, two units of toilets and under construction work of  science block  of the school.",8.37,NULL
+1097,112,19992,GHS Narwandhi,,Active,2138,2022-09-08 10:40:57.930,117.215.251.56,0,0,0,Danag(Retaining wall has been collapsed due to heavy rainfall).,5.45,NULL
+1098,113,19765,GHS Teper,,Active,2138,2022-09-08 10:43:30.280,117.215.251.56,0,0,0,One room wall has been damaged Debris lying on the wall of the class room due to heavy rainfall.,5.00,NULL
+1100,115,19765,GSSS Phangwas,,Active,2138,2022-09-08 10:47:14.490,117.215.251.56,0,0,0,Cracks has been developed due to heavy rainfall in new school building.,5.00,NULL
+1101,116,19765,GSSS Sandhole,,Active,2138,2022-09-08 10:49:53.790,117.215.251.56,0,0,0,Boundary wall washed due to heavy rainfall,3.00,NULL
+1102,117,19765,GSSS kot Snore,,Active,2138,2022-09-08 10:52:13.137,117.215.251.56,0,0,0,Land slide and toilets badly damaged due to heavy rainfall.,3.00,NULL
+1103,118,19765,GSSS Gehra,,Active,2138,2022-09-08 10:55:23.113,117.215.251.56,0,0,0,School playground damaged and several parts due to heavy rainfall.,5.00,NULL
+1104,119,19765,GSSS Swar,,Active,2138,2022-09-08 10:59:43.540,117.215.251.56,0,0,0,cracks developed in one room due to land slide and heavy rainfall.,2.00,NULL
+1105,120,19765,GSSS jahal,,Active,2138,2022-09-08 11:06:41.550,117.215.251.56,0,0,0,Retaining wall partially damaged due to heavy rainfall.,5.00,NULL
+1108,122,20206,GSSS Sudhrani,,Active,2138,2022-09-08 11:12:45.870,117.215.251.56,0,0,0,Retaining wall damaged due to heavy rainfall.,4.00,NULL
+1109,123,19765,GSSS Mani,,Active,2138,2022-09-08 11:15:37.207,117.215.251.56,0,0,0,Retaining wall damaged due to heavy rainfall.,5.00,NULL
+1110,124,19765,GSSS Baggi Bhanwas,,Active,2138,2022-09-08 11:18:50.113,117.215.251.56,0,0,0,Retaining wall damaged due to heavy rainfall.,6.00,NULL
+1111,125,19765,GSSS Naraingarh,,Active,2138,2022-09-08 11:21:35.793,117.215.251.56,0,0,0,Retaining wall damaged due to heavy rainfall.,7.00,NULL
+1112,126,19765,GHS Muhlu Khamradha,,Active,2138,2022-09-08 11:23:09.780,117.215.251.56,0,0,0,Retaining wall damaged due to heavy rainfall.,2.50,NULL
+1113,127,19765,GSSS Cheuni,,Active,2138,2022-09-08 11:28:54.107,117.215.251.56,0,0,0,Retaining wall and septic tank has been damaged due to heavy rainfall.,1.50,NULL
+1114,128,19765,GHS Chet,,Active,2138,2022-09-08 11:31:10.113,117.215.251.56,0,0,0,Protection wall has been damaged due to heavy rainfall.,4.50,NULL
+1115,129,19765,GSSS Bagra Galu,,Active,2138,2022-09-08 11:33:15.440,117.215.251.56,0,0,0,Land slide occurred due to heavy rainfall and boundary wall has been collapsed.,7.00,NULL
+1116,130,19765,GSSS Hawani,,Active,2138,2022-09-08 11:35:23.240,117.215.251.56,0,0,0,Retaining wall has been damaged back side of the science lab due to heavy rainfall.,3.00,NULL
+1119,133,19765,GSSS Nahuli,,Active,2138,2022-09-09 11:42:00.727,117.214.208.45,0,0,0,Playground has miserable condition due to heavy rainfall.,10.00,NULL
+1120,134,19765,GSSS Sidhpur,,Active,2138,2022-09-09 11:44:06.803,117.214.208.45,0,0,0,Playground has been damaged and land slide occurred in front of school building.,7.00,NULL
+1121,135,19765,GSSS Heun Pehad,,Active,2138,2022-09-09 12:03:29.203,117.214.208.45,0,0,0,"Land submerged behind the school building due to heavy down pour on dated 20.08.2022, resultantly threat for causing damage to the building portion as such protection wall is required to be to avoid further erosion of soil/ land slide.",25.00,NULL
+1122,136,19850,Govt. Sr. Sec. School Boys Ponta Sahib,,Active,2154,2022-09-09 16:36:35.743,117.220.21.212,0,0,0," School safety boundary wall and Base wall has been damaged due to heavy rain",1.25,NULL
+1123,137,19221,GSSS Bhanog,,Active,2154,2022-09-09 16:48:59.953,117.220.21.212,0,0,0,Damaged Danga due to heavy rainfall,290566.00,NULL
+1124,138,17924,GSSS Surla,,Active,2154,2022-09-09 16:55:04.877,117.220.21.212,0,0,0,Damaged Boundary Wall due to heavy rainfall,8.44,NULL
+1127,140,19765,GSSS Barto,,Active,2138,2022-09-12 12:03:29.727,117.215.246.254,0,0,0,Retaining wall has been damaged due to heavy rainfall.,5.28,NULL
+1129,139,18049,GSSS,,Active,2138,2022-09-12 12:30:04.560,117.215.246.254,0,0,0,Boundary,9.05,NULL
+1130,141,18049,GSSS,,Active,2138,2022-09-12 12:31:02.180,117.215.246.254,0,0,0,Damaged,6.00,NULL
+1131,142,18049,GSSS (G) Bhangrotu,,Active,2138,2022-09-12 12:41:43.017,117.215.246.254,0,0,0,Boundary wall has been damaged due to heavy rainfall.,0.40,NULL
+1132,143,18049,GSSS Sidhyani,,Active,2138,2022-09-12 12:44:06.670,117.215.246.254,0,0,0,"Damaged has been caused in the school premises due to heavy rainfall, land slide/rock fall occurred behind the school building. (GSSS Sidhyani)",0.35,NULL
+1134,108,17561,GHS Majhkhetar,,Active,2138,2022-09-16 15:03:00.223,61.0.15.225,0,0,0,land,1072424.00,NULL
+1135,114,19992,GHS Narwandhi,,Active,2138,2022-09-16 15:05:28.793,61.0.15.225,0,0,0,Danag(Retaining,544500.00,NULL
+1136,100,15453,GSSS Tikari Sidhwani,,Active,2138,2022-09-16 15:14:09.953,61.0.15.225,0,0,0,Damaged,123600.00,NULL
+1137,121,20125,GSSSMoviseri,,Active,2138,2022-09-16 15:15:35.620,61.0.15.225,0,0,0,Toilets,5.20,NULL
+1138,107,17674,GSSSTaraur,,Active,2138,2022-09-16 15:22:00.050,61.0.15.225,0,0,0,Land,544500.00,NULL
+1139,105,17861,GHS Bardhan,,Active,2138,2022-09-26 10:53:49.390,61.3.83.38,0,0,0,Damaged,7.53,NULL
+1140,132,19765,GHS Siun,,Active,2138,2022-09-26 10:57:50.777,61.3.83.38,0,0,0,Cracks,5.92,NULL
+1141,131,19765,GHS Sihali,,Active,2138,2022-09-26 10:59:33.573,61.3.83.38,0,0,0,Boundary,2.70,NULL
+1142,144,18049,GSSS Shiva badar,,Active,2138,2022-09-29 11:59:21.203,117.215.253.231,0,0,0,"7 toilets, doors and one sheet due to heavy rainfall and also damaged of class rooms and boundary wall and floor of Badminton court",6.00,NULL
+1143,145,19992,GSSS Kathog,,Active,2138,2022-09-29 12:52:49.540,117.215.253.231,0,0,0,Cracks have been developed in school building due to heavy rain fall. Building is apparently unsafe and likely to be declared unsafe by the competent authority.,100.00,NULL
+1144,146,21011,GSSS Ghaighat,,Active,2179,2022-11-07 11:30:28.647,117.220.31.167,0,0,0,Its urgent to repair the roofing of these classrooms in the interest of students.,2.00,NULL
+1145,147,21012,GSSS Balera,,Active,2179,2022-11-07 11:37:24.793,117.220.31.167,0,0,0,Its urgent to repair the walls & pillars of three classrooms for the safety of students.,3.50,NULL
+1146,148,21013,GSSS Kuftu,,Active,2179,2022-11-07 11:57:37.770,117.220.31.167,0,0,0,Its urgent to repair the RCC lanter and walls in the interest of school.,7.00,NULL
+1147,149,21014,GSSS Goela,,Active,2179,2022-11-07 12:18:59.870,117.220.31.167,0,0,0,It is urgent to repair this retaining wall to safeguard the school building.,7.97,NULL
+1148,150,21011,GSSS Rajri Jabli,,Active,2170,2022-11-14 14:09:45.130,61.3.92.182,0,0,0,Its urgent to repair the roofing of the building in the interest of students.,1.50,NULL
+1150,151,22418,GHS,,Active,2042,2023-02-08 10:42:40.737,59.89.182.224,0,0,0,Damage,4.08,NULL
+1151,152,24347,GSSS Baggi (K),,Active,2138,2023-06-28 10:12:04.663,117.243.246.206,0,0,0,"Boundary wall, Playground, Rooms Toilets and MDM Shed has been damaged due to Due heavy rain & cloud burst flash flood.",100.00,NULL
+1152,154,-1,GSSS MANDLI,,Active,2186,2023-07-10 14:32:17.800,117.215.249.228,0,0,0,Retaining Wall and Boundry wall Damaged due to heavy rain water,500000.00,NULL
+1156,155,24247,GSSS MANDLI,,Active,2186,2023-07-10 14:36:16.817,117.215.249.228,0,0,0,Retaining Wall and Boundry wall Damaged due to heavy rain water,500000.00,NULL
+1157,176,24670,GSSS Mandli,,Active,2186,2023-07-11 13:04:09.767,117.214.222.175,0,0,0,Retaining wall damaged due to heavy rain.,500000.00,NULL
+1158,178,24671,GSSS Saloh,,Active,2186,2023-07-11 13:07:19.060,117.214.222.175,0,0,0," School building is unsafe without retaining wall. ",210000.00,NULL
+1161,186,24627,GSSS,,Active,2138,2023-07-12 10:47:21.297,117.215.244.82,0,0,0,Building,160.00,NULL
+1162,187,24627,GSSS Bhanthal,,Active,2138,2023-07-12 12:28:05.567,117.215.244.82,0,0,0,Retaining wall (Danga) of playground has been partially collapsed. due to heavy rainfall.,5.00,NULL
+1163,188,23793,GHS Paplotu,,Active,2138,2023-07-12 12:43:24.873,117.215.244.82,0,0,0,Blown off roof top Due to heavy rainfall & strong wind & Hailstorm,0.20,NULL
+1164,190,23793,GSSS Salot,,Active,2138,2023-07-12 13:04:56.983,117.215.244.82,0,0,0,Blown off roof top of Principal office due to heavy rainfall and storm,1.50,NULL
+1165,191,17586,GSSS Galoo,,Active,2138,2023-07-12 13:10:41.520,117.215.244.82,0,0,0,Blown off roof top due to heavy rainfall and storm,1.50,NULL
+1166,192,24794,GSSS Kamlah Fort,,Active,2138,2023-07-17 11:29:40.277,117.243.240.32,0,0,0,Land sliding the school campus (Retaining wall is required for school building safety.),5.00,NULL
+1167,193,24794,GSSS Haraboi,,Active,2138,2023-07-17 11:53:38.893,117.243.240.32,0,0,0,Retaining wall (Danga) of school playground has been collapsed.,5.00,NULL
+1168,194,24794,GSSS Haraboi,,Active,2138,2023-07-17 11:58:11.997,117.243.240.32,0,0,0,Retaining wall (Danga) of school playground has been collapsed.,5.00,NULL
+1169,195,24794,GSSS Saroa,,Active,2138,2023-07-17 16:45:44.950,117.243.243.44,0,0,0,Retaining wall (Danga) of back side school has been collapsed. due to heavy rainfall,2.50,NULL
+1170,196,24794,GSSS Saroa,,Active,2138,2023-07-17 16:47:22.797,117.243.243.44,0,0,0,Retaining wall (Danga) of back side school has been collapsed. due to heavy rainfall,2.50,NULL
+1171,198,25047,GHS Paliyur,,Active,2042,2023-07-18 11:53:49.460,59.89.187.12,0,0,0,Land slide behind the school due to heavy rain,1276950.00,NULL
+1172,199,25041,GSSS Dhullara,,Active,2042,2023-07-18 12:04:15.623,59.89.187.12,0,0,0,"Land slide behind the school, boundary wall damaged and roof of school damaged",272900.00,NULL
+1173,200,25041,GHS Chari,,Active,2042,2023-07-18 12:07:09.137,59.89.187.12,0,0,0,"Land slide back side of school and water entered in  room. ",179418.41,NULL
+1174,204,25047,GHS Pantah,,Active,2042,2023-07-18 12:30:25.330,59.89.187.12,0,0,0,Land slide below the base of the school,3.00,NULL
+1176,205,25050,GHS,,Active,2106,2023-07-18 14:31:37.803,117.214.222.137,0,0,0,Damaged,2000000.00,NULL
+1179,212,25084,GHS Shaleen,,Active,2106,2023-07-18 15:17:15.770,117.214.222.137,0,0,0,Double,12000000.00,NULL
+1180,213,25095,GSSS Kharahal (Kinja),,Active,2106,2023-07-18 15:47:07.177,117.214.222.137,0,0,0,"Double story school Building washed away by flood in Beas river ,HM Room ,MDM Kitchen ,five toilets ",600000.00,NULL
+1181,214,25095,S.J.GHS Basturi,,Active,2106,2023-07-18 16:02:55.130,117.214.222.137,0,0,0,Retaining wall for protection & damaged retaining wall with fencing.Estimate received,1098000.00,NULL
+1182,215,25095,GMSSS Bhuthi,,Active,2106,2023-07-18 16:11:34.837,117.214.222.137,0,0,0,Support wall of toilets/damage of breast wall.,500000.00,NULL
+1183,216,25095,GHS Hallan-II,,Active,2106,2023-07-18 16:21:00.840,117.214.222.137,0,0,0,Playground and school boundary wall damaged. Estimate not received.,500000.00,NULL
+1184,217,25095,GHS Hallan-II,,Active,2106,2023-07-18 16:21:36.910,117.214.222.137,0,0,0,Playground and school boundary wall damaged. Estimate not received.,500000.00,NULL
+1185,218,25095,GSSS Jaon,,Active,2106,2023-07-18 16:32:14.203,117.214.222.137,0,0,0,School Playground damaged.,2500000.00,NULL
+1186,219,25095,GMSSS Anni,,Active,2106,2023-07-18 16:35:04.533,117.214.222.137,0,0,0,Retaining wall behind the school building.,600000.00,NULL
+1187,220,25095,GSSS Jallugran,,Active,2106,2023-07-18 16:38:19.867,117.214.222.137,0,0,0,Retaining wall of stage totally damaged and retaining wall of ICT Lab.,900000.00,NULL
+1189,222,25095,GHS Chansari,,Active,2106,2023-07-18 16:45:15.310,117.214.222.137,0,0,0,Retaining wall behind the building and crate wall of the school grounds.,1500000.00,NULL
+1190,223,25095,GUSSS Garsa,,Active,2106,2023-07-18 16:47:25.880,117.214.222.137,0,0,0,Boundary wall of the school ground.,500000.00,NULL
+1191,224,25095,GSSS Bagipul,,Active,2106,2023-07-18 16:50:15.033,117.214.222.137,0,0,0,Path of school campus washed away .,300000.00,NULL
+1192,225,24938,GSSS Bharari (Seraj),,Active,2138,2023-07-19 10:40:54.317,117.243.254.178,0,0,0,Eight Toilets has been collapsed due to heavy rainfall.,10.00,NULL
+1193,226,25095,GSSS Jaree,,Active,2106,2023-07-19 11:38:45.840,117.199.86.255,0,0,0,Retaining wall,50000.00,NULL
+1194,227,25095,GSSS Khalyani,,Active,2106,2023-07-19 11:54:40.840,117.199.86.255,0,0,0,Retaining wall in front of MDM Kitchen  and toilets as well as sewerage pipe of toilets.,500000.00,NULL
+1195,228,25095,GHS OLWA,,Active,2106,2023-07-19 12:06:49.180,117.199.86.255,0,0,0,Land sliding behind the school building.,200000.00,NULL
+1196,229,25095,GSSS Goshaini,,Active,2106,2023-07-19 12:09:17.860,117.199.86.255,0,0,0,"Volleyball ground, stage, kho-kho ground etc. are completely destroyed and toilet under school campus is partly damaged",1200000.00,NULL
+1197,230,25095,GSSS Bajaura,,Active,2106,2023-07-19 12:11:16.897,117.199.86.255,0,0,0,collapse of danga,200000.00,NULL
+1198,231,25095,GSSS Mohini,,Active,2106,2023-07-19 12:14:25.390,117.199.86.255,0,0,0,Boundary walll and toilets damaged,1500000.00,NULL
+1199,232,25095,GHS Bragran Bihal,,Active,2106,2023-07-19 12:16:27.570,117.199.86.255,0,0,0,Rainwater entered to kitchen shed and library room,15000.00,NULL
+1200,233,25095,GHS Chatani,,Active,2106,2023-07-19 12:23:40.233,117.199.86.255,0,0,0,Craks in the play ground near the building and danger of its colapse. The kitchen sed is at risk due to colapse and craks in the retaining wall behind the school.,1000000.00,NULL
+1201,234,25095,GHS Phallan,,Active,2106,2023-07-19 12:54:33.623,117.199.86.255,0,0,0,Damaged/colapsed the track from school main gate to toiletsalong with main gate boundary wall,100000.00,NULL
+1202,235,25095,GSSS LUHRI,,Active,2106,2023-07-19 12:56:25.493,117.199.86.255,0,0,0,Collapse of retaining wall,500000.00,NULL
+1203,236,25095,GSSS Khalogi,,Active,2106,2023-07-19 12:58:48.433,117.199.86.255,0,0,0,Land sliding behind the school building,1500000.00,NULL
+1204,237,25095,GSSS Khokhan,,Active,2106,2023-07-19 13:01:19.400,117.199.86.255,0,0,0,The school building is at risk due to land subsidence adjacent to the school.,1000000.00,NULL
+1205,238,25095,GSSS Sinvi,,Active,2106,2023-07-19 13:03:19.087,117.199.86.255,0,0,0,Retaining wall of school building,200000.00,NULL
+1206,239,25095,GHS Bhumteer,,Active,2106,2023-07-19 13:05:16.707,117.199.86.255,0,0,0,Main ground of school damaged.,300000.00,NULL
+1207,240,25095,GSSS Digerh,,Active,2106,2023-07-19 13:08:32.800,117.199.86.255,0,0,0,Danga in front of School,150000.00,NULL
+1208,241,25095,GSSSG Kullu,,Active,2106,2023-07-19 13:11:08.630,117.199.86.255,0,0,0,"Due to the breaking of the tree, the roof of the room has been damaged and the CCTV camera and internet wires have also been broken.",60000.00,NULL
+1209,242,25095,GSSS Shirad,,Active,2106,2023-07-19 13:12:58.950,117.199.86.255,0,0,0,major cracks in the septic tank.,200000.00,NULL
+1210,243,25095,GHS Cheshta,,Active,2106,2023-07-19 13:14:30.923,117.199.86.255,0,0,0,Retaining wall and stairs of Playground,200000.00,NULL
+1211,244,25095,GSSS Bathad,,Active,2106,2023-07-19 14:55:19.470,117.199.86.255,0,0,0,"Sand and mud entered in Science Lab, Store and Boys washrooms.Due to heavy rain CCTV cameras cable damaged and playground mostly damaged.",125000.00,NULL
+1213,246,25095,GHS Tandi,,Active,2106,2023-07-19 15:14:01.957,117.199.86.255,0,0,0,landslide behind the school and rain water is dripping down from the roof of the school,400000.00,NULL
+1214,247,25095,GSSS Shat,,Active,2106,2023-07-19 15:16:18.220,117.199.86.255,0,0,0,Cracs in the toilet walls,500000.00,NULL
+1215,248,25145,GSSS Manglour,,Active,2106,2023-07-19 15:38:03.843,117.199.86.255,0,0,0,Damaged the botenical  garden & danger in old building school,1500000.00,NULL
+1216,249,25145,GSSS Jindaur,,Active,2106,2023-07-19 15:56:21.273,117.199.86.255,0,0,0,Damaged old building,1000000.00,NULL
+1217,250,25145,GHS Bhulang,,Active,2106,2023-07-19 15:58:51.970,117.199.86.255,0,0,0,Land slide Debris dumped behind school building wall and blocked drains,150000.00,NULL
+1218,251,25145,GHS Meha,,Active,2106,2023-07-19 16:02:25.360,117.199.86.255,0,0,0,Retaining wall behind school building damaged,30000.00,NULL
+1219,252,25145,GSSS Jagatsukh,,Active,2106,2023-07-19 16:06:49.407,117.199.86.255,0,0,0,"cracks in the retaining Wall at the corner of playground, approximately 13 feet height (8 ft above playground and 5 ft below )",100000.00,NULL
+1220,253,25145,GSSS Lagouti,,Active,2106,2023-07-19 16:09:10.793,117.199.86.255,0,0,0,Damaged boundary wall with danga..,250000.00,NULL
+1221,254,25153,GSSS Manikaran,,Active,2106,2023-07-19 16:17:13.603,117.199.86.255,0,0,0,Retaining wall of ground along with botanical garden 10mtrs*6mtrs,690000.00,NULL
+1222,255,25153,GHS JAISTHA,,Active,2106,2023-07-19 16:18:43.247,117.199.86.255,0,0,0,Toilets damaged,300000.00,NULL
+1223,256,25153,GHS Laral,,Active,2106,2023-07-19 16:20:23.590,117.199.86.255,0,0,0,partially cracked one side wall of kitchen shed,25000.00,NULL
+1224,257,25153,GHS Sinhan,,Active,2106,2023-07-19 16:34:20.600,117.199.86.255,0,0,0,In one room Huge cracks in walls and water drops coming from inside the roof,350000.00,NULL
+1225,258,25153,GHS Tinder,,Active,2106,2023-07-19 16:36:36.490,117.199.86.255,0,0,0,Stair damaged,50000.00,NULL
+1227,259,25191,GSSS Sari,,Active,2106,2023-07-20 11:42:57.227,117.215.245.151,0,0,0,Two retaining walls (Dangas)  one of ground and another of building were damaged.,300000.00,NULL
+1228,260,25191,GSSS Bhallan,,Active,2106,2023-07-20 13:06:44.190,117.215.245.151,0,0,0,"Damaged three toilets & plinth  of school building along with school play ground.      ",1200000.00,NULL
+1229,261,24627,GHS Sarahi,,Active,2138,2023-07-20 17:00:51.273,117.243.240.189,0,0,0,"The Govt. High School Sarahi situated Beneath adjacent Sammy hill and due to rainfall landslide is rapidity occurring towards the school building. Consequently to main path approached to school have been damaged and debris is continuously heading towards the school and it will likely it the school building. Furthermore, cracks have been developed in some of the walls of the building. Retaining wall behind the school building urgently required to be constructed. So as to curb unforeseen incident.",10.00,NULL
+1230,266,25230,GSSS Chaned,,Active,2042,2023-07-21 11:25:45.650,117.207.61.136,0,0,0,Breast wall damaged & slide on stairs,300000.00,NULL
+1231,267,25230,GHS Jatkari,,Active,2042,2023-07-21 11:27:57.353,117.207.61.136,0,0,0,Land slide behind the school & muck fell over toilets & kitchen shed,300000.00,NULL
+1232,269,25230,GSSS Thalii,,Active,2042,2023-07-21 11:34:15.433,117.207.61.136,0,0,0," Retaining Wall and Boundary Wall damaged",689000.00,NULL
+1235,271,25246,GHS Shaktidehra,,Active,2042,2023-07-21 13:16:13.850,117.207.61.136,0,0,0,Land slide behind the school building,300000.00,NULL
+1236,273,25392,GSSS Mangla,,Active,2042,2023-07-24 12:37:12.197,59.89.182.168,0,0,0,Deep chasm has become alongwith boundary wall,595000.00,NULL
+1237,274,25392,GSSS Samra,,Active,2042,2023-07-24 15:34:08.163,59.89.182.168,0,0,0,One store room damaged and land slid below the toilets,800000.00,NULL
+1242,275,25466,GHS Jasana,,Active,2186,2023-07-25 14:37:33.590,117.215.249.147,0,0,0,Window and wall of room damaged due to landslide.,30000.00,NULL
+1251,277,25301,GMSSS,,Active,2170,2023-07-25 15:16:49.673,61.3.89.110,0,0,0,heavy,2000000.00,NULL
+1252,277,25301,GSSS,,Active,2170,2023-07-25 15:16:49.690,61.3.89.110,0,0,0,Building,100000.00,NULL
+1253,277,25301,GSSSCHANDI(S),,Active,2170,2023-07-25 15:16:49.703,61.3.89.110,0,0,0,Retaining,1000000.00,NULL
+1254,277,25301,GSSS,,Active,2170,2023-07-25 15:16:49.720,61.3.89.110,0,0,0,Building,300000.00,NULL
+1255,277,25301,GSSS,,Active,2170,2023-07-25 15:16:49.750,61.3.89.110,0,0,0,Retaining,200000.00,NULL
+1256,277,25301,GSSS,,Active,2170,2023-07-25 15:16:49.783,61.3.89.110,0,0,0,Retaining,250000.00,NULL
+1257,277,25301,GSSS,,Active,2170,2023-07-25 15:16:49.800,61.3.89.110,0,0,0,Building,400000.00,NULL
+1258,277,25301,GSSS,,Active,2170,2023-07-25 15:16:49.830,61.3.89.110,0,0,0,roof,150000.00,NULL
+1259,279,25608,GSSS Jhajjakothi,,Active,2042,2023-07-28 11:11:45.903,59.89.177.148,0,0,0,Breast wall damaged.,354767.00,NULL
+1260,281,25608,GHS Rajera,,Active,2042,2023-07-28 11:18:56.573,59.89.177.148,0,0,0,"Boundary wall, playground damaged and water entered in rooms",300000.00,NULL
+1261,284,25608,GSSS Sahla,,Active,2042,2023-07-28 11:29:07.420,59.89.177.148,0,0,0,"Land slide back side of school cause damaged kitchen shed & store ",300000.00,NULL
+1263,270,25236,GHSPashi,,Active,2106,2023-07-31 16:20:29.970,117.215.241.22,0,0,0,Total,4500000.00,NULL
+1264,245,25095,GHSBanala,,Active,2106,2023-07-31 16:27:26.777,117.215.241.22,0,0,0,1.Office,2500000.00,NULL
+1265,221,25095,GSSSKotla,,Active,2106,2023-07-31 16:39:30.293,117.215.241.22,0,0,0,sliding,200000.00,NULL
+1266,288,24787,GSSS Behli,,Active,2138,2023-07-31 17:04:01.790,117.214.221.170,0,0,0,Boundary wall (Danga) has been damaged due to heavy rainfall,25.00,NULL
+1267,290,25698,GSSS Morthu,,Active,2042,2023-08-01 13:37:35.080,117.212.76.102,0,0,0,Two rooms damaged and mud entered in rooms,564000.00,NULL
+1268,291,24794,GHS Kalahoud,,Active,2138,2023-08-02 15:54:40.840,117.215.247.167,0,0,0,"Boundary wall has been damaged due to heavy rainfall ",1.00,NULL
+1269,292,25095,GSSS Kharga,,Active,2106,2023-08-02 16:21:42.710,117.214.216.50,0,0,0,School building damaged.,3500000.00,NULL
+1270,293,25761,GSSS Kumharka,,Active,2042,2023-08-03 10:28:26.360,117.212.73.92,0,0,0,Land slide near approach path to school upstair,300000.00,NULL
+1271,294,25756,GSSS Garsa,,Active,2106,2023-08-03 10:55:39.290,117.215.247.169,0,0,0," Complete destruction MDM KITCHEN AND Boundary wall due to flood.",1000000.00,NULL
+1272,296,25757,GSSS Thatibir,,Active,2106,2023-08-03 10:59:36.760,117.215.247.169,0,0,0,"Damaged school building,playgraound , breast wall and toilets.",1000000.00,NULL
+1273,297,25764,GSSS Poolin,,Active,2042,2023-08-03 11:00:01.110,117.212.73.92,0,0,0,Retaining wall of ground damaged,700000.00,NULL
+1274,298,25764,GHS Nayagran,,Active,2042,2023-08-03 11:02:03.677,117.212.73.92,0,0,0,Slide of retaining wall of ground,350000.00,NULL
+1275,299,25764,GSSS Kunra,,Active,2042,2023-08-03 11:04:27.540,117.212.73.92,0,0,0,"cracks on the wall, floor of rooms and veranda. The entire building seems to be unsafe for use.",20000000.00,NULL
+1276,300,25765,GSSS Lagouti,,Active,2106,2023-08-03 11:35:55.310,117.215.247.169,0,0,0,Damaged play ground and fancing,2000000.00,NULL
+1277,301,25765,GHS Banala,,Active,2106,2023-08-03 11:38:00.630,117.215.247.169,0,0,0,"Damaged MDM Kitchan,play ground and danga",2500000.00,NULL
+1278,303,25797,GSSS Balera,,Active,2042,2023-08-04 11:48:27.463,117.212.74.196,0,0,0,Cracks on walls,1000000.00,NULL
+1279,305,25797,GSSS Dand,,Active,2042,2023-08-04 11:57:31.703,117.212.74.196,0,0,0,Breast wall damaged.,2000000.00,NULL
+1280,306,25798,GSSS Parchhore,,Active,2042,2023-08-04 11:59:47.243,117.212.74.196,0,0,0,Boundary wall and toilet damaged,500000.00,NULL
+1281,307,24794,GSSS Heun Pehad,,Active,2138,2023-08-04 16:57:09.380,117.243.249.31,0,0,0,Land slide has been occurred back & front side of the school building.,25.00,NULL
+1282,309,24794,GHS Narwandhi,,Active,2138,2023-08-05 11:11:17.290,117.215.247.205,0,0,0,"Land slide has been occurred front side of the toilet block, toilet block is in danger zone.",2.00,NULL
+1283,310,25006,GSSS LAGDAGHAT,,Active,2170,2023-08-05 13:23:07.290,61.3.94.119,0,0,0,PLAYGROUND,450000.00,NULL
+1284,310,25006,GSSS SURAJPUR,,Active,2170,2023-08-05 13:23:07.307,61.3.94.119,0,0,0,RETAINIG WALL,4000047.00,NULL
+1285,310,25006,GSSS CHAMDHAR,,Active,2170,2023-08-05 13:23:07.353,61.3.94.119,0,0,0,RETAINIG WALL,500000.00,NULL
+1286,310,25006,GSSS BATHALANG,,Active,2170,2023-08-05 13:23:07.400,61.3.94.119,0,0,0,RETAINIG WALL,1000000.00,NULL
+1287,310,25006,GSSS DOMEHAR(A),,Active,2170,2023-08-05 13:23:07.400,61.3.94.119,0,0,0,RETAINIG WALL,50000.00,NULL
+1288,310,25006,GSSS DANOGHAT,,Active,2170,2023-08-05 13:23:07.413,61.3.94.119,0,0,0,Retaining wall fully damaged of main path way cracks in building,5000000.00,NULL
+1289,310,25006,GSSS PANJAL,,Active,2170,2023-08-05 13:23:07.413,61.3.94.119,0,0,0,Long big cracks in both grounds unsafe retaining walls,1500000.00,NULL
+1290,310,25006,GSSS LOHARGHAT,,Active,2170,2023-08-05 13:23:07.430,61.3.94.119,0,0,0,RETAINING WALL,450000.00,NULL
+1291,312,25006,GHS DHARON KI DHAR,,Active,2170,2023-08-05 13:58:52.167,61.3.94.119,0,0,0,RETAINIG WALL,200000.00,NULL
+1292,313,25006,GSSS SHAMROAD,,Active,2170,2023-08-05 14:25:13.450,61.3.94.119,0,0,0,RETAINIG WALL,1200000.00,NULL
+1293,313,25006,GSSS BHOJANJI,,Active,2170,2023-08-05 14:25:13.467,61.3.94.119,0,0,0,BUILDING,325000.00,NULL
+1294,313,25006,GSSS SOLAN(G),,Active,2170,2023-08-05 14:25:13.500,61.3.94.119,0,0,0,RETAINIG WALL,67000.00,NULL
+1295,313,25006,GSSS JAUNJI,,Active,2170,2023-08-05 14:25:13.500,61.3.94.119,0,0,0,RETAINIG WALL,100000.00,NULL
+1296,315,25409,GSSS Bandal,,Active,2138,2023-08-07 12:46:29.247,117.215.243.235,0,0,0,Slab has been damaged due to rock falling due heavy rainfall and landslide,1.00,NULL
+1297,316,25887,GSSS Lohtikri,,Active,2042,2023-08-07 16:00:06.373,117.212.79.45,0,0,0,"MDM kitchen shed damaged ",200000.00,NULL
+1298,317,24627,GSSS Kathog,,Active,2138,2023-08-08 10:54:21.697,117.243.241.167,0,0,0,Cracks have been developed in school building due to heavy rain fall. Building is apparently unsafe and likely to be declared unsafe by the competent authority.,100.00,NULL
+1299,318,25006,GSSS DHAYLA,,Active,2170,2023-08-08 16:49:35.857,117.206.198.164,0,0,0,Damages of Toilets,150000.00,NULL
+1300,319,25923,GSSS Thulel,,Active,2042,2023-08-09 13:45:59.237,117.212.75.235,0,0,0,"Water and mud entered in Playground, class room and kitchen shed",500000.00,NULL
+1301,320,25924,GSSS Banikhet,,Active,2042,2023-08-09 13:47:45.870,117.212.75.235,0,0,0,Protection wall damaged,650000.00,NULL
+1302,321,25932,GSSS Banikhet,,Active,2042,2023-08-09 15:22:11.157,117.212.75.235,0,0,0,RCC retaining  wall damaged,500000.00,NULL
+1303,322,24627,GSSS Khani,,Active,2138,2023-08-10 10:04:11.503,117.215.248.18,0,0,0,Land slide occurred in the front side of the septic tank in school campus & big cracks has been developed in courtyard,1.50,NULL
+1304,323,25772,GSSS Jarol (SNR),,Active,2138,2023-08-10 10:05:49.100,117.215.248.18,0,0,0,"Security wall of school playground become empty from below ",15.00,NULL
+1305,324,24627,GSSS Balu,,Active,2138,2023-08-10 10:07:35.850,117.215.248.18,0,0,0,"School playground has been damaged, debris comes from the road due to land slide and cracks has been developed in 6 rooms due to land subsidence. ",50.00,NULL
+1306,325,25006,GSSS BAHA,,Active,2170,2023-08-11 11:10:00.587,117.220.22.169,0,0,0,"RETAINIG WALL,BUILDING",2000000.00,NULL
+1307,326,25006,GSSS DHAYLA,,Active,2170,2023-08-11 11:13:04.430,117.220.22.169,0,0,0,Damages of Toilets,150000.00,NULL
+1308,327,25006,GSSS NALAGARH(G),,Active,2170,2023-08-11 11:33:50.547,117.220.22.169,0,0,0,RETAINIG WALL,84000.00,NULL
+1309,327,25006,GSSS SAI CHAROG,,Active,2170,2023-08-11 11:33:50.547,117.220.22.169,0,0,0,RETAINIG WALL,50000.00,NULL
+1310,327,25006,GSSS SAUR,,Active,2170,2023-08-11 11:33:50.563,117.220.22.169,0,0,0,RETAINIG WALL,300000.00,NULL
+1311,328,25006,GSSS DOLI,,Active,2170,2023-08-11 11:44:17.990,117.220.22.169,0,0,0,RETAINIG WALL,150000.00,NULL
+1312,328,25006,GSSS JOGHON,,Active,2170,2023-08-11 11:44:17.990,117.220.22.169,0,0,0,RETAINIG WALL,550000.00,NULL
+1313,329,25006,GSSS GOELA,,Active,2170,2023-08-11 12:25:36.400,117.220.23.149,0,0,0,RETAINIG WALL,750000.00,NULL
+1314,330,25006,GSSS KALHOG,,Active,2170,2023-08-11 12:34:02.777,117.220.23.149,0,0,0,"RETAINIG WALL,BUILDING",6000000.00,NULL
+1315,331,25006,GSSS GAURA,,Active,2170,2023-08-11 12:44:43.707,117.220.23.149,0,0,0," Retaining wall of MDM room ground, back side of science lab and toilet. 2. Leakage in the ceiling of classrooms.",5500000.00,NULL
+1316,332,25006,GSSS SHARDAGHAT,,Active,2170,2023-08-11 13:20:04.750,117.220.23.149,0,0,0,RETAINIG WALL,500000.00,NULL
+1317,332,25006,GSSS KUFTU,,Active,2170,2023-08-11 13:20:04.750,117.220.23.149,0,0,0,BUILDING,500000.00,NULL
+1318,332,25006,GSSS KADAUR,,Active,2170,2023-08-11 13:20:04.750,117.220.23.149,0,0,0,RETAINIG WALL,500000.00,NULL
+1319,333,25006,GHS BASHOL,,Active,2170,2023-08-11 13:22:30.910,117.220.23.149,0,0,0,RETAINIG WALL,1500000.00,NULL
+1320,333,25006,GHS DANGHEEL,,Active,2170,2023-08-11 13:22:30.957,117.220.23.149,0,0,0,RETAINIG WALL,500000.00,NULL
+1321,334,26119,GHS Kahari,,Active,2042,2023-08-16 17:08:15.877,117.212.73.25,0,0,0,Debris entered in classroom and fill backside of school,150000.00,NULL
+1322,335,26038,GSSS Kamlah Fort,,Active,2138,2023-08-17 10:26:56.243,117.243.248.116,0,0,0,Due to land slide incident in back side of school building partially boundary wall has been damaged and debris come in the school campus.,5.00,NULL
+1323,336,26038,GSSS Behli,,Active,2138,2023-08-17 10:28:03.483,117.243.248.116,0,0,0,"School playground in front of school building alongwith retaining wall has been damaged due to heavy rainfall & landslide incident. ",25.00,NULL
+1324,337,26038,GHS Sarkidhar,,Active,2138,2023-08-17 10:29:10.247,117.243.248.116,0,0,0,Due to land slide incident due to heavy rainfall playground has been damaged in front of school building also temporary tin shed room has been collapsed.,5.00,NULL
+1325,338,26038,GSSS Girls Sunder Nagar,,Active,2138,2023-08-17 10:30:04.307,117.243.248.116,0,0,0,"Retaining wall has been partially damaged due heavy rainfall. ",5.00,NULL
+1327,340,26038,GSSS Rajwari,,Active,2138,2023-08-17 10:37:28.430,117.243.248.116,0,0,0,Boundary wall has been damaged due to heavy rainfall.,12.00,NULL
+1328,341,26038,GSSS kot Snore,,Active,2138,2023-08-17 10:38:56.757,117.243.248.116,0,0,0,Land slide subsidence has been occurred in front of school badminton courtyard.,5.00,NULL
+1329,342,26038,GSSS Serla Khaboo,,Active,2138,2023-08-17 10:40:29.497,117.243.248.116,0,0,0,Courtyard of school has been damaged due to heavy rainfall.,1.00,NULL
+1330,343,26036,GSSS Deori,,Active,2138,2023-08-17 10:41:45.153,117.243.248.116,0,0,0,Building Block 1:- (Consisting 04 rooms) 02 in ground floor and 02 in first floor Building Block 2:- (Consisting 04 rooms) 02 in ground floor and 02 in first floor Building Block 3:- (Consisting 05 rooms) in first floor.  Four toilets alongwith playground has been totally Damaged due cloud burst incident.,225.00,NULL
+1331,344,26038,GSSS Saroa,,Active,2138,2023-08-17 10:42:46.453,117.243.248.116,0,0,0,Land subsidence has been occurred in front of school building. Three building block is in danger zone,50.00,NULL
+1332,345,26038,GSSS Ghasnoo,,Active,2138,2023-08-17 12:56:35.053,117.243.249.62,0,0,0,"Due to heavy rainfall incident (04 rooms fall under the debris and MDM kitchen shed has been washed away, debris comes in the toilets, computers, printer, UPS, CCTV cameras has totally damaged as well as drain water flow alongwith school premises. Debris comes in the playground. ",50.00,NULL
+1333,346,26038,GSSS Chhamyar,,Active,2138,2023-08-17 14:50:32.803,117.243.249.62,0,0,0,Boundary wall has been damaged due to heavy rainfall. Boundary wall is required.,5.00,NULL
+1334,347,26036,GSSS Hatgarh,,Active,2138,2023-08-18 16:18:28.550,117.243.244.80,0,0,0,Boundary wall has been damaged due to heavy rainfall and cloud burst.,5.00,NULL
+1335,348,26038,GHS Bari,,Active,2138,2023-08-19 16:25:28.303,117.215.254.152,0,0,0,Boundary wall as well as danga has damaged due to heavy rainfall. Debris fall in the stage and cracks have been developed in the toilets.,2.00,NULL
+1337,350,26246,Govt.High,,Active,2186,2023-08-21 07:20:38.580,117.243.254.238,0,0,0,Boundary,300000.00,NULL
+1338,353,26255,GSSS Gehra,,Active,2138,2023-08-22 10:25:48.010,117.199.85.97,0,0,0,Land slide has been occurred in back side of the school building. Three rooms totally covered with the mud.,7.00,NULL
+1339,354,26038,GHS Chaukari,,Active,2138,2023-08-22 10:27:49.950,117.199.85.97,0,0,0,Land slide has been occurred from the back side of school building and playground has also damaged.,10.00,NULL
+1340,355,26252,GSSS Baggi Bhanwas,,Active,2138,2023-08-22 10:29:12.197,117.199.85.97,0,0,0,"Cracks have been developed in 02 room, Danga has been damaged and debris come in the ground and 01 room.",20.00,NULL
+1341,356,26252,GHS Tandi,,Active,2138,2023-08-22 10:30:33.920,117.199.85.97,0,0,0,Playground has been partially damaged as well as Danga has been damaged due to heavy rainfall.,1.00,NULL
+1342,357,26252,GHS Tandi,,Active,2138,2023-08-22 10:31:50.640,117.199.85.97,0,0,0,Playground has been partially damaged as well as Danga has been damaged due to heavy rainfall.,1.00,NULL
+1343,358,26255,GHS Dugrain,,Active,2138,2023-08-22 10:33:11.433,117.199.85.97,0,0,0,Land slide has been occurred near toilets block due to heavy rainfall. Boundary wall is urgently required.,5.00,NULL
+1344,359,26249,GSSS Dassehra,,Active,2138,2023-08-22 10:34:08.787,117.199.85.97,0,0,0,Boundary wall has been damaged and cracks have been developed 01 ICT room,5.00,NULL
+1345,360,25006,GSSS CHAIL,,Active,2170,2023-08-22 16:17:23.823,61.3.84.10,0,0,0,RETAINIG WALL & STAIRS,425000.00,NULL
+1346,361,26022,GSSS BALH CHURANI,,Active,2026,2023-08-24 10:54:12.733,117.215.251.150,0,0,0,Land Erosion of Play ground,200000.00,NULL
+1347,361,26022,Gsss Kuhmanjhwar,,Active,2026,2023-08-24 10:54:12.747,117.215.251.150,0,0,0,Heavy water flow in the ground. mud. Stone and other waste material stocked in the ground,1000000.00,NULL
+1348,363,26022,Govt boys sss Bilaspur,,Active,2026,2023-08-24 13:09:30.950,117.215.251.150,0,0,0,School boundary wall damaged due to heavy rain,350000.00,NULL
+1349,364,26022,Gsss Pantehra,,Active,2026,2023-08-24 13:12:21.430,117.215.251.150,0,0,0,Sliding near ground,100000.00,NULL
+1350,365,26022,GHS Seola,,Active,2026,2023-08-24 13:16:59.980,117.215.251.150,0,0,0,Sliding of retaining wall behind school building,100000.00,NULL
+1351,369,26097,Gsss kothi,,Active,2026,2023-08-24 14:39:29.573,117.215.251.150,0,0,0,Retaining wall for ground 10m length and12m height damage due to heavy rain,350000.00,NULL
+1352,371,26097,GHS Solag Jurasi,,Active,2026,2023-08-24 14:46:05.260,117.215.251.150,0,0,0,Land slide near school building for removal of mud and stones,5000.00,NULL
+1353,372,26097,GSSS Kot,,Active,2026,2023-08-24 14:48:33.800,117.215.251.150,0,0,0,Retaining boys Toilet wall damaged due to heavy rain fall,150000.00,NULL
+1354,373,26097,GHS GAHAR,,Active,2026,2023-08-24 14:50:25.430,117.215.251.150,0,0,0,Partial damage of Toilets,80000.00,NULL
+1355,374,26252,GSSS Tattapani,,Active,2138,2023-08-24 15:15:19.863,117.243.248.223,0,0,0,Land slide incident wall & windows of one room in ground floor has been damaged due to heavy rainfall.,1.00,NULL
+1356,339,26037,GSSS,,Active,2138,2023-08-24 15:44:40.940,117.243.248.223,0,0,0,Land,1.00,NULL
+1357,375,26255,GSSS Gehra,,Active,2138,2023-08-24 15:46:30.750,117.243.248.223,0,0,0,Land slide has been occurred back & front side of the school building. Three rooms totally covered with the mud,7.00,NULL
+1358,376,26517,GSSS Richhani,,Active,2138,2023-08-31 11:05:43.040,117.243.244.120,0,0,0,Major cracks have been developed in boundary wall,9.00,NULL
+1359,377,26517,GSSS Kholanal,,Active,2138,2023-08-31 12:08:54.677,117.243.244.120,0,0,0,"Single storey building (Consisting 03 rooms in ground floor)02 room in first floor alongwith playground has been washed away due to heavy rainfall and cloud burst incident. ",80.00,NULL
+1360,378,26517,GSSS Bakhali,,Active,2138,2023-08-31 12:10:24.420,117.243.244.120,0,0,0,School main gate has been damaged & playground has also been damaged.,0.60,NULL
+1361,379,26517,GSSS Jhangi,,Active,2138,2023-08-31 12:11:48.767,117.243.244.120,0,0,0,Boundary wall has been damaged partially due to overflow of Nalh water due to heavy rainfall,5.00,NULL
+1362,380,26517,GSSS Gharwasra,,Active,2138,2023-08-31 12:14:11.743,117.243.244.120,0,0,0,Danga has been damaged due to land slide incident in front of school building. Retaining wall (Danga is urgently required for protection of school building),15.00,NULL
+1363,381,26517,GSSS Sharti,,Active,2138,2023-08-31 12:16:27.233,117.243.244.120,0,0,0,02 rooms walls and 06 units of toilets alongwith playground and protection wall has been damaged due to heavy rainfall and cloud burst incident. debris laid down in 06 rooms as well as veranda,45.00,NULL
+1364,382,26517,GSSS Mandap,,Active,2138,2023-08-31 12:17:41.923,117.243.244.120,0,0,0,land slide has been occurred back side of the science block.,10.00,NULL
+1365,383,26517,GSSS Pairi,,Active,2138,2023-08-31 12:18:52.190,117.243.244.120,0,0,0,The middle of the school ground damaged with area alongside the main gate.,4.00,NULL
+1366,384,26517,"GHS Koon ",,Active,2138,2023-09-04 14:39:38.403,117.215.241.36,0,0,0,Flood incident due to heavy rainfall three rooms pillars have been washed way and minor cracks have been developed in the room and also toilets has been damaged,10.00,NULL
+1367,385,26517,GSSS Mundroo,,Active,2138,2023-09-04 14:40:42.360,117.215.241.36,0,0,0,Boundary wall has been damaged due to heavy rainfall incident.,6.00,NULL
+1368,386,26517,GHS Bijan Dhalwan,,Active,2138,2023-09-04 14:41:52.137,117.215.241.36,0,0,0,Cracks have been developed in playground & rooms.,5.00,NULL
+1369,387,26514,GSSS Kandha,,Active,2138,2023-09-04 14:43:02.390,117.215.241.36,0,0,0,04 toilets have been damaged,1.50,NULL
+1370,388,26514,GSSS Matroo,,Active,2138,2023-09-04 14:44:23.073,117.215.241.36,0,0,0,Danag (Retaining wall) has been damaged.,3.00,NULL
+1371,389,26517,GHS Nalyana,,Active,2138,2023-09-04 14:47:04.433,117.215.241.36,0,0,0,Boundary wall has been damaged.,4.00,NULL
+1372,390,26517,GSSS Sudharani,,Active,2138,2023-09-04 14:49:36.420,117.215.241.36,0,0,0,Danaga has been partially damaged due to heavy rainfall and construction of retaining wall is urgently required.,5.00,NULL
+1373,391,26514,GSSS Sidhyani,,Active,2138,2023-09-04 14:51:02.440,117.215.241.36,0,0,0,Boundary wall has been damaged alongwith playground & wash room site.,10.00,NULL
+1374,392,26514,GSSS Drubbal,,Active,2138,2023-09-04 14:52:20.010,117.215.241.36,0,0,0,Boundary wall has been damaged.,2.00,NULL
+1375,393,26038,GSSS Lohar,,Active,2138,2023-09-15 12:02:15.670,117.243.241.222,0,0,0,"Tree fallen in the school building roof, stage succumbed & Boundary wall has also been damaged due to heavy rainfall and land slide incident.",2.50,NULL
+1376,396,26777,Govt. Sr. Sec. School Banikhet,,Active,2042,2023-09-18 10:46:41.283,117.207.54.81,0,0,0,Bricks boundary wall along with stone base has been damaged.,125000.00,NULL
+1377,398,26842,Govt. Sr. Sec. School Chhatrari,,Active,2042,2023-09-27 16:01:20.357,117.206.196.36,0,0,0,"Boundary wall damaged due to land slide ",250000.00,NULL
+1380,276,25479,GSSSRora,,Active,2186,2023-10-17 11:52:54.850,61.3.89.105,0,0,0,Retaining,162000.00,NULL
+1381,402,29629,GHS Saloh,,Active,2042,2024-08-08 14:53:44.580,59.89.182.11,0,0,0,"Landslide in the playground and blockage of passes to school ",25000.00,NULL
+1382,403,29629,GSSS Baneta,,Active,2042,2024-08-08 14:55:25.850,59.89.182.11,0,0,0,Debris and water entered in school playground due to landslide.,1500000.00,NULL
+1383,405,29629,GSSS Baneta,,Active,2042,2024-08-08 15:10:21.800,59.89.182.11,0,0,0,Debris and water entered in school playground due to landslide.,1500000.00,NULL
+1385,408,29630,GSSS Thulel,,Active,2042,2024-08-08 15:29:18.360,59.89.182.11,0,0,0,"Debris and water entered in three rooms,MDM shed,toilet, bathroom and playground.",500000.00,NULL
+1390,415,29436,"GSSS Jhangi ",,Active,2138,2024-08-16 15:56:25.370,61.0.66.221,0,0,0,Boundary wall has been damaged due to a nalah comes from upper side of school building.,1.50,NULL
+1392,418,29769,GSSS Mawa Kohlan,,Active,2186,2024-08-16 16:07:28.413,61.3.89.95,0,0,0,"Boundary wall (150 meter) Washed away with Water ",500000.00,NULL
+1393,419,29770,GSSS Pubowal,,Active,2186,2024-08-16 16:27:29.780,61.3.89.95,0,0,0,"Boundary wall & Gents, Boys Toilets",500000.00,NULL
+1394,420,29901,"GSSS Heeran ",,Active,2186,2024-08-20 16:22:19.343,61.3.92.173,0,0,0,Boundary wall and retaining Wall collapse.,200000.00,NULL
+1410,436,29436,GSSS Dassehra,,Active,2138,2024-08-24 16:27:31.870,117.243.242.213,0,0,0,Two rooms has been damaged due to falling of two heavy stones in the back side of rooms. The back wall of these two rooms is heavly damaged. A lot of stones and mud stored in playground due to heavy rain fall and it is off no use for sports activities.,5.00,NULL
+1411,435,29917,SARAUNJH,,Active,0,2024-08-27 15:14:19.017,117.215.240.42,0,0,0,Septic tank has been cracked and leakaging of excretion from the septic tank and dire needs to be re,1.00,4143
+1413,434,29999,BAAGPANDOL,,Active,0,2024-08-27 16:07:20.567,117.215.240.42,0,0,0,Plaster from roof of class room fall and damaged desks and seepage in other three room.,0.50,4143
+1414,433,29998,GAHANG,,Active,0,2024-08-27 16:09:00.650,117.215.240.42,0,0,0,"Cracks has been developed in back side of wall of MDM kitchen and silt/debris, stones and driftwood ",8.00,4143
+1415,432,29436,LAPAS,,Active,0,2024-08-27 16:10:12.517,117.215.240.42,0,0,0,Mid-Day-Meal Kitchen Shed has been damaged and cracks have been developed in wall.,4.00,4143
+1416,431,29996,SERLAKHABOO,,Active,0,2024-08-27 16:12:28.667,117.215.240.42,0,0,0,"Cracks has been developed in lental and plaster come off  in roof ",1.00,4143
+1417,430,29996,Narwandhi,,Active,0,2024-08-27 16:17:11.580,117.215.240.42,0,0,0,Land subsidence/Landslide has been occurred in backside of school building. Two Protection walls are,8.00,4143
+1418,429,29996,Sari,,Active,0,2024-08-27 16:18:39.730,117.215.240.42,0,0,0,Debris has been stored in Playground and needs to construct a protection wall in front of playground,3.50,4143
+1419,428,29996,GUMMA,,Active,0,2024-08-27 16:20:09.520,117.215.240.42,0,0,0,5 toilets have been damaged due to heavy rainfall.,3.00,4143
+1420,427,29996,JHANGI,,Active,0,2024-08-27 16:21:55.297,117.215.240.42,0,0,0,Boundary wall has been damaged due to a nalah comes from upper side of school building,15.00,4143
+1421,424,29996,BALH,,Active,0,2024-08-27 16:23:45.503,117.215.240.42,0,0,0,Protection wall in front of school building has been completely damaged and due to this school build,0.50,4143
+1423,413,29996,TARSWAN,,Active,0,2024-08-27 16:26:22.877,117.215.240.42,0,0,0,MDM,1.50,4143
+1424,417,29590,PANJAN,,Active,0,2024-08-27 16:37:10.653,117.215.240.42,0,0,0,Toilets of students have been damaged due to heavy rainfall.,3.00,4143
+1425,423,29996,DHARMEHAR,,Active,0,2024-08-27 16:39:23.517,117.215.240.42,0,0,0,Two toilets completely damaged and Mid-day-meal Kitchen shed also in danger. Playground and boundary,12.00,4143
+1426,422,29996,BIJAN DHALWAN,,Active,0,2024-08-27 16:41:13.707,117.215.240.42,0,0,0,Cracks have been developed on Wall and roof of Mid –day-Meal Kitchen shed,1.00,4143
+1427,421,29996,KHANI,,Active,0,2024-08-27 16:46:33.473,117.215.240.42,0,0,0,Land sliding occurring near school building and septic tank damaged and leakaging from pip and tank.,1.00,4143
+1428,412,29996,MANDAP,,Active,0,2024-08-27 16:49:20.713,117.215.240.42,0,0,0,Debris has been entered in Science lab.,1.00,4143
+1429,409,29996,NASLOH,,Active,0,2024-08-27 16:52:39.020,117.215.240.42,0,0,0,MDM Kitchen shed partially damaged and minor cracks has been developed in wall,0.50,4143
+1430,438,29590,GHS PANJAN,,Active,2138,2024-08-29 14:16:02.087,117.215.248.251,0,0,0,Toilets of students have been damaged due to heavy rainfall.,3.00,NULL
+1431,439,30298,GSSS Hatli,,Active,2042,2024-09-13 15:45:21.233,117.207.50.166,0,0,0,Land slide near school building due to heavy rain,500000.00,NULL
+1432,440,30301,GSSS Ghatasni,,Active,2042,2024-09-13 16:04:29.750,117.207.50.166,0,0,0,"	Retaining/Protection wall collapsed half building unsafe",850000.00,NULL

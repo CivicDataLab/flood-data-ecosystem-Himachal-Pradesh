@@ -1,0 +1,41 @@
+health_loss_id,disaster_id,district_id,centre_type_id,centres_lost,status,entry_by,entry_date,ip_addr,RecordStatus,blockid,incidentdate,health_centerName,amount,Details,district_name,block_id,block_name,district_best,district_alternative,subdistrict_best,subdistrict_alternative
+123,4889,16,1003,0,Active,2046,2020-09-07 16:15:25.087,59.89.161.142,0,6,27-08-2020,,,,CHAMBA ,6,Chamba,chamba,,Chamba,
+132,4888,16,1002,0,Active,2046,2020-09-08 10:37:43.850,117.207.53.89,0,14,27-08-2020,,,,CHAMBA ,14,Kalhel,chamba,,Churah,
+134,4888,16,2,0,Active,2046,2020-09-08 10:38:07.897,117.207.53.89,0,7,27-08-2020,,,,CHAMBA ,7,Mehla,chamba,,Chamba,
+137,4888,16,2,0,Active,2046,2020-09-08 10:39:52.507,117.207.53.89,0,133,27-08-2020,,,,CHAMBA ,133,Bhattiyat,chamba,,,
+142,4889,16,1002,0,Active,2046,2020-09-08 10:40:55.803,117.207.53.89,0,11,27-08-2020,,,,CHAMBA ,11,Bharmour,chamba,,Bharmour,
+152,4889,16,1002,0,Active,2046,2020-09-08 10:44:16.987,117.207.53.89,0,16,27-08-2020,,,,CHAMBA ,16,Sundla,chamba,,Churah,
+301,24653,26,2,1,Active,2190,2023-07-11 11:02:13.697,114.134.25.134,2,125,08-07-2023,HSC KUTHIARI,0.5,WATTER FILLED IN HSC KUTHIARI ON 09.07.2023,UNA ,125,Amb,una,,Amb,
+377,24337,18,2,1,Deleted,2078,2023-07-21 13:06:32.257,103.210.33.243,0,41,23-06-2023,,,,KANGRA ,41,Bhawarna,kangra,,Fatehpur,
+378,24337,18,1002,1,Active,2078,2023-07-21 13:12:12.973,103.210.33.243,0,37,23-06-2023,PHC Panchrukhi,5.0,Retaining wall of back side of old PHC Building,KANGRA ,37,Panchrukhi,kangra,,,
+388,24337,18,1003,1,Active,2078,2023-07-21 14:35:26.320,103.210.33.243,0,137,23-06-2023,ZH Dharamshala,15.0,Damage to roof of indoor block including critical ,KANGRA ,137,Dharamshala,kangra,,Shahpur,Dharmsala
+389,24337,18,1003,1,Active,2078,2023-07-21 14:46:39.747,103.210.33.243,0,137,23-06-2023,ZH Dharamshala,20.0,Damage to the retaining wall in front,KANGRA ,137,Dharamshala,kangra,,Shahpur,Dharmsala
+390,24337,18,1003,1,Active,2078,2023-07-21 14:49:57.400,103.210.33.243,0,137,23-06-2023,ZH Dharamshala,20.0,Damage to the sewerage drainage pipeline in front,KANGRA ,137,Dharamshala,kangra,,Shahpur,Dharmsala
+391,24337,18,1003,1,Active,2078,2023-07-21 14:54:43.017,103.210.33.243,0,137,23-06-2023,ZH Dharamshala,5.0,Damage of sewerage drainage pipeline of type-3 ,KANGRA ,137,Dharamshala,kangra,,Shahpur,Dharmsala
+392,24337,18,1003,1,Active,2078,2023-07-21 14:57:38.333,103.210.33.243,2,137,23-06-2023,,,,KANGRA ,137,Dharamshala,kangra,,Shahpur,Dharmsala
+393,24337,18,1003,1,Active,2078,2023-07-21 15:09:30.660,103.210.33.243,0,39,23-06-2023,CH Gangath,15.0,Leakage/damage of roof and boundary wall,KANGRA ,39,Nurpur,kangra,,Nurpur,
+394,24337,18,1003,1,Active,2078,2023-07-21 15:29:11.060,103.210.33.243,0,39,23-06-2023,PHC Basawzira,1.0,Damage boundary Wall,KANGRA ,39,Nurpur,kangra,,Nurpur,
+395,24337,18,1003,1,Active,2078,2023-07-21 15:31:30.500,103.210.33.243,0,39,23-06-2023,HSC Kherian,3.0,Damage boundary Wall,KANGRA ,39,Nurpur,kangra,,Nurpur,
+396,24337,18,1002,1,Active,2078,2023-07-21 15:34:58.227,103.210.33.243,0,33,23-06-2023,PHC jalag,4.0,Retaining wall of PHC building Jalag,KANGRA ,33,Lambagaon,kangra,,,
+397,24337,18,1002,1,Active,2078,2023-07-21 15:38:02.120,103.210.33.243,0,33,23-06-2023,PHC Lambagaon ,7.0,Damage of roof and dental OPD at PHC Lambagaon,KANGRA ,33,Lambagaon,kangra,,,
+398,24337,18,1003,1,Active,2078,2023-07-21 15:40:05.323,103.210.33.243,0,33,23-06-2023,HWC Draman,2.0,Damage of roof,KANGRA ,33,Lambagaon,kangra,,,
+402,24834,18,1003,1,Active,2078,2023-07-22 13:04:31.937,103.210.33.243,0,41,11-07-2023,CH Palampur,40.0,Damage of roof of OT Section Corridor Female ward,KANGRA ,41,Bhawarna,kangra,,Fatehpur,
+461,25308,23,2,1,Active,1009,2023-07-24 13:27:59.017,59.89.9.51,2,86,22-07-2023,CHC Kotkhai,40.0,"Flashflood, entrance road & CHC building damaged",SHIMLA ,86,Jubbal,shimla,,Jubbal,
+491,25467,23,1002,1,Active,1009,2023-07-25 13:06:39.250,59.89.9.51,2,91,24-07-2023,HSC Lal Pani Shimla,25.0,Cracks in the HSC Lalpani building,SHIMLA ,91,Mashobra,shimla,,Shimla ( Rural ),Nerwa
+492,25467,23,1002,1,Active,1009,2023-07-25 13:08:14.013,59.89.9.51,2,86,24-07-2023,HSC Kiavi,15.0,Landslide due to heavy rainfall,SHIMLA ,86,Jubbal,shimla,,Jubbal,
+493,25467,23,2,1,Active,1009,2023-07-25 13:09:40.413,59.89.9.51,2,86,24-07-2023,SQ at CHC Tikkar,15.0,Cracks in the SQ at CHC Tikkar,SHIMLA ,86,Jubbal,shimla,,Jubbal,
+497,25531,23,1002,1,Active,1009,2023-07-27 10:54:11.820,59.89.9.36,2,96,26-07-2023,PHC Badiyara,3.0,"Flash flood, muck gathered in the premises,a",SHIMLA ,96,Rohroo,shimla,,,
+500,25531,23,1002,1,Deleted,1009,2023-07-28 11:09:04.277,59.89.10.173,0,95,26-07-2023,,,,SHIMLA ,95,Rampur,shimla,,Rampur,
+501,25531,23,1002,1,Deleted,1009,2023-07-28 11:09:56.880,59.89.10.173,0,95,26-07-2023,,,,SHIMLA ,95,Rampur,shimla,,Rampur,
+502,25531,23,1002,1,Active,1009,2023-07-28 11:11:21.970,59.89.10.173,2,95,26-07-2023,HSC Khaneti,30.0,HSC Khaneti bldg damaged by rocks,SHIMLA ,95,Rampur,shimla,,Rampur,
+531,25721,23,1002,1,Deleted,1009,2023-08-02 12:09:59.483,59.89.9.96,0,96,01-08-2023,,,,SHIMLA ,96,Rohroo,shimla,,,
+532,25721,23,1002,1,Deleted,1009,2023-08-02 12:10:36.390,59.89.9.96,0,96,01-08-2023,,,,SHIMLA ,96,Rohroo,shimla,,,
+533,25721,23,1002,1,Active,1009,2023-08-02 12:11:38.650,59.89.9.96,2,96,01-08-2023,,,,SHIMLA ,96,Rohroo,shimla,,,
+543,25974,23,2,1,Active,1009,2023-08-16 11:39:35.370,59.89.9.0,2,95,09-08-2023,CHC Nankhari,10.0,Gaps & Cracks in CHC with leakage in ceiling,SHIMLA ,95,Rampur,shimla,,Rampur,
+544,26231,26,1002,1,Active,2190,2023-08-18 16:43:11.430,103.72.220.112,2,125,06-08-2023,PHC DHARMSHAL MAHANTAN,10.0,BOUNDARY WALL DAMAGE ,UNA ,125,Amb,una,,Amb,
+553,26193,23,1002,1,Active,1009,2023-08-22 10:18:49.823,59.89.9.10,2,96,16-08-2023,PHC Dhagoli,10.0,Building totally damaged du to landslide,SHIMLA ,96,Rohroo,shimla,,,
+561,26426,23,1002,1,Active,1009,2023-08-29 16:42:20.867,59.89.10.111,2,95,26-08-2023,HSC Kaobil,1.0,Cracks in the building with damage to the roof,SHIMLA ,95,Rampur,shimla,,Rampur,
+562,26426,23,2,1,Deleted,1009,2023-08-29 16:43:22.667,59.89.10.111,0,95,26-08-2023,,,,SHIMLA ,95,Rampur,shimla,,Rampur,
+563,26426,23,2,1,Deleted,1009,2023-08-29 16:44:14.917,59.89.10.111,0,95,26-08-2023,,,,SHIMLA ,95,Rampur,shimla,,Rampur,
+564,26426,23,2,1,Active,1009,2023-08-29 16:45:24.343,59.89.10.111,2,95,26-08-2023,,,,SHIMLA ,95,Rampur,shimla,,Rampur,
+565,25721,23,1002,1,Active,1009,2023-09-01 12:28:56.250,59.89.10.28,2,95,01-08-2023,HSC Racholi,50000.0,Retaining wall damaged,SHIMLA ,95,Rampur,shimla,,Rampur,
