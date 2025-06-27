@@ -18,7 +18,7 @@ DATA_FOLDER = os.path.abspath(CURRENT_FOLDER + "/../" + "data")
 TIFF_DATA_FOLDER = os.path.join(DATA_FOLDER, "rain", "tiff")
 CSV_DATA_FOLDER = os.path.join(DATA_FOLDER, "rain", "csv")
 
-ADMIN_BDRY_GDF = gpd.read_file(path + "<administrative_boundary_shapefile_path>")
+ADMIN_BDRY_GDF = gpd.read_file(path + r"\Maps\hp_tehsil_final.geojson")
 
 
 def download_data(year: int, start_date: str, end_date: str):
@@ -177,7 +177,7 @@ def retrieve_assam_revenue_circle_data(year: int):
             raster = rasterio.open(
                 os.path.join(
                     TIFF_DATA_FOLDER,
-                    "{}_resampled2.tif".format(month_and_year_filename),
+                    "{}_resampled.tif".format(month_and_year_filename),
                 )
             )
             print(f"Processing for {month_and_year_filename}")

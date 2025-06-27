@@ -12,7 +12,6 @@ HP_sd = gpd.read_file(os.getcwd()+ r'\Maps\hp_tehsil_final.geojson')
 #HP_sd['object_id'] = HP_sd['object_id'].astype(int)
 
 date_range = pd.date_range(start="2021-04-01", end="2024-12-31", freq='MS')
-
 # Format the date values as "YYYY_MM" strings
 formatted_dates = [date.strftime('%Y_%m') for date in date_range]
 
@@ -24,15 +23,15 @@ for year_month in formatted_dates:
     df['timeperiod'] = year_month
     dfs.append(df)
 master_df = pd.concat(dfs).reset_index(drop = True)
+master_df['district_obj'] = master_df['object_id'].str.rsplit(pat='-', n=1).str[0]
 #df = pd.DataFrame({'timeperiod': formatted_dates})
-print(master_df)
 
 # Variables for model input
-monthly_variables = ['total_tender_awarded_value',
-                     #'SOPD_tenders_awarded_value', 'SDRF_tenders_awarded_value', 'RIDF_tenders_awarded_value', 'LTIF_tenders_awarded_value', 'CIDF_tenders_awarded_value',
-                      #'Preparedness Measures_tenders_awarded_value', 
+monthly_variables = ['total_tender_awarded_value', 'Repair and Restoration_tenders_awarded_value',
+                     'LWSS_tenders_awarded_value', 'NDRF_tenders_awarded_value', 'SDMF_tenders_awarded_value', 'WSS_tenders_awarded_value', 
+                      'Preparedness Measures_tenders_awarded_value', 
                       'Immediate Measures_tenders_awarded_value', 
-                      #'Others_tenders_awarded_value',
+                      'Others_tenders_awarded_value',
                       #'Total_Animal_Washed_Away', 'Total_Animal_Affected',
                       #'Population_affected_Total', 'Crop_Area',
                       #'Male_Camp', 'Female_Camp', 'Children_Camp',
@@ -48,29 +47,34 @@ monthly_variables = ['total_tender_awarded_value',
                      'person_dead','person_major_injury',
                      'schools_damaged','economic_loss',
                      'total_livestock_loss',
+                     'relief_and_mitigation_sanction_value'
                      ]
+
+
 
 for variable in monthly_variables:
     variable_df = pd.read_csv(variables_data_path + variable + '.csv')
     #print(variable_df)
-    #variable_df['object_id'] = variable_df['object_id'].astype(int)
-    #if variable in ['ndvi_subdis', 'ndbi_subdis']:
-    #    continue#variable_df = variable_df.rename(columns = {'mean':'mean_'+variable[:4]})
-    variable_df = variable_df.drop_duplicates()
-    master_df = master_df.merge(variable_df, on=['object_id', 'timeperiod'], how='left')
-'''
-master_df['Relief_Camp_inmates'] = master_df['Male_Camp'].fillna(0).astype(int) \
-    + master_df['Female_Camp'].fillna(0).astype(int) \
-    + master_df['Children_Camp'].fillna(0).astype(int)
-master_df['Human_Live_Lost'] = master_df['Human_Live_Lost_Children'].fillna(0).astype(int) \
-    + master_df['Human_Live_Lost_Female'].fillna(0).astype(int) \
-    + master_df['Human_Live_Lost_Male'].fillna(0).astype(int)
+    if variable == 'relief_and_mitigation_sanction_value':
+        # this one is at district level → rename its key to district_obj
+        variable_df = variable_df.rename(columns={'object_id': 'district_obj'})
+        # dedupe in case there are multiple entries per district/time
+        variable_df = variable_df.drop_duplicates(subset=['district_obj','timeperiod'])
+        # merge on district_obj so each tehsil in that district gets the same value
+        master_df = master_df.merge(
+            variable_df[['district_obj','timeperiod', variable]],
+            on=['district_obj','timeperiod'],
+            how='left'
+        )
+    else:
+        # your normal object_id-level merge
+        master_df = master_df.merge(
+            variable_df.drop_duplicates(subset=['object_id','timeperiod']),
+            on=['object_id','timeperiod'],
+            how='left'
+        )
+#master_df.to_csv(os.getcwd() + r'/Sources/MASTER_VARIABLES_test.csv', index=False)
 
-
-master_df = master_df.drop(['Male_Camp', 'Female_Camp', 'Children_Camp',
-                            'Human_Live_Lost_Male', 'Human_Live_Lost_Children', 'Human_Live_Lost_Female'], axis=1)
-
-'''
 #Annual variables
 master_df['year'] = master_df['timeperiod'].str[:4].astype(int)
 annual_variables = ['mean_sex_ratio', 'sum_aged_population', 'sum_young_population', 'sum_population']#,
@@ -88,12 +92,17 @@ zero_counts = master_df.apply(lambda x: (x == 0).sum())
 print(zero_counts)
 #print(master_df)
 
+
+
 # one-time variables
 onetime_variables = ['Schools', 'RailLengths', 'RoadLengths',#'HealthCenters','gcn250_average', 
                      'slope_elevation',
                       'antyodaya_variables', 'drainage_density','distance_from_river','rural_vul']
-                     #'distance_from_river_polygon',]
+                     
 master_df['year'] = ''
+print("master_df years:", master_df['year'].unique())
+var = pd.read_csv(variables_data_path + "slope_elevation.csv")
+print("slope_elevation years:", var.get('timeperiod', pd.Series()).head())
 
 for variable in onetime_variables:
     print(variable)
@@ -137,6 +146,7 @@ master_df = master_df.sort_values(by=['object_id', 'timeperiod'])
 master_df['mean_ndvi'] = master_df['mean_ndvi'].ffill()
 master_df['mean_ndbi'] = master_df['mean_ndbi'].ffill()
 '''
+master_df = master_df.drop(columns=['district_obj'])
 
 # Impute all other vars with 0
 master_df = master_df.fillna(0)
