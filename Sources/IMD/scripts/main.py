@@ -18,7 +18,7 @@ DATA_FOLDER = os.path.abspath(CURRENT_FOLDER + "/../" + "data")
 TIFF_DATA_FOLDER = os.path.join(DATA_FOLDER, "rain", "tiff")
 CSV_DATA_FOLDER = os.path.join(DATA_FOLDER, "rain", "csv")
 
-ADMIN_BDRY_GDF = gpd.read_file(path + r"\Maps\hp_tehsil_final.geojson")
+ADMIN_BDRY_GDF = gpd.read_file(path + r"/Maps/hp_tehsil_final.geojson")
 
 
 def download_data(year: int, start_date: str, end_date: str):
@@ -219,8 +219,8 @@ if __name__ == "__main__":
     year = int(year)
 
     # IF the year is current year, specify start and end date
-    start_date = "2024-01-01"
-    end_date = "2024-06-30"
+    start_date = "2025-01-01"
+    end_date = "2025-06-30"
 
     download_data(year, start_date=start_date, end_date=end_date)
     parse_and_format_data(year, start_date=start_date, end_date=end_date)
