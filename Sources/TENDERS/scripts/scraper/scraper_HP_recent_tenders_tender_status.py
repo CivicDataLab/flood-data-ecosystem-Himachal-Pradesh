@@ -16,6 +16,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import sys
 warnings.filterwarnings("ignore", category=DeprecationWarning) 
+import re
 
 year = sys.argv[1]
 month = sys.argv[2]
@@ -46,7 +47,9 @@ except:
 url = r'https://hptenders.gov.in/nicgep/app?page=WebTenderStatusLists&service=page'
 firefox_options = Options()
 firefox_options.headless = True
-service = Service(r'.venv\Scripts\geckodriver.exe')
+service = Service(r"C:\Users\saura\anaconda3\Scripts\geckodriver.exe")
+
+#service = Service(r'.venv\Scripts\geckodriver.exe')
 #browser = WebDriver()
 
 os.chdir(os.getcwd()+r"/Sources/TENDERS/scripts/scraper/scraped_recent_tenders")
@@ -70,6 +73,16 @@ dict_tender_status = {'1': "To be Opened",
                       '7': "Retender",
                       '8': "Cancelled"}
 
+
+def sanitize_filename(s: str, max_len: int = 150) -> str:
+    # strip Windows-illegal chars and control chars
+    s = re.sub(r'[<>:"/\\|?*]', '', s)
+    s = re.sub(r'[\x00-\x1f]', '', s)
+    # normalize whitespace & trim trailing dots/spaces
+    s = re.sub(r'\s+', ' ', s).strip().rstrip('. ')
+    return s[:max_len]
+
+'''
 def captcha_input(xpath_image,xpath_input_text):
     captcha_text = captcha(browser,xpath_image)
     #pdb.set_trace()
@@ -97,6 +110,32 @@ def captcha_input(xpath_image,xpath_input_text):
                 break
             else:
                 pass
+'''
+def captcha_input(xpath_image, xpath_input_text):
+    # 1) wait for the captcha <img> to load
+    img = WebDriverWait(browser, 10).until(
+        EC.presence_of_element_located((By.XPATH, xpath_image))
+    )
+
+    # 2) give yourself time to read it and type it back
+    user_sol = input("🔒  Captcha is now visible in the browser.  Please type it here: ")
+
+    # 3) find the text‐box, clear & send your answer
+    captcha_box = SeleniumScrappingUtils.get_page_element(browser, xpath_input_text)
+    captcha_box.clear()
+    captcha_box.send_keys(user_sol)
+
+    # 4) click Search
+    browser.find_element(By.ID, "Search").click()
+
+    # 5) if it complains, let you retry
+    errs = browser.find_elements(By.CLASS_NAME, "error")
+    while errs and "Invalid Captcha!" in errs[0].text:
+        user_sol = input("⚠️  That didn’t work—please re-type the captcha: ")
+        captcha_box.clear()
+        captcha_box.send_keys(user_sol)
+        browser.find_element(By.ID, "Search").click()
+        errs = browser.find_elements(By.CLASS_NAME, "error")
 
 #Select tender status
 for tender_status_id in range(6,7):
@@ -160,18 +199,18 @@ for tender_status_id in range(6,7):
             except:
                 continue
         for index, (keys, values) in enumerate(dict_table_section_head.items()):
-            keys = keys.replace("/","")
+            # current code only strips '/', but you need a full sanitize
+            base = sanitize_filename(f"{tender_id}_{keys}_{index}")
+
             if keys == "Tender Documents":
                 continue
-            # elif keys == "Work /Item(s)":
-            #     SeleniumScrappingUtils.extract_horizontal_table(values,tender_id +"_"+"Work_Item"+"_" + str(index),1)
             elif (keys.startswith("Cover Details") or keys == "Latest Corrigendum List" or keys.startswith("Other")):
-                SeleniumScrappingUtils.extract_vertical_table(values,tender_id +"_"+keys+"_" + str(index),1)
+                SeleniumScrappingUtils.extract_vertical_table(values, base, 1)
             elif keys == "Payment Instruments":
                 table_section = values.find_element(By.CSS_SELECTOR,"table")
-                SeleniumScrappingUtils.extract_vertical_table(table_section,tender_id +"_"+keys+"_" + str(index),1)
+                SeleniumScrappingUtils.extract_vertical_table(table_section, base, 1)
             else:
-                SeleniumScrappingUtils.extract_horizontal_table(values,tender_id +"_"+keys+"_" + str(index),1)
+                SeleniumScrappingUtils.extract_horizontal_table(values, base, 1)
         path_to_save = "concatinated_csvs/"
         SeleniumScrappingUtils.concatinate_csvs(path_to_save,tender_id,dict_tender_status[tender_status_id])
         
@@ -221,20 +260,19 @@ for tender_status_id in range(6,7):
         #             except:
         #                 time.sleep(50)
         #                 os.rename(name,"concatinated_csvs/"+tender_id+"_"+name)
-        for index,name in enumerate(sections):
+        for index, name in enumerate(sections):
             if index == 0:
-                SeleniumScrappingUtils.extract_horizontal_table(name,"Org_"+tender_id,0)
-                continue 
+                SeleniumScrappingUtils.extract_horizontal_table(name, sanitize_filename(f"Org_{tender_id}"), 0)
+                continue
+
             header_name = name.find_element(By.CLASS_NAME,"section_head").text
-            if (header_name in list_of_dict_tables_type) & (dict_tables_type[header_name] == "Vertical"):
-                SeleniumScrappingUtils.extract_vertical_table(name,header_name+"_"+tender_id,1)
+            safe_header = sanitize_filename(header_name)
+
+            if (header_name in list_of_dict_tables_type) and (dict_tables_type[header_name] == "Vertical"):
+                SeleniumScrappingUtils.extract_vertical_table(name, sanitize_filename(f"{safe_header}_{tender_id}"), 1)
             else:
-                SeleniumScrappingUtils.extract_horizontal_table(name,header_name+"_"+tender_id,1)
-        path_to_save = "concatinated_csvs/"
-        try:
-            SeleniumScrappingUtils.concatinate_csvs(path_to_save,"summary"+"_"+tender_id, dict_tender_status[tender_status_id])
-        except:
-            pass
+                SeleniumScrappingUtils.extract_horizontal_table(name, sanitize_filename(f"{safe_header}_{tender_id}"), 1)
+
 
 
         
