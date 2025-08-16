@@ -18,7 +18,7 @@ DATA_FOLDER = os.path.abspath(CURRENT_FOLDER + "/../" + "data")
 TIFF_DATA_FOLDER = os.path.join(DATA_FOLDER, "rain", "tiff")
 CSV_DATA_FOLDER = os.path.join(DATA_FOLDER, "rain", "csv")
 
-ADMIN_BDRY_GDF = gpd.read_file(path + r"\Maps\hp_tehsil_final.geojson")
+ADMIN_BDRY_GDF = gpd.read_file(path + r"/Maps/hp_tehsil_final.geojson")
 
 
 def download_data(year: int, start_date: str, end_date: str):
