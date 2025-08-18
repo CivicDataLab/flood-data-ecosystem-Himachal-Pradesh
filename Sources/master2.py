@@ -11,7 +11,7 @@ print(variables_data_path)
 HP_sd = gpd.read_file(os.getcwd()+ r'\Maps\hp_tehsil_final.geojson')
 #HP_sd['object_id'] = HP_sd['object_id'].astype(int)
 
-date_range = pd.date_range(start="2021-04-01", end="2024-12-31", freq='MS')
+date_range = pd.date_range(start="2021-04-01", end="2025-06-30", freq='MS')
 # Format the date values as "YYYY_MM" strings
 formatted_dates = [date.strftime('%Y_%m') for date in date_range]
 
