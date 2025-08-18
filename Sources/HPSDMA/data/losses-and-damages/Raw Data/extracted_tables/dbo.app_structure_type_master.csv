@@ -1,0 +1,9 @@
+structure_type_id,structure_type,status,entry_by,entry_date,ip_addr
+1,Pacca House,Active,0,2018-11-19 17:56:55.163,45.192.164.134
+2,Kachha House,Active,0,2018-11-27 11:46:57.273,::1
+1002,Shops,Active,0,2019-01-08 13:28:37.140,122.176.47.24
+1003,Labour Sheds,Active,0,2019-01-08 13:29:13.460,122.176.47.24
+1004,Cowsheds,Active,0,2019-01-08 13:29:44.303,122.176.47.24
+1005,Gharats,Active,0,2019-11-13 12:50:40.620,
+1006,Shamshan Ghat,Active,0,2019-11-13 12:50:48.917,
+1007,Huts,Active,0,2019-11-13 12:51:07.400,

@@ -1,0 +1,4 @@
+institute_id,dist_id,Sub_dist_id,institute_name,institute_addr,status,entry_by,entry_date,ip_addr
+1,22,127,Indian Institute of Technology,"Parashar Road, Tehsil Sadar, Near Kataula, Kamand, Himachal Pradesh 175005 ",Active,4344,2020-03-02 14:53:46.620,36.255.230.84
+2,23,182,HIPA,"Himachal Institute of Public Administration, Fairlawns Shimla",Active,4344,2022-01-13 16:59:32.390,10.146.4.254
+3,15,152,1,1,Deleted,1,2025-07-31 14:26:26.810,45.192.164.134

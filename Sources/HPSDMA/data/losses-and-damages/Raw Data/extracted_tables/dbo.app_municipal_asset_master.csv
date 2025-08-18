@@ -1,0 +1,5 @@
+municipal_asset_type_id,municipal_asset_type,status,entry_by,entry_date,ip_addr
+1,water borne 1,Active,0,2018-12-06 10:43:06.590,::1
+2,Vector borne,Active,0,2018-12-06 10:43:23.127,::1
+3,Air borne 1,Deleted,0,2018-12-06 10:43:34.173,::1
+4,Community Assets,Active,0,2019-01-08 13:14:57.390,122.176.47.24

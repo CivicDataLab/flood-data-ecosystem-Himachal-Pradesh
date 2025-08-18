@@ -1,0 +1,5 @@
+centre_type_id,centre_type,status,entry_by,entry_date,ip_addr
+1,CHS1,Deleted,0,2018-11-20 11:10:07.793,::1
+2,CHC,Active,0,2018-11-20 12:58:28.193,::1
+1002,PHC,Active,0,2019-07-30 17:34:22.327,
+1003,RH,Active,0,2019-07-30 17:34:40.347,

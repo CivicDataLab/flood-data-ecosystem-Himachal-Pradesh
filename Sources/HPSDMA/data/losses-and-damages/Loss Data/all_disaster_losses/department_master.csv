@@ -1,0 +1,45 @@
+﻿department_id,department_name,status,entry_by,entry_date,ip_addr
+1,Animal Husbandry Department,Active,0,58:54.6,10.146.4.225
+2,Ayurveda  ,Active,0,59:05.4,::1
+3,Agriculture   Department,Active,0,59:20.3,NULL
+4,Energy,Active,0,40:19.5,NULL
+5,Education,Active,0,40:19.5,NULL
+6,Elementary Education,Active,0,40:19.6,NULL
+7,Fire Services ,Active,0,40:19.7,NULL
+8,"Food, Civil Supplies & Consumer Affairs ",Active,0,40:19.8,NULL
+9,Higher Education ,Active,0,40:19.9,NULL
+10,Horticulture Department ,Active,0,40:20.0,NULL
+11,Information & Public Relations,Active,0,40:20.1,NULL
+12,Irrigation & Public Health ,Active,0,40:20.2,NULL
+13,Medical Education and Research,Active,0,40:20.2,NULL
+14,Personnel,Active,0,40:20.3,NULL
+15,Police ,Active,0,40:20.4,NULL
+16,Public Works ,Active,0,40:20.5,NULL
+17,Sainik Welfare ,Active,0,40:20.6,NULL
+18,Technical Education,Active,0,40:20.6,NULL
+19,Town & Country Planning ,Active,0,40:20.7,NULL
+20,Urban Development ,Active,0,40:20.8,NULL
+21,Fisheries ,Active,0,40:20.9,NULL
+22,Forest Department,Active,0,40:21.0,NULL
+23,Health & Family Welfare ,Active,0,40:21.1,NULL
+24,Health Safety & Regulations ,Active,0,40:21.1,NULL
+25,Industries ,Active,0,40:21.2,NULL
+26,Information Technology ,Active,0,40:21.3,NULL
+27,Panchayati Raj ,Active,0,40:21.4,NULL
+28,Planning,Active,0,40:21.5,NULL
+29,Rural Development ,Active,0,40:21.5,NULL
+30,"Empowerment of SCs,OBCs, Minorities & Specially Abled ",Active,0,40:21.6,NULL
+31,Tourism ,Active,0,40:21.7,NULL
+32,Transport ,Active,0,40:21.8,NULL
+33,Women & Child Development ,Active,0,40:21.8,NULL
+34,HPSEB Department,Active,0,40:21.9,NULL
+35,Municipal Corporation,Active,0,31:05.3,NULL
+36,IPH,Active,0,31:05.3,NULL
+37,Structure,Active,0,31:05.3,NULL
+38,PWD Department,Active,0,31:05.3,NULL
+39,IPH,Active,0,31:05.3,NULL
+40,Revenue ,Active,0,11:38.9,NULL
+41,RD and PR Department,Active,0,53:52.5,NULL
+42,DMC Department,Active,0,54:02.3,NULL
+43,DCs Department,Active,0,54:30.6,NULL
+1041,Default,Active,0,33:30.5,NULL

@@ -1,0 +1,6 @@
+PTypeID,PType,status
+1,Content Creater,Active
+2,Content Approver,Active
+3,Query Responder,Active
+4,Content Publisher,Active
+5,Approver and Publisher,Active

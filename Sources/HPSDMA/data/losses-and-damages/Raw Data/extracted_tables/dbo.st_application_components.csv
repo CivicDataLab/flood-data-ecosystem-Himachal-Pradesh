@@ -1,0 +1,65 @@
+comp_id,comp_name,comp_file,status,entry_by,ip_add,module_id
+1,Human,humanloss.aspx,Active,0.0,122.160.22.108,1
+2,Disaster ,Disaster.aspx,Active,,,1
+3,Cattle,cattleloss1.aspx,Active,0.0,122.160.22.108,1
+4,Horticulture,hotricultureloss1.aspx,Active,0.0,122.160.22.108,1
+5,Agriculture,agricultureloss1.aspx,Active,,,1
+6,Structure,structureloss.aspx,Active,,,1
+7,JSV,ihploss.aspx,Active,0.0,122.160.22.108,1
+8,PWD,generalabstract.aspx,Active,0.0,192.168.0.26,1
+9,Power,powerloss.aspx,Active,0.0,192.168.0.26,1
+10,Education,educationloss.aspx,Active,,,1
+1002,Health,healthdepartmentloss.aspx,Active,0.0,::1,1
+1003,Fisheries,fisheriesdepartmentloss.aspx,Active,0.0,::1,1
+1004,Municipal ,municipalcorporationnew.aspx,Deleted,0.0,::1,1
+2002,asdads,abc.aspx,Deleted,0.0,::1,1
+2003,Department of Revenue,Rpt_Departmentofrevenue.aspx,Active,0.0,122.160.22.108,2
+2004,Disaster Wise Death ,rpt_disasterwisedeath.aspx,Active,0.0,122.160.22.108,2
+2005,Rain damages Zone wise,rpt_zonewisecircle.aspx,Active,0.0,122.176.47.24,2
+2006,JSV Department Loss,rpt_circlewisedetail.aspx,Active,0.0,122.160.22.108,2
+2007,Agriculture Report,Agriculturereport.aspx,Deleted,0.0,122.160.22.108,2
+2008,Animal Husbandary,rpt_cattleloss.aspx,Active,0.0,122.160.22.108,2
+2009,Main Report,Rpt_statement_winter.aspx,Active,0.0,122.160.22.108,2
+2010,Rain Fall Report,Rainfallreport.aspx,Active,0.0,122.160.22.108,2
+3003,Rain Fall Year wise,rainfallyearwise.aspx,Active,0.0,122.160.22.108,2
+3004,Human Loss Details,rpt_humanloss.aspx,Active,0.0,122.160.22.108,2
+3005,Add Institute,trendpersonal.aspx,Active,0.0,122.160.22.108,3
+3006,Add Trained Personnel,TrainerDetails.aspx,Active,0.0,122.160.22.108,3
+3007,Trained Personnel Report,rpt_trainedlist.aspx,Active,0.0,122.160.22.108,3
+3008,Fund Requirement,rpt_fundrequirement.aspx,Active,0.0,122.160.22.108,2
+3009,Damaged Houses,rpt_damagedhouses.aspx,Active,0.0,122.160.22.108,2
+3010,Education  Report,rpt_educationloss.aspx,Active,0.0,122.176.47.24,2
+3011,Fisheries  Report,rpt_fisheries.aspx,Active,0.0,122.176.47.24,2
+3012,PWD Report,rpt_pwd_loss.aspx,Active,0.0,122.176.47.24,2
+3013,Urban Report,rpt_municipal.aspx,Active,0.0,122.176.47.24,2
+3014,Health Department Report,rpt_healthloss.aspx,Active,0.0,122.176.47.24,2
+3015,Power,rpt_powerloss.aspx,Active,0.0,,2
+3016,Fund Allotment,fundallot.aspx,Active,0.0,::1,1
+3017,Fund Utilized,fundutilized.aspx,Active,0.0,::1,1
+3018,Fund Allotment Report,rpt_fundAllotment.aspx,Active,0.0,122.160.22.108,2
+3019,Fund Utilization Report,rpt_fundutilized.aspx,Active,0.0,122.160.22.108,2
+3020,Panchayatiraj,panchayatiraj.aspx,Deleted,0.0,122.160.22.108,1
+3021,Forest Department,forestdepartment.aspx,Active,0.0,122.160.22.108,1
+3022,Report panchayatiraj,rpt_panchaytiraj.aspx,Deleted,0.0,122.160.22.108,2
+3023,Forest Department Report,rpt_forestdepartment.aspx,Active,0.0,122.160.22.108,2
+3024,Disrtrict wise ,generalabstract.aspx,Deleted,0.0,122.160.22.108,1
+3025,Loss Assesment to Kharif Crops,kharifloss.aspx,Deleted,0.0,122.160.22.108,1
+4024,Urban Development,municipalcorporationnew.aspx,Active,0.0,192.168.0.26,1
+4025,Rural Development,RuralDevelopment.aspx,Active,0.0,122.176.47.24,1
+4026,Horticulture Part II,horticulture2.aspx,Deleted,0.0,122.176.47.24,1
+4027,Agriculture part II,Agriculturepart2.aspx,Deleted,0.0,122.176.47.24,1
+5024,Structure Report,rpt_structureloss.aspx,Active,,,2
+5025,Agriculture loss  Report,rpr_agricultureloss2.aspx,Deleted,,,2
+5026,Urban Development,rpt_municipal.aspx,Active,0.0,192.168.0.26,2
+5027,Rural Development,rpt_rural_development.aspx,Active,,,2
+6024,Complete Report,rpt_main_report.aspx,Active,,,2
+7024,Crowd Source Application,CrowdSourceApp.aspx,Active,0.0,192.168.0.26,2
+7025,PWD II,generalabstract.aspx,Deleted,0.0,192.168.0.26,1
+8024,Agriculture Report,rpt_agri2.aspx,Active,0.0,192.168.0.27,2
+8025,Horticulture Report,rpt_horti2.aspx,Active,0.0,192.168.0.27,2
+9024,Higher Education,highereducationloss.aspx,Active,,,1
+9025,Higher Education Report,rpt_highereducationloss.aspx,Active,,,2
+9026,Trained Volunteer,TrainedVolunteer.aspx,Active,0.0,10.26.35.87,4
+9027,Trained Volunteer Report,TrainedVolunteerReport.aspx,Active,0.0,10.26.35.87,4
+9028,Trained Masons,trainedMasons.aspx,Active,0.0,122.160.43.61,5
+9029,Trained Masons Report,trainedMasonreport.aspx,Active,0.0,122.160.43.61,5

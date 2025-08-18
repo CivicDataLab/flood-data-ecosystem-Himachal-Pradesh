@@ -5,6 +5,7 @@ Waterlevel_assam_stations.csv
 MissionAntyodaya2020_Assam.xlsx
 *.zip
 *.grd
+*.sql
 scraped_data.csv
 #Sources/HPSDMA/data/losses-and-damages/Loss Data/Memorandums on losses and damages/
 *.pdf

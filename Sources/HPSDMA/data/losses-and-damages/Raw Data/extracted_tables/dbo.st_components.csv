@@ -1,0 +1,50 @@
+comp_id,mod_id,comp_name,status,add_del,comp_file,comp_type,entry_by,entry_date,ip_addr,flag,pos
+1,3,Approve Tenders,Active,Yes,ApproveTenders.aspx,Tenders,,2015-03-12 14:21:56.557,,0,0.0
+2,3,Publish Tender,Active,Yes,publishtender.aspx,Tenders,,2015-03-12 14:21:56.557,,0,0.0
+3,2,Add Edit Photo Category,Active,Yes,photocat.aspx,Photo Gallery,,2015-03-12 14:21:56.557,,0,0.0
+4,2,Add Edit New Link,Active,Yes,LinkType_con.aspx,Photo Gallery,0.0,2025-07-31 13:10:33.000,45.192.164.134,0,1.0
+5,4,Approve Links,Active,Yes,LinkType_app.aspx,Links Section,,2015-03-12 14:21:56.557,,0,4.0
+6,4,Publish Links,Active,Yes,LinkType_pub.aspx,Links Section,,2015-03-12 14:21:56.557,,0,6.0
+7,2,Approve Photo Category,Active,Yes,ApprovePhotoCategory.aspx,Photo Gallery,,2015-03-12 14:21:56.557,,0,0.0
+8,3,Approve Tender Category,Active,Yes,ApproveTenderCategory.aspx,Tenders,,2015-03-12 14:21:56.557,,0,0.0
+9,2,Add Edit Photos,Active,Yes,photos.aspx,Photo Gallery,,2015-03-12 14:21:56.557,,0,0.0
+10,2,Approve Photos,Active,Yes,Approvephotos.aspx,Photo Gallery,,2015-03-12 14:21:56.557,,0,0.0
+11,4,Add Link Icon,Active,Yes,LinkType_icon.aspx,Links Section,0.0,2015-03-13 11:36:48.000,::1,0,3.0
+12,3,Set Tender Category Position,Active,Yes,SetTenderCatPosition.aspx,Tenders,,2015-03-12 14:21:56.557,,0,0.0
+13,4,Set Main Link,Active,Yes,Lang_mlink.aspx,Links Section,,2015-03-12 14:21:56.557,,0,8.0
+14,4,Set Sub Link,Active,Yes,Lang_slink.aspx,Links Section,,2015-03-12 14:21:56.557,,0,9.0
+15,4,Add Edit Continuous Content,Active,No,Lang_con.aspx,Links Section,0.0,2015-03-19 11:30:12.000,::1,0,2.0
+16,4,Approve Continuous Content,Active,Yes,Lang_app.aspx,Links Section,,2015-03-12 14:21:56.557,,0,5.0
+17,4,Publish Continuous Content,Active,Yes,Lang_pub.aspx,Links Section,,2015-03-12 14:21:56.557,,0,7.0
+18,4,Set Continuous Content Position,Active,Yes,Lang_pos.aspx,Links Section,,2015-03-12 14:21:56.557,,0,11.0
+19,3,Add Edit Tender Category,Active,Yes,TenderCat.aspx,Tenders,,2015-03-12 14:21:56.557,,0,0.0
+20,3,Add Edit Tenders,Active,Yes,Tenders.aspx,Tenders,,2015-03-12 14:21:56.557,,0,0.0
+21,3,Approve Corrigendum,Active,Yes,ApproveCorris.aspx,Tenders,,2015-03-12 14:21:56.557,,0,0.0
+22,3,Publish Corrigendum,Active,Yes,PublishCorri.aspx,Tenders,,2015-03-12 14:21:56.557,,0,0.0
+23,2,Publish Photo,Active,Yes,PublishPhoto.aspx,Photo Gallery,,2015-03-12 14:21:56.557,,0,0.0
+24,1,View Feedback,Deleted,Yes,ViewFeedback.aspx,Others,0.0,2015-03-13 11:42:55.000,::1,0,0.0
+25,2,Set Photo Position,Active,Yes,setphotopos.aspx,Photo Gallery,,2015-03-12 14:21:56.557,,0,0.0
+26,2,Set Banner On Home Page,Active,Yes,SetonHomePage.aspx,Photo Gallery,,2015-03-12 14:21:56.557,,0,0.0
+27,2,Set Photo On Home Page,Active,Yes,SetPhotoOnHomePage.aspx,Photo Gallery,,2015-03-12 14:21:56.557,,0,0.0
+28,4,Published Link Report,Active,Yes,View_Published_Link.aspx,Links Section,0.0,2016-01-04 13:34:19.000,192.168.0.3,0,0.0
+29,2,View Published Photo,Active,Yes,view_published_photos.aspx,Photo Gallery,,2015-03-12 14:21:56.557,,0,0.0
+30,3,View Published Tenders,Active,Yes,view_published_tenders.aspx,Tenders,,2015-03-12 14:21:56.557,,0,0.0
+31,3,View Published Corri,Active,Yes,view_published_corri.aspx,Tenders,0.0,2015-03-21 10:42:02.000,::1,0,0.0
+32,4,Set Map Gallery with Links,Active,Yes,Lang_MapGalleyLink.aspx,Links Section,,2015-03-12 14:21:56.557,,0,10.0
+33,1,View Feedback,Active,Yes,ViewFeedback.aspx,Others,0.0,2015-03-13 11:43:43.000,::1,0,
+34,1,Test,Deleted,No,test.aspx,Others,0.0,2015-03-17 14:29:34.000,192.168.0.26,0,
+35,1,1234,Deleted,Yes,dfgf,Others,0.0,2015-03-27 15:52:56.000,::1,0,
+36,4,Display Main Link View,,yes,Lang_displink.aspx,Links Section,,2015-04-03 13:16:56.467,,0,
+37,4,Set Main Link View,Active,Yes,lang_displink.aspx,Links Section,0.0,2015-10-28 09:47:01.000,192.168.0.26,0,
+38,4,Set Mid Panel Width,Active,Yes,settingmidpanel.aspx,Links Section,0.0,2015-04-04 15:57:34.000,::1,0,
+39,2,Add Video Gallery,Active,Yes,videogallery.aspx,Photo Gallery,0.0,2015-12-23 16:09:35.000,192.168.0.3,0,
+40,1,Gram Pnachayat/Fiber Data,Deleted,Yes,panfib.aspx,Others,0.0,2015-07-13 16:09:57.000,192.168.0.9,0,
+41,1,Department For Feedback,Active,Yes,AdddepartmentforFeedback.aspx,Others,0.0,2015-07-27 14:55:28.000,192.168.0.26,0,
+42,1,Active GPS Count,Deleted,Yes,ActiveGPSCounts.aspx,Others,0.0,2015-08-05 18:01:32.000,192.168.0.26,0,
+43,2,Add Banner,Deleted,Yes,AddBanner.aspx,Photo Gallery,0.0,2015-08-06 17:07:25.000,192.168.0.100,0,
+44,4,Set Right Link View,Active,Yes,Lang_Linkclickable.aspx,Links Section,0.0,2015-11-19 16:40:58.000,192.168.0.2,0,
+45,1,List of SCA,Deleted,Yes,SCADetail.aspx,Others,0.0,2015-11-19 16:56:24.000,192.168.0.2,0,
+46,2,Set Banner image Position,Active,Yes,setbannerimagepos.aspx,Photo Gallery,0.0,2015-12-14 12:58:42.000,192.168.0.26,0,
+47,1,volunteer Registration,Active,Yes,volunteer.aspx,Others,0.0,2019-12-26 10:50:23.000,122.160.43.61,0,
+48,1,Approved Volunteer,Active,Yes,ApprovedVolunteer.aspx,Others,0.0,2019-12-26 10:50:59.000,122.160.43.61,0,
+49,1,Covid 19 Updates,Active,No,Corona.aspx,Others,0.0,2024-08-05 09:56:06.000,223.178.212.119,0,

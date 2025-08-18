@@ -1,0 +1,37 @@
+StateId,StateName,StateNameHin,Status
+1,JAMMU & KASHMIR,जम्मू-कश्मीर,Active
+2,HIMACHAL PRADESH,हिमाचल प्रदेश,Active
+3,PUNJAB,पंजाब,Active
+4,CHANDIGARH,चंडीगढ़,Active
+5,UTTARANCHAL,उत्तरांचल,Active
+6,HARYANA,हरयाणा,Active
+7,DELHI,दिल्ली,Active
+8,RAJASTHAN,राजस्थान,Active
+9,UTTAR PRADESH,उत्तर प्रदेश,Active
+10,BIHAR,बिहार,Active
+11,SIKKIM,सिक्किम,Active
+12,ARUNACHAL PRADESH,अरुणाचल प्रदेश,Active
+13,NAGALAND,नगालैंड,Active
+14,MANIPUR,मणिपुर,Active
+15,MIZORAM,मिजोरम,Active
+16,TRIPURA,त्रिपुरा,Active
+17,MEGHALAYA,मेघालय,Active
+18,ASSAM,असम,Active
+19,WEST BENGAL,पश्चिम बंगाल,Active
+20,JHARKHAND,झारखंड,Active
+21,ORISSA,उड़ीसा,Active
+22,CHHATTISGARH,छत्तीसगढ़,Active
+23,MADHYA PRADESH,मध्य प्रदेश,Active
+24,GUJARAT,गुजरात,Active
+25,DAMAN & DIU,दमन और दीव,Active
+26,DADRA & NAGAR HAVELI,दादरा और नगर हवेली,Active
+27,MAHARASHTRA,महाराष्ट्र,Active
+28,ANDHRA PRADESH,आंध्र प्रदेश,Active
+29,KARNATAKA,कर्नाटक,Active
+30,GOA,गोवा,Active
+31,LAKSHADWEEP,लक्षद्वीप,Active
+32,KERALA,केरल,Active
+33,TAMIL NADU,तमिलनाडु,Active
+34,PONDICHERRY,पांडिचेरी,Active
+35,ANDAMAN & NICOBAR ISLANDS,अंडमान एवं निकोबार द्वीप समूह,Active
+36,TELANGANA,तेलंगाना,Active

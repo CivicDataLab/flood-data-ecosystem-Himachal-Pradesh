@@ -1,0 +1,2 @@
+tcat_temp_id,tcat_name,status,creation_date,created_by,rejected_by,reject_date,position,main_tcat_id,lang,current_status,Reject_reason
+1,test,Active,2018-10-19 10:57:47,1,,,,0,,Pending,

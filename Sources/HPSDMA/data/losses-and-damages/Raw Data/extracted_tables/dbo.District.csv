@@ -1,0 +1,644 @@
+DisttId,statecode,DisttCode,DisttName,DistNameHin
+1,1,1,Kupwara,कुपवाड़ा
+2,1,4,Badgam,बड़गाम
+3,1,7,Ladakh,लद्दाख
+4,1,8,Kargil,कारगिल
+5,1,11,Punch,पंच
+6,1,12,RAJAURI,राजौरी
+7,1,14,KATHUA,कठुआ
+8,1,15,Baramula,बारामूला
+9,1,16,Bandipore,बांदीपुर
+10,1,17,Srinagar,श्रीनगर
+11,1,18,Ganderbal,गांदरबल
+12,1,19,Pulwama,पुलवामा
+13,1,20,Shopian,शोपियां
+14,1,21,Anantnag,अनंतनाग
+15,1,22,Kulgam,कुलगाम
+16,1,23,DODA,डोडा
+17,1,24,RAMBAN,रामबन
+18,1,25,KISHTWAR,किश्तवाड़
+19,1,26,UDHAMPUR,उधमपुर
+20,1,27,REASI,रियासी
+21,1,28,JAMMU,जम्मू
+22,1,29,SAMBA,सांबा
+23,2,1,Chamba,चंबा
+24,2,2,Kangra,कांगड़ा
+25,2,3,Lahul & Spiti,लाहौल एवं स्पीति
+26,2,4,Kullu,कुल्लू
+27,2,5,Mandi,मंडी
+28,2,6,Hamirpur,हमीरपुर
+29,2,7,Una,ऊना
+30,2,8,Bilaspur,बिलासपुर
+31,2,9,Solan,सोलन
+32,2,10,Sirmaur,सिरमौर
+33,2,11,Shimla,शिमला
+34,2,12,Kinnaur,किन्नौर
+35,3,1,Gurdaspur,गुरदासपुर
+36,3,3,Kapurthala ,कपूरथला
+37,3,4,Jalandhar,जलंधर
+38,3,5,Hoshiarpur,होशियारपुर
+39,3,6,Shahid Bhagat Singh Nagar ,शहीद भगत सिंह नगर
+40,3,8,Fatehgarh Sahib,फतेहगढ़ साहिब
+41,3,9,Ludhiana,लुधियाना
+42,3,10,Moga,मोगा
+43,3,11,Firozpur,फिरोजपुर
+44,3,12,Muktsar,मुक्तसर
+45,3,13,Faridkot,फरीदकोट
+46,3,14,Bathinda,बठिंडा
+47,3,15,Mansa,मानसा
+48,3,17,Patiala,पटियाला
+49,3,18,Amritsar ,अमृतसर
+50,3,19,Tarn Taran,तरन तारन
+51,3,20,Rupnagar,रूपनगर
+52,3,21,Sahibzada Ajit Singh Nagar,साहिबजादा अजीत सिंह नगर
+53,3,22,Sangrur,संगरूर
+54,3,23,Barnala,बरनाला
+55,4,1,Chandigarh,चंडीगढ़
+56,5,1,Uttarkashi,उत्तरकाशी
+57,5,2,Chamoli,चमोली
+58,5,3,Rudraprayag,रुद्रप्रयाग
+59,5,4,Tehri Garhwal,टिहरी गढ़वाल
+60,5,5,Dehradun,देहरादून
+61,5,6,Garhwal,गढ़वाल
+62,5,7,Pithoragarh,पिथौरागढ़
+63,5,8,Bageshwar,बागेश्वर
+64,5,9,Almora ,अल्मोड़ा
+65,5,10,Champawat,चंपावत
+66,5,11,Nainital,नैनीताल
+67,5,12,Udham Singh Nagar,ऊधमसिंह नगर
+68,5,13,Hardwar,हरिद्वार
+100,8,2,Hanumangarh ,हनुमानगढ़
+101,8,3,Bikaner,बीकानेर
+102,8,4,Churu ,चुरू
+103,8,5,Jhunjhunun,झुंझुनूं
+104,8,6,Alwar,अलवर
+105,8,7,Bharatpur ,अलवर
+106,8,8,Dhaulpur,धौलपुर
+107,8,9,Karauli ,करौली
+108,8,10,Sawai Madhopur ,सवाई माधोपुर
+109,8,11,Dausa ,दौसा
+110,8,12,Jaipur ,जयपुर
+111,8,13,Sikar,सीकर
+112,8,14,Nagaur,नागौर
+113,8,15,Jodhpur,जोधपुर
+114,8,16,Jaisalmer,जैसलमेर
+115,8,17,Barmer ,बाड़मेर
+116,8,18,Jalor,Jalor
+117,8,19,Sirohi,सिरोही
+118,8,20,Pali ,पाली
+119,8,21,Ajmer,अजमेर
+120,8,22,Tonk ,टोंक
+121,8,23,Bundi ,बूंदी
+122,8,24,Bhilwara,भीलवाड़ा
+123,8,25,Rajsamand,राजसमंद
+124,8,27,Dungarpur ,डूंगरपुर
+125,8,28,Banswara ,बांसवाड़ा
+126,8,29,Chittaurgarh ,चित्तौड़गढ़
+127,8,30,Kota ,कोटा
+128,8,31,Baran ,बारां
+129,8,32,Jhalawar,झालावाड़
+130,8,33,Udaipur,उदयपुर
+131,8,34,Pratapgarh ,प्रतापगढ़
+132,9,1,Saharanpur,सहारनपुर
+133,9,2,Muzaffarnagar,मुजफ्फरनगर
+134,9,3,Bijnor,बिजनौर
+135,9,4,Moradabad,मुरादाबाद
+136,9,5,Rampur,रामपुर
+137,9,6,Jyotiba Phule Nagar,ज्योतिबा फुले नगर
+138,9,7,Meerut,मेरठ
+139,9,8,Baghpat,बागपत
+140,9,9,Ghaziabad,गाजियाबाद
+141,9,10,Gautam Buddha Nagar,गौतम बुद्ध नगर
+142,9,11,Bulandshahar ,बुलंदशहर
+143,9,12,Aligarh,अलीगढ़
+144,9,13,Mahamaya Nagar,महामाया नगर
+145,9,14,Mathura,मथुरा
+146,9,15,Agra,आगरा
+147,9,16,Firozabad,फिरोजाबाद
+148,9,18,Mainpuri,मैनपुरी
+149,9,19,Budaun,बुदान
+150,9,20,Bareilly,बरेली
+151,9,21,Pilibhit,पीलीभीत
+152,9,22,Shahjahanpur,शाहजहाँपुर
+153,9,23,Kheri,खीरी
+154,9,24,Sitapur,सीतापुर
+155,9,25,Hardoi,हरदोई
+156,9,26,Unnao,उन्नाव
+157,9,27,Lucknow,लखनऊ
+158,9,28,Rae Bareli,रायबरेली
+159,9,29,Farrukhabad,फर्रुखाबाद
+160,9,30,Kannauj,कन्नौज
+161,9,31,Etawah,इटावा
+162,9,32,Auraiya,औरैया
+163,9,33,Kanpur Dehat,कानपुर देहात
+164,9,34,Kanpur Nagar,कानपुर नगर
+165,9,35,Jalaun ,जालौन
+166,9,36,Jhansi,झाँसी
+167,9,37,Lalitpur,ललितपुर
+168,9,38,Hamirpur,हमीरपुर
+169,9,39,Mahoba,महोबा
+170,9,40,Banda,बांदा
+171,9,41,Chitrakoot,चित्रकूट
+172,9,42,Fatehpur,फतेहपुर
+173,9,43,Pratapgarh,प्रतापगढ़
+174,9,44,Kaushambi,कौशाम्बी
+175,9,45,Allahabad ,इलाहाबाद
+176,9,46,Barabanki,बाराबंकी
+177,9,47,Faizabad,फैजाबाद
+178,9,48,Ambedkar Nagar,अम्बेडकर नगर
+179,9,49,Sultanpur,सुल्तानपुर
+180,9,50,Bahraich,बहराइच
+181,9,51,Shrawasti,श्रावस्ती
+182,9,52,Balrampur,बलरामपुर
+183,9,53,Gonda,गोंडा
+184,9,54,Siddharthnagar,सिद्धार्थनगर
+185,9,55,Basti,बस्ती
+186,9,56,Sant Kabir Nagar,संत कबीर नगर
+187,9,57,Mahrajganj,महाराजगंज
+188,9,58,Gorakhpur,गोरखपुर
+189,9,59,Kushinagar,कुशीनगर
+190,9,60,Deoria,देवरिया
+191,9,61,Azamgarh,आजमगढ़
+192,9,62,Mau,मऊ
+193,9,63,Ballia,बलिया
+194,9,64,Jaunpur,जौनपुर
+195,9,65,Ghazipur,गाजीपुर
+196,9,66,Chandauli,चंदौली
+197,9,67,Varanasi,वाराणसी
+198,9,68,Sant Ravidas Nagar (Bhadohi),संत रविदास नगर ( भदोही )
+199,9,69,Mirzapur,मिर्जापुर
+200,9,70,Sonbhadra,सोनभद्र
+201,9,71,Etah,एटा
+202,9,72,Kanshiram Nagar *,"कांशीराम नगर *
+"
+203,9,73,CSM Nagar(NEW),"सीएसएम नगर ( नया)
+"
+204,10,1,Pashchim Champaran,"पश्चिम चंपारण
+"
+205,10,2,Purba Champaran,"पूर्ब चंपारण
+"
+206,10,3,Sheohar *,"शिवहर *
+"
+207,10,4,Sitamarhi,सीतामढ़ी
+208,10,5,Madhubani,मधुबनी
+209,10,6,Supaul *,"सुपौल *
+"
+210,10,7,Araria,अररिया
+211,10,8,Kishanganj,किशनगंज
+212,10,9,Purnia,पूर्णिया
+213,10,10,Katihar,कटिहार
+214,10,11,Madhepura,मधेपुरा
+215,10,12,Saharsa,सहरसा
+216,10,13,Darbhanga,दरभंगा
+217,10,14,Muzaffarpur,मुजफ्फरपुर
+218,10,15,Gopalganj,गोपालगंज
+219,10,16,Siwan,सिवान
+220,10,17,Saran,सरन
+221,10,18,Vaishali,वैशाली
+222,10,19,Samastipur,समस्तीपुर
+223,10,20,Begusarai,बेगूसराय
+224,10,21,Khagaria,खगरिया
+225,10,22,Bhagalpur,भागलपुर
+226,10,23,Banka *,"बांका *
+"
+227,10,24,Munger,मुंगेर
+228,10,25,Lakhisarai *,"लखीसराय *
+"
+229,10,26,Sheikhpura *,"शेखपुरा *
+"
+230,10,27,Nalanda,"नालंदा
+"
+231,10,28,Patna,पटना
+232,10,29,Bhojpur,भोजपुर
+233,10,30,Buxar *,"बक्सर *
+"
+234,10,31,Kaimur (Bhabua) *,"कैमूर ( भभुआ ) *
+"
+235,10,32,Rohtas,रोहतास
+236,10,34,Aurangabad,औरंगाबाद
+237,10,35,Gaya,गया
+238,10,36,Nawada,नवादा
+239,10,37,Jamui *,"जमुई *
+"
+240,10,38,Jehanabad ,जहानाबाद
+241,10,39,ARWAL *,"अरवल *
+"
+242,11,1,North,उत्तर
+243,11,2,West,पश्चिम
+244,11,3,South,दक्षिण
+245,11,4,East,पूर्व
+246,12,1,TAWANG DISTRICT,"तवांग जिले
+"
+247,12,2,WEST KAMENG DISTRICT,"पश्चिम कामेंग जिले
+"
+248,12,3,EAST KAMENG DISTRICT,"पूर्वी कामेंग जिला
+"
+249,12,4,Papum Pare District,"पापुम पारे जिले
+"
+250,12,6,Upper Subansiri District,"ऊपरी सुबनसिरी जिले
+"
+251,12,7,West Siang,"पश्चिमी सियांग
+"
+252,12,7,East Siang,"पूर्वी सियांग
+"
+253,12,9,Upper Siang Dist.,"ऊपरी सियांग जिला।
+"
+254,12,12,Changlang,"चांगलांग
+"
+255,12,13,Tirap District,"तिरप जिले
+"
+256,12,14,Lower Subansiri District,"लोअर सुबानसिरी जिला
+"
+257,12,15,Kurung Kumey District,कुरुंग कुमेय जिला
+258,12,16,Dibang Valley Dist.,दिबांग घाटी जिला।
+259,12,17,Lower Dibang Valley Dist.,दिबांग घाटी जिला लोअर।
+260,12,18,Lohit,लोहित
+261,12,19,Anjaw,उन्जव
+262,13,1,Mon,सोम
+263,13,3,Mokokchung,मोकोकचुंग
+264,13,4,Zunheboto,ज़ुन्हेबोटो 
+265,13,5,Wokha,वोखा
+266,13,6,Dimapur ,दीमापुर
+267,13,8,Phek,फेक 
+268,13,9,Tuensang,तुएनसांग
+269,13,10,Longleng,लोंगलेंग 
+270,13,11,Kiphire,किफायर
+271,13,12,Kohima,कोहिमा
+272,13,13,Peren,पेरेन
+273,14,1,SENAPATI,सेनापति
+274,14,2,TAMENGLONG ,तामेंगलांग
+275,14,3,CHURACHANDPUR,चुराचांदपुर
+276,14,4,BISHNUPUR,विष्णुपुर
+277,14,5,THOUBAL,थोबल
+278,14,6,IMPHAL WEST,इंफाल पश्चिम
+279,14,7,IMPHAL EAST,इम्फाल ईस्ट
+280,14,8,UKHRUL,उखरूल
+281,14,9,CHANDEL,चंदेल
+282,15,1,MAMIT,मामित
+283,15,2,KOLASIB,कोलासिब
+284,15,3,AIZAWL,आइजोल
+285,15,4,CHAMPHAI,चम्फाई 
+286,15,5,SERCHHIP,सेरछिप
+287,15,6,LUNGLEI,लुंगलेई
+288,15,7,LAWNGTLAI,लॉनजीटीलइ
+289,15,8,SAIHA,सैहा
+290,16,1,West Tripura ,पश्चिम त्रिपुरा
+291,16,2,South Tripura ,दक्षिण त्रिपुरा
+292,16,3,Dhalai,धलाई
+293,16,4,North Tripura,उत्तरी त्रिपुरा
+294,17,1,West Garo Hills,पश्चिमी गारो हिल्स
+295,17,2,East Garo Hills,पूर्वी गारो हिल्स
+296,17,3,South Garo Hills,दक्षिण गारो हिल्स
+297,17,4,West Khasi Hills,वेस्ट खासी हिल्स
+298,17,5,Ri Bhoi,री भोई
+299,17,6,East Khasi Hills,पूर्वी खासी हिल्स
+300,17,7,Jaintia Hills,जयंतिया हिल्स
+301,18,1,Kokrajhar,कोकराझार
+302,18,2,Dhubri,धुबरी
+303,18,3,Goalpara,गोलपाड़ा
+304,18,5,Barpeta,बारपेटा
+305,18,9,Marigaon,मृगों 
+306,18,10,Nagaon,नागांव
+307,18,11,Sonitpur,सोनितपुर
+308,18,12,Lakhimpur,लखीमपुर
+309,18,13,Dhemaji,धेमाजी
+310,18,14,Tinsukia,तिनसुकिया
+311,18,15,Dibrugarh,डिब्रूगढ़
+312,18,16,Sibsagar,शिवसागर
+313,18,17,Jorhat,जोरहाट
+314,18,18,Golaghat,गोलाघाट
+315,18,19,Karbi Anglong,कार्बी आंगलोंग
+316,18,20,Dima Hasao District,दीमा हसाओ जिला
+317,18,21,Cachar,कछार
+318,18,22,Karimganj,करीमगंज
+319,18,23,Hailakandi,हैलाकांडी
+320,18,24,Bongaigaon,बोंगईगांव
+321,18,25,Chirang,चिरांग
+322,18,26,Kamrup,कामरूप
+323,18,27,Kamrup Metropolitan,कामरूप मेट्रोपोलिटन
+324,18,28,Nalbari,नलबाड़ी
+325,18,29,Baksa,बक्सा
+326,18,30,Darrang,दरांग
+327,18,31,Udalguri,उदलगुड़ी
+328,19,1,Darjiling,दार्जिलिंग 
+329,19,2,Jalpaiguri,जलपाईगुड़ी
+330,19,3,Cooch Behar,कूचबिहार
+331,19,4,North Dinajpur,उत्तरी दिनाजपुर
+332,19,5,South Dinajpur,दक्षिण दिनाजपुर
+333,19,6,Maldah,मालदा
+334,19,7,Murshidabad,मुर्शिदाबाद
+335,19,8,Birbhum,बीरभूम
+336,19,9,Bardhaman,बर्धमान
+337,19,10,Nadia,नादिया
+338,19,11,North 24 Parganas,उत्तरी 24 परगना
+339,19,12,Hooghly,हुगली
+340,19,13,Bankura,बांकुरा
+341,19,14,Purulia,पुरुलिया
+342,19,16,Howrah,हावड़ा
+343,19,17,Kolkata,कोलकाता
+344,19,18,South 24 Parganas,दक्षिण 24 परगना
+345,19,19,West Midnapore,पश्चिमी मिदनापुर
+346,19,20,East Midnapore,पूर्वी मिदनापुर
+347,20,1,District : GARHWA,जिला: गढ़वा
+348,20,3,CHATRA,चतरा
+349,20,5,KODERMA,कोडरमा
+350,20,6,GIRIDIH,गिरिडीह
+351,20,7,DEOGHAR,देओघर
+352,20,8,GODDA,गोड्डा
+353,20,9,SAHIBGANJ,साहिबगंज
+354,20,10,PAKAUR,पकौर 
+355,20,12,DHANBAD,धनबाद
+356,20,13,BOKARO,बोकारो
+357,20,15,LOHARDAGA,लोहरदगा
+358,20,18,PURBI SINGHBHUM,पुर्बी सिंहभूम
+359,20,19,PALAMU,पलामू
+360,20,20,LATEHAR,लातेहार
+361,20,21,HAZARIBAGH,हजारीबाग
+362,20,22,RAMGARH,रामगढ़
+363,20,23,DUMKA,दुमका
+364,20,24,JAMTARA,जामताड़ा
+365,20,25,RANCHI,रांची
+366,20,26,KHUNTI,खूंटी
+367,20,27,GUMLA,गुमला
+368,20,28,SIMDEGA,सिमडेगा
+369,20,29,PASHCHIMI SINGHBHUM,पश्चिमी सिंहभूम
+370,20,30,SARIKELA-KHARSWANA,सरिकेला-खरस्वाना 
+371,21,1,Bargarh,बारगढ़
+372,21,2,Jharsuguda,झारसुगुडा
+373,21,3,Sambalpur,संबलपुर
+374,21,4,Debagarh,देबगढ़ 
+375,21,5,Sundargarh,सुंदरगढ़
+376,21,6,Kendujhar,केंदुझार
+377,21,7,Mayurbhanj,मयूरभंज
+378,21,8,Baleshwar,बालेश्वर
+379,21,9,Bhadrak,भद्रक
+380,21,10,Kendrapara ,केंद्रपाड़ा
+381,21,11,Jagatsinghapur ,जगतसिंहपुर
+382,21,12,Cuttack,कटक
+383,21,13,Jajapur  ,जाजपुर
+384,21,14,Dhenkanal,ढेंकनाल
+385,21,15,Anugul  ,अनुगुल  
+386,21,16,Nayagarh  ,नयागढ़
+387,21,17,Khordha ,खोरढ़ा 
+388,21,18,Puri,पुरी
+389,21,19,Ganjam,गंजाम
+390,21,20,Gajapati,गजपति
+391,21,21,Kandhamal,कंधमाल
+392,21,22,Baudh,बौद्ध 
+393,21,23,Sonapur  ,सोनापुर
+394,21,24,Balangir,बलांगीर
+395,21,25,Nuapada  ,नुआपाड़ा
+396,21,26,Kalahandi,कालाहांडी
+397,21,27,Rayagada  ,रायगढ़
+398,21,28,Nabarangapur ,नबरंगपुर 
+399,21,29,Koraput,कोरापुट
+400,21,30,Malkangiri  ,मलकानगिरी
+401,22,1,Koriya,कोरिया
+402,22,2,Surguja,सरगुजा
+403,22,3,Jashpur ,जशपुर
+404,22,4,Raigarh,रायगढ़
+405,22,5,Korba ,कोरबा
+406,22,6,Janjgir - Champa,जांजगीर - चंपा
+407,22,7,Bilaspur,बिलासपुर
+408,22,8,Kabeerdham,कबीरधाम 
+409,22,9,Rajnandgaon,राजनांदगांव
+410,22,10,Durg,दुर्ग
+411,22,11,Raipur,रायपुर
+412,22,12,Mahasamund,महासमुंद
+413,22,13,Dhamtari ,धमतरी
+414,22,14,Uttar Bastar Kanker *,उत्तर बस्तर कांकेर *
+415,22,17,Bastar,बस्तर
+416,22,18,Narayanpur,नारायणपुर
+417,22,19,Dakshin Bastar Dantewada *,दक्षिण बस्तर दंतेवाड़ा *
+418,22,20,Bijapur,बीजापुर
+419,23,1,Sheopur ,श्योपुर
+420,23,2,Morena,मुरैना
+421,23,3,Bhind,भिण्ड
+422,23,4,Gwalior,ग्वालियर
+423,23,5,Datia,दतिया
+424,23,6,Shivpuri,शिवपुरी
+425,23,8,Tikamgarh,टीकमगढ़
+426,23,9,Chhatarpur,छतरपुर
+427,23,10,Panna,पन्ना
+428,23,11,Sagar,सागर
+429,23,12,Damoh,दमोह
+430,23,13,Satna,सतना
+431,23,14,Rewa,रीवा
+432,23,15,Umaria,उमरिया
+433,23,18,Neemuch ,नीमच
+434,23,19,Mandsaur,मंदसौर
+435,23,20,Ratlam,रतलाम
+436,23,21,Ujjain,उज्जैन
+437,23,22,Shajapur,शाजापुर
+438,23,23,Dewas,देवास
+439,23,25,Dhar,धार
+440,23,26,Indore,इंदौर
+441,23,27,West Nimar (Khargone),पश्चिम निमाड़ (खरगोन)
+442,23,28,Barwani ,बड़वानी
+443,23,30,Rajgarh,राजगढ़
+444,23,31,Vidisha,विदिशा
+445,23,32,Bhopal,भोपाल
+446,23,33,Sehore,सीहोर
+447,23,34,Raisen,रायसेन
+448,23,35,Betul,बैतूल
+449,23,36,Harda ,हरदा
+450,23,37,Hoshangabad,होशंगाबाद
+451,23,38,Katni ,कटनी
+452,23,39,Jabalpur,जबलपुर
+453,23,40,Narsinghpur,नरसिंहपुर
+454,23,41,Dindori ,डिंडोरी
+455,23,42,Mandla,मंडला
+456,23,43,Chhindwara,छिंदवाड़ा
+457,23,44,Seoni,सिवनी
+458,23,45,Balaghat,बालाघाट
+459,23,46,Guna,गुना
+460,23,47,Ashoknagar,अशोकनगर
+461,23,48,Shahdol,शहडोल
+462,23,49,Anuppur,अनूपपुर
+463,23,50,Sidhi,सीधी
+464,23,51,Singrauli,सिंगरौली
+465,23,52,Jhabua,झाबुआ
+466,23,53,Alirajpur,अलीराजपुर
+467,23,54,East Nimar (Khandwa),पूर्व निमाड़ (खंडवा)
+468,23,55,Burhanpur,बुरहानपुर
+469,24,1,Kachchh,कच्छ
+470,24,2,Banas Kantha,बनास कांथा
+471,24,3,Patan  ,पाटन
+472,24,4,Mahesana,मेहसाणा
+473,24,5,Sabar Kantha,सबर कांथा
+474,24,6,Gandhinagar,गांधीनगर
+475,24,7,Ahmadabad,अहमदाबाद
+476,24,8,Surendranagar,सुरेंद्रनगर
+477,24,9,Rajkot,राजकोट
+478,24,10,Jamnagar,जामनगर
+479,24,11,Porbandar ,पोरबंदर
+480,24,12,Junagadh,जूनागढ़
+481,24,13,Amreli,अमरेली
+482,24,14,Bhavnagar,भावनगर
+483,24,15,Anand  ,आनंद
+484,24,16,Kheda,खेड़ा
+485,24,17,Panch Mahals,पंच महालस 
+486,24,18,Dohad  ,दाहोद
+487,24,19,Vadodara,वडोदरा
+488,24,20,Narmada,नर्मदा
+489,24,21,Bharuch,भरूच
+490,24,22,Surat,सूरत
+491,24,23,The Dangs,डांग
+492,24,24,Navsari  ,नवसारी
+493,24,25,Valsad,वलसाड
+494,24,26,Tapi,तापी
+495,25,1,Diu,दीव
+496,25,2,Daman,दमन
+497,26,1,Dadra & Nagar Haveli,दादरा और नगर हवेली
+498,27,1,Nandurbar,नंदुरबार
+499,27,2,Dhule,धुले
+500,27,3,Jalgaon,जलगांव
+501,27,4,Buldana,बुलढाणा
+502,27,5,Akola,अकोला
+503,27,6,Washim *,वाशिम *
+504,27,7,Amravati,अमरावती
+505,27,8,Wardha,वर्धा
+506,27,9,Nagpur,नागपुर
+507,27,10,Bhandara,भंडारा
+508,27,11,Gondiya *,गोंदिया *
+509,27,12,Gadchiroli,गढ़चिरौली
+510,27,13,Chandrapur,चंद्रपुर
+511,27,14,Yavatmal,यवतमाल
+512,27,15,Nanded,नांदेड़
+513,27,16,Hingoli *,हिंगोली *
+514,27,17,Parbhani,परभणी
+515,27,18,Jalna,जालना
+516,27,19,Aurangabad,औरंगाबाद
+517,27,20,Nashik,नासिक
+518,27,21,Thane,ठाणे
+519,27,22,Mumbai (Suburban) *,मुंबई (उपनगरीय) *
+520,27,23,Mumbai,मुंबई
+521,27,24,Raigarh,रायगढ़
+522,27,25,Pune,पुणे
+523,27,26,Ahmadnagar,अहमदनगर
+524,27,27,Bid,बोली
+525,27,28,Latur,लातूर
+526,27,29,Osmanabad,उस्मानाबाद
+527,27,30,Solapur,सोलापुर
+528,27,31,Satara,सतारा
+529,27,32,Ratnagiri,रत्नागिरी
+530,27,33,Sindhudurg,सिंधुदुर्ग
+531,27,34,Kolhapur,कोल्हापुर
+532,27,35,Sangli,सांगली
+533,28,1,Adilabad District,आदिलाबाद जिले
+534,28,2,Nizamabad District,निजामाबाद जिले
+535,28,3,Karimnagar District,करीमनगर जिले
+536,28,4,Medak District,मेडक जिला
+537,28,5,Hyderabad District,हैदराबाद जिला
+538,28,6,Rangareddy District,रंगारेड्डी जिला
+539,28,7,Mahbubnagar District,महबूबनगर जिले
+540,28,8,Nalgonda District,नलगोंडा जिले
+541,28,9,Warangal District,वारंगल जिला
+542,28,10,Khammam District,खम्मम जिले
+543,28,11,Srikakulam District,श्रीकाकुलम जिला
+544,28,12,Vizianagaram District,विजयनगरम जिला
+545,28,13,Visakhapatnam District,विशाखापत्तनम जिले
+546,28,14,East Godavari District,पूर्वी गोदावरी जिले
+547,28,15,West Godavari District,पश्चिमी गोदावरी जिले
+548,28,16,Krishna District,कृष्णा जिले
+549,28,17,Guntur District,गुंटूर जिले
+550,28,18,Prakasam District,प्रकाशम जिले
+551,28,19,Sri Potti Sriramulu Nellore District,श्री पोट्टी श्रीरामुलु नेल्लोर जिला
+552,28,20,Kadapa District,कडप्पा जिले
+553,28,21,Kurnool District,कुरनूल जिले
+554,28,22,Anantapur District,अनंतपुर जिला
+555,28,23,Chittoor District,चित्तूर जिले
+556,29,1,Belgaum,बेलगाम
+557,29,2,Bagalkot ,बागलकोट
+558,29,3,Bijapur,बीजापुर
+559,29,5,Bidar,बीदर
+560,29,6,Raichur,रायचूर
+561,29,7,Koppal,कोप्पल
+562,29,8,Gadag,गडग
+563,29,9,Dharwad,धारवाड़
+564,29,10,Uttara Kannada,उत्तर कन्नड़
+565,29,11,Haveri,हावेरी
+566,29,12,Bellary,बेल्लारी
+567,29,13,Chitradurga,चित्रदुर्ग
+568,29,14,Davanagere,दावणगेरे
+569,29,15,Shimoga,शिमोगा
+570,29,16,Udupi,उडुपी
+571,29,17,Chikmagalur,चिकमगलूर
+572,29,18,Tumkur,तुमकुर
+573,29,20,Bangalore,बंगलौर
+574,29,22,Mandya,मांड्या
+575,29,23,Hassan,हसन
+576,29,24,Dakshina Kannada,दक्षिण कन्नड़
+577,29,25,Kodagu,कोडागू
+578,29,26,Mysore,मैसूर
+579,29,27,Chamarajanagar,चामराजनगर
+580,29,28,Gulbarga,गुलबर्गा
+581,29,29,Yadgir,यादगीर
+582,29,30,Kolar,कोलार
+583,29,31,Chikkaballapura,चिक्कबल्लपुर
+584,29,32,Bangalore Rural,बंगलौर ग्रामीण
+585,29,33,Ramanagara,रामनगर
+586,30,1,NORTH GOA,उत्तरी गोवा
+587,30,2,SOUTH GOA,दक्षिण गोवा
+588,31,1,Lakshadweep,लक्षद्वीप
+589,32,1,Kasaragod,कासरगोड
+590,32,2,Kannur,कन्नूर
+591,32,3,Wayanad,वायनाड
+592,32,4,Kozhikode,कोझिकोड
+593,32,5,Malappuram,मलप्पुरम
+594,32,6,Palakkad,पलक्कड़
+595,32,7,Thrissur,त्रिशूर
+596,32,8,Ernakulam,एर्नाकुलम
+597,32,9,Idukki ,इडुक्की
+598,32,10,Kottayam,कोट्टायम
+599,32,11,Alappuzha,अलाप्पुझा
+600,32,12,Pathanamthitta,पथानामथिट्टा
+601,32,13,Kollam,कोल्लम
+602,32,14,Thiruvananthapuram,तिरुवनंतपुरम
+603,33,1,Thiruvallur,तिरूवल्लुर
+604,33,2,Chennai,चेन्नई
+605,33,3,Kancheepuram,कांचीपुरम
+606,33,4,Vellore,वेल्लोर
+607,33,6,Tiruvannamalai,तिरुवन्नामलाई
+608,33,7,Viluppuram,विलुप्पुरम
+609,33,8,Salem,सलेम
+610,33,9,Namakkal   ,नमक्कल
+611,33,10,Erode,इरोड
+612,33,11,The Nilgiris,नीलगिरी
+613,33,13,Dindigul,डिंडीगुल
+614,33,14,Karur ,करूर
+615,33,15,Tiruchirappalli,तिरुचिरापल्ली
+616,33,16,Perambalur  ,पेराम्बलूर
+617,33,17,Ariyalur  ,अरियालुर
+618,33,18,Cuddalore,कुड्डालोर
+619,33,19,Nagapattinam  ,नागपट्टिनम
+620,33,20,Thiruvarur,तिरूवरूर
+621,33,21,Thanjavur,तंजावुर
+622,33,22,Pudukkottai,पुदुक्कोट्टई
+623,33,23,Sivaganga,शिवगंगा
+624,33,24,Madurai,मदुरै
+625,33,25,Theni  ,थेनि 
+626,33,26,Virudhunagar,विरुधुनगर
+627,33,27,Ramanathapuram,रामनाथपुरम
+628,33,28,Thoothukkudi,थूथुक्कुडी 
+629,33,29,Tirunelveli ,तिरुनेलवेली
+630,33,30,Kanniyakumari,कन्याकुमारी
+631,33,31,Dharmapuri,धर्मपुरी
+632,33,32,Krishnagiri,कृष्णागिरी
+633,33,33,Coimbatore,कोयम्बटूर
+634,33,34,Tiruppur,तिरुपुर
+635,34,1,Yanam,यनम
+636,34,2,Puducherry,पुडुचेरी
+637,34,3,Mahe,माहे
+638,34,4,Karaikal,कराईकल
+639,35,2,NICOBARS DISTRICT,निकोबार जिला
+640,35,3,NORTH  & MIDDLE ANDAMAN DISTRICT,उत्तर और मध्य अंडमान जिले
+641,35,4,SOUTH ANDAMAN DISTRICT,दक्षिण अण्डमान जिला
+642,3,24,Fazilka,फाजिल्का
+643,3,25,Nawanshahr,नवांशहर
+644,3,26,Pathankot,पठानकोट
+645,23,56,Khargone,खरगोन
+646,29,34,Bangaluru Urban,बंगलुरू शहरी
+647,36,1,Nalgonda,नलगोंडा
+648,36,2,RangaReddy,रंगारेड्डी
+649,36,3,Nizamabad,निजामाबाद

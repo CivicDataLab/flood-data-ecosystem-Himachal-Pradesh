@@ -1,0 +1,19 @@
+video_id,video_name,video_description,video_type,video_url,video_file,created_by,created_date,approved_date,approved_by,status,rejected_by,rejected_date,current_status,Reject_reason,homepage
+1,test,main,2,https://www.youtube.com/watch?v=l2CzFkGOmBE,,1,2018-09-20 11:51:11,,,Deleted,,,Active,,0
+2,google,google,2,https://www.youtube.com/watch?v=l2CzFkGOmBE,,1,2018-09-20 11:52:45,,,Deleted,,,Active,,0
+3,Gmail,gmail,2,https://www.youtube.com/watch?v=l2CzFkGOmBE,,1,2018-09-20 11:53:50,,,Deleted,,,Active,,0
+4,Home Video,home video,2,https://www.youtube.com/watch?v=l2CzFkGOmBE,,3,2018-09-24 10:39:52,,,Deleted,,,Active,,0
+5,Home Video,gp,2,https://youtu.be/mSRT76DjPSY,,3,2018-09-24 11:31:10,,,Active,,,Pending,,1
+6,Dost Appu- Earthquake Safety (English),Dost Appu- Earthquake Safety (English),2,https://youtu.be/l9Llwx0VO7A,,3,2018-09-24 11:33:03,,,Deleted,,,Pending,,0
+7,Dost Appu- Fire Safety (English),Dost Appu- Fire Safety (English),2,https://youtu.be/6fbpryDmKck,,3,2018-09-24 11:33:47,,,Active,,,Pending,,0
+8,Dost Appu- Flood Safety (English),Dost Appu- Flood Safety (English),2,https://youtu.be/bbfNQHHpoFk,,3,2018-09-24 11:34:37,,,Active,,,Pending,,0
+9,Act Now Save Later ,Act Now Save Later Invest in Disaster Preparedness,2,https://youtu.be/8zXyxubBdos,,3,2018-09-24 11:35:54,,,Active,,,Pending,,0
+10,Flood Preparedness,Flood Preparedness Video (Hindi)- Are You Ready,2,https://youtu.be/N01OwIxcmHw,,3,2018-09-24 11:36:55,,,Active,,,Pending,,0
+11,Community Disaster Preparedness,Community Disaster Preparedness,2,https://youtu.be/_8caURByujE,,1,2019-01-08 12:17:44,,,Active,,,Pending,,0
+12,Safe Construction,Safe Construction,2,https://youtu.be/zcirWyLiRis,,1,2019-10-23 07:20:54,,,Active,,,Pending,,0
+13,Safe Construction-2,Safe Construction-2,2,https://youtu.be/JJ3kOFJeiMc,,1,2019-10-23 07:31:07,,,Active,,,Pending,,0
+14,ab new,ab new,2,https://www.youtube.com/watch?v=xWL6iJJ-w3Q,,1,2019-10-24 02:53:04,,,Deleted,,,Pending,,0
+15,Covid19,Covid19,2,https://youtu.be/UIQlZBO2ilA,,1,2020-04-04 11:34:27,,,Deleted,,,Pending,,0
+16,Covid19,Covid19,2,https://youtu.be/ykZJ-jcE-Do,,1,2020-05-06 01:05:30,,,Active,,,Pending,,0
+17,Heat wave,Heat wave,2,https://youtu.be/McnK3SbvhEE?t=4,,1,2020-06-11 11:14:49,,,Active,,,Pending,,0
+18,Dost Appu- Earthquake Safety (English),Dost Appu- Earthquake Safety (English),2,https://youtu.be/g4ajSBb1_Ws,,1,2020-06-24 03:00:20,,,Active,,,Pending,,0

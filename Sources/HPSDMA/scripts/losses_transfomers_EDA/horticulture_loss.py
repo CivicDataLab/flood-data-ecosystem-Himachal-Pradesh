@@ -7,6 +7,10 @@ import re
 from difflib import SequenceMatcher
 from tqdm import tqdm
 import warnings
+import os
+
+
+root = os.getcwd()
 
 warnings.filterwarnings("ignore")
 

@@ -1,0 +1,144 @@
+division_id,division_name,division_name_hind,Status,circle_id,dep_id
+1,Div. No-I Shimla-9,,Active,,39
+2,Nerwa Division,,Active,,39
+3,Sunni  Division,,Active,,39
+4,Matiana Division,,Active,,39
+5,Rohru ,,Active,,"22,39,34,38"
+6,Jubbal,,Active,,"39,34,38"
+7,Nahan,,Active,,"22,39,34,38"
+8,Paonta ,,Active,,"22,39,34,38"
+9,E.E.Nohradhar,,Active,,39
+10,EE Shillai,,Active,,"39,38"
+11,Solan ,,Active,,"22,39,34,38"
+12,Nalagarh ,,Active,,"22,39,34,38"
+13,Arki,,Active,,"39,34,38"
+14,Reckong Peo ,,Active,,"39,34"
+15,Rampur ,,Active,,"22,39,34,38"
+16,Kaza,,Active,,"39,34,38"
+17,Pooh,,Active,,39
+18,Dharamshala,,Active,,"22,39,34"
+19,Dehra,,Active,,"22,39,34"
+20,Palampur,,Active,,"22,39,34"
+21,Thural,,Active,,39
+22,Shahpur,,Active,,"39,34"
+23,EE Nagrota,,Active,,39
+24,EE Jaswan Pragpur,,Active,,39
+25,Nurpur,,Active,,"22,39,34"
+26,Indora,,Active,,39
+27,Jawali,,Active,,"39,34"
+28,Phina Singh Project,,Active,,39
+29,Fatehpur,,Active,,"39,34"
+30,S/terrace,,Active,,39
+31,Chamba,,Active,,"22,39,34"
+32,Dalhousie,,Active,,"22,34,39"
+33,Salooni,,Active,,39
+34,Tissa at Bhanjraru,,Active,,39
+35,Sunder Nagar,,Active,,39
+36,Mandi,,Active,,"22,39,34"
+37,Padhar,,Active,,39
+38,Baggi,,Active,,39
+39,Seraj,,Active,,"22,39"
+40,E.E.Thunag,,Active,,39
+41,EE Chauntra,,Active,,39
+42,Kullu,,Active,,"22,39,34"
+43,Keylong,,Active,,39
+44,"Division-II,Bhuntar at Kullu.",,Active,,39
+45,Anni,,Active,,39
+46,Hamirpur,,Active,,"22,39,34"
+47,Barsar,,Active,,39
+48,Sarkaghat,,Active,,"39,34,38"
+49,EE Dharampur,,Deactive,,"39,34"
+50,EE Bhoranj,,Active,,39
+51,Una No.-I,,Active,,39
+52,Una No.-II,,Active,,39
+53,T/Well Gagret,,Active,,"22,39"
+54,Bilaspur,,Active,,"39,34"
+55,Ghumarwin,,Active,,"39,34"
+56,Jhanduta,,Active,,39
+57,FC Div. Gagret,,Active,,39
+58,(SRFMD) Haroli,,Active,,39
+59,City (E),,Active,,34
+60,Shimla No. 1,,Active,,"34,38"
+61,Shimla No. 2,,Active,,34
+62,Theog,,Active,,"22,34,38"
+63,Suni,,Active,,34
+64,Parwanoo,,Active,,34
+65,Baddi,,Active,,34
+66,Rajgarh,,Active,,"22,34,38"
+67,Chopal,,Active,,"22,34,38"
+68,Ani,,Active,,34
+69,Kumarsain,,Active,,"34,38"
+70,Baijnath,,Active,,34
+71,Lambagaon,,Active,,34
+72,Kangra,,Active,,34
+73,Pangi,,Active,,"22,34"
+74,Amb,,Active,,34
+75,J/Nagar,,Active,,34
+76,Gohar,,Active,,"34,38"
+77,Sundernagar,,Active,,"34,38"
+78,Thalout,,Active,,
+79,Manali,,Active,,
+80,Nadaun,,Active,,
+1002,Karcham,,Active,,38
+1003,Kasauli   ,,Active,,"38,34,39,12"
+1004,Shimla. (Rural ) at Dhami,,Active,,38
+1005,Shimla.III ,,Active,,38
+1006,Kalpa,,Active,,38
+1007,Nirmand,,Active,,38
+1008,Sangrah ,,Active,,38
+1009,Dodra Kawar,,Active,,38
+1010,Kotkhai,,Active,,38
+1011,Mandi - I,,Active,,38
+1012,Mandi-II,,Active,,"38,39"
+1013,Karsog ,,Active,,"34,38,39,12"
+1014,Nerchowk,,Active,,38
+1015,C.V.Udaipur,,Active,,
+1016,Kullu-II,,Active,,
+1017,Banjar,,Active,,
+1018,Jogindernagar,,Active,,"22,38"
+1019,Tauni-Devi,,Active,,
+1020,Una,,Active,,"22,34"
+1021,Bharwain,,Active,,
+1022,Bangana,,Active,,
+1023,Bilaspur-I,,Active,,
+1024,Bilaspur-II,,Active,,
+1025,Jaisinghpur,,Active,,
+1026,Tanda,,Active,,
+1027,Kotla-Behar,,Active,,
+1028,Bharmour,,Active,,22
+1029,Killar (Pangi ),,Active,,
+1030,Tissa,,Active,,
+1031,Pandoh,,Active,,
+1032,Kunihar,,Active,,22
+1033,Churah,,Active,,22
+1034,GHNP Shamshi,,Active,,22
+1035,WL Kullu,,Active,,22
+1036,Lahaul,,Active,,22
+1037,Parvati,,Active,,22
+1038,Seraj,,Active,,"22,38"
+1039,Nachan,,Active,,22
+1040,Sukeet,,Active,,
+1041,Renukaji,,Active,,22
+1042,Kinnaur,,Active,,22
+1043,Kotgarh,,Active,,22
+1044,Shimla,,Active,,22
+1045,Shimla-Urban,,Active,,22
+1046,WL- Chamba,,Active,,22
+1047,WL-Hamirpur,,Active,,22
+1048,Spiti,,Active,,22
+1049,Zoos  Rescue,,Active,,22
+1050,WL Sarahan,,Active,,22
+1051,WL Shimla,,Active,,22
+1052,Nagrota Bagwan,,Active,,"22,34"
+1053,Gagret,,Active,,22
+1054,Suket,,Active,,22
+1055,Bhawarna,,Active,,38
+1056,Nadaun,,Active,,"39,34,38"
+1057,Sujanpur,,Active,,"39,34,38"
+1058,Dharampur,,Active,,38
+1059,Daulatpur Chowk,,Active,,"12,34,39"
+1060,"
+Balichowki",,Active,,"39,34,38"
+1061,Kotli,,Active,,"39,34,38"
+1062,Nirmand,,Active,,"22,39,34"
+1063,Daulatpur Chowk,,Active,,

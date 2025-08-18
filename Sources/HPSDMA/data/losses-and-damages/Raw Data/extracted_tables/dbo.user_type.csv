@@ -1,0 +1,6 @@
+user_type_id,user_type,status
+1,Department Entry Users,Deleted
+2,Department / Circle Users,Active
+3,,Active
+4,HOD User,Active
+1002,Other User,Active

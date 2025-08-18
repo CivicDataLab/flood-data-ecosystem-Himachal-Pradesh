@@ -1,0 +1,5 @@
+UserID,UserName,DesignationID,Email,User_Type_ID,Name,Password,Address,ContactNumber,OrgnisationName,SessionID,EntryBy,EntryDate,IpAddress,Status,Countryid
+1,all@yahoo.com,1,all@yahoo.com,1,ADMIN,95228f3702f78bbb4cbbd356a01a5e2b,delhi,0012001200,BBNL,60037.61575,,,192.168.0.22,Active,
+2,ajit@yahoo.com,1,ajit@yahoo.com,1,Ajit,95228f3702f78bbb4cbbd356a01a5e2b,Allahabad,8750500225,BBNL,29976.46318,0.0,,122.176.47.24,Active,
+3,pandit@gmail.com,1,pandit@gmail.com,5,Ajit,95228f3702f78bbb4cbbd356a01a5e2b,"25 2nd floor UP BLOCK
+PITAMPURA NEAR jhulelal Mandir",8287776288,Mr sdfsdfsd,60204.46505,0.0,,122.160.22.108,Active,

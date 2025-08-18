@@ -1,0 +1,38 @@
+Department,Personname,Email,ID,status
+Deartment1,Ajit Sharan pathak,ajit@gmail.com,1,Deleted
+IT,amit,amit@gmail.com,2,Deleted
+HR,AMIT,amitk@gmail.com,3,Deleted
+1,1,sample@email.tst,4,Deleted
+Agriculture,Onkar Chand Sharma (IAS 94),agrisecy-hp@nic.in,5,Active
+Animal Husbandry,ChandraPrakash (IAS 88),coopsecy-hp@nic.in,6,Active
+Ayurveda,TEST-USER-AAA (IAS 88),ayursecy-hp@nic.in,7,Active
+Cooperation,Sanjay Gupta (IAS 88),Cooperation-hp@nic.in,8,Active
+Economics and Statistics,Anil Kumar Khachi (IAS 86),hp@nic.in,9,Active
+Election,Election,sdma-hp@nic.in,10,Active
+Elementary Education,Manoj Kumar (IAS 88),tedusecy-hp@nic.in,11,Active
+"Environment, Science and Technology",R. D. Dhiman (IAS 88),envsecy-hp@nic.in,12,Active
+Statistics,Anil Kumar Khachi (IAS 86),hp@nic.in,13,Active
+Excise and Taxation,Jagdish Chander (IAS 91),itsecy-hp@nic.in,14,Active
+Fisheries,Fisheries,sdma-hp@nic.in,15,Active
+"Food, Civil Supplies and Consumer Affairs",Onkar Chand Sharma (IAS 94),agrisecy-hp@nic.in,16,Active
+Forest,Ram Subhag Singh (IAS 87),forestsecy-hp@nic.in,17,Active
+Higher Education,Manoj Kumar (IAS 88),indussecy-hp@nic.in,18,Active
+Health and Family Welfare,R. D. Dhiman (IAS 88),envsecy-hp@nic.in,19,Active
+Horticulture,R. D. Dhiman (IAS 88),envsecy-hp@nic.in,20,Active
+Information and Public Relations,Shrikant Baldi (IAS 85),prsecycm-hp@nic.in,21,Active
+Information Technology,Jagdish Chander (IAS 91),itsecy-hp@nic.in,22,Active
+Institute of Public Administration,Purnima Chauhan (IAS 2000),lacsecy-hp@nic.in,23,Active
+Labour and Employment,Nisha Singh (IAS 87),lepsecy-hp@nic.in,24,Active
+Art & Culture,Art & Culture,lacsecy-hp@nic.in,25,Active
+Panchayati Raj,Ravinder Nath Batta ,gadsecy-hp@nic.in,26,Active
+Planning,Anil Kumar Khachi (IAS 86),finsecy-hp@nic.in,27,Active
+Printing and Stationery,Nisha Singh (IAS 87),printingsecy-hp@nic.in,28,Active
+Public Works,Manisha Nanda (IAS 85),revsecy-hp@nic.in,29,Active
+Technical Education,Manoj Kumar (IAS 88),tedusecy-hp@nic.in,30,Active
+Tourism and Civil Aviation,Ram Subhag Singh (IAS 87),forestsecy-hp@nic.in,31,Active
+Town and Country ,Prabodh Saxena (IAS 90),hp@nic.in,32,Active
+Tribal Development,Onkar Chand Sharma (IAS 94),agrisecy-hp@nic.in,33,Active
+Urban Development,Prabodh Saxena (IAS 90),udsecy-hp@nic.in,34,Active
+Vigilance,Sanjay Kundu (IPS 89),vigilancesecy-hp@nic.in,35,Active
+Woman & Child Development,Woman & Child Development,sdma-hp@nic.in,36,Active
+Youth Services and Sports,Dinesh Malhotra (IAS 2001),ysssecy-hp@nic.in,37,Active

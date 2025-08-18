@@ -1,0 +1,13 @@
+cat_id,catname,status
+1,Crop Damage,Deleted
+2,Drinking Water/RWS,Active
+3,House Damage,Active
+4,LiveStock/Fisheries,Active
+5,Require relief,Active
+6,Power,Active
+7,Road,Active
+8,Telecom,Active
+9,Tree Fallen,Active
+10,Other,Deleted
+1002,Agriculture,Active
+1003,Horticulture,Active

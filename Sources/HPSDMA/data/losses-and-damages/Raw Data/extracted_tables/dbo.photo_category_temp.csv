@@ -1,0 +1,21 @@
+photo_cat_temp_id,cat_name,status,has_photo,created_on,created_by,photo_file_id,main_photo_cat_id,rejected_by,rejected_date,OnHomePage,current_status,Reject_reason,langid
+1,Slider,Active,0,2018-09-15 04:21:01,1,0,0,,,True,Approved,,1
+2,Slider,Active,1,2018-09-20 03:43:28,1,3,1,,,True,Approved,,1
+3,Slider,Active,1,2018-09-20 03:52:41,1,4,1,,,True,Approved,,1
+4,images,Active,1,2018-09-20 03:58:53,1,5,0,,,False,Approved,,1
+5,ajit,Active,1,2018-09-20 04:00:56,1,6,0,,,False,Approved,,1
+6,anik,Active,0,2018-09-20 04:02:01,1,0,0,,,False,Approved,,1
+7,Slider,Active,1,2018-09-24 10:10:01,3,7,1,,,True,Approved,,1
+8,Neeraj,Active,0,2018-09-24 10:47:22,3,0,0,,,False,Approved,,1
+9,photos,Active,0,2018-09-24 10:55:49,1,0,0,,,False,Approved,,1
+10,Slider in Hindi,Active,0,2018-12-06 05:26:47,2,0,0,,,True,Approved,,2
+11,Photo in Hindi,Active,0,2018-12-06 05:44:58,2,0,0,,,False,Approved,,2
+12,Kangra Earthquake Diaster,Active,0,2019-03-11 05:10:56,1,0,0,,,False,Approved,,1
+13,Kangra Earthquake Diaster in Hindi,Active,0,2019-03-11 05:41:08,1,0,0,,,False,Approved,,2
+14,Photos of HPSDMA,Active,0,2019-03-12 11:40:06,1,0,0,,,False,Approved,,1
+15,Kangra Earthquake Disaster,Active,0,2019-03-13 12:06:23,1,0,29,,,False,Approved,,1
+16,Kangra Earthquake Disaster in Hindi,Active,0,2019-03-13 12:06:44,1,0,30,,,False,Approved,,2
+17,"Kangra Earthquake 4th April, 1905",Active,0,2019-03-29 12:00:16,1,0,29,,,False,Approved,,1
+18,photos,Active,0,2019-07-29 02:13:55,1,0,25,1.0,2019-07-29 02:14:14,False,Rejected,klkl,1
+19,photos,Active,0,2021-08-07 07:08:33,1,0,25,,,False,Approved,,1
+20,Slider,Active,1,2025-03-26 09:53:54,1,325,1,,,True,Approved,,1

@@ -1,0 +1,104 @@
+fish_loss_del_id,fish_loss_id,infra_type,total_no_loss,detail,entry_by,entry_date,ip_add,status,amount,unit_id,updated_by
+1,3,2,1.0, 02 no rearing ponds dikes damage at Nalagarh farm,2172.0,2020-08-17 15:26:41.500,59.95.216.43,Active,10.0,3,
+3,9,2004,798.14,"Due to heavy rainfall spanning from 27/07/2021-31/07/2021, ponds at carp fish farm sultanpur got overfilled and flooded with rain water that led to washing away and autostocking of the 8557 No. of carp livestock from farm into sach nala weighing 42.57 kg amounting to Rs. 79814.00. ",2044.0,2021-12-16 17:21:41.653,117.212.79.6,Active,0.8,2,
+8,10,2004,815.0,Due to hailstorm on 31-05-2021 electric wire dislodged and fell over raceway roof electrocuting second year livestock worth rs 90035 out of which fish worth Rs. 12100 was sold and rest livestock worth rs 77935.00 was disposed off by deep burial method due to spoilage.,2044.0,2022-03-23 10:51:37.093,205.253.125.214,Active,0.78,1,
+9,12,2004,540.656,"due to heavy rain from 27-07-2021 to 31-07-2021 farm premises got flooded with rain water that led to autostocking of given below livestock in sach nalla from carp farm sultanpur. 
+Carp- Brooders 875 No. (325.500 kg), Second year 3283 No. (134.603 kg) & Ist year 3453 No. (37.983 kg).
+Hungarian Carp- 946 No. (42.570 kg)",2044.0,2022-03-30 11:39:30.750,205.253.124.204,Active,0.54,2,
+10,14,2004,5670.0,"Due to heavy rain in Kangra region on 20.08.2022, Nursey Pond and rearing ponds at Kangra Farm were overflowed/flooded. Due to that 4700 nos of common carp finger ling, 430 fingerlings of Gold Fish and 540 fingerlings of Koi carp were escaped/washed out. Total loss of amount were 0.268 lakh.  ",4081.0,2022-10-29 17:11:49.177,106.192.184.219,Active,0.27,1,
+11,15,2004,5670.0,"Due to heavy rain in Kangra region on dated 20.08.2022, Nursery Pond no 1 &  2 and rearing pond no 6 & 7 at Fish Seed Farm Kangra were over flowed/flooded. Due to that 4700 nos of fingerlings of common carp, 430 fingerlings of Gold Fish and 540 fingerlings of Koi Carp were escaped/washed out with over flowed water causing loss of Rs 0.268 lakh ",4081.0,2022-10-29 17:22:31.480,106.192.62.219,Active,0.27,1,
+13,17,2004,5670.0,"Due to heavy rain in Kangra region on dated 19.08.2022 and 20.08.2022, Nursery Pond s and rearing ponds at Fish Seed Farm Kangra were over flowed/flooded. Due to that 4700 nos of common carp fingerlings, 430 Gold fish fingerlins and 540 nos. of Koi carp fingerlings were escaped/washed out with the over flowed water of ponds causing total loss of Rs 0.268 lakh  ",,2022-10-31 10:37:21.763,171.48.99.131,Active,0.27,1,4081.0
+14,18,2004,100.0,dskjhkjdlkjs,2044.0,2023-07-12 15:32:25.617,59.89.181.138,Active,10000.0,1,
+18,19,2004,278.8,"Stocked in RW-3, RW-6 NT-2 at Trout Farm Barot",2140.0,2023-07-12 17:23:12.430,49.36.144.162,Active,153340.0,2,
+19,19,2004,761.1,"Stocked in RW-1, 2, 4, 5 at Trout Farm Barot",2140.0,2023-07-12 17:23:12.477,49.36.144.162,Active,418605.0,2,
+20,19,2004,7239.0,Stocked in NT-1 at Trout Farm Barot,2140.0,2023-07-12 17:23:12.477,49.36.144.162,Active,28956.0,1,
+35,21,2004,278.8,"Mortility has been occured in Raceway No. 3, 6 and Nursury Tank No. 2 at Trout Farm Barot",,2023-07-13 14:50:24.853,117.205.142.46,Active,1.53,2,4017.0
+36,21,2004,761.1,"Mortility has been occured in Raceway No. 1, 2, 4, 5 at Trout Farm Barot",,2023-07-13 14:50:24.870,117.205.142.46,Active,4.19,2,4017.0
+37,21,2004,7239.0,Mortility has been occured in Nursury Tank No. 1 at Trout Farm Barot ,,2023-07-13 14:50:24.870,117.205.142.46,Active,0.29,1,4017.0
+38,20,2,1.0,Big Intake 80% damaged,,2023-07-13 14:52:16.440,117.205.142.46,Active,8.0,1,4017.0
+39,20,2,1.0,Small Intake 80% damaged,,2023-07-13 14:52:16.457,117.205.142.46,Active,2.0,1,4017.0
+40,20,2,4.0,20 Ft. 4 Nos. HDPE pipe washed out,,2023-07-13 14:52:16.473,117.205.142.46,Active,10.0,1,4017.0
+41,20,2,1.0,One big Truf in hatchery has been broken and other instruments also damaged,,2023-07-13 14:52:16.473,117.205.142.46,Active,0.2,1,4017.0
+42,20,2,1.0,Dranage has been filled with silt and other materials ,,2023-07-13 14:52:16.520,117.205.142.46,Active,10.0,1,4017.0
+43,22,2004,100.0,,2044.0,2023-07-13 15:21:48.573,117.207.63.130,Deleted,1.0,1,
+52,24,2,1.0,Cable span bridge carring hatchery pipeline is washed away,,2023-07-15 15:44:35.377,117.215.241.9,Active,10.0,1,4017.0
+53,24,2,1.0,Water intake channel approx. 100 Mtr. completely damaged at Trout Fish Farm Barot,,2023-07-15 15:44:35.390,117.215.241.9,Active,20.0,1,4017.0
+54,24,2,1.0,Water supply pipeline at few points buried under boulders due to pelting at Trout Fish,,2023-07-15 15:44:35.390,117.215.241.9,Active,3.0,1,4017.0
+55,24,2,1.0,Crate Walls protecting reservoir tanks & trout hatchery are damaged at Trout Fish Farm Barot,,2023-07-15 15:44:35.407,117.215.241.9,Active,25.0,1,4017.0
+56,25,2004,4150.0,15000 No. Two year table size fish total weight 3600 kg and 5000 No. One year table size fish total weight 550 kg.,2108.0,2023-07-15 19:12:56.637,164.100.138.238,Active,22.83,2,
+57,25,2004,389.26,Brooder 377 No. (Rainbow Trout = 207 No. & Brown Trout =170) total weight 389.26 Kg,2108.0,2023-07-15 19:12:56.650,164.100.138.238,Active,2.14,2,
+58,25,2004,7800.0,Trout fish Fry 7800 No. rate of Trout Fish Fry is Rs. 4/- per fry.,2108.0,2023-07-15 19:12:56.667,164.100.138.238,Active,0.31,1,
+59,25,2,1.0,Half portion of water supply intake adjoining area damaged and Approximate 30 meter length of under water supply pipeline has been washed away near to Desilting tank. ,2108.0,2023-07-15 19:12:56.683,164.100.138.238,Active,80.0,1,
+60,26,2004,920.65,"Rainbow Trout Brooder 775 No. everage weight 1.188 Kg total weight 920.650 kg, total value 5.06358 Lakh and rate of sale Rs. 550/- per kg.",2108.0,2023-07-15 19:22:19.127,164.100.138.238,Active,5.06,2,
+61,26,2004,36500.0,36500 No. Trout Fish Fry @Rs. 4/- per fry.,2108.0,2023-07-15 19:22:19.157,164.100.138.238,Active,1.46,1,
+63,27,2004,2311.6,Table size fish 17660 No. (Two year 5660 No. & one year 12000) total weight 2311.60 Kg @ Rs. 550/- per Kg and Total value Rs. 12.7138 Lakh.,2108.0,2023-07-15 19:37:09.873,164.100.138.238,Active,12.71,2,
+64,27,2004,793.2," 409 Nos Brooder (Rainbow 336 No. & Brown Trout 73 No.) total weight 793.20 Kg, @ Rs. 550/- per kg total value Rs. 4.3626 Lakh",2108.0,2023-07-15 19:37:09.887,164.100.138.238,Active,4.36,2,
+65,27,2004,1630.0,1630 No. Trout fingerlings @ Rs. 7/- per fingerling and total value Rs. 0.1141 Lakh ,2108.0,2023-07-15 19:37:09.920,164.100.138.238,Active,0.11,1,
+66,27,2,1.0,Water supply channel to Trout Fish Farm Hamni damaged at intake. ,2108.0,2023-07-15 19:37:09.937,164.100.138.238,Active,80.0,1,
+70,28,2004,1448.44,"11627 No. Trout Fish (3777 No. two year & 5271 No. one year Rainbow Trout and 2579 No. one year Brown Trout) total weight 1448.44 Kg,  @ Rs. 550/- per Kg and total value Rs. 7.96642 Lakh",2092.0,2023-07-15 20:21:43.863,164.100.138.238,Active,7.97,2,
+71,28,2,1.0,"Water Supply pipe line from Hurba Khad to Trout Farm Sangla intake channel, Desalination tank damaged.",2092.0,2023-07-15 20:21:43.897,164.100.138.238,Active,80.0,1,
+72,28,2,1.0,"Water Supply pipe line from Rukti Khad to Trout Farm Sangla intake channel, Desalination tank damaged.",2092.0,2023-07-15 20:21:43.927,164.100.138.238,Active,70.0,1,
+75,29,2,3.0,"Out of 26  ponds 18 filled with mud(70 lacs), Drainage system of farm completely destroyed(80 lacs), Office Building(35 lacs),Feed Mill(40 lacs), Angling hut(35 Lacs), Store(40 Lacs), Aquarium House Chmaba(10 Lacs), Aquashop Chamba(20 Lacs)",2044.0,2023-07-15 21:24:33.883,59.89.188.237,Active,330.0,3,
+76,30,2004,0.093,"Livestock including brudder, yearling and fingerlinks total lost. (20 Lacs)",2044.0,2023-07-15 21:26:47.743,59.89.188.237,Active,20.0,3,
+77,31,2,1.0,"Museum cum aquarium house churi Dharwala damaged due to Landslide(Protection wall 50 Lacs), Kitchen and bathroom Wash out (30 Lacs)",2044.0,2023-07-15 21:32:20.230,59.89.188.237,Active,80.0,3,
+78,32,2,1.0,Thalla Trout farm ( water supply chocked disiltations tanks and raceways damaged. Total Loss(60 Lacs),2044.0,2023-07-15 21:34:22.973,59.89.188.237,Active,60.0,3,
+87,36,2,1.0,dykes damaged due to excessive rainfall.,2172.0,2023-07-20 15:11:23.110,61.3.88.177,Active,1.68,3,
+88,37,2004,6300.0,Livestocks Damaged due to breakage of pond dykes ,2172.0,2023-07-20 15:13:23.850,61.3.88.177,Active,6.3,2,
+90,39,2004,1000.0,due to heavy rain choking of water supply pipe line ,2156.0,2023-07-21 13:19:11.737,61.3.92.55,Deleted,5.5,2,
+91,40,2004,1000.0,water pipeline chocked due to heavy flood ,2156.0,2023-07-21 13:26:58.857,61.3.92.55,Active,5.5,2,
+92,41,2,1.0,Some portion of retaining walll on the right side of nursery pond no. 8 collasped and fell into this pond,2028.0,2023-07-24 11:38:10.043,117.199.84.171,Active,148251.0,1,
+93,41,2004,613.0, Due to heavy rain pond no. 8 and 9 were drained. ,2028.0,2023-07-24 11:38:10.060,117.199.84.171,Active,1748.4,1,
+94,42,2,3500.0,3500 number total weight 149.77 Kg IMC Yearling Brooders washed out at Carp Fish Seed Farm Alsu,2140.0,2023-08-06 18:51:09.757,49.36.144.82,Active,0.15,1,
+95,42,2,3000.0,3000 number Amur Carp Seed washed out at Carp Fish Seed Farm Alsu,2140.0,2023-08-06 18:51:09.790,49.36.144.82,Active,0.03,1,
+96,42,2,60.0,60 Number Gold Fish Brooder total weight 11 Kg washed out at Carp Fish Seed Farm Alsu,2140.0,2023-08-06 18:51:09.820,49.36.144.82,Active,0.01,1,
+97,42,2,350.0,350 number Amur Carp Brooder total weight 618 Kg washed out at Carp Fish Seed Farm Alsu,2140.0,2023-08-06 18:51:09.850,49.36.144.82,Active,0.62,1,
+98,42,2,50.0,50 pipes near about 200 Mtr. has been washed out at Carp Fish Seed Farm Alsu,2140.0,2023-08-06 18:51:09.883,49.36.144.82,Active,12.27,1,
+104,43,2004,3500.0,3500 number (weight 149.77 Kg) IMC Yearling Brooders washed out at Carp Fish Seed Farm Alsu,2140.0,2023-08-07 13:28:01.300,49.36.144.110,Active,0.15,1,
+105,43,2004,3000.0,3000 number Amur Carp Seed washed out at Carp Fish Seed Farm Alsu,2140.0,2023-08-07 13:28:01.300,49.36.144.110,Active,0.03,1,
+106,43,2004,60.0,60 Number Gold Fish Brooder (weight 11 Kg) washed out at Carp Fish Seed Farm Alsu,2140.0,2023-08-07 13:28:01.300,49.36.144.110,Active,0.01,1,
+107,43,2004,350.0,350 number Amur Carp Brooder (weight 618 Kg) washed out at Carp Fish Seed Farm Alsu,2140.0,2023-08-07 13:28:01.317,49.36.144.110,Active,0.62,1,
+108,43,2,50.0,50 pipes about 200 Mtr. in length has been damaged at Carp Fish Seed Farm Alsu,2140.0,2023-08-07 13:28:01.330,49.36.144.110,Active,12.27,1,
+111,45,2004,500000.0, Near about 5 Lakh of Indian Major Carp Fish Spawn has been washed out (At the rate of 10% recovery & Rs. 1 per fry/ fingerling) at Carp Fish Farm Alsu,2140.0,2023-08-18 17:58:11.073,49.36.144.50,Active,0.5,1,
+112,45,2004,43.75, 30 Number Amur Carp Fish (Weight 43.75 Kg) has been washed out at Carp Fish Farm Alsu,2140.0,2023-08-18 17:58:11.107,49.36.144.50,Active,0.05,2,
+113,45,2,1.0, Completely damaged by heavy land slide including entry gate and fencing wall etc. at Carp Fish Farm Alsu,2140.0,2023-08-18 17:58:11.120,49.36.144.50,Active,45.0,1,
+114,45,2,3.0,Removal of silt and debris and repair of office building and Chowkidar hut and toilet block is filled with silt upto still level at Carp Fish Farm Alsu,2140.0,2023-08-18 17:58:11.153,49.36.144.50,Active,12.0,1,
+115,45,2,3.0,Total ponds 18 Nos. out of which 3 Nos. brooder ponds covered by poly sheet are completely damaged due to heavy land slide from hill side at Carp Fish Farm Alsu,2140.0,2023-08-18 17:58:11.170,49.36.144.50,Active,36.0,1,
+116,45,2,3.0, Boundary wall completely damaged & repair of pump house/ percolation well at Carp Fish Farm Alsu,2140.0,2023-08-18 17:58:11.200,49.36.144.50,Active,8.0,1,
+117,45,2,2.0,Repair of over head tanks rising main and repair of rain water harvesting tank due to heavy land slide from hill side at Carp Fish Farm Alsu,2140.0,2023-08-18 17:58:11.217,49.36.144.50,Active,4.0,1,
+118,45,2,1.0,Water supply to Carp Seed Fish Farm Alsu from source including source is completely washed away due to heavy flood in Alsehad Khad at Carp Fish Farm Alsu,2140.0,2023-08-18 17:58:11.247,49.36.144.50,Active,45.0,1,
+120,44,2004,31.6,"Due to heavy rain guge amount of debris, silt fell into inlet & outlet water supply channels. . Maximum of ponds were overflowing due to heavy rain.",,2023-08-24 16:45:43.437,117.215.247.127,Active,0.03,2,4017.0
+121,44,2,0.0,"Due to heavy rain guge amount of debris, silt fell into inlet & outlet water supply channels. .Retaining wall on the right side of nusery ponds has collasped and fell into this pond.",,2023-08-24 16:45:43.450,117.215.247.127,Active,74.5,1,4017.0
+122,50,2004,500.0,Livestock lost due to excessive  Rain ,2172.0,2023-08-25 17:31:38.310,61.3.85.72,Deleted,0.5,2,
+126,55,2,2.0,Complete Loss Of All Assets of Jia  Lal  S/O Sh Daulat Ram Vill Barigcha  P O Jaon Teh Nirmand  Distt Kullu ,2108.0,2024-08-03 12:24:12.007,49.36.144.202,Active,23.33,1,
+127,55,2004,7000.0,Approximate 7000.no.  Saleable Stock Average Weight 300 Gm of Santosh Kumar S/O Sh Sesh  Ram vill bagipul  p o biuni Teh Nirmand    Distt Kullu ,2108.0,2024-08-03 12:24:12.020,49.36.144.202,Active,11.55,1,
+128,55,2,2.0,Complete Loss Of All Assets of Juna Singh S/ O Sh Budhi Singh Vill Bagipul Teh Nirmand   Distt Kullu    ,2108.0,2024-08-03 12:24:12.020,49.36.144.202,Active,6.2,1,
+129,55,2004,1000.0,Approximate 1000.no.  Saleable Stock Average Weight 300 Gm of  Puran Chand S/O Sh  Ugham Ram Vill Sawah Bagipul  P O Biuni Teh Nirmand Distt Kullu,2108.0,2024-08-03 12:24:12.037,49.36.144.202,Active,2.89,1,
+130,55,2004,1500.0,"1500 NO. Saleable Stock
+Average Weight 250 Gm of Parkash Chand S/O Ugham Ram Vill Sawah Bagipul  P O Biuni Teh Nirmand, Distt Kullu",2108.0,2024-08-03 12:24:12.053,49.36.144.202,Active,2.48,1,
+131,55,2,2.0,Complete Loss Of All Assets of Sarvdyal S/O Sh Daya Ram Vill Tharla  Po Jaon Teh Nirmand Distt Kullu,2108.0,2024-08-03 12:24:12.077,49.36.144.202,Active,9.71,1,
+132,56,2,2.0,Complete Loss Of All Assets of Gobind Ram S/O Sh Chet Ram Vill Bashahal P O Sainj Teh Sainj Kullu H P ,2108.0,2024-08-03 12:27:08.207,49.36.144.202,Active,14.25,1,
+133,51,2,1.0,pond retaining wall damaged due to rain ,2172.0,2024-08-05 11:11:05.693,59.178.194.117,Deleted,0.2,1,
+135,64,2004,2000.0,live stock  damaged due to breakage of ponds dykes,2172.0,2024-08-05 12:38:01.797,59.178.194.64,Active,0.5,1,
+136,70,2,1.0,,2172.0,2024-08-06 12:32:06.610,59.178.51.166,Active,10.0,3,
+138,72,2,2.0,"2 Nos. Trout Raceways partly damaged and around 8000 number Rainbow Trout Fishes of average weight 100 g each washed away of Sh. Khube Ram s/o Sh. Chet Ram Vill. Gauni, PO Mahogi Tehsil Balichowki Distt. Mandi HP",2140.0,2024-08-08 15:44:54.410,49.36.144.46,Active,4.4,1,
+139,71,2004,2000000.0, fish spawn loss due to excessive rainfall,2172.0,2024-08-14 11:17:25.143,59.178.62.244,Active,2.0,1,
+140,65,2,1.0,,2172.0,2024-08-14 11:18:19.913,59.178.62.244,Active,0.2,1,
+141,73,2,2520.0,"1200 No. fish, average weight 2.100 Kg per fish washed away from the fish pond of Sh. Rajinder Singh Jaswal S/o Late Sh. Dalip Singh, Village Dagoh Khas, Ward No. 09, Teh. Ghanari, Distt. Una, H.P. Total weight of fish is 2520 Kg, sale rate of fish Rs. 150/- per Kg and total value of fish is Rs. 3.78 lakh. ",,2024-08-29 10:36:11.713,49.47.70.113,Active,3.78,2,4017.0
+178,75,2004,24000.0,"Loss of  Sh. Daulat Ram C/O Dalut Ram Fish Farm & Hatchery, Village -Baragran P.O - Kharihar, Tehsil & Districrt- Kullu, H.P [Blue Revolution Beneficiary] 
+Trout Fish Fingerlings Average Weight 0-4 gram per peice @ 4/- per peice due to cloud Brust at Pahnala on dated: 28-02-2025.",,2025-03-11 14:42:40.300,164.100.138.235,Active,0.96,1,4017.0
+179,75,2004,2400.0,"Loss of Sh. Daulat Ram C/O Dalut Ram Fish Farm & Hatchery, Village -Baragran P.O - Kharihar, Tehsil & Districrt- Kullu, H.P [Blue Revolution Beneficiary] 
+Salable Trout Fish Average Weight 300 gram per peice @ 550/- per Kg due to cloud Brust at Pahnala on dated: 28-02-2025",,2025-03-11 14:42:40.337,164.100.138.235,Active,13.2,2,4017.0
+180,75,2004,144.0,"Loss of Sh. Daulat Ram C/O Dalut Ram Fish Farm & Hatchery, Village -Baragran P.O - Kharihar, Tehsil & Districrt- Kullu, H.P [Blue Revolution Beneficiary]  
+Trout Brooders Fish Average Weight 1.5 Kg per peice @ 550/- per Kg due to cloud Brust at Pahnala on dated: 28-02-2025",,2025-03-11 14:42:40.360,164.100.138.235,Active,0.79,2,4017.0
+181,74,2004,80000.0,"Loss of Sh. Shakti Singh Jamwal c/o Himalayan Trout Farm, Village-Pahnala, P.O-Khadidhar, Tehsil & District- kullu, H.P [Blue Revolution Beneficiary] 
+Trout Fingerlings @4/- per peice due to cloud Brust at Pahnala on dated: 28-02-2025.",,2025-03-11 14:43:08.180,164.100.138.235,Active,3.2,1,4017.0
+182,74,2004,2850.0,"Loss of Sh. Shakti Singh Jamwal c/o Himalayan Trout Farm, Village-Pahnala, P.O-Khadidhar, Tehsil & District- kullu, H.P [Blue Revolution Beneficiary] 
+Salable Trout Fish Average Weight 300 gram per peice @ 550/- per Kg due to cloud Brust at Pahnala on dated: 28-02-2025.",,2025-03-11 14:43:08.187,164.100.138.235,Active,15.68,2,4017.0
+183,74,2004,2160.0,"Loss of Sh. Shakti Singh Jamwal c/o Himalayan Trout Farm, Village-Pahnala, P.O-Khadidhar, Tehsil & District- Kullu, H.P [Blue Revolution Beneficiary] 
+Growout stock/Brooders of  Trout Fish Average Weight Weight 300 1.750 to 200 gram per peice @ 550/- per Kg due to cloud Brust at Pahnala on dated: 28-02-2025",,2025-03-11 14:43:08.193,164.100.138.235,Active,11.88,2,4017.0
+186,76,2,0.0,"A significant  damage occurred at Fish seed farm Kangra, Fisheries department, Distt. Kangra on dated 16.4.2025 evening due to fallen of a tree in heavy storm and rain in Kangra region. Damage to integrated ornamental Fish hatchery Building app.6.0 lacs, Damage to solar plant app. 0.5 lac and damage to Boundary wall app. 0.5 lac. Total loss/damage due to storm and rain was app 7.0 lacs.",2076.0,2025-04-25 16:37:26.177,117.207.49.11,Active,7.0,1,
+188,77,2,0.1,"New fish pond constructed by Sh. Rajeev Rana s/o RashPal Singh, Vill. Samkad, PO Dhameta, Teh. Fatehpur got damaged by heavy rainfall on dated: 20/06/2025 and all live stock and major portion of pond got washed away. App. loss is Rs. One lakh.",2076.0,2025-06-24 10:45:51.503,43.255.166.134,Active,1.0,3,
+191,78,2004,13000.0,Live stock of Smt. Kulsuma Begum W/o Mohammad Rafi Village Ghundel PO Kalhel Tehsil Churah 4000 livestock and Sh. Heera Lal S/o Bhimi Ram Village Ghundel PO Kalhel 5000 Nos. and Mohd. Rafi S/o Lal Deen Village GHundel PO Kalhel 4400 Nos Livestock in total 13000 Nos of Livestock amounting to Rs. 5.03 lac. ,2044.0,2025-07-11 16:31:12.963,59.89.189.19,Active,5.03,1,
+192,78,2,5.0,Kulsuma Begum W/o Mohammad Rafi Village Ghundel PO Kalhel Tehsil Churah 2 nos Trout Unit and Sh. Heera Lal S/o Bhimi Ram Village Ghundel PO Kalhel 2 Nos. Trout Units and Mohd. Rafi S/o Lal Deen Village GHundel PO Kalhel 1 Nos trout Unit amounting to Rs .15.00 lac. ,2044.0,2025-07-11 16:31:13.010,59.89.189.19,Active,15.0,3,
+193,79,2,0.114,"Farm area 0.1140 (In Hec.)- -New fish ponds constructed by Sh. Partap Shukla s/o Mulkh Raj, VPO Sadwan, Teh. Nurpur, Distt. Kangra got damaged by heavy rainfall on dated: 02/08/2025 and all live stock and major portion of pond got washed away. App. loss is Rs. One lakh.",2076.0,2025-08-12 15:52:45.353,169.149.227.237,Active,1.0,3,
+196,80,2,0.061,"Farm area 0.0610(In Hec.) -New fish ponds constructed by Sh. Balwinder Singh s/o Om Prakash, VPO Sadwan, Teh. Nurpur, Distt. Kangra got damaged by heavy rainfall on dated: 02/08/2025 and all live stock and major portion of pond got washed away. App. loss is Rs. Sixty Thousand.",2076.0,2025-08-12 15:58:23.583,169.149.227.237,Active,0.6,3,

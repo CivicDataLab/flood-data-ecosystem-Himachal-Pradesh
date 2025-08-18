@@ -1,0 +1,8 @@
+photo_cat_id,cat_name,status,has_photo,created_on,created_by,approved_by,approved_date,photo_file_id,photo_cat_temp_id,OnHomePage,position
+1,Slider,Active,1,2025-03-26 09:53:54,1,1,2025-03-26 09:54:04.000,325,20,True,0
+25,photos,Active,0,2021-08-07 07:08:33,1,1,2021-08-17 03:07:18.000,0,19,,0
+27,Slider in Hindi,Active,0,2018-12-06 05:26:47,2,2,2018-12-06 17:27:00.803,0,10,True,0
+28,Photo in Hindi,Active,0,2018-12-06 05:44:58,2,2,2018-12-06 17:45:06.933,0,11,,0
+29,"Kangra Earthquake 4th April, 1905",Active,0,2019-03-29 12:00:16,1,1,2019-03-29 12:01:18.000,0,17,,0
+30,Kangra Earthquake Disaster in Hindi,Active,0,2019-03-13 12:06:44,1,1,2019-03-13 12:06:49.000,0,16,,0
+31,Photos of HPSDMA,Deleted,0,2019-03-12 11:40:06,1,1,2019-03-12 11:40:28.103,0,14,,0

@@ -1,0 +1,3669 @@
+USE [HPSDMA]
+GO
+/****** Object:  Table [dbo].[Admin]    Script Date: 8/17/2025 11:31:34 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Admin](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Login] [varchar](250) NULL,
+	[Password] [varchar](50) NULL,
+	[MyVal] [varchar](250) NULL,
+	[ChangeDate] [datetime] NULL,
+	[ChangeMethod] [varchar](250) NULL,
+	[IpAddress] [varchar](150) NULL,
+	[SessionId] [varchar](150) NULL,
+	[Email] [varchar](150) NULL,
+	[Status] [varchar](50) NULL,
+	[admintype] [nvarchar](20) NULL,
+ CONSTRAINT [PK_Admin] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_abstract_loss]    Script Date: 8/17/2025 11:31:34 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_abstract_loss](
+	[abstract_loss_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[village_id] [int] NULL,
+	[length_affected_km] [float] NULL,
+	[roads_closed] [int] NULL,
+	[length_pukka_mdr] [float] NULL,
+	[length_pukka_vr] [float] NULL,
+	[length_kuccha_mdr] [float] NULL,
+	[length_kuccha_vr] [float] NULL,
+	[jcb_deployed_department] [int] NULL,
+	[jcb_deployed_hired] [int] NULL,
+	[dosers_deployed] [int] NULL,
+	[tipper_deployed] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[lenght_pukka_nh] [real] NULL,
+	[developmentId] [int] NULL,
+	[RecordStatus] [int] NULL,
+	[roadopeningdate1] [datetime] NULL,
+	[roadopeningdate2] [datetime] NULL,
+	[roadopeningdate3] [datetime] NULL,
+	[roadopens1] [int] NULL,
+	[roadopens2] [int] NULL,
+	[roadopens3] [int] NULL,
+	[length_pukka_sh] [float] NULL,
+	[length_kuccha_sh] [float] NULL,
+ CONSTRAINT [PK_app_abstract_loss] PRIMARY KEY CLUSTERED 
+(
+	[abstract_loss_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_agriculture_loss]    Script Date: 8/17/2025 11:31:34 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_agriculture_loss](
+	[agriculture_loss_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[developmentId] [int] NULL,
+	[village_id] [int] NULL,
+	[crop_affected] [float] NULL,
+	[crop_33_affected] [float] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[RecordStatus] [int] NULL,
+	[croppedarea] [float] NULL,
+	[crop_lossless33] [float] NULL,
+	[cultivatedareawashed] [float] NULL,
+	[cropsownarea] [float] NULL,
+	[crop_33_above] [float] NULL,
+	[kharif_id] [int] NULL,
+	[cmid] [int] NULL,
+	[totalAreadamaged] [float] NULL,
+	[totalcropsownarea] [float] NULL,
+	[crop_33_abovet] [float] NULL,
+	[arearainfed] [float] NULL,
+	[areairrigated] [float] NULL,
+	[areaperennial] [float] NULL,
+	[ret_id] [int] NULL,
+	[block_id] [int] NULL,
+	[updated_by] [int] NULL,
+ CONSTRAINT [PK_agriculture_loss] PRIMARY KEY CLUSTERED 
+(
+	[agriculture_loss_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_agriculture_loss2]    Script Date: 8/17/2025 11:31:34 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_agriculture_loss2](
+	[agriculture_loss_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[developmentId] [int] NULL,
+	[village_id] [int] NULL,
+	[cropsownarea] [float] NULL,
+	[crop_33_above] [float] NULL,
+	[arearainfed] [float] NULL,
+	[areairrigated] [float] NULL,
+	[areaperennial] [float] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[RecordStatus] [int] NULL,
+	[ret_id] [int] NULL,
+	[block_id] [int] NULL,
+ CONSTRAINT [PK_app_agriculture_loss2] PRIMARY KEY CLUSTERED 
+(
+	[agriculture_loss_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_category]    Script Date: 8/17/2025 11:31:34 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_category](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[category] [nvarchar](20) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_cattle_loss]    Script Date: 8/17/2025 11:31:34 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_cattle_loss](
+	[cattle_loss_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[developmentId] [int] NULL,
+	[village_id] [int] NULL,
+	[cattle_category_id] [int] NULL,
+	[cattle_injured] [int] NULL,
+	[cattle_type_id] [int] NULL,
+	[cattle_loss] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[RecordStatus] [int] NULL,
+	[missingcattle] [int] NULL,
+	[MilchlostB] [int] NULL,
+	[MilchlostS] [int] NULL,
+	[DraughtlostC] [int] NULL,
+	[DraughtlostCalf] [int] NULL,
+	[MilchqB] [float] NULL,
+	[milchqS] [float] NULL,
+	[DraughtqC] [float] NULL,
+	[DraughtqCalf] [float] NULL,
+	[updated_by] [int] NULL,
+ CONSTRAINT [PK_cattle_loss] PRIMARY KEY CLUSTERED 
+(
+	[cattle_loss_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_cattle_type_master]    Script Date: 8/17/2025 11:31:34 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_cattle_type_master](
+	[cattle_type_id] [int] IDENTITY(1,1) NOT NULL,
+	[cattle_category_id] [int] NULL,
+	[cattle_type] [varchar](200) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+ CONSTRAINT [PK_cattle_type_master] PRIMARY KEY CLUSTERED 
+(
+	[cattle_type_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_disaster_affected_area]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_disaster_affected_area](
+	[affected_area_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[typeid] [int] NULL,
+ CONSTRAINT [PK_disaster_affected_area] PRIMARY KEY CLUSTERED 
+(
+	[affected_area_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_disaster_main]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_disaster_main](
+	[disaster_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_type_id] [int] NULL,
+	[disaster_date_from] [datetime] NULL,
+	[disaster_date_to] [datetime] NULL,
+	[rain_normal] [float] NULL,
+	[rain_actual] [float] NULL,
+	[snow_normal] [float] NULL,
+	[snow_actual] [float] NULL,
+	[r_scale] [float] NULL,
+	[details] [varchar](max) NULL,
+	[disaster_file] [varchar](100) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[incidentdate] [date] NULL,
+	[type] [int] NULL,
+ CONSTRAINT [PK_disaster_main] PRIMARY KEY CLUSTERED 
+(
+	[disaster_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_education_loss_details]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_education_loss_details](
+	[education_loss_det_id] [int] IDENTITY(1,1) NOT NULL,
+	[education_loss_id] [int] NULL,
+	[disaster_id] [int] NULL,
+	[school_name] [varchar](100) NULL,
+	[damage_details] [varchar](max) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[schooldayslost] [int] NULL,
+	[classroomsdamaged] [int] NULL,
+	[Recordstatus] [int] NULL,
+	[remark] [nvarchar](500) NULL,
+	[amountloss] [decimal](18, 2) NULL,
+	[updated_by] [int] NULL,
+ CONSTRAINT [PK_education_loss_details] PRIMARY KEY CLUSTERED 
+(
+	[education_loss_det_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_education_loss_main]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_education_loss_main](
+	[education_loss_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[developmentId] [int] NULL,
+	[village_id] [int] NULL,
+	[schools_damaged] [int] NULL,
+	[other_details] [varchar](max) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[institute_type_id] [int] NULL,
+	[RecordStatus] [int] NULL,
+	[block_id] [int] NULL,
+	[economic_loss] [decimal](18, 2) NULL,
+	[updated_by] [int] NULL,
+ CONSTRAINT [PK_education_loss_main] PRIMARY KEY CLUSTERED 
+(
+	[education_loss_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_fesries_detail]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_fesries_detail](
+	[fish_loss_del_id] [int] IDENTITY(1,1) NOT NULL,
+	[fish_loss_id] [int] NULL,
+	[infra_type] [int] NULL,
+	[total_no_loss] [float] NULL,
+	[detail] [nvarchar](500) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_add] [nvarchar](50) NULL,
+	[status] [nvarchar](50) NULL,
+	[amount] [decimal](18, 2) NULL,
+	[unit_id] [int] NULL,
+	[updated_by] [int] NULL,
+ CONSTRAINT [PK_app_fesries_detail] PRIMARY KEY CLUSTERED 
+(
+	[fish_loss_del_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_fisheries_infrastructure_master]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_fisheries_infrastructure_master](
+	[fish_infrastructure_type_id] [int] IDENTITY(1,1) NOT NULL,
+	[infrastructure_type] [varchar](200) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+ CONSTRAINT [PK_fisheries_infrastructure_master] PRIMARY KEY CLUSTERED 
+(
+	[fish_infrastructure_type_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_fisheries_loss]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_fisheries_loss](
+	[fish_loss_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[developmentId] [int] NULL,
+	[village_id] [int] NULL,
+	[fish_infrastructure_type_id] [int] NULL,
+	[structures_lost] [int] NULL,
+	[other_details] [varchar](max) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[RecordStatus] [int] NULL,
+	[Boats] [int] NULL,
+	[Dugout] [int] NULL,
+	[Catamaran] [int] NULL,
+	[Net] [int] NULL,
+	[others] [int] NULL,
+	[entryno] [int] NULL,
+	[updated_by] [int] NULL,
+ CONSTRAINT [PK_fisheries_loss] PRIMARY KEY CLUSTERED 
+(
+	[fish_loss_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_forest_details]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_forest_details](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[fd_id] [int] NULL,
+	[type_id] [int] NULL,
+	[name] [nvarchar](250) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_add] [nvarchar](50) NULL,
+ CONSTRAINT [PK_app_forest_details] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_forestdep]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_forestdep](
+	[fd_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[development_id] [int] NULL,
+	[village_id] [int] NULL,
+	[remarks] [nvarchar](500) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](50) NULL,
+	[status] [nvarchar](50) NULL,
+	[department] [int] NULL,
+	[division_id] [int] NULL,
+	[circle_id] [int] NULL,
+	[RecordStatus] [int] NULL,
+	[noofbuilding] [int] NULL,
+	[nooffootbridge] [int] NULL,
+	[noofnurseries] [int] NULL,
+	[plantationlosshec] [decimal](18, 2) NULL,
+	[updated_by] [int] NULL,
+ CONSTRAINT [PK_app_forestdep] PRIMARY KEY CLUSTERED 
+(
+	[fd_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_fund_loss_details]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_fund_loss_details](
+	[fund_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[table_ref_id] [int] NULL,
+	[human_amountloss] [decimal](18, 2) NULL,
+	[human_allotted] [decimal](18, 2) NULL,
+	[human_disbursed] [decimal](18, 2) NULL,
+	[cattle_lost] [decimal](18, 2) NULL,
+	[crop_lost_agri] [decimal](18, 2) NULL,
+	[crop_lost_horti] [decimal](18, 2) NULL,
+	[structure_lost] [decimal](18, 2) NULL,
+	[iph_loss] [decimal](18, 2) NULL,
+	[pwd_bridge] [decimal](18, 2) NULL,
+	[pwd_ordinary_road] [decimal](18, 2) NULL,
+	[pwd_culvert] [decimal](18, 2) NULL,
+	[total_pwd] [decimal](18, 2) NULL,
+	[total_power] [decimal](18, 5) NULL,
+	[education_lost] [decimal](18, 2) NULL,
+	[health_lost] [decimal](18, 2) NULL,
+	[fisheries_loss] [decimal](18, 2) NULL,
+	[municipal_lost] [decimal](18, 2) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[agr_totaldamage] [decimal](18, 2) NULL,
+	[washedawaylands] [decimal](18, 2) NULL,
+	[h_washedawaylands] [decimal](18, 2) NULL,
+	[panchayat_loss1] [decimal](18, 2) NULL,
+	[panchayat_loss2] [decimal](18, 2) NULL,
+	[panchayat_loss3] [decimal](18, 2) NULL,
+	[panchayat_loss4] [decimal](18, 2) NULL,
+	[panchayat_loss5] [decimal](18, 2) NULL,
+	[forest_building_loss] [decimal](18, 2) NULL,
+	[forest_bridge_path] [decimal](18, 2) NULL,
+	[forest_nurseries] [decimal](18, 2) NULL,
+	[forest_plantations] [decimal](18, 2) NULL,
+	[forest_soilcoin] [decimal](18, 2) NULL,
+	[forest_natural] [decimal](18, 2) NULL,
+	[milchB] [decimal](18, 2) NULL,
+	[MilchS] [decimal](18, 2) NULL,
+	[DraughtC] [decimal](18, 2) NULL,
+	[DraughtCamel] [decimal](18, 2) NULL,
+	[HNurVal] [decimal](18, 2) NULL,
+	[HtreeVal] [decimal](18, 2) NULL,
+	[HQntval] [decimal](18, 2) NULL,
+	[HQltval] [decimal](18, 2) NULL,
+	[Htotalval] [decimal](18, 2) NULL,
+	[kc_damaged] [decimal](18, 2) NULL,
+	[pwd_washedaway_bridg] [decimal](18, 2) NULL,
+	[pwd_or_pr_r_wall] [decimal](18, 2) NULL,
+	[pwd_repair_culverts] [decimal](18, 2) NULL,
+	[Gwingloss] [decimal](18, 2) NULL,
+	[electicalLoss] [decimal](18, 2) NULL,
+	[oNorthloss] [decimal](18, 2) NULL,
+	[oSouthloss] [decimal](18, 2) NULL,
+	[oCentralloss] [decimal](18, 2) NULL,
+	[TotalHPseblloss] [decimal](18, 2) NULL,
+	[dvrloss] [decimal](18, 2) NULL,
+	[dwlloss] [decimal](18, 2) NULL,
+	[dslloss] [decimal](18, 2) NULL,
+	[dpcomanloss] [decimal](18, 2) NULL,
+	[rdrdcost] [decimal](18, 2) NULL,
+	[municiapl_rloss] [decimal](18, 2) NULL,
+	[municipal_rdloss] [decimal](18, 2) NULL,
+	[municipal_wloss] [decimal](18, 2) NULL,
+	[municipal_sloss] [decimal](18, 2) NULL,
+	[municipal_hallloss] [decimal](18, 2) NULL,
+	[municipal_totalloss] [decimal](18, 2) NULL,
+	[udvrloss] [decimal](18, 2) NULL,
+	[udwlloss] [decimal](18, 2) NULL,
+	[udslloss] [decimal](18, 2) NULL,
+	[udpcomanloss] [decimal](18, 2) NULL,
+	[urdrdcost] [decimal](18, 2) NULL,
+	[horticulture2_rainfed] [decimal](18, 2) NULL,
+	[horticulture2_irrigated] [decimal](18, 2) NULL,
+	[horticulture2_perennial] [decimal](18, 2) NULL,
+	[horticulture2_total] [decimal](18, 5) NULL,
+	[agriculture2_rainfed] [decimal](18, 5) NULL,
+	[agriculture2_irrigated] [decimal](18, 5) NULL,
+	[agriculture2_perennial] [decimal](18, 5) NULL,
+	[agriculture2_total] [decimal](18, 5) NULL,
+	[highereducation_lost] [decimal](18, 2) NULL,
+	[bridgeloss] [decimal](18, 2) NULL,
+	[poleloss] [decimal](18, 2) NULL,
+	[wireloss] [decimal](18, 2) NULL,
+	[kharif_id] [int] NULL,
+	[cmid] [int] NULL,
+	[frecordstatus] [int] NULL,
+ CONSTRAINT [PK_fund_loss_details] PRIMARY KEY CLUSTERED 
+(
+	[fund_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_fund_loss_details1]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_fund_loss_details1](
+	[fund_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[table_ref_id] [int] NULL,
+	[human_amountloss] [decimal](18, 2) NULL,
+	[human_allotted] [decimal](18, 2) NULL,
+	[human_disbursed] [decimal](18, 2) NULL,
+	[cattle_lost] [decimal](18, 2) NULL,
+	[crop_lost_agri] [decimal](18, 2) NULL,
+	[crop_lost_horti] [decimal](18, 2) NULL,
+	[structure_lost] [decimal](18, 2) NULL,
+	[iph_loss] [decimal](18, 2) NULL,
+	[pwd_bridge] [decimal](18, 2) NULL,
+	[pwd_ordinary_road] [decimal](18, 2) NULL,
+	[pwd_culvert] [decimal](18, 2) NULL,
+	[total_pwd] [decimal](18, 2) NULL,
+	[total_power] [decimal](18, 5) NULL,
+	[education_lost] [decimal](18, 2) NULL,
+	[health_lost] [decimal](18, 2) NULL,
+	[fisheries_loss] [decimal](18, 2) NULL,
+	[municipal_lost] [decimal](18, 2) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[agr_totaldamage] [decimal](18, 2) NULL,
+	[washedawaylands] [decimal](18, 2) NULL,
+	[h_washedawaylands] [decimal](18, 2) NULL,
+	[panchayat_loss1] [decimal](18, 2) NULL,
+	[panchayat_loss2] [decimal](18, 2) NULL,
+	[panchayat_loss3] [decimal](18, 2) NULL,
+	[panchayat_loss4] [decimal](18, 2) NULL,
+	[panchayat_loss5] [decimal](18, 2) NULL,
+	[forest_building_loss] [decimal](18, 2) NULL,
+	[forest_bridge_path] [decimal](18, 2) NULL,
+	[forest_nurseries] [decimal](18, 2) NULL,
+	[forest_plantations] [decimal](18, 2) NULL,
+	[forest_soilcoin] [decimal](18, 2) NULL,
+	[forest_natural] [decimal](18, 2) NULL,
+	[milchB] [decimal](18, 2) NULL,
+	[MilchS] [decimal](18, 2) NULL,
+	[DraughtC] [decimal](18, 2) NULL,
+	[DraughtCamel] [decimal](18, 2) NULL,
+	[HNurVal] [decimal](18, 2) NULL,
+	[HtreeVal] [decimal](18, 2) NULL,
+	[HQntval] [decimal](18, 2) NULL,
+	[HQltval] [decimal](18, 2) NULL,
+	[Htotalval] [decimal](18, 2) NULL,
+	[kc_damaged] [decimal](18, 2) NULL,
+	[pwd_washedaway_bridg] [decimal](18, 2) NULL,
+	[pwd_or_pr_r_wall] [decimal](18, 2) NULL,
+	[pwd_repair_culverts] [decimal](18, 2) NULL,
+	[Gwingloss] [decimal](18, 2) NULL,
+	[electicalLoss] [decimal](18, 2) NULL,
+	[oNorthloss] [decimal](18, 2) NULL,
+	[oSouthloss] [decimal](18, 2) NULL,
+	[oCentralloss] [decimal](18, 2) NULL,
+	[TotalHPseblloss] [decimal](18, 2) NULL,
+	[dvrloss] [decimal](18, 2) NULL,
+	[dwlloss] [decimal](18, 2) NULL,
+	[dslloss] [decimal](18, 2) NULL,
+	[dpcomanloss] [decimal](18, 2) NULL,
+	[rdrdcost] [decimal](18, 2) NULL,
+	[municiapl_rloss] [decimal](18, 2) NULL,
+	[municipal_rdloss] [decimal](18, 2) NULL,
+	[municipal_wloss] [decimal](18, 2) NULL,
+	[municipal_sloss] [decimal](18, 2) NULL,
+	[municipal_hallloss] [decimal](18, 2) NULL,
+	[municipal_totalloss] [decimal](18, 2) NULL,
+	[udvrloss] [decimal](18, 2) NULL,
+	[udwlloss] [decimal](18, 2) NULL,
+	[udslloss] [decimal](18, 2) NULL,
+	[udpcomanloss] [decimal](18, 2) NULL,
+	[urdrdcost] [decimal](18, 2) NULL,
+	[horticulture2_rainfed] [decimal](18, 2) NULL,
+	[horticulture2_irrigated] [decimal](18, 2) NULL,
+	[horticulture2_perennial] [decimal](18, 2) NULL,
+	[horticulture2_total] [decimal](18, 2) NULL,
+	[agriculture2_rainfed] [decimal](18, 2) NULL,
+	[agriculture2_irrigated] [decimal](18, 2) NULL,
+	[agriculture2_perennial] [decimal](18, 2) NULL,
+	[agriculture2_total] [decimal](18, 2) NULL,
+	[highereducation_lost] [decimal](18, 2) NULL,
+	[bridgeloss] [decimal](18, 2) NULL,
+	[poleloss] [decimal](18, 2) NULL,
+	[wireloss] [decimal](18, 2) NULL,
+	[kharif_id] [int] NULL,
+	[cmid] [int] NULL,
+	[frecordstatus] [int] NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_gender]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_gender](
+	[genderid] [int] IDENTITY(1,1) NOT NULL,
+	[gender] [nvarchar](50) NULL,
+ CONSTRAINT [PK_app_gender] PRIMARY KEY CLUSTERED 
+(
+	[genderid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_health_centre_loss]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_health_centre_loss](
+	[health_loss_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[developmentId] [int] NULL,
+	[village_id] [int] NULL,
+	[centre_type_id] [int] NULL,
+	[centres_lost] [int] NULL,
+	[other_details] [varchar](max) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[RecordStatus] [int] NULL,
+	[centrename] [nvarchar](100) NULL,
+	[blockid] [int] NULL,
+	[updated_by] [int] NULL,
+ CONSTRAINT [PK_health_centre_loss] PRIMARY KEY CLUSTERED 
+(
+	[health_loss_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_health_centre_type_master]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_health_centre_type_master](
+	[centre_type_id] [int] IDENTITY(1,1) NOT NULL,
+	[centre_type] [varchar](200) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+ CONSTRAINT [PK_health_centre_type_master] PRIMARY KEY CLUSTERED 
+(
+	[centre_type_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_healthcenter_details]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_healthcenter_details](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[health_loss_id] [int] NULL,
+	[health_centerName] [nvarchar](200) NULL,
+	[amount] [decimal](10, 2) NOT NULL,
+	[Details] [nvarchar](max) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_add] [nvarchar](50) NULL,
+	[updated_by] [int] NULL,
+ CONSTRAINT [PK_app_healthcenter_details] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_highereducation_loss_details]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_highereducation_loss_details](
+	[education_loss_det_id] [int] IDENTITY(1,1) NOT NULL,
+	[education_loss_id] [int] NULL,
+	[disaster_id] [int] NULL,
+	[school_name] [varchar](100) NULL,
+	[damage_details] [varchar](max) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[schooldayslost] [int] NULL,
+	[classroomsdamaged] [int] NULL,
+	[Recordstatus] [int] NULL,
+	[remark] [nvarchar](500) NULL,
+	[amountloss] [decimal](18, 2) NULL,
+	[updated_by] [int] NULL,
+ CONSTRAINT [PK_hheducation_loss_details] PRIMARY KEY CLUSTERED 
+(
+	[education_loss_det_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_highereducation_loss_main]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_highereducation_loss_main](
+	[education_loss_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[developmentId] [int] NULL,
+	[village_id] [int] NULL,
+	[schools_damaged] [int] NULL,
+	[other_details] [varchar](max) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[institute_type_id] [int] NULL,
+	[RecordStatus] [int] NULL,
+	[block_id] [int] NULL,
+	[economic_loss] [decimal](18, 2) NULL,
+	[updated_by] [int] NULL,
+ CONSTRAINT [PK_Heducation_loss_main] PRIMARY KEY CLUSTERED 
+(
+	[education_loss_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_higherinstitute_type_master]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_higherinstitute_type_master](
+	[institute_type_id] [int] IDENTITY(1,1) NOT NULL,
+	[institute_type] [varchar](200) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+ CONSTRAINT [PK_higinstitute_type_master] PRIMARY KEY CLUSTERED 
+(
+	[institute_type_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_horticulture_loss]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_horticulture_loss](
+	[horticulture_loss_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[developmentId] [int] NULL,
+	[village_id] [int] NULL,
+	[crop_affected] [float] NULL,
+	[crop_33_affected] [float] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[RecordStatus] [int] NULL,
+	[croppedarea] [float] NULL,
+	[crop_lossless33] [float] NULL,
+	[cultivatedareawashed] [float] NULL,
+	[croptype] [int] NULL,
+	[mf1] [int] NULL,
+	[sf1] [int] NULL,
+	[of1] [int] NULL,
+	[tf1] [int] NULL,
+	[mf2] [decimal](18, 0) NULL,
+	[sf2] [decimal](18, 0) NULL,
+	[of2] [decimal](18, 0) NULL,
+	[tf2] [decimal](18, 0) NULL,
+	[cd] [int] NULL,
+	[pd] [int] NULL,
+	[cd2] [int] NULL,
+	[pd2] [int] NULL,
+	[Qloss] [decimal](18, 0) NULL,
+	[Qltloss] [decimal](18, 0) NULL,
+	[cropsownarea] [float] NULL,
+	[crop_33_above] [float] NULL,
+	[kharif_id] [int] NULL,
+	[cmid] [int] NULL,
+	[khid] [int] NULL,
+	[farmerso] [int] NULL,
+	[farmers] [int] NULL,
+	[areaunderfruits] [float] NULL,
+	[totalareaall] [float] NULL,
+	[area33] [float] NULL,
+	[arearainfed] [float] NULL,
+	[areairrigated] [float] NULL,
+	[areaperennial] [float] NULL,
+	[block_id] [int] NULL,
+	[updated_by] [int] NULL,
+ CONSTRAINT [PK_horticulture_loss] PRIMARY KEY CLUSTERED 
+(
+	[horticulture_loss_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_horticulture_loss2]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_horticulture_loss2](
+	[horticulture_loss2_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[developmentId] [int] NULL,
+	[village_id] [int] NULL,
+	[farmerso] [int] NULL,
+	[farmers] [int] NULL,
+	[areaunderfruits] [float] NULL,
+	[totalareaall] [float] NULL,
+	[area33] [float] NULL,
+	[arearainfed] [float] NULL,
+	[areairrigated] [float] NULL,
+	[areaperennial] [float] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[RecordStatus] [int] NULL,
+ CONSTRAINT [PK_horticulture_loss2] PRIMARY KEY CLUSTERED 
+(
+	[horticulture_loss2_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_hp_departments]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_hp_departments](
+	[department_id] [int] IDENTITY(1,1) NOT NULL,
+	[deprtment_name] [varchar](200) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+ CONSTRAINT [PK_hp_departments] PRIMARY KEY CLUSTERED 
+(
+	[department_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_HPSBEL_loss]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_HPSBEL_loss](
+	[HPSBEL_loss_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[developmentId] [int] NULL,
+	[village_id] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[RecordStatus] [int] NULL,
+ CONSTRAINT [PK_HPSBEL_loss] PRIMARY KEY CLUSTERED 
+(
+	[HPSBEL_loss_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_human_details]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_human_details](
+	[human_loss_det_id] [int] IDENTITY(1,1) NOT NULL,
+	[human_loss_id] [int] NULL,
+	[disaster_id] [int] NULL,
+	[name] [varchar](100) NULL,
+	[gender] [int] NULL,
+	[aadhar] [varchar](50) NULL,
+	[dob] [date] NULL,
+	[address] [varchar](2000) NULL,
+	[pincode] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[RecordStatus] [int] NULL,
+ CONSTRAINT [PK_human_details] PRIMARY KEY CLUSTERED 
+(
+	[human_loss_det_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_human_master]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_human_master](
+	[human_loss_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[developmentId] [int] NULL,
+	[village_id] [int] NULL,
+	[Person_Name] [varchar](550) NULL,
+	[Person_Address] [varchar](550) NULL,
+	[person_dead] [int] NULL,
+	[person_major_injury] [int] NULL,
+	[person_minor_injury] [int] NULL,
+	[person_missing] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[RecordStatus] [int] NULL,
+	[updated_by] [int] NULL,
+	[P_Name] [varchar](110) NULL,
+	[P_Address] [varchar](1000) NULL,
+ CONSTRAINT [PK_human_master] PRIMARY KEY CLUSTERED 
+(
+	[human_loss_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_institute_type_master]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_institute_type_master](
+	[institute_type_id] [int] IDENTITY(1,1) NOT NULL,
+	[institute_type] [varchar](200) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+ CONSTRAINT [PK_institute_type_master] PRIMARY KEY CLUSTERED 
+(
+	[institute_type_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_IPH_loss]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_IPH_loss](
+	[iph_loss_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[developmentId] [int] NULL,
+	[village_id] [int] NULL,
+	[scheme_id] [int] NULL,
+	[number_loss] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[RecordStatus] [int] NULL,
+	[division_id] [int] NULL,
+	[circle_id] [int] NULL,
+	[entryno] [int] NULL,
+	[updated_by] [int] NULL,
+ CONSTRAINT [PK_IPH_loss] PRIMARY KEY CLUSTERED 
+(
+	[iph_loss_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_IPH_scheme_master]    Script Date: 8/17/2025 11:31:35 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_IPH_scheme_master](
+	[scheme_id] [int] IDENTITY(1,1) NOT NULL,
+	[IPH_scheme] [varchar](200) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+ CONSTRAINT [PK_IPH_scheme_master] PRIMARY KEY CLUSTERED 
+(
+	[scheme_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_municipal_asset_master]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_municipal_asset_master](
+	[municipal_asset_type_id] [int] IDENTITY(1,1) NOT NULL,
+	[municipal_asset_type] [varchar](200) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+ CONSTRAINT [PK_municipal_asset_master] PRIMARY KEY CLUSTERED 
+(
+	[municipal_asset_type_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_municipal_loss]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_municipal_loss](
+	[municipal_loss_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[developmentId] [int] NULL,
+	[village_id] [int] NULL,
+	[municipal_asset_type_id] [int] NULL,
+	[structures_lost] [int] NULL,
+	[other_details] [varchar](max) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[RecordStatus] [int] NULL,
+	[Roadlength] [float] NULL,
+	[detailsremovalofdebris] [nvarchar](max) NULL,
+	[bridges] [int] NULL,
+	[Electricpoles] [int] NULL,
+	[electricwires] [float] NULL,
+	[internalwatersupply] [float] NULL,
+	[streetlights] [int] NULL,
+	[nameofbuilding] [nvarchar](max) NULL,
+	[municipalname] [nvarchar](500) NULL,
+	[ULB] [nvarchar](250) NULL,
+	[type] [int] NULL,
+	[updated_by] [int] NULL,
+ CONSTRAINT [PK_app_municipal_loss] PRIMARY KEY CLUSTERED 
+(
+	[municipal_loss_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[App_payhead]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[App_payhead](
+	[payhead_id] [int] IDENTITY(1,1) NOT NULL,
+	[Payhead] [nvarchar](200) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+ CONSTRAINT [PK_App_payhead] PRIMARY KEY CLUSTERED 
+(
+	[payhead_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_power_loss]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_power_loss](
+	[power_loss_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[division_id] [int] NULL,
+	[village_id] [int] NULL,
+	[htline_damaged_km] [float] NULL,
+	[rate_km_htline] [float] NULL,
+	[ltline_damaged_km] [float] NULL,
+	[rate_km_ltline] [float] NULL,
+	[ltpoles_damaged] [int] NULL,
+	[rate_km_pole] [float] NULL,
+	[funds_required] [decimal](18, 5) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[RecordStatus] [int] NULL,
+	[developmentId] [int] NULL,
+	[location] [nvarchar](200) NULL,
+	[circle_id] [int] NULL,
+	[totalht] [decimal](18, 5) NULL,
+	[totallt] [decimal](18, 5) NULL,
+	[totalpole] [decimal](18, 5) NULL,
+	[drttotal] [decimal](18, 5) NULL,
+	[drtdam] [float] NULL,
+	[drtloss] [decimal](18, 5) NULL,
+	[updated_by] [int] NULL,
+ CONSTRAINT [PK_power_loss] PRIMARY KEY CLUSTERED 
+(
+	[power_loss_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_pwd_loss]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_pwd_loss](
+	[pwd_loss_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[village_id] [int] NULL,
+	[length_affected_km] [float] NULL,
+	[roads_closed] [float] NULL,
+	[length_pukka_mdr] [float] NULL,
+	[length_pukka_vr] [float] NULL,
+	[length_kuccha_mdr] [float] NULL,
+	[length_kuccha_vr] [float] NULL,
+	[jcb_deployed_department] [float] NULL,
+	[jcb_deployed_hired] [float] NULL,
+	[dosers_deployed] [float] NULL,
+	[tipper_deployed] [float] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[lenght_pukka_nh] [float] NULL,
+	[developmentId] [int] NULL,
+	[RecordStatus] [int] NULL,
+	[roadopeningdate1] [datetime] NULL,
+	[roadopeningdate2] [datetime] NULL,
+	[roadopeningdate3] [datetime] NULL,
+	[roadopens1] [float] NULL,
+	[roadopens2] [float] NULL,
+	[roadopens3] [float] NULL,
+	[length_pukka_sh] [float] NULL,
+	[length_kuccha_sh] [float] NULL,
+	[pwd_bridge] [int] NULL,
+	[pwd_culvert] [int] NULL,
+	[circle_id] [int] NULL,
+	[division_id] [int] NULL,
+	[updated_by] [int] NULL,
+ CONSTRAINT [PK_pwd_loss] PRIMARY KEY CLUSTERED 
+(
+	[pwd_loss_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_structure_loss]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_structure_loss](
+	[structure_loss_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[village_id] [int] NULL,
+	[structure_type_id] [int] NULL,
+	[structure_lost] [float] NULL,
+	[loss_type] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[RecordStatus] [int] NULL,
+	[developmentId] [int] NULL,
+	[countno] [int] NULL,
+	[Victum_Name] [varchar](550) NULL,
+	[Victum_Address] [varchar](550) NULL,
+	[add_RelifAmount] [float] NULL,
+	[entry_no] [int] NULL,
+	[updated_by] [int] NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_structure_type_master]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_structure_type_master](
+	[structure_type_id] [int] IDENTITY(1,1) NOT NULL,
+	[structure_type] [varchar](200) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+ CONSTRAINT [PK_structure_type_master] PRIMARY KEY CLUSTERED 
+(
+	[structure_type_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[app_Trained_Category]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[app_Trained_Category](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[category] [nvarchar](100) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_date] [datetime] NULL,
+ CONSTRAINT [PK_app_Trained_Category] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[App_worker_cat]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[App_worker_cat](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[worker] [nvarchar](500) NULL,
+	[status] [nvarchar](50) NULL,
+ CONSTRAINT [PK_App_worker_cat] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[App_Worker_Education]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[App_Worker_Education](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[education] [nvarchar](100) NULL,
+	[status] [nvarchar](50) NULL,
+ CONSTRAINT [PK_App_Worker_Education] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[application_user_permissions]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[application_user_permissions](
+	[permission_id] [int] IDENTITY(1,1) NOT NULL,
+	[user_id] [int] NULL,
+	[department_id] [int] NULL,
+	[comp_id] [int] NULL,
+	[district_id] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[sub_district_id] [int] NULL,
+	[user_type_id] [int] NULL,
+	[perfor1] [int] NULL,
+	[perfor2] [int] NULL,
+	[circleid] [int] NULL,
+	[divisionid] [int] NULL,
+	[blockid] [int] NULL,
+ CONSTRAINT [PK_application_user_permissions] PRIMARY KEY CLUSTERED 
+(
+	[permission_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[application_users]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[application_users](
+	[user_id] [int] IDENTITY(1,1) NOT NULL,
+	[department_id] [int] NULL,
+	[uname] [nvarchar](50) NULL,
+	[pwd] [nvarchar](150) NULL,
+	[pwd_hid] [nvarchar](50) NULL,
+	[email] [nvarchar](200) NULL,
+	[address] [nvarchar](500) NULL,
+	[name] [nvarchar](500) NULL,
+	[contact_no] [nvarchar](150) NULL,
+	[mobile_number] [nvarchar](50) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[loginid] [varchar](100) NULL,
+	[designation] [nvarchar](100) NULL,
+	[is_locked] [bit] NULL,
+	[lockout_time] [datetime] NULL,
+ CONSTRAINT [PK_application_users] PRIMARY KEY CLUSTERED 
+(
+	[user_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[areamaster]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[areamaster](
+	[area_id] [int] NULL,
+	[area_type] [nvarchar](100) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Banner]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Banner](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[Title] [nvarchar](100) NULL,
+	[imagefile] [nvarchar](max) NULL,
+	[type] [nvarchar](10) NULL,
+	[URL] [nvarchar](max) NULL,
+	[description] [nvarchar](max) NULL,
+	[status] [nvarchar](10) NULL,
+	[entry_date] [date] NULL,
+	[entry_by] [int] NULL,
+	[ip_addr] [nvarchar](50) NULL,
+ CONSTRAINT [PK_Banner] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[case_det]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[case_det](
+	[CaseDetID] [int] IDENTITY(1,1) NOT NULL,
+	[caseno] [nvarchar](50) NULL,
+	[state_id] [int] NULL,
+	[district_id] [int] NULL,
+	[comun_id] [int] NULL,
+	[sch_id] [int] NULL,
+	[board] [nvarchar](255) NULL,
+	[acad_id] [int] NULL,
+	[prof_id] [int] NULL,
+	[case_status] [int] NULL,
+	[comments] [nvarchar](500) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[category]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[category](
+	[cat_id] [int] IDENTITY(1,1) NOT NULL,
+	[catname] [nvarchar](500) NULL,
+	[status] [varchar](50) NULL,
+ CONSTRAINT [PK_category] PRIMARY KEY CLUSTERED 
+(
+	[cat_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Circle]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Circle](
+	[CId] [int] IDENTITY(1,1) NOT NULL,
+	[circle] [nvarchar](200) NULL,
+	[ENTRY_DATE] [datetime] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[ipadd] [nvarchar](50) NULL,
+	[department_id] [nvarchar](500) NULL,
+	[circletype] [varchar](50) NULL,
+ CONSTRAINT [PK_cid] PRIMARY KEY CLUSTERED 
+(
+	[CId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[circle_districtMAP]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[circle_districtMAP](
+	[cdid] [int] IDENTITY(1,1) NOT NULL,
+	[circle_id] [int] NULL,
+	[dist_id] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entrydate] [datetime] NULL,
+	[ip_addr] [nvarchar](255) NULL,
+ CONSTRAINT [PK_circle_districtMAP] PRIMARY KEY CLUSTERED 
+(
+	[cdid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[circledivisionmap]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[circledivisionmap](
+	[cd_map_id] [int] IDENTITY(1,1) NOT NULL,
+	[circle_id] [int] NULL,
+	[division_id] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entrydate] [datetime] NULL,
+	[ip_addr] [nvarchar](255) NULL,
+ CONSTRAINT [PK_circledivisionmap] PRIMARY KEY CLUSTERED 
+(
+	[cd_map_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[cloudsourceapp]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[cloudsourceapp](
+	[csapp_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[cat_id] [int] NULL,
+	[sub_cat_id] [int] NULL,
+	[emtry_date] [datetime] NULL,
+	[name] [nvarchar](50) NULL,
+	[contact] [nvarchar](10) NULL,
+	[email] [nvarchar](50) NULL,
+	[remark] [nvarchar](500) NULL,
+	[photo] [nvarchar](100) NULL,
+	[status] [varchar](50) NULL,
+	[ip_addr] [nvarchar](50) NULL,
+	[otp] [varchar](10) NULL,
+	[verifystatus] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_dist_id] [int] NULL,
+	[user_id] [int] NULL,
+	[remarks_by] [int] NULL,
+	[remarks_ip] [nvarchar](50) NULL,
+	[current_status] [nvarchar](50) NULL,
+	[remarks_date] [datetime] NULL,
+	[category] [nvarchar](100) NULL,
+	[Subcategory] [nvarchar](100) NULL,
+ CONSTRAINT [PK_cloudsourceapp] PRIMARY KEY CLUSTERED 
+(
+	[csapp_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[CMS_user_Permission]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[CMS_user_Permission](
+	[PermissionID] [int] IDENTITY(1,1) NOT NULL,
+	[ModuleID] [int] NULL,
+	[UserID] [int] NULL,
+	[PTypeID] [int] NULL,
+	[Status] [nvarchar](50) NULL,
+	[EntryBy] [int] NULL,
+	[EntryDate] [datetime] NULL,
+	[IpAddress] [nvarchar](100) NULL,
+ CONSTRAINT [PK_CMS_user_Permission] PRIMARY KEY CLUSTERED 
+(
+	[PermissionID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[community]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[community](
+	[comunId] [int] IDENTITY(1,1) NOT NULL,
+	[Comun_Name] [nvarchar](255) NULL,
+	[status] [nvarchar](50) NULL,
+	[dated] [datetime] NULL,
+	[entry_by] [int] NULL,
+	[IpAddress] [nvarchar](40) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Corona]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Corona](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[Active] [int] NULL,
+	[Death] [int] NULL,
+	[Quar] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_date] [datetime] NULL,
+	[entry_by] [int] NULL,
+	[ip_addr] [nvarchar](50) NULL,
+ CONSTRAINT [PK_Corona] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[crop_master]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[crop_master](
+	[crop_id] [int] IDENTITY(1,1) NOT NULL,
+	[crop_name] [nvarchar](150) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](50) NULL,
+	[kharif_type] [int] NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[croptype]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[croptype](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[crop] [nvarchar](200) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](50) NULL,
+ CONSTRAINT [PK_croptype] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[department_master]    Script Date: 8/17/2025 11:31:36 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[department_master](
+	[department_id] [int] IDENTITY(1,1) NOT NULL,
+	[department_name] [varchar](500) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+ CONSTRAINT [PK_department_master] PRIMARY KEY CLUSTERED 
+(
+	[department_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[departmentfeedback]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[departmentfeedback](
+	[Department] [nvarchar](50) NULL,
+	[Personname] [nvarchar](50) NULL,
+	[Email] [nvarchar](100) NULL,
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[status] [nvarchar](20) NULL,
+ CONSTRAINT [PK_departmentfeedback] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Designation_Master]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Designation_Master](
+	[DesignationID] [int] IDENTITY(1,1) NOT NULL,
+	[Desigation_Name] [nvarchar](150) NULL,
+	[Status] [nvarchar](50) NULL,
+	[EntryBy] [int] NULL,
+	[EntryDate] [datetime] NULL,
+	[IpAddress] [nvarchar](100) NULL,
+ CONSTRAINT [PK_Designation_Master] PRIMARY KEY CLUSTERED 
+(
+	[DesignationID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DevelopmentType]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DevelopmentType](
+	[dev_id] [int] IDENTITY(1,1) NOT NULL,
+	[dev_name] [nvarchar](50) NULL,
+ CONSTRAINT [PK_DevelopmentType] PRIMARY KEY CLUSTERED 
+(
+	[dev_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DisasterType]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DisasterType](
+	[Disaster_type_id] [int] IDENTITY(1,1) NOT NULL,
+	[DisasterType] [nvarchar](200) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_date] [datetime] NULL,
+	[entry_by] [int] NULL,
+	[ipadd] [nvarchar](50) NULL,
+ CONSTRAINT [PK_DisasterType] PRIMARY KEY CLUSTERED 
+(
+	[Disaster_type_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[District]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[District](
+	[DisttId] [int] IDENTITY(1,1) NOT NULL,
+	[statecode] [int] NULL,
+	[DisttCode] [int] NULL,
+	[DisttName] [nvarchar](100) NULL,
+	[DistNameHin] [nvarchar](255) NULL,
+ CONSTRAINT [PK_District] PRIMARY KEY CLUSTERED 
+(
+	[DisttId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[districtblockmap]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[districtblockmap](
+	[db_map_id] [int] IDENTITY(1,1) NOT NULL,
+	[district_id] [int] NULL,
+	[block_id] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entrydate] [datetime] NULL,
+	[ip_addr] [nvarchar](255) NULL,
+ CONSTRAINT [PK_districtblockmap] PRIMARY KEY CLUSTERED 
+(
+	[db_map_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DistrictRainfall]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DistrictRainfall](
+	[rainfall_id] [int] IDENTITY(1,1) NOT NULL,
+	[Disaster_id] [int] NULL,
+	[district_id] [int] NULL,
+	[nrainfall] [float] NULL,
+	[Arainfall] [float] NULL,
+	[Snownormal] [float] NULL,
+	[Snowactual] [float] NULL,
+	[entry_by] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](50) NULL,
+	[typeid] [int] NULL,
+ CONSTRAINT [PK_DistrictRainfall] PRIMARY KEY CLUSTERED 
+(
+	[rainfall_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[dname]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[dname](
+	[engname] [nvarchar](255) NULL,
+	[hinname] [nvarchar](255) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Failed_Login_Attempts]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Failed_Login_Attempts](
+	[AttemptsID] [int] IDENTITY(1,1) NOT NULL,
+	[Dated] [datetime] NOT NULL,
+	[Login] [nvarchar](150) NOT NULL,
+	[IpAddress] [nvarchar](100) NOT NULL,
+	[user_type_id] [int] NOT NULL,
+ CONSTRAINT [PK_Failed_Login_Attempts] PRIMARY KEY CLUSTERED 
+(
+	[AttemptsID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[fund_uti]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[fund_uti](
+	[uti_id] [int] IDENTITY(1,1) NOT NULL,
+	[distid] [int] NULL,
+	[dept_id] [int] NULL,
+	[dated] [date] NULL,
+	[amtused] [float] NULL,
+	[payhead] [nvarchar](500) NULL,
+	[otherdetail] [nvarchar](500) NULL,
+	[beneficiaryName] [nvarchar](200) NULL,
+	[guardianName] [nvarchar](500) NULL,
+	[guradianType] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](50) NULL,
+	[RecordStatus] [int] NULL,
+	[pesonname] [nvarchar](100) NULL,
+ CONSTRAINT [PK_fund_uti] PRIMARY KEY CLUSTERED 
+(
+	[uti_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Fundallotment]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Fundallotment](
+	[allot_id] [int] IDENTITY(1,1) NOT NULL,
+	[distid] [int] NULL,
+	[dept_id] [int] NULL,
+	[dated] [date] NULL,
+	[amtpaid] [float] NULL,
+	[payhead] [nvarchar](500) NULL,
+	[paymentdetail] [nvarchar](500) NULL,
+	[otherdetail] [nvarchar](500) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](50) NULL,
+	[RecordStatus] [int] NULL,
+	[sub_district] [int] NULL,
+ CONSTRAINT [PK_Fundallotment] PRIMARY KEY CLUSTERED 
+(
+	[allot_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[helpdesk]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[helpdesk](
+	[qid] [int] IDENTITY(1,1) NOT NULL,
+	[name] [nvarchar](255) NULL,
+	[address] [ntext] NULL,
+	[phone] [nvarchar](50) NULL,
+	[email] [nvarchar](255) NULL,
+	[query] [ntext] NULL,
+	[pdate] [nvarchar](50) NULL,
+	[status] [nvarchar](50) NULL,
+	[replydate] [datetime] NULL,
+	[asfaq] [nvarchar](255) NULL,
+	[lid] [int] NULL,
+	[onhomepage] [int] NOT NULL,
+	[ip_addr] [varchar](250) NULL,
+	[replied] [int] NULL,
+	[replyexpt] [int] NULL,
+	[reply_expected_in_days] [int] NULL,
+	[replydetail] [ntext] NULL,
+	[category] [nvarchar](50) NULL,
+ CONSTRAINT [PK_helpdesk] PRIMARY KEY CLUSTERED 
+(
+	[qid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[iph_loss_detail]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[iph_loss_detail](
+	[iph_det_id] [int] IDENTITY(1,1) NOT NULL,
+	[iph_loss_is] [int] NULL,
+	[scheme_id] [int] NULL,
+	[totalscheme] [float] NULL,
+	[amount] [decimal](18, 2) NULL,
+	[details] [nvarchar](200) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_add] [nvarchar](50) NULL,
+	[status] [nvarchar](50) NULL,
+	[updated_by] [int] NULL,
+ CONSTRAINT [PK_tph_loss_detail] PRIMARY KEY CLUSTERED 
+(
+	[iph_det_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[is_pwdhistory]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[is_pwdhistory](
+	[p_id] [int] IDENTITY(1,1) NOT NULL,
+	[User_id] [int] NULL,
+	[password] [nvarchar](150) NULL,
+	[entryDate] [datetime] NULL,
+	[usertype_id] [int] NULL,
+	[changed_on] [datetime] NULL,
+	[entryby] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[ipaddress] [nvarchar](50) NULL,
+ CONSTRAINT [PK_is_pwdhistory] PRIMARY KEY CLUSTERED 
+(
+	[p_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Kharif_crop]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Kharif_crop](
+	[kharif_id] [int] IDENTITY(1,1) NOT NULL,
+	[kharif_name] [nvarchar](150) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](50) NULL,
+	[corp_type] [int] NULL,
+	[status] [nvarchar](50) NULL,
+ CONSTRAINT [PK_Kharif_crop] PRIMARY KEY CLUSTERED 
+(
+	[kharif_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Language_Master]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Language_Master](
+	[LangID] [int] IDENTITY(1,1) NOT NULL,
+	[LanguageName] [nvarchar](150) NULL,
+	[Status] [nvarchar](50) NULL,
+ CONSTRAINT [PK_Language_Master] PRIMARY KEY CLUSTERED 
+(
+	[LangID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[link_continuous]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[link_continuous](
+	[lc_id] [int] IDENTITY(1,1) NOT NULL,
+	[link_temp_id] [int] NULL,
+	[lid] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[position] [int] NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](255) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[link_continuous_temp]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[link_continuous_temp](
+	[lct_id] [int] IDENTITY(1,1) NOT NULL,
+	[lid_main] [int] NULL,
+	[lid] [int] NULL,
+	[status] [varchar](50) NULL,
+	[pos] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[entry_by] [int] NULL,
+	[ip_addr] [varchar](50) NULL,
+	[entry_type] [varchar](50) NULL,
+	[approve_id] [int] NULL,
+	[approve_on] [datetime] NULL,
+	[reject_by] [int] NULL,
+	[reject_date] [datetime] NULL,
+	[current_status] [varchar](50) NULL,
+	[publish_date] [datetime] NULL,
+	[publsih_by] [int] NULL,
+	[details] [ntext] NULL,
+	[lang] [int] NULL,
+ CONSTRAINT [PK_link_continuous_temp] PRIMARY KEY CLUSTERED 
+(
+	[lct_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[link_icon]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[link_icon](
+	[li_id] [int] IDENTITY(1,1) NOT NULL,
+	[lid] [int] NULL,
+	[file_data] [image] NULL,
+	[file_type] [nvarchar](1000) NULL,
+	[link_type] [int] NULL,
+	[lang] [int] NULL,
+	[link_temp_id] [int] NULL,
+	[file_name] [nvarchar](250) NULL,
+	[showtext] [int] NULL,
+ CONSTRAINT [PK_link_icon] PRIMARY KEY CLUSTERED 
+(
+	[li_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[link_images]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[link_images](
+	[lm_id] [int] IDENTITY(1,1) NOT NULL,
+	[link_temp_id] [int] NULL,
+	[file_size] [int] NULL,
+	[file_type] [nvarchar](1000) NULL,
+	[file_data] [image] NULL,
+	[description] [ntext] NULL,
+	[thumbnail_url] [nvarchar](1000) NULL,
+	[file_name] [nvarchar](250) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[lm_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[link_place]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[link_place](
+	[lp_id] [int] IDENTITY(1,1) NOT NULL,
+	[linkplace] [nvarchar](50) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[link_temp]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[link_temp](
+	[link_temp_id] [int] IDENTITY(1,1) NOT NULL,
+	[type_id] [int] NULL,
+	[link_name] [nvarchar](500) NULL,
+	[details] [ntext] NULL,
+	[file_name] [nvarchar](500) NULL,
+	[url] [ntext] NULL,
+	[keywords] [ntext] NULL,
+	[meta_tag] [ntext] NULL,
+	[source] [ntext] NULL,
+	[lang] [int] NULL,
+	[title] [nvarchar](1000) NULL,
+	[expiry_date] [datetime] NULL,
+	[publish_date] [datetime] NULL,
+	[creator_id] [int] NULL,
+	[creation_date] [datetime] NULL,
+	[lid] [int] NULL,
+	[approver_id] [int] NULL,
+	[approved_on] [datetime] NULL,
+	[entry_type] [nvarchar](255) NULL,
+	[rejected_by] [nvarchar](255) NULL,
+	[reject_date] [datetime] NULL,
+	[current_status] [nvarchar](255) NULL,
+	[status] [nvarchar](50) NULL,
+	[continous_content] [int] NULL,
+	[main_link_temp_id] [int] NULL,
+	[publisher_id] [int] NULL,
+	[publisher_entry_date] [datetime] NULL,
+	[LC_ID] [int] NULL,
+	[LinkType] [int] NULL,
+	[Reject_reason] [nvarchar](250) NULL,
+	[desc_brief] [nvarchar](500) NULL,
+	[isLinkIcon] [int] NULL,
+	[alias_name] [nvarchar](500) NULL,
+	[englid] [int] NULL,
+ CONSTRAINT [PK_link_temp] PRIMARY KEY CLUSTERED 
+(
+	[link_temp_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[links_final]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[links_final](
+	[lid] [int] IDENTITY(1,1) NOT NULL,
+	[link_temp_id] [int] NULL,
+	[publish_date] [datetime] NULL,
+	[expiry_date] [datetime] NULL,
+	[show_content] [nvarchar](250) NULL,
+	[feedback_required] [nvarchar](255) NULL,
+	[next_review_date] [datetime] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+ CONSTRAINT [PK_links_final] PRIMARY KEY CLUSTERED 
+(
+	[lid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[links_history]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[links_history](
+	[his_id] [int] IDENTITY(1,1) NOT NULL,
+	[link_temp_id] [int] NULL,
+	[lid] [int] NULL,
+	[change_done] [int] NULL,
+	[change_date] [datetime] NULL,
+	[change_by] [int] NULL,
+ CONSTRAINT [PK_links_history] PRIMARY KEY CLUSTERED 
+(
+	[his_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[links_structure]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[links_structure](
+	[ls_id] [int] IDENTITY(1,1) NOT NULL,
+	[link_level1] [int] NULL,
+	[lid] [int] NULL,
+	[parent_ls_id] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](255) NULL,
+	[position] [int] NULL,
+	[link_place] [nvarchar](255) NULL,
+	[count_sublink] [int] NULL,
+	[display_linktype] [int] NULL,
+	[set_display_linktype] [int] NULL,
+	[maincontent] [int] NULL,
+	[IsLinkNameDisp] [bit] NULL,
+	[Isscroll] [int] NULL,
+	[NoofChars] [int] NULL,
+	[IsShowIcon] [bit] NULL,
+	[mid_panel_width] [int] NULL,
+	[top_link] [int] NULL,
+	[top_link_pos] [int] NULL,
+	[linkclickable] [int] NULL,
+	[hindilink] [int] NULL,
+	[englink] [int] NULL,
+ CONSTRAINT [PK_links_structure] PRIMARY KEY CLUSTERED 
+(
+	[ls_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[LoginLogOffUserDetails]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[LoginLogOffUserDetails](
+	[LId] [int] IDENTITY(1,1) NOT NULL,
+	[Login] [varchar](150) NULL,
+	[IpAddress] [varchar](150) NULL,
+	[DateOfLogin] [datetime] NULL,
+	[DateOfLogOff] [datetime] NULL,
+ CONSTRAINT [PK_LoginLogOffUserDetails] PRIMARY KEY CLUSTERED 
+(
+	[LId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[mainlink]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[mainlink](
+	[linkid] [int] IDENTITY(1,1) NOT NULL,
+	[lid] [int] NULL,
+	[pos] [int] NULL,
+	[status] [nvarchar](50) NULL,
+ CONSTRAINT [PK_mainlink] PRIMARY KEY CLUSTERED 
+(
+	[linkid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[map_component_usertype]    Script Date: 8/17/2025 11:31:37 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[map_component_usertype](
+	[mpu] [int] IDENTITY(1,1) NOT NULL,
+	[ut_id] [int] NULL,
+	[comp_id] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entryby] [int] NULL,
+	[entrydate] [datetime] NULL,
+	[ip_addr] [nvarchar](255) NULL,
+ CONSTRAINT [PK_map_component_usertype] PRIMARY KEY CLUSTERED 
+(
+	[mpu] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Map_Gallery_Links]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Map_Gallery_Links](
+	[MGL_ID] [int] IDENTITY(1,1) NOT NULL,
+	[Link_id] [int] NULL,
+	[Photo_category_IDS] [nvarchar](1000) NULL,
+	[status] [nvarchar](100) NULL,
+	[Created_by] [int] NULL,
+	[Created_on] [datetime] NULL,
+	[IpAddr] [nvarchar](200) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[map_links_photocat]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[map_links_photocat](
+	[map_link_pgcat_id] [int] IDENTITY(1,1) NOT NULL,
+	[lid] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](255) NULL,
+	[position] [int] NULL,
+	[pg_cat_id] [int] NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[municipal_loss]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[municipal_loss](
+	[municipal_loss_id] [int] NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[village_id] [int] NULL,
+	[municipal_asset_type_id] [int] NULL,
+	[structures_lost] [int] NULL,
+	[other_details] [varchar](max) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[MyUploadTable]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[MyUploadTable](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[filename] [varchar](200) NULL,
+	[filesize] [varchar](100) NULL,
+	[contenttype] [varchar](1000) NULL,
+	[filedata] [varbinary](max) NULL,
+	[temp_id] [int] NULL,
+	[temp_type] [nvarchar](50) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[package]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[package](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[name] [nvarchar](500) NULL,
+	[filename] [nvarchar](500) NULL,
+	[days] [int] NULL,
+	[night] [int] NULL,
+	[price] [decimal](18, 0) NULL,
+	[status] [nvarchar](50) NULL,
+	[ip_addr] [nvarchar](50) NULL,
+	[details] [nvarchar](max) NULL,
+ CONSTRAINT [PK_package] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[panchayatraj]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[panchayatraj](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[panchayat] [nvarchar](200) NULL,
+	[length] [float] NULL,
+	[details] [nvarchar](max) NULL,
+	[length2] [float] NULL,
+	[Nostreet] [int] NULL,
+	[BuildingName] [nvarchar](max) NULL,
+	[status] [nvarchar](50) NULL,
+	[Entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](50) NULL,
+	[developmentid] [int] NULL,
+	[department_id] [int] NULL,
+	[recordstatus] [int] NULL,
+ CONSTRAINT [PK_panchayatraj] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[permissions]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[permissions](
+	[perm_id] [int] IDENTITY(1,1) NOT NULL,
+	[user_id] [int] NULL,
+	[comp_id] [int] NULL,
+	[mod_id] [int] NULL,
+	[add_perm] [int] NULL,
+	[mod_perm] [int] NULL,
+	[del_perm] [int] NULL,
+	[notappl] [int] NULL,
+ CONSTRAINT [PK_permissions] PRIMARY KEY CLUSTERED 
+(
+	[perm_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[photo_category]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[photo_category](
+	[photo_cat_id] [int] IDENTITY(1,1) NOT NULL,
+	[cat_name] [nvarchar](255) NULL,
+	[status] [nvarchar](50) NULL,
+	[has_photo] [int] NULL,
+	[created_on] [datetime] NULL,
+	[created_by] [int] NULL,
+	[approved_by] [int] NULL,
+	[approved_date] [datetime] NULL,
+	[photo_file_id] [int] NULL,
+	[photo_cat_temp_id] [int] NULL,
+	[OnHomePage] [bit] NULL,
+	[position] [int] NULL,
+ CONSTRAINT [PK_photo_category] PRIMARY KEY CLUSTERED 
+(
+	[photo_cat_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[photo_category_temp]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[photo_category_temp](
+	[photo_cat_temp_id] [int] IDENTITY(1,1) NOT NULL,
+	[cat_name] [nvarchar](255) NULL,
+	[status] [nvarchar](50) NULL,
+	[has_photo] [int] NULL,
+	[created_on] [datetime] NULL,
+	[created_by] [int] NULL,
+	[photo_file_id] [int] NULL,
+	[main_photo_cat_id] [int] NULL,
+	[rejected_by] [int] NULL,
+	[rejected_date] [datetime] NULL,
+	[OnHomePage] [bit] NULL,
+	[current_status] [nvarchar](50) NULL,
+	[Reject_reason] [nvarchar](250) NULL,
+	[langid] [int] NULL,
+ CONSTRAINT [PK_photo_category_temp] PRIMARY KEY CLUSTERED 
+(
+	[photo_cat_temp_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[photo_files]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[photo_files](
+	[photo_file_id] [int] IDENTITY(1,1) NOT NULL,
+	[file_data] [image] NULL,
+	[file_type] [nvarchar](255) NULL,
+	[file_data_thumb] [image] NULL,
+	[file_name] [nvarchar](250) NULL,
+	[thumb_name] [nvarchar](250) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[photo_file_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[photo_temp]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[photo_temp](
+	[pg_temp_id] [int] IDENTITY(1,1) NOT NULL,
+	[photo_cat_id] [int] NULL,
+	[photo_name] [nvarchar](255) NULL,
+	[Photo_description] [nvarchar](1000) NULL,
+	[photo_file_id] [int] NULL,
+	[url_video] [nvarchar](1000) NULL,
+	[image_link] [nvarchar](1000) NULL,
+	[transcript] [nvarchar](255) NULL,
+	[created_by] [int] NULL,
+	[created_date] [datetime] NULL,
+	[approved_date] [datetime] NULL,
+	[approved_by] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[type_of_media] [nvarchar](100) NULL,
+	[main_pg_id] [int] NULL,
+	[rejected_by] [int] NULL,
+	[rejected_date] [datetime] NULL,
+	[OnHomePage] [int] NULL,
+	[current_status] [nvarchar](50) NULL,
+	[Reject_reason] [nvarchar](250) NULL,
+	[langid] [int] NULL,
+ CONSTRAINT [PK_photo_temp] PRIMARY KEY CLUSTERED 
+(
+	[pg_temp_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[photogallary_final]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[photogallary_final](
+	[pg_id] [int] IDENTITY(1,1) NOT NULL,
+	[pg_temp_id] [int] NULL,
+	[publish_date] [datetime] NULL,
+	[publish_by] [int] NULL,
+	[expiry_date] [datetime] NULL,
+	[position] [int] NULL,
+	[onhomepage] [int] NULL,
+ CONSTRAINT [PK_photogallary_final] PRIMARY KEY CLUSTERED 
+(
+	[pg_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[power_circle]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[power_circle](
+	[circle_id] [int] IDENTITY(1,1) NOT NULL,
+	[circle_name] [nvarchar](500) NULL,
+	[status] [nvarchar](50) NULL,
+ CONSTRAINT [PK_power_circle] PRIMARY KEY CLUSTERED 
+(
+	[circle_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[professional]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[professional](
+	[profID] [int] IDENTITY(1,1) NOT NULL,
+	[profession] [nvarchar](255) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[dated] [datetime] NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Qualification_master]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Qualification_master](
+	[qual_id] [int] IDENTITY(1,1) NOT NULL,
+	[qualification] [nvarchar](50) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_date] [datetime] NULL,
+	[entry_by] [int] NULL,
+ CONSTRAINT [PK_Qualification_master] PRIMARY KEY CLUSTERED 
+(
+	[qual_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Records]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Records](
+	[r_id] [int] IDENTITY(1,1) NOT NULL,
+	[stateid] [int] NULL,
+	[caseno] [nvarchar](50) NULL,
+	[communityid] [int] NULL,
+	[districtid] [int] NULL,
+	[schoolid] [int] NULL,
+	[board] [nvarchar](max) NULL,
+	[acadamicid] [int] NULL,
+	[professionalid] [nvarchar](200) NULL,
+	[status] [nvarchar](50) NULL,
+	[comments] [nvarchar](max) NULL,
+	[filename] [nvarchar](max) NULL,
+ CONSTRAINT [PK_Records] PRIMARY KEY CLUSTERED 
+(
+	[r_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[ruraldevelopment]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[ruraldevelopment](
+	[rd_id] [int] IDENTITY(1,1) NOT NULL,
+	[dvrlength] [float] NULL,
+	[dwllength] [float] NULL,
+	[dslno] [float] NULL,
+	[dpcoman_name] [nvarchar](50) NULL,
+	[rdrdiscrip] [nvarchar](50) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[Ip_Addr] [nvarchar](50) NULL,
+	[disaster_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[village_id] [int] NULL,
+	[department_id] [int] NULL,
+	[developmentId] [int] NULL,
+	[RecordStatus] [int] NULL,
+	[block_id] [int] NULL,
+	[updated_by] [int] NULL,
+	[panchayat_id] [int] NULL,
+ CONSTRAINT [PK_ruraldevelopment] PRIMARY KEY CLUSTERED 
+(
+	[rd_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[SiteUsers]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[SiteUsers](
+	[UserID] [int] IDENTITY(1,1) NOT NULL,
+	[UserName] [nvarchar](150) NULL,
+	[DesignationID] [int] NULL,
+	[Email] [nvarchar](150) NULL,
+	[User_Type_ID] [int] NULL,
+	[Name] [nvarchar](250) NULL,
+	[Password] [nvarchar](150) NULL,
+	[Address] [ntext] NULL,
+	[ContactNumber] [nvarchar](150) NULL,
+	[OrgnisationName] [nvarchar](200) NULL,
+	[SessionID] [nvarchar](150) NULL,
+	[EntryBy] [int] NULL,
+	[EntryDate] [datetime] NULL,
+	[IpAddress] [nvarchar](100) NULL,
+	[Status] [nvarchar](50) NULL,
+	[Countryid] [decimal](19, 0) NULL,
+ CONSTRAINT [PK_SiteUsers] PRIMARY KEY CLUSTERED 
+(
+	[UserID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[sqlmapoutput]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[sqlmapoutput](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[data] [nvarchar](4000) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[st_application_components]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[st_application_components](
+	[comp_id] [int] IDENTITY(1,1) NOT NULL,
+	[comp_name] [varchar](200) NULL,
+	[comp_file] [varchar](200) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[ip_add] [nvarchar](50) NULL,
+	[module_id] [int] NULL,
+ CONSTRAINT [PK_st_application_components] PRIMARY KEY CLUSTERED 
+(
+	[comp_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[st_block]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[st_block](
+	[block_id] [int] IDENTITY(1,1) NOT NULL,
+	[District_id] [int] NULL,
+	[Dept_id] [nvarchar](50) NULL,
+	[block_name] [nvarchar](200) NULL,
+	[block_name_hind] [nvarchar](500) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_date] [datetime] NULL,
+ CONSTRAINT [PK_st_block] PRIMARY KEY CLUSTERED 
+(
+	[block_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[st_cattle_category]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[st_cattle_category](
+	[cattle_categoty_id] [int] IDENTITY(1,1) NOT NULL,
+	[cattle_category] [varchar](100) NULL,
+ CONSTRAINT [PK_st_cattle_category] PRIMARY KEY CLUSTERED 
+(
+	[cattle_categoty_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[st_components]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[st_components](
+	[comp_id] [int] IDENTITY(1,1) NOT NULL,
+	[mod_id] [int] NULL,
+	[comp_name] [nvarchar](255) NULL,
+	[status] [nvarchar](50) NULL,
+	[add_del] [nvarchar](50) NULL,
+	[comp_file] [nvarchar](255) NULL,
+	[comp_type] [nvarchar](200) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](250) NULL,
+	[flag] [int] NULL,
+	[pos] [int] NULL,
+ CONSTRAINT [PK_st_components] PRIMARY KEY CLUSTERED 
+(
+	[comp_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[st_damage_master]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[st_damage_master](
+	[damage_id] [int] IDENTITY(1,1) NOT NULL,
+	[damage_name] [nvarchar](50) NULL,
+	[status] [nvarchar](50) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[damage_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[st_disaster_type]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[st_disaster_type](
+	[disaster_type_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_type] [varchar](2000) NULL,
+ CONSTRAINT [PK_st_disaster_type] PRIMARY KEY CLUSTERED 
+(
+	[disaster_type_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[st_districts]    Script Date: 8/17/2025 11:31:38 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[st_districts](
+	[DistrictId] [int] IDENTITY(1,1) NOT NULL,
+	[DistrictCode] [int] NULL,
+	[District_version] [int] NULL,
+	[DistrictName] [nvarchar](255) NULL,
+	[DistrictName_hindi] [nvarchar](255) NULL,
+	[StateCode] [int] NULL,
+	[Census_2001_Code] [int] NULL,
+	[Census_2011_Code] [int] NULL,
+	[status] [varchar](50) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[st_division]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[st_division](
+	[division_id] [int] IDENTITY(1,1) NOT NULL,
+	[division_name] [nvarchar](200) NULL,
+	[division_name_hind] [nvarchar](200) NULL,
+	[Status] [nvarchar](50) NULL,
+	[circle_id] [int] NULL,
+	[dep_id] [nvarchar](200) NULL,
+ CONSTRAINT [PK_st_division] PRIMARY KEY CLUSTERED 
+(
+	[division_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[st_module]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[st_module](
+	[mod_id] [int] IDENTITY(1,1) NOT NULL,
+	[module_name] [nvarchar](100) NULL,
+	[status] [varchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[pos] [int] NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[st_panchayat]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[st_panchayat](
+	[panchayat_id] [int] IDENTITY(1,1) NOT NULL,
+	[district_id] [int] NULL,
+	[block_id] [int] NULL,
+	[panchayat_name] [nvarchar](200) NULL,
+	[status] [nvarchar](50) NULL,
+ CONSTRAINT [PK_st_panchayat] PRIMARY KEY CLUSTERED 
+(
+	[panchayat_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[st_panchayat_new]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[st_panchayat_new](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[panchayat_id] [int] NOT NULL,
+	[district_id] [int] NULL,
+	[block_id] [int] NULL,
+	[panchayat_name] [nvarchar](200) NULL,
+	[status] [nvarchar](50) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[st_panchayat1]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[st_panchayat1](
+	[panchayat_id] [int] IDENTITY(1,1) NOT NULL,
+	[district_id] [int] NULL,
+	[block_id] [int] NULL,
+	[panchayat_name] [nvarchar](200) NULL,
+	[status] [nvarchar](50) NULL,
+ CONSTRAINT [PK_st_panchayat1] PRIMARY KEY CLUSTERED 
+(
+	[panchayat_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[St_PermissionType]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[St_PermissionType](
+	[PTypeID] [int] IDENTITY(1,1) NOT NULL,
+	[PType] [nvarchar](150) NULL,
+	[status] [nvarchar](50) NULL,
+ CONSTRAINT [PK_St_PermissionType] PRIMARY KEY CLUSTERED 
+(
+	[PTypeID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[st_site_config]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[st_site_config](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[sequre_url] [nvarchar](2000) NULL,
+	[link_level] [int] NULL,
+	[file_size] [int] NULL,
+	[page_title] [nvarchar](2000) NULL,
+	[default_bullet] [int] NULL,
+	[feedback_email] [nvarchar](255) NULL,
+	[show_counter] [nvarchar](255) NULL,
+	[counter_value] [int] NULL,
+	[admin_email_address] [nvarchar](255) NULL,
+ CONSTRAINT [PK_st_site_config] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[st_states]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[st_states](
+	[StateCode] [int] NOT NULL,
+	[StateName] [nvarchar](255) NULL,
+	[StateName_hindi] [nvarchar](500) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[st_sub_districts]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[st_sub_districts](
+	[sub_district_id] [int] IDENTITY(1,1) NOT NULL,
+	[sub_districtCode] [int] NULL,
+	[sub_district_version] [int] NULL,
+	[sub_district_name] [nvarchar](1000) NULL,
+	[sub_district_name_hindi] [nvarchar](1000) NULL,
+	[districtid] [int] NULL,
+	[Census_2001_Code] [int] NULL,
+	[Census_2011_Code] [int] NULL,
+	[status] [varchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [varchar](50) NULL,
+ CONSTRAINT [PK_st_sub_districts] PRIMARY KEY CLUSTERED 
+(
+	[sub_district_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[st_ulb]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[st_ulb](
+	[ulb_id] [int] IDENTITY(1,1) NOT NULL,
+	[ulb_name] [nvarchar](50) NULL,
+	[dist_id] [int] NULL,
+	[status] [nvarchar](20) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[St_unit]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[St_unit](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[Unit] [nvarchar](50) NULL,
+	[Status] [nvarchar](50) NULL,
+ CONSTRAINT [PK_St_unit] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[st_villages]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[st_villages](
+	[village_id] [int] IDENTITY(1,1) NOT NULL,
+	[VillageCode] [float] NULL,
+	[Village_version] [float] NULL,
+	[village_name] [nvarchar](255) NULL,
+	[village_name_hindi] [nvarchar](255) NULL,
+	[sub_district_id] [float] NULL,
+	[Census_2001_Code] [nvarchar](255) NULL,
+	[Census_2011_Code] [float] NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[status] [varchar](50) NULL,
+	[ip_addr] [varchar](50) NULL,
+ CONSTRAINT [PK_st_villages] PRIMARY KEY CLUSTERED 
+(
+	[village_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[State]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[State](
+	[StateId] [int] NOT NULL,
+	[StateName] [varchar](50) NULL,
+	[StateNameHin] [nvarchar](255) NULL,
+	[Status] [varchar](50) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[statusmaster]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[statusmaster](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[status] [nvarchar](30) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[structure_loss]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[structure_loss](
+	[structure_loss_id] [int] NOT NULL,
+	[disaster_id] [int] NULL,
+	[department_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[village_id] [int] NULL,
+	[structure_type_id] [int] NULL,
+	[structure_lost] [int] NULL,
+	[loss_type] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[subcate]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[subcate](
+	[sub_cat_id] [int] IDENTITY(1,1) NOT NULL,
+	[cat_id] [int] NULL,
+	[sub_catname] [nvarchar](500) NULL,
+	[status] [varchar](50) NULL,
+ CONSTRAINT [PK_subcate] PRIMARY KEY CLUSTERED 
+(
+	[sub_cat_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Tbl_YesNo]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Tbl_YesNo](
+	[Tid] [int] NULL,
+	[Type] [varchar](50) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Tehsils]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Tehsils](
+	[tehsil_id] [int] IDENTITY(1,1) NOT NULL,
+	[state_code] [int] NULL,
+	[district_code] [int] NULL,
+	[tehsil_code] [int] NULL,
+	[tehsil_name] [nvarchar](255) NOT NULL,
+	[tehsil_name_hin] [nvarchar](255) NULL,
+	[status] [nvarchar](50) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[tehsil_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[tender_cat]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[tender_cat](
+	[tcat_id] [int] IDENTITY(1,1) NOT NULL,
+	[tcat_name] [nvarchar](1000) NULL,
+	[status] [nvarchar](50) NULL,
+	[creation_date] [datetime] NULL,
+	[created_by] [int] NULL,
+	[approved_by] [int] NULL,
+	[approved_date] [datetime] NULL,
+	[position] [int] NULL,
+	[tcat_temp_id] [int] NULL,
+ CONSTRAINT [PK_tender_cat] PRIMARY KEY CLUSTERED 
+(
+	[tcat_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[tender_cat_temp]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[tender_cat_temp](
+	[tcat_temp_id] [int] IDENTITY(1,1) NOT NULL,
+	[tcat_name] [nvarchar](250) NULL,
+	[status] [nvarchar](50) NULL,
+	[creation_date] [datetime] NULL,
+	[created_by] [int] NULL,
+	[rejected_by] [int] NULL,
+	[reject_date] [datetime] NULL,
+	[position] [int] NULL,
+	[main_tcat_id] [int] NULL,
+	[lang] [int] NULL,
+	[current_status] [nvarchar](50) NULL,
+	[Reject_reason] [nvarchar](250) NULL,
+ CONSTRAINT [PK_tender_cat_temp] PRIMARY KEY CLUSTERED 
+(
+	[tcat_temp_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[tender_corri]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[tender_corri](
+	[tid] [int] IDENTITY(1,1) NOT NULL,
+	[tender_temp_id] [int] NULL,
+	[publish_date] [datetime] NULL,
+	[publish_by] [int] NULL,
+	[expiry_date] [datetime] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[tid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[tender_files]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[tender_files](
+	[tf_id] [int] IDENTITY(1,1) NOT NULL,
+	[file_type] [nvarchar](1000) NULL,
+	[file_size] [int] NULL,
+	[tender_temp_id] [int] NULL,
+	[file_data] [varbinary](max) NULL,
+	[file_name] [nvarchar](250) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[tf_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[tender_final]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[tender_final](
+	[tid] [int] IDENTITY(1,1) NOT NULL,
+	[tender_temp_id] [int] NULL,
+	[publish_date] [datetime] NULL,
+	[publish_by] [int] NULL,
+	[expiry_date] [datetime] NULL,
+ CONSTRAINT [PK_tender_final] PRIMARY KEY CLUSTERED 
+(
+	[tid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[tender_temp]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[tender_temp](
+	[tender_temp_id] [int] IDENTITY(1,1) NOT NULL,
+	[title] [nvarchar](1000) NULL,
+	[heading] [nvarchar](255) NULL,
+	[tender_open_date] [datetime] NULL,
+	[tender_close_date] [datetime] NULL,
+	[location_of_prebid] [nvarchar](255) NULL,
+	[keyword] [ntext] NULL,
+	[source] [ntext] NULL,
+	[meta_tag] [ntext] NULL,
+	[url] [ntext] NULL,
+	[status] [nvarchar](50) NULL,
+	[corri] [int] NULL,
+	[main_tid] [int] NULL,
+	[creation_date] [datetime] NULL,
+	[created_by] [int] NULL,
+	[approved_by] [int] NULL,
+	[approve_date] [datetime] NULL,
+	[reject_date] [datetime] NULL,
+	[rejected_by] [int] NULL,
+	[full_detail] [ntext] NULL,
+	[contact_person] [nvarchar](255) NULL,
+	[tcat_id] [int] NULL,
+	[pre_bid_meeting_date] [datetime] NULL,
+	[lang] [int] NULL,
+	[tf_id] [int] NULL,
+	[current_status] [nvarchar](50) NULL,
+	[t_id] [int] NULL,
+	[Reject_reason] [nvarchar](250) NULL,
+	[desc_brief] [nvarchar](500) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[tender_temp_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Theme_Info]    Script Date: 8/17/2025 11:31:39 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Theme_Info](
+	[Theme_ID] [int] IDENTITY(1,1) NOT NULL,
+	[Header_Name] [nvarchar](250) NULL,
+	[Header_Logo] [nvarchar](150) NULL,
+	[Sub_Header] [nvarchar](250) NULL,
+	[subheader_url] [nvarchar](150) NULL,
+	[subheader_row2] [nvarchar](250) NULL,
+	[subheader_row2_url] [nvarchar](150) NULL,
+	[LangID] [int] NULL,
+	[Used] [bit] NULL,
+	[Status] [nvarchar](50) NULL,
+	[Entry_UserId] [int] NULL,
+	[Entry_User_Date] [datetime] NULL,
+	[IpAddres] [nvarchar](100) NULL,
+	[theme_name] [nvarchar](50) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Trained_Mans]    Script Date: 8/17/2025 11:31:40 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Trained_Mans](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [nvarchar](200) NULL,
+	[DOB] [date] NULL,
+	[Gender] [nvarchar](50) NULL,
+	[gram_id] [int] NULL,
+	[dist_id] [int] NULL,
+	[Category] [nvarchar](100) NULL,
+	[Address] [nvarchar](500) NULL,
+	[Block_id] [nvarchar](500) NULL,
+	[mobile] [nvarchar](10) NULL,
+	[place] [nvarchar](500) NULL,
+	[duroftraining] [int] NULL,
+	[yearoftraining] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [nvarchar](50) NULL,
+	[ip_addr] [nvarchar](50) NULL,
+	[filename] [nvarchar](500) NULL,
+	[entrydate] [datetime] NULL,
+	[alternatemob] [nvarchar](20) NULL,
+	[agency] [nvarchar](100) NULL,
+	[education] [int] NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Trained_personals]    Script Date: 8/17/2025 11:31:40 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Trained_personals](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [nvarchar](200) NULL,
+	[fathersName] [nvarchar](250) NULL,
+	[DOB] [date] NULL,
+	[Gender] [nvarchar](50) NULL,
+	[Category] [nvarchar](100) NULL,
+	[Address] [nvarchar](500) NULL,
+	[Block] [nvarchar](500) NULL,
+	[mobile] [nvarchar](10) NULL,
+	[designation] [nvarchar](50) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [nvarchar](50) NULL,
+	[ip_add] [nvarchar](50) NULL,
+	[tred_per_list_id] [int] NULL,
+	[entrydate] [datetime] NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[TrainedVolunteer]    Script Date: 8/17/2025 11:31:40 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[TrainedVolunteer](
+	[vid] [int] IDENTITY(1,1) NOT NULL,
+	[VolType] [int] NULL,
+	[Name] [nvarchar](200) NULL,
+	[nickName] [nvarchar](200) NULL,
+	[gender] [nvarchar](50) NULL,
+	[DOB] [date] NULL,
+	[bgroup] [nvarchar](50) NULL,
+	[fname] [nvarchar](100) NULL,
+	[address] [nvarchar](max) NULL,
+	[dist] [int] NULL,
+	[subdist] [int] NULL,
+	[block_id] [int] NULL,
+	[Mobile] [nvarchar](20) NULL,
+	[Email] [nvarchar](200) NULL,
+	[Youthclub] [nvarchar](200) NULL,
+	[donateblood] [int] NULL,
+	[inttowork] [int] NULL,
+	[MitigationTrainig] [int] NULL,
+	[trainedfrom] [nvarchar](200) NULL,
+	[RadioOperator] [int] NULL,
+	[Moreprogram] [int] NULL,
+	[Summary] [nvarchar](500) NULL,
+	[Areaofp] [nvarchar](500) NULL,
+	[Skillset] [nvarchar](500) NULL,
+	[education] [nvarchar](500) NULL,
+	[q1] [int] NULL,
+	[s1] [nvarchar](200) NULL,
+	[b1] [nvarchar](200) NULL,
+	[y1] [nvarchar](10) NULL,
+	[q2] [int] NULL,
+	[s2] [nvarchar](200) NULL,
+	[b2] [nvarchar](200) NULL,
+	[y2] [nvarchar](10) NULL,
+	[q3] [int] NULL,
+	[s3] [nvarchar](200) NULL,
+	[b3] [nvarchar](200) NULL,
+	[y3] [nvarchar](10) NULL,
+	[q4] [int] NULL,
+	[S4] [nvarchar](200) NULL,
+	[B4] [nvarchar](200) NULL,
+	[Y4] [nvarchar](10) NULL,
+	[cname] [nvarchar](500) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](50) NULL,
+	[cstatus] [nvarchar](50) NULL,
+	[o1] [nvarchar](100) NULL,
+	[o2] [nvarchar](100) NULL,
+	[o3] [nvarchar](100) NULL,
+	[o4] [nvarchar](100) NULL,
+	[volunteerimage] [nvarchar](max) NULL,
+	[entry_by] [nchar](10) NULL,
+	[occupation] [nvarchar](500) NULL,
+	[gram_id] [int] NULL,
+ CONSTRAINT [PK_TVolunteerRegistration] PRIMARY KEY CLUSTERED 
+(
+	[vid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[trend_institute]    Script Date: 8/17/2025 11:31:40 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[trend_institute](
+	[institute_id] [int] IDENTITY(1,1) NOT NULL,
+	[dist_id] [int] NULL,
+	[Sub_dist_id] [int] NULL,
+	[institute_name] [varchar](200) NULL,
+	[institute_addr] [varchar](200) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+ CONSTRAINT [PK_trend_institute] PRIMARY KEY CLUSTERED 
+(
+	[institute_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[trend_institute_list]    Script Date: 8/17/2025 11:31:40 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[trend_institute_list](
+	[tred_per_list_id] [int] IDENTITY(1,1) NOT NULL,
+	[institute_id] [int] NULL,
+	[couse] [varchar](200) NULL,
+	[course_duration] [int] NULL,
+	[start_date] [date] NULL,
+	[end_date] [date] NULL,
+	[other] [varchar](500) NULL,
+	[filname] [varchar](2000) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](150) NULL,
+	[actualfilename] [nvarchar](2000) NULL,
+ CONSTRAINT [PK_trend_institute_list] PRIMARY KEY CLUSTERED 
+(
+	[tred_per_list_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[type]    Script Date: 8/17/2025 11:31:40 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[type](
+	[type_id] [int] IDENTITY(1,1) NOT NULL,
+	[type] [nvarchar](50) NULL,
+	[status] [nvarchar](50) NULL,
+ CONSTRAINT [PK_type] PRIMARY KEY CLUSTERED 
+(
+	[type_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[typemuniciple]    Script Date: 8/17/2025 11:31:40 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[typemuniciple](
+	[id] [int] NULL,
+	[type] [nvarchar](50) NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[urbandepartment]    Script Date: 8/17/2025 11:31:40 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[urbandepartment](
+	[ud_id] [int] IDENTITY(1,1) NOT NULL,
+	[disaster_id] [int] NULL,
+	[district_id] [int] NULL,
+	[sub_district_id] [int] NULL,
+	[village_id] [int] NULL,
+	[department_id] [int] NULL,
+	[developmentId] [int] NULL,
+	[RecordStatus] [int] NULL,
+	[dvrlength] [float] NULL,
+	[dwllength] [float] NULL,
+	[dslno] [float] NULL,
+	[dpcoman_name] [nvarchar](150) NULL,
+	[rdrdiscrip] [nvarchar](150) NULL,
+	[electric_pole] [float] NULL,
+	[electric_wire] [float] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[Ip_Addr] [nvarchar](50) NULL,
+	[bridges] [int] NULL,
+	[noofpanchayat] [int] NULL,
+ CONSTRAINT [PK_urbandepartment] PRIMARY KEY CLUSTERED 
+(
+	[ud_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[user_result]    Script Date: 8/17/2025 11:31:40 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[user_result](
+	[uqrid] [int] IDENTITY(1,1) NOT NULL,
+	[qu_id] [int] NULL,
+	[result] [varchar](50) NULL,
+	[date] [datetime] NULL,
+ CONSTRAINT [PK_user_result] PRIMARY KEY CLUSTERED 
+(
+	[uqrid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[user_type]    Script Date: 8/17/2025 11:31:40 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[user_type](
+	[user_type_id] [int] IDENTITY(1,1) NOT NULL,
+	[user_type] [nvarchar](500) NULL,
+	[status] [nvarchar](50) NULL,
+ CONSTRAINT [PK_user_type] PRIMARY KEY CLUSTERED 
+(
+	[user_type_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[UserTrail]    Script Date: 8/17/2025 11:31:40 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[UserTrail](
+	[TrailID] [int] IDENTITY(1,1) NOT NULL,
+	[UserID] [int] NOT NULL,
+	[user_type_id] [int] NOT NULL,
+	[TableName] [nvarchar](50) NOT NULL,
+	[LID] [int] NOT NULL,
+	[ModuleID] [int] NOT NULL,
+	[Dated] [datetime] NOT NULL,
+	[ActionTaken] [nvarchar](50) NOT NULL,
+	[IpAddr] [nvarchar](100) NOT NULL,
+ CONSTRAINT [PK_CMS_AuditTrail] PRIMARY KEY CLUSTERED 
+(
+	[TrailID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[utility_detail]    Script Date: 8/17/2025 11:31:40 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[utility_detail](
+	[ut_id] [int] IDENTITY(1,1) NOT NULL,
+	[uti_id] [int] NULL,
+	[name] [nvarchar](500) NULL,
+	[entry_by] [int] NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](50) NULL,
+	[status] [nvarchar](50) NULL,
+	[enrty] [int] NULL,
+ CONSTRAINT [PK_utility_detail] PRIMARY KEY CLUSTERED 
+(
+	[ut_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[video_gallery]    Script Date: 8/17/2025 11:31:40 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[video_gallery](
+	[video_id] [int] IDENTITY(1,1) NOT NULL,
+	[video_name] [nvarchar](max) NULL,
+	[video_description] [nvarchar](max) NULL,
+	[video_type] [nvarchar](30) NULL,
+	[video_url] [nvarchar](max) NULL,
+	[video_file] [nvarchar](max) NULL,
+	[created_by] [int] NULL,
+	[created_date] [datetime] NULL,
+	[approved_date] [datetime] NULL,
+	[approved_by] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[rejected_by] [int] NULL,
+	[rejected_date] [datetime] NULL,
+	[current_status] [nvarchar](50) NULL,
+	[Reject_reason] [nvarchar](250) NULL,
+	[homepage] [int] NULL,
+ CONSTRAINT [PK_video_gallery] PRIMARY KEY CLUSTERED 
+(
+	[video_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[villages]    Script Date: 8/17/2025 11:31:40 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[villages](
+	[village_id] [int] IDENTITY(1,1) NOT NULL,
+	[state_code] [int] NULL,
+	[district_code] [int] NULL,
+	[tehsil_code] [int] NULL,
+	[village_code] [int] NULL,
+	[village_name] [nvarchar](255) NOT NULL,
+	[village_name_hin] [nvarchar](255) NULL,
+	[status] [nvarchar](50) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[village_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[VolunteerMails]    Script Date: 8/17/2025 11:31:40 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[VolunteerMails](
+	[mid] [int] IDENTITY(1,1) NOT NULL,
+	[message] [nvarchar](max) NULL,
+	[Subject] [nvarchar](max) NULL,
+	[users] [nvarchar](max) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[ENTRY_DATE] [datetime] NULL,
+	[IP_ADDR] [nvarchar](50) NULL,
+ CONSTRAINT [PK_VolunteerMails] PRIMARY KEY CLUSTERED 
+(
+	[mid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[VolunteerRegistration]    Script Date: 8/17/2025 11:31:40 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[VolunteerRegistration](
+	[vid] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [nvarchar](100) NULL,
+	[gender] [nvarchar](50) NULL,
+	[DOB] [date] NULL,
+	[bgroup] [nvarchar](50) NULL,
+	[fname] [nvarchar](100) NULL,
+	[address] [nvarchar](max) NULL,
+	[dist] [int] NULL,
+	[pin] [nvarchar](50) NULL,
+	[phone] [nvarchar](20) NULL,
+	[Mobile] [nvarchar](20) NULL,
+	[Email] [nvarchar](200) NULL,
+	[q1] [int] NULL,
+	[s1] [nvarchar](100) NULL,
+	[b1] [nvarchar](100) NULL,
+	[y1] [nvarchar](10) NULL,
+	[q2] [int] NULL,
+	[s2] [nvarchar](100) NULL,
+	[b2] [nvarchar](100) NULL,
+	[y2] [nvarchar](10) NULL,
+	[q3] [int] NULL,
+	[s3] [nvarchar](100) NULL,
+	[b3] [nvarchar](100) NULL,
+	[y3] [nvarchar](10) NULL,
+	[q4] [int] NULL,
+	[S4] [nvarchar](100) NULL,
+	[B4] [nvarchar](100) NULL,
+	[Y4] [nvarchar](10) NULL,
+	[cname] [nvarchar](100) NULL,
+	[caddress] [nvarchar](500) NULL,
+	[cpin] [nvarchar](10) NULL,
+	[cphn] [nvarchar](50) NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_date] [datetime] NULL,
+	[ip_addr] [nvarchar](50) NULL,
+	[cstatus] [nvarchar](50) NULL,
+	[o1] [nvarchar](100) NULL,
+	[o2] [nvarchar](100) NULL,
+	[o3] [nvarchar](100) NULL,
+	[o4] [nvarchar](100) NULL,
+	[txtpriorexp] [nvarchar](100) NULL,
+	[trainarea] [int] NULL,
+	[decplace] [nvarchar](100) NULL,
+	[subdate] [datetime] NULL,
+	[DisSpecArea] [nvarchar](50) NULL,
+	[altmobile] [nvarchar](200) NULL,
+	[lang] [int] NULL,
+	[mname] [nvarchar](100) NULL,
+ CONSTRAINT [PK_VolunteerRegistration] PRIMARY KEY CLUSTERED 
+(
+	[vid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Zone]    Script Date: 8/17/2025 11:31:40 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Zone](
+	[ZoneId] [int] IDENTITY(1,1) NOT NULL,
+	[ZONE] [nvarchar](200) NULL,
+	[ENTRY_DATE] [datetime] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[ipadd] [nvarchar](50) NULL,
+ CONSTRAINT [PK_Zone] PRIMARY KEY CLUSTERED 
+(
+	[ZoneId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[zone_districtMAP]    Script Date: 8/17/2025 11:31:40 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[zone_districtMAP](
+	[mzdid] [int] IDENTITY(1,1) NOT NULL,
+	[zone_id] [int] NULL,
+	[dist_id] [int] NULL,
+	[status] [nvarchar](50) NULL,
+	[entry_by] [int] NULL,
+	[entrydate] [datetime] NULL,
+	[ip_addr] [nvarchar](255) NULL,
+ CONSTRAINT [PK_zone_districtMAP] PRIMARY KEY CLUSTERED 
+(
+	[mzdid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+SET IDENTITY_INSERT [dbo].[Admin] ON 
+
+INSERT [dbo].[Admin] ([Id], [Login], [Password], [MyVal], [ChangeDate], [ChangeMethod], [IpAddress], [SessionId], [Email], [Status], [admintype]) VALUES (1, N'admin', N'95228f3702f78bbb4cbbd356a01a5e2b', N'31602688', CAST(N'2011-04-28T00:00:00.000' AS DateTime), N'Wrong Attempt-', N'47.31.49.159', N'768.28739', N'admin@gmail.com', N'Active', N'SITEADMIN')
+SET IDENTITY_INSERT [dbo].[Admin] OFF
+SET IDENTITY_INSERT [dbo].[app_agriculture_loss] ON 
+
+INSERT [dbo].[app_agriculture_loss] ([agriculture_loss_id], [disaster_id], [department_id], [district_id], [sub_district_id], [developmentId], [village_id], [crop_affected], [crop_33_affected], [status], [entry_by], [entry_date], [ip_addr], [RecordStatus], [croppedarea], [crop_lossless33], [cultivatedareawashed], [cropsownarea], [crop_33_above], [kharif_id], [cmid], [totalAreadamaged], [totalcropsownarea], [crop_33_abovet], [arearainfed], [areairrigated], [areaperennial], [ret_id], [block_id], [updated_by]) VALUES (392, 4833, 3, 24, 0, 1, -1, NULL, NULL, N'Active', 2150, CAST(N'2020-08-27T11:00:41.087' AS DateTime), N'59.95.209.1', 1, 0, 0, 0, 3800, 0, 1, 1, 0, NULL, NULL, NULL, NULL, NULL, 1, 116, NULL)
+INSERT [dbo].[app_agriculture_loss] ([agriculture_loss_id], [disaster_id], [department_id], [district_id], [sub_district_id], [developmentId], [village_id], [crop_affected], [crop_33_affected], [status], [entry_by], [entry_date], [ip_addr], [RecordStatus], [croppedarea], [crop_lossless33], [cultivatedareawashed], [cropsownarea], [crop_33_above], [kharif_id], [cmid], [totalAreadamaged], [totalcropsownarea], [crop_33_abovet], [arearainfed], [areairrigated], [areaperennial], [ret_id], [block_id], [updated_by]) VALUES (393, 4833, 3, 24, 0, 1, -1, NULL, NULL, N'Active', 2150, CAST(N'2020-08-27T11:00:41.117' AS DateTime), N'59.95.209.1', 1, 0, 0, 0, 30, 0, 1, 2, 0, NULL, NULL, NULL, NULL, NULL, 1, 116, NULL)
+INSERT [dbo].[app_agriculture_loss] ([agriculture_loss_id], [disaster_id], [department_id], [district_id], [sub_district_id], [developmentId], [village_id], [crop_affected], [crop_33_affected], [status], [entry_by], [entry_date], [ip_addr], [RecordStatus], [croppedarea], [crop_lossless33], [cultivatedareawashed], [cropsownarea], [crop_33_above], [kharif_id], [cmid], [totalAreadamaged], [totalcropsownarea], [crop_33_abovet], [arearainfed], [areairrigated], [areaperennial], [ret_id], [block_id], [updated_by]) VALUES (394, 4833, 3, 24, 0, 1, -1, NULL, NULL, N'Active', 2150, CAST(N'2020-08-27T11:00:41.163' AS DateTime), N'59.95.209.1', 1, 0, 0, 0, 50, 0, 1, 3, 0, NULL, NULL, NULL, NULL, NULL, 1, 116, NULL)
+INSERT [dbo].[app_agriculture_loss] ([agriculture_loss_id], [disaster_id], [department_id], [district_id], [sub_district_id], [developmentId], [village_id], [crop_affected], [crop_33_affected], [status], [entry_by], [entry_date], [ip_addr], [RecordStatus], [croppedarea], [crop_lossless33], [cultivatedareawashed], [cropsownarea], [crop_33_above], [kharif_id], [cmid], [totalAreadamaged], [totalcropsownarea], [crop_33_abovet], [arearainfed], [areairrigated], [areaperennial], [ret_id], [block_id], [updated_by]) VALUES (395, 4833, 3, 24, 0, 1, -1, NULL, NULL, N'Active', 2150, CAST(N'2020-08-27T11:00:41.210' AS DateTime), N'59.95.209.1', 1, 0, 0, 0, 60, 0, 1, 4, 0, NULL, NULL, NULL, NULL, NULL, 1, 116, NULL)
+INSERT [dbo].[app_agriculture_loss] ([agriculture_loss_id], [disaster_id], [department_id], [district_id], [sub_district_id], [developmentId], [village_id], [crop_affected], [crop_33_affected], [status], [entry_by], [entry_date], [ip_addr], [RecordStatus], [croppedarea], [crop_lossless33], [cultivatedareawashed], [cropsownarea], [crop_33_above], [kharif_id], [cmid], [totalAreadamaged], [totalcropsownarea], [crop_33_abovet], [arearainfed], [areairrigated], [areaperennial], [ret_id], [block_id], [updated_by]) VALUES (396, 4833, 3, 24, 0, 1, -1, NULL, NULL, N'Active', 2150, CAST(N'2020-08-27T11:00:41.257' AS DateTime), N'59.95.209.1', 1, 0, 0, 0, 450, 0, 1, 5, 0, NULL, NULL, NULL, NULL, NULL, 1, 116, NULL)
+INSERT [dbo].[app_agriculture_loss] ([agriculture_loss_id], [disaster_id], [department_id], [district_id], [sub_district_id], [developmentId], [village_id], [crop_affected], [crop_33_affected], [status], [entry_by], [entry_date], [ip_addr], [RecordStatus], [croppedarea], [crop_lossless33], [cultivatedareawashed], [cropsownarea], [crop_33_above], [kharif_id], [cmid], [totalAreadamaged], [totalcropsownarea], [crop_33_abovet], [arearainfed], [areairrigated], [areaperennial], [ret_id], [block_id], [updated_by]) VALUES (397, 4833, 3, 24, 0, 1, -1, NULL, NULL, N'Active', 2150, CAST(N'2020-08-27T11:00:41.303' AS DateTime), N'59.95.209.1', 1, 0, 0, 0, 1510, 0, 2, 6, 0, NULL, NULL, NULL, NULL, NULL, 1, 116, NULL)
+INSERT [dbo].[app_agriculture_loss] ([agriculture_loss_id], [disaster_id], [department_id], [district_id], [sub_district_id], [developmentId], [village_id], [crop_affected], [crop_33_affected], [status], [entry_by], [entry_date], [ip_addr], [RecordStatus], [croppedarea], [crop_lossless33], [cultivatedareawashed], [cropsownarea], [crop_33_above], [kharif_id], [cmid], [totalAreadamaged], [totalcropsownarea], [crop_33_abovet], [arearainfed], [areairrigated], [areaperennial], [ret_id], [block_id], [updated_by]) VALUES (398, 4833, 3, 24, 0, 1, -1, NULL, NULL, N'Active', 2150, CAST(N'2020-08-27T11:00:41.350' AS DateTime), N'59.95.209.1', 1, 0, 0, 0, 500, 0, 2, 7, 0, NULL, NULL, NULL, NULL, NULL, 1, 116, NULL)
+INSERT

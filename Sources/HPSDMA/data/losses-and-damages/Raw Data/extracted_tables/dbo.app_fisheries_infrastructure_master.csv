@@ -1,0 +1,8 @@
+fish_infrastructure_type_id,infrastructure_type,status,entry_by,entry_date,ip_addr
+1,Farm,Deleted,0,2018-11-20 13:22:03.357,::1
+2,Farm,Active,0,2018-11-20 13:22:21.733,::1
+1002,Boat,Active,0,2019-06-03 10:27:59.957,
+1003,Gill Net,Active,0,2019-06-03 10:28:06.177,
+2002,Catamaran,Active,0,2019-11-11 09:47:46.647,
+2003,Dugout Canoe,Active,0,2019-11-11 09:48:03.773,
+2004,Live stock,Active,0,2019-11-11 09:48:33.513,

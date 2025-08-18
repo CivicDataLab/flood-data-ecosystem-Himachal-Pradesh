@@ -3,7 +3,10 @@ import numpy as np
 import glob
 import geopandas as gpd
 import datetime
+import os
 
+
+root = os.getcwd()
 
 #Function to drop columns
 def drop_columns(df, cols_to_drop):
@@ -23,7 +26,7 @@ def drop_columns(df, cols_to_drop):
 
 # Tests for verification
 '''
-hc_geocoded = pd.read_csv(r'D:\CivicDataLab_IDS-DRR\IDS-DRR_Github\HP\flood-data-ecosystem-Himachal-Pradesh\Sources\HPSDMA\data\losses-and-damages\Loss Data\hc_geocoded.csv')
+hc_geocoded = pd.read_csv(root + r'/Sources\HPSDMA\data\losses-and-damages\Loss Data\hc_geocoded.csv')
 hc_dist_gc = hc_geocoded.loc[hc_geocoded['district_best'] == 'bilaspur']
 
 
@@ -369,16 +372,17 @@ def main():
         - district_best, district_alternative,
         - subdistrict_best, subdistrict_alternative.
     """
-    india_district = pd.read_csv(r'D:\CivicDataLab_IDS-DRR\IDS-DRR_Github\HP\flood-data-ecosystem-Himachal-Pradesh\Sources\HPSDMA\data\losses-and-damages\Loss Data\keys_identifiers\districts_2.csv')
+    india_district = pd.read_csv(root + '/Sources\HPSDMA\data\losses-and-damages\Loss Data\keys_identifiers\districts_2.csv')
     district = india_district.loc[india_district['StateCode']==2]
     district = district.rename(columns={'DistrictId':'district_id','DistrictName':'district_name'})
-    india_subdistrict = pd.read_csv(r'D:\CivicDataLab_IDS-DRR\IDS-DRR_Github\HP\flood-data-ecosystem-Himachal-Pradesh\Sources\HPSDMA\data\losses-and-damages\Loss Data\keys_identifiers\st_sub-district.csv')
+    india_subdistrict = pd.read_csv(root + r'/Sources\HPSDMA\data\losses-and-damages\Loss Data\keys_identifiers\st_sub-district.csv')
     him_dist = district['district_id'].unique().tolist()
     subdistrict = india_subdistrict.loc[india_subdistrict['districtid'].isin(him_dist)]
     subdistrict = subdistrict.loc[subdistrict['status'] == 'Active']
-    disaster_events = pd.read_csv(r'D:\CivicDataLab_IDS-DRR\IDS-DRR_Github\HP\flood-data-ecosystem-Himachal-Pradesh\Sources\HPSDMA\data\losses-and-damages\Loss Data\keys_identifiers\disaster_main.csv')
+    disaster_events = pd.read_csv(root+'/Sources\HPSDMA\data\losses-and-damages\Raw Data\extracted_tables\dbo.app_disaster_main.csv')
+    disaster_types = pd.read_csv(root+'/Sources\HPSDMA\data\losses-and-damages\Raw Data\extracted_tables\dbo.DisasterType.csv')
 
-    india_district = pd.read_csv(r'D:\CivicDataLab_IDS-DRR\IDS-DRR_Github\HP\flood-data-ecosystem-Himachal-Pradesh\Sources\HPSDMA\data\losses-and-damages\Loss Data\keys_identifiers\districts_2.csv')
+    india_district = pd.read_csv(root + r'/Sources\HPSDMA\data\losses-and-damages\Loss Data\keys_identifiers\districts_2.csv')
     district = india_district.loc[india_district['StateCode']==2]
     district = district.rename(columns={'DistrictId':'district_id','DistrictName':'district_name'})
 
@@ -388,7 +392,7 @@ def main():
     #disaster_merged = pd.merge(disaster_keys[['disaster_id','incidentdate']],disaster_types[[]])
 
  
-    cattle = pd.read_csv(r'D:\CivicDataLab_IDS-DRR\IDS-DRR_Github\HP\flood-data-ecosystem-Himachal-Pradesh\Sources\HPSDMA\data\losses-and-damages\Loss Data\master_losses\Cattle_Loss.csv')
+    cattle = pd.read_csv(r'D:\CivicDataLab_IDS-DRR\IDS-DRR_Github\Deployment\flood-data-ecosystem-Himachal-Pradesh\Sources\HPSDMA\data\losses-and-damages\Raw Data\extracted_tables\dbo.app_cattle_loss.csv')
 
     cattle_master = cattle.loc[cattle['disaster_id'].isin(flood_events['disaster_id'])]
     cattle_merged = cattle_master.merge(flood_events[['disaster_id','incidentdate']], on="disaster_id", how="left")
@@ -415,7 +419,7 @@ def main():
 
     # Load datasets
     #ungeo_df, villages_df = load_data()
-    village_path = r"D:\CivicDataLab_IDS-DRR\IDS-DRR_Github\HP\flood-data-ecosystem-Himachal-Pradesh\Maps\HP_VILLAGES.csv"      # <-- Replace with your actual file path
+    village_path = root+ r"/Maps\HP_VILLAGES.csv"      # <-- Replace with your actual file path
     villages_df = pd.read_csv(village_path)
 
     # District geotagging
@@ -425,12 +429,12 @@ def main():
     ungeo_df = geotag_subdistrict(ungeo_df, villages_df, threshold=0.6, conflict_margin=0.05, narrow_by_district=True)
 
     # tagging tehsil by 
-    tehsil_shp = r'D:\CivicDataLab_IDS-DRR\IDS-DRR_Github\HP\flood-data-ecosystem-Himachal-Pradesh\Maps\HP_IDS-DRR_shapefiles\hp_tehsil_final.geojson'
+    tehsil_shp = root + r'/Maps/hp_tehsil_final.geojson'
     ungeo_df = geotag_tehsil_by_name(ungeo_df, tehsil_shp)
     print(ungeo_df.columns)
 
     # Save output (update the file path)
-    output_path = r"D:\CivicDataLab_IDS-DRR\IDS-DRR_Github\HP\flood-data-ecosystem-Himachal-Pradesh\Sources\HPSDMA\data\losses-and-damages\Loss Data\flood_losses\cattle_flood_geocoded.csv"  # <-- Update with desired output file path
+    output_path = root + r"/Sources\HPSDMA\data\losses-and-damages\Loss Data\flood_losses\cattle_flood_geocoded.csv"  # <-- Update with desired output file path
     ungeo_df.to_csv(output_path, index=False)
 
     # Print summary statistics
