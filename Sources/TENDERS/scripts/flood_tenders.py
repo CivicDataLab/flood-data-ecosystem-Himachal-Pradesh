@@ -72,7 +72,7 @@ for csv in csvs:
     tenders_df = input_df[(input_df.is_flood_tender=='True')&
                                     (~input_df.Department.isin(["Directorate of Agriculture and Assam Seed Corporation","Department of Handloom Textile and Sericulture"]))]
 
-    tenders_df = tenders_df.loc[tenders_df['Status']=="Accepted-AOC"]
+    #tenders_df = tenders_df.loc[tenders_df['Status']=="Accepted-AOC"]
 
     print('Number of flood related tenders filtered: ', tenders_df.shape[0])
     if tenders_df.shape[0]==0:
