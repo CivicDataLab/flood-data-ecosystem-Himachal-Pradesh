@@ -1,4 +1,4 @@
-District,TEHSIL,object_id,net_sown_area_in_hac,avg_electricity,avg_tele,block_piped_hhds_pct,block_nosanitation_hhds_pct,total_hhd,
+District,TEHSIL,object_id,net_sown_area_in_hac,avg_electricity,avg_tele,block_piped_hhds_pct,block_nosanitation_hhds_pct,total_hhd,timeperiod
 CHAMBA,BHATTIYAT,02-023-00001,4593.83,12.18606736908255,3.0,37.85117262350208,6.263655189406188,12398.0,
 CHAMBA,BRAHMAUR,02-023-00002,5027.02,15.787031888414909,3.0,31.62019210067671,7.482476163538394,27739.0,
 CHAMBA,CHAMBA,02-023-00003,23567.567,11.334765913734616,3.0,34.46198246572987,3.226689435244397,51278.0,

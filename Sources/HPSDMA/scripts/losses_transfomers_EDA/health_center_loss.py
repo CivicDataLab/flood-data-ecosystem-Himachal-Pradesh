@@ -26,7 +26,7 @@ def drop_columns(df, cols_to_drop):
 
 # Tests for verification
 '''
-hc_geocoded = pd.read_csv(r'D:\CivicDataLab_IDS-DRR\IDS-DRR_Github\HP\flood-data-ecosystem-Himachal-Pradesh\Sources\HPSDMA\data\losses-and-damages\Loss Data\hc_geocoded.csv')
+hc_geocoded = pd.read_csv(r'D:/CivicDataLab_IDS-DRR/IDS-DRR_Github/HP/flood-data-ecosystem-Himachal-Pradesh/Sources/HPSDMA/data/losses-and-damages/Loss Data/hc_geocoded.csv')
 hc_dist_gc = hc_geocoded.loc[hc_geocoded['district_best'] == 'bilaspur']
 
 
@@ -53,7 +53,7 @@ def clean_text(text):
     """Utility to clean and lower-case a string."""
     if not text:
         return ""
-    return re.sub(r'[^a-zA-Z0-9\s]', ' ', str(text)).lower().strip()
+    return re.sub(r'[^a-zA-Z0-9/s]', ' ', str(text)).lower().strip()
 
 
 def build_mappings(villages_df):
@@ -293,7 +293,7 @@ def load_data():
     Update the file paths as needed.
     """
     ungeo_path = r"path_to_ungeocoded_file.csv"   # <-- Replace with your actual file path
-    village_path = r"D:\CivicDataLab_IDS-DRR\IDS-DRR_Github\HP\flood-data-ecosystem-Himachal-Pradesh\Maps\HP_VILLAGES.csv"      # <-- Replace with your actual file path
+    village_path = r"D:/CivicDataLab_IDS-DRR/IDS-DRR_Github/HP/flood-data-ecosystem-Himachal-Pradesh/Maps/HP_VILLAGES.csv"      # <-- Replace with your actual file path
     villages_df = pd.read_csv(village_path)
     ungeo_df = pd.read_csv(ungeo_path)
     
@@ -372,17 +372,17 @@ def main():
         - district_best, district_alternative,
         - subdistrict_best, subdistrict_alternative.
     """
-    disaster_events = pd.read_csv(root+'/Sources\HPSDMA\data\losses-and-damages\Raw Data\extracted_tables\dbo.app_disaster_main.csv')
-    disaster_types = pd.read_csv(root+'/Sources\HPSDMA\data\losses-and-damages\Raw Data\extracted_tables\dbo.DisasterType.csv')
+    disaster_events = pd.read_csv(root+'/Sources/HPSDMA/data/losses-and-damages/Raw Data/extracted_tables/dbo.app_disaster_main.csv')
+    disaster_types = pd.read_csv(root+'/Sources/HPSDMA/data/losses-and-damages/Raw Data/extracted_tables/dbo.DisasterType.csv')
 
     hc = pd.read_csv(root+'/Sources/HPSDMA/data/losses-and-damages/Raw Data/extracted_tables/dbo.app_health_centre_loss.csv')
-    hc_details = pd.read_csv(root+'/Sources\HPSDMA\data\losses-and-damages\Raw Data\extracted_tables\dbo.app_healthcenter_details.csv')
+    hc_details = pd.read_csv(root+'/Sources/HPSDMA/data/losses-and-damages/Raw Data/extracted_tables/dbo.app_healthcenter_details.csv')
     india_district = pd.read_csv(root+'/Sources/HPSDMA/data/losses-and-damages/Loss Data/keys_identifiers/districts_2.csv')
     district = india_district.loc[india_district['StateCode']==2]
     district = district.rename(columns={'DistrictId':'district_id','DistrictName':'district_name'})
     blocks = pd.read_csv(root+'/Sources/HPSDMA/data/losses-and-damages/Loss Data/keys_identifiers/st_block.csv')
     # Filter by flood events
-    flood_event_ids = [1]#,1002,2020]
+    flood_event_ids = [1,1002,2020]
     flood_events = disaster_events.loc[disaster_events['disaster_type_id'].isin(flood_event_ids)]
     #disaster_merged = pd.merge(disaster_keys[['disaster_id','incidentdate']],disaster_types[[]])
 
@@ -418,7 +418,7 @@ def main():
     ungeo_df = ungeo_df.drop(columns={'entry_by','entry_date','ip_addr','RecordStatus'})
 
     # Save output (update the file path)
-    output_path = root + r"/Sources\HPSDMA\data\losses-and-damages\Loss Data\flood_losses\hc_flood_geocoded.csv"  # <-- Update with desired output file path
+    output_path = root + r"/Sources/HPSDMA/data/losses-and-damages/Loss Data/flood_losses/hc_flood_geocoded.csv"  # <-- Update with desired output file path
     ungeo_df.to_csv(output_path, index=False)
 
     # Print summary statistics
