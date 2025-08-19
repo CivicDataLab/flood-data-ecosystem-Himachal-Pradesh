@@ -370,7 +370,7 @@ def main():
     blocks = pd.read_csv(root + r'/Sources\HPSDMA\data\losses-and-damages\Loss Data\keys_identifiers\st_block.csv')
 
     # Filter by flood events
-    flood_event_ids = [1]#,1002,2020]
+    flood_event_ids = [1,1002,2020]
     flood_events = disaster_events.loc[disaster_events['disaster_type_id'].isin(flood_event_ids)]
            
     agriculture = pd.read_csv(root + r'/Sources\HPSDMA\data\losses-and-damages\Raw Data\extracted_tables\dbo.app_agriculture_loss.csv')

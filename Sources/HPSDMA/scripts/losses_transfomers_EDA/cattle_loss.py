@@ -387,7 +387,7 @@ def main():
     district = district.rename(columns={'DistrictId':'district_id','DistrictName':'district_name'})
 
     # Filter by flood events
-    flood_event_ids = [1]#,1002,2020]
+    flood_event_ids = [1,1002,2020]
     flood_events = disaster_events.loc[disaster_events['disaster_type_id'].isin(flood_event_ids)]
     #disaster_merged = pd.merge(disaster_keys[['disaster_id','incidentdate']],disaster_types[[]])
 

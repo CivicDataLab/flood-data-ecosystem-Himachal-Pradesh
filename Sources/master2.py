@@ -8,7 +8,7 @@ warnings.filterwarnings("ignore")
 
 variables_data_path = os.getcwd() + r'/Sources/master/'
 print(variables_data_path)
-HP_sd = gpd.read_file(os.getcwd()+ r'\Maps\hp_tehsil_final.geojson')
+HP_sd = gpd.read_file(os.getcwd()+ r'/Maps/hp_tehsil_final.geojson')
 #HP_sd['object_id'] = HP_sd['object_id'].astype(int)
 
 date_range = pd.date_range(start="2021-04-01", end="2025-06-30", freq='MS')
@@ -95,27 +95,29 @@ print(zero_counts)
 
 
 # one-time variables
-onetime_variables = ['Schools', 'RailLengths', 'RoadLengths',#'HealthCenters','gcn250_average', 
-                     'slope_elevation',
-                      'antyodaya_variables', 'drainage_density','distance_from_river','rural_vul']
-                     
+# --- One-time variables (STATIC) ---
+onetime_variables = [
+    'Schools', 'RailLengths', 'RoadLengths',
+    'slope_elevation', 'antyodaya_variables',
+    'drainage_density','distance_from_river','rural_vul'
+]
 master_df['year'] = ''
-print("master_df years:", master_df['year'].unique())
-var = pd.read_csv(variables_data_path + "slope_elevation.csv")
-print("slope_elevation years:", var.get('timeperiod', pd.Series()).head())
+print(master_df)
+#master_df.to_csv(r'diagnostic.csv')
 
 for variable in onetime_variables:
     print(variable)
     variable_df = pd.read_csv(variables_data_path + variable + '.csv')
-    columns_to_drop = [col for col in ['timeperiod', 'District'] if col in variable_df.columns]
-    if columns_to_drop:
-        variable_df = variable_df.drop(columns=columns_to_drop)
+    variable_df = variable_df.rename(columns = {'timeperiod': 'year'})
     variable_df['year'] = ''
     print(f"master_df shape: {master_df.shape}")
     print(f"variable_df shape: {variable_df.shape}")
+    # Drop overlapping columns except merge keys to avoid duplicate columns after merge
+    overlap_cols = [col for col in variable_df.columns if col in master_df.columns and col not in ['object_id', 'year']]
+    variable_df = variable_df.drop(columns=overlap_cols)
     master_df = master_df.merge(variable_df,
-                                on = ['object_id','TEHSIL', 'year']
-                                ,how='left')
+                                on = ['object_id', 'year'],
+                                how='left')
 
 
 master_df = master_df.drop([#'year', #'count_gcn250_pixels',
