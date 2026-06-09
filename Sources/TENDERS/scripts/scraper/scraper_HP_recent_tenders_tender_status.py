@@ -212,8 +212,11 @@ for tender_status_id in range(6,7):
             else:
                 SeleniumScrappingUtils.extract_horizontal_table(values, base, 1)
         path_to_save = "concatinated_csvs/"
-        SeleniumScrappingUtils.concatinate_csvs(path_to_save,tender_id,dict_tender_status[tender_status_id])
-        
+        try:
+            SeleniumScrappingUtils.concatinate_csvs(path_to_save,tender_id,dict_tender_status[tender_status_id])
+        except ValueError as e:
+            print(f"⚠️  Skipping tender {tender_id}: {e}")
+
         directory = os.getcwd()
         SeleniumScrappingUtils.remove_csvs(directory)
         window_after = browser.window_handles[0]

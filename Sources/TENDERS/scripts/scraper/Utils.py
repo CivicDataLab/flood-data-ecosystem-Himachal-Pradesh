@@ -149,7 +149,17 @@ class SeleniumScrappingUtils(object):
         if not all_filenames:
             raise FileNotFoundError("No CSVs found to concatenate in the current directory.")
 
-        combined_csv = pd.concat([pd.read_csv(f) for f in all_filenames], axis=1)
+        dfs = []
+        for f in all_filenames:
+            if os.path.getsize(f) == 0:
+                continue
+            try:
+                dfs.append(pd.read_csv(f))
+            except pd.errors.EmptyDataError:
+                continue
+        if not dfs:
+            raise ValueError(f"All CSV files for tender were empty; skipping save.")
+        combined_csv = pd.concat(dfs, axis=1)
         combined_csv['Tender Stage'] = tender_status
 
         os.makedirs(path_to_save, exist_ok=True)

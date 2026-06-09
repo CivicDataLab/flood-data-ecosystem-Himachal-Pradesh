@@ -1,0 +1,16 @@
+﻿Organisation Chain,Tender Reference Number,Tender ID,Withdrawal Allowed,Tender Type,Form of contract,Tender Category,No. of Covers,General Technical Evaluation Allowed,ItemWise Technical Evaluation Allowed,Payment Mode,Is Multi Currency Allowed For BOQ,Is Multi Currency Allowed For Fee,Allow Two Stage Bidding,Cover No,Cover,Document Type,Description,Publish Date,Bid Opening Date,Document Download / Sale Start Date,Document Download / Sale End Date,Clarification Start Date,Clarification End Date,Bid Submission Start Date,Bid Submission End Date,Financial Bid Opening Date,EMD Amount in ₹,EMD Exemption Allowed,EMD Fee Type,EMD Percentage,EMD Payable To,EMD Payable At,S.No,Bank Name,Tender Fee in ₹,Fee Payable To,Fee Payable At,Tender Fee Exemption Allowed,Name,Address,Title,Work Description,Pre Qualification Details,Independent External Monitor/Remarks,Tender Value in ₹,Product Category,Sub category,Contract Type,Bid Validity(Days),Period Of Work(Days),Location,Pincode,Pre Bid Meeting Place,Pre Bid Meeting Address,Pre Bid Meeting Date,Bid Opening Place,Should Allow NDA Tender,Allow Preferential Bidder,Tender Stage
+HPSEBL,CE(MM)/RDSS-(P-4)/Ver2.0,2024_HPSEB_94129_3,Yes,Open Tender,Tender cum Auction,Works,2.0,No,No,Both(Online/Offline),No,No,No,1.0,Fee/PreQual/Technical,.pdf,Proof of tender Fee,14-Dec-2024 09:00 AM,23-Dec-2024 03:00 PM,14-Dec-2024 09:00 AM,20-Dec-2024 11:00 AM,,,14-Dec-2024 09:00 AM,20-Dec-2024 11:00 AM,07-Feb-2025 11:00 AM,"2,00,00,000",No,fixed,,"Sr Account officer Banking, HPSEBL",SHIMLA,1.0,ICICI BANK,"1,475","Sr Account officer Banking, HPSEBL",SHIMLA,No,Chief Engineer (MM),"Chief Engineer (MM), Vidyut Bhawan Shimla-4",SCADA Works under RDSS,"SCADA works for Town A, B and C under RDSS in Himachal pradesh",As per NIT (IFB),,"99,51,00,000",Power/Energy Projects/Products,SCADA Works,Tender,180.0,900.0,"committee Room, Vidyut Bhawan Shimla",171004.0,,,,"committee Room, Vidyut Bhawan Shimla",No,No,AOC
+,,,,,,,,,,,,,,,,.pdf,Proof of Bid Security,,,,,,,,,,,,,,,,2.0,ICICI NEFT/RTGS,,,,,,,,,,,,,,,,,,,,,,,,,AOC
+,,,,,,,,,,,,,,,,.pdf,File No.1 Requisite Documents as per IFB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOC
+,,,,,,,,,,,,,,,,.pdf,File No.2 Requisite Documents as per IFB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOC
+,,,,,,,,,,,,,,,,.pdf,File No.3 Requisite Documents as per IFB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOC
+,,,,,,,,,,,,,,,,.pdf,File No.4 Requisite Documents as per IFB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOC
+,,,,,,,,,,,,,,,,.pdf,File No.5 Requisite Documents as per IFB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOC
+,,,,,,,,,,,,,,,,.pdf,File No.6 Requisite Documents as per IFB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOC
+,,,,,,,,,,,,,,,,.pdf,File No.7 Requisite Documents as per IFB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOC
+,,,,,,,,,,,,,,,,.pdf,File No.8 Requisite Documents as per IFB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOC
+,,,,,,,,,,,,,,2.0,Finance,.xls,BOQ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOC
+,,,,,,,,,,,,,,,,.pdf,BOQ Annexure-A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOC
+,,,,,,,,,,,,,,,,.pdf,BOQ Annexure-B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOC
+,,,,,,,,,,,,,,,,.pdf,BOQ Annexure-C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOC
+,,,,,,,,,,,,,,,,.pdf,BOQ Annexure-D,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOC
