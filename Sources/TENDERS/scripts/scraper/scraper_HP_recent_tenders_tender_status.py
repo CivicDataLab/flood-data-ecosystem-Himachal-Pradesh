@@ -34,10 +34,7 @@ else:
 if int(month)<10:
     month = '0'+str(month)
 folder = year+'_'+str(month)
-try:
-    os.mkdir(os.getcwd()+r'/Sources/TENDERS/scripts/scraper/scraped_recent_tenders/'+folder)
-except:
-    sys.exit(0)
+os.makedirs(os.getcwd()+r'/Sources/TENDERS/scripts/scraper/scraped_recent_tenders/'+folder, exist_ok=True)
 
 try:
     os.mkdir(os.getcwd()+r'/Sources/TENDERS/scripts/scraper/scraped_recent_tenders/concatinated_csvs')
@@ -301,12 +298,17 @@ for tender_status_id in range(6,7):
             links = links[:len(tender_ids)]
         #pdb.set_trace()
         for index,link in enumerate(links):
+            tender_id = tender_ids[index]
+            output_path = os.path.join(folder, "final_" + tender_id + ".csv")
+            if os.path.exists(output_path):
+                print(f"Skipping {tender_id} (already extracted)")
+                continue
             browser.get(link)
-            scrape_view_more_details(browser,tender_ids[index])
-            scrape_view_stage_summary(browser,tender_ids[index],dict_tables_type)
+            scrape_view_more_details(browser,tender_id)
+            scrape_view_stage_summary(browser,tender_id,dict_tables_type)
 
             os.chdir("concatinated_csvs/")
-            SeleniumScrappingUtils.concatinate_csvs("../{}/".format(folder),"final_"+tender_ids[index], dict_tender_status[tender_status_id])
+            SeleniumScrappingUtils.concatinate_csvs("../{}/".format(folder),"final_"+tender_id, dict_tender_status[tender_status_id])
             directory = os.getcwd()
             SeleniumScrappingUtils.remove_csvs(directory)
             os.chdir("../")
