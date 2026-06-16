@@ -44,7 +44,7 @@ csvs = glob.glob(data_path+'*.csv')
 
 for csv in csvs:
     filename  = re.split(r'/',csv)[-1]
-    filename  = re.split(r'\\',csv)[-1]
+    #filename  = re.split(r'\\',csv)[-1]
     print ("FILENAME"+ filename)
     input_df = pd.read_csv(csv)
     
@@ -72,7 +72,7 @@ for csv in csvs:
     tenders_df = input_df[(input_df.is_flood_tender=='True')&
                                     (~input_df.Department.isin(["Directorate of Agriculture and Assam Seed Corporation","Department of Handloom Textile and Sericulture"]))]
 
-    #tenders_df = tenders_df.loc[tenders_df['Status']=="Accepted-AOC"]
+    tenders_df = tenders_df.loc[tenders_df['Status']=="Accepted-AOC"]
 
     print('Number of flood related tenders filtered: ', tenders_df.shape[0])
     if tenders_df.shape[0]==0:
@@ -212,7 +212,7 @@ data_path = os.getcwd() + r'/Sources/TENDERS/data/'
 csvs = glob.glob(data_path+r'/flood_tenders/*.csv')
 dfs=[]
 for csv in csvs:
-    csv = csv.replace("//", "/")
+    #csv = csv.replace("//", "/")
     csv = csv.replace("\\", "/")
     month = csv.split(r'/')[-1][:7]
     df = pd.read_csv(csv)

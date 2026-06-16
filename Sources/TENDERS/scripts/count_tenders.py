@@ -9,6 +9,7 @@ csv_files = glob.glob(folder + '*.csv')
 
 total_count = 0
 accepted_count = 0
+non_null_count = 0
 all_dfs = []
 
 for file in csv_files:
@@ -18,6 +19,7 @@ for file in csv_files:
         total_count += len(df)
         if 'Status' in df.columns:
             accepted_count += (df['Status'] == 'Accepted-AOC').sum()
+            non_null_count += df['Awarded Value'].notnull().sum()
     except Exception as e:
         print(f'Error reading {file}: {e}')
 
@@ -29,3 +31,4 @@ if all_dfs:
 
 print(f'Total number of tenders (all files): {total_count}')
 print(f'Total number of tenders with Status="Accepted-AOC": {accepted_count}')
+print(f'Total number of tenders with non-null Awarded Value: {non_null_count}')

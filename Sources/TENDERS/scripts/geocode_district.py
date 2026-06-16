@@ -4,7 +4,7 @@ import re
 import os
 from difflib import SequenceMatcher
 
-tenders_df = pd.read_csv(os.getcwd()+r'\Sources\TENDERS\data\flood_tenders_all.csv')
+tenders_df = pd.read_csv(os.getcwd()+r'/Sources/TENDERS/data/flood_tenders_all.csv')
 
 #HP_VILLAGES = gpd.read_file(os.getcwd()+'/Maps/assam_village_complete_with_revenueCircle_district_35_oct2022.geojson',
  #                              driver='GeoJSON')
@@ -191,28 +191,7 @@ for idx, row in tenders_df.iterrows():
         if re.findall(r'\b%s\b'%sub_district.lower(), tender_slug.lower()):
             tenders_df.loc[idx,'tender_district_location'] = hp_subdist_dict[sub_district]['dtname']
             break
-'''
-# BTC FLAG
-tenders_df['BTC_flag'] = None
-for idx, row in tenders_df.iterrows():
-    BTC_flag = False
-    
-    #tender_slug = str(row['Tender ID']) + ' ' + str(row['tender_title']) + ' ' + str(row['Work Description'] + ' ' + str(row['location']))
-    #tender_slug = re.sub('[^a-zA-Z0-9 \n\.]', ' ', tender_slug)
-    
-    #skip Bodoland tenders
-    department_slug = str(row["Organisation Chain"] + ' ' + row["Department"])
-    department_slug = re.sub('[^a-zA-Z0-9 \n\.]', ' ', department_slug)
-    if re.findall(r"bodoland", department_slug.lower()):
-        BTC_flag= True
-    
-    bodoland_dept_slugs = ["BoTC", "BTC"]
-    for slug in bodoland_dept_slugs:
-        if slug in row["Tender ID"]:
-            BTC_flag= True
 
-    tenders_df.loc[idx,'BTC_flag'] = BTC_flag
-'''
 # WEIGHTAGE LOGIC
 tenders_df['tender_district_externalReference'].fillna('NA',inplace=True) 
 tenders_df['tender_district_title_description'].fillna('NA',inplace=True) 
