@@ -17,29 +17,31 @@ for root, dirs, files in os.walk(main_directory):
         csv_files = list(root_path.glob('*.csv'))  # No need for '**/*.csv'
         dfs = []
         for csv in csv_files:
-            #csv = csv.resolve()
+            # Default: use parent folder name as the variable name
+            file_name = root_path.name
+            timeperiod = ''
+            
             if any(folder in str(csv.parts) for folder in ['BHARATMAPS', 'GCN250', 'NASADEM', 'NERDRR', 'ANTYODAYA','WRIS','HRVA']):
                 timeperiod = ''
                 file_name = csv.stem
-            elif any(folder in str(csv.parts) for folder in ['WORLDPOP']):#, 'WRIS']):
+            elif any(folder in str(csv.parts) for folder in ['WORLDPOP']):
                 year_match = re.findall(r'\d{4}', csv.name)
                 if year_match:
                     timeperiod = year_match[0]
                     file_name = csv.stem[:-5]
-                
             elif any("SENTINEL" in str(parent) for parent in csv.parents):
                 date_match = re.findall(r'\d{4}-\d{2}-\d{2}', csv.name)
                 if date_match:
                     timeperiod = date_match[0][:-3].replace('-', '_')
                     file_name = csv.stem
-            
             else:
                 date_match = re.findall(r'\d{4}_\d{2}', csv.name)
                 if date_match:
                     timeperiod = date_match[0]
                     file_name = csv.stem[:-8]
-                
-            print("file: ", file_name)
+                # If no match, file_name stays as root_path.name (parent folder) ✅
+            
+            print(f"file: {file_name}, folder: {root_path.name}")
             df = pd.read_csv(csv)
             df['timeperiod'] = timeperiod
             dfs.append(df)

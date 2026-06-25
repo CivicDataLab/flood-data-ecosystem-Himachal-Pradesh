@@ -14,7 +14,7 @@ print(variables_data_path)
 HP_sd = gpd.read_file(os.getcwd() + r'/Maps/hp_tehsil_final.geojson')
 
 # --- Build full (object_id x month) frame ---
-date_range = pd.date_range(start="2021-04-01", end="2025-06-30", freq='MS')
+date_range = pd.date_range(start="2021-04-01", end="2026-05-31", freq='MS')
 formatted_dates = [date.strftime('%Y_%m') for date in date_range]
 
 dfs = []
@@ -51,10 +51,25 @@ for variable in monthly_variables:
         master_df = master_df.merge(variable_df[cols], on=['district_obj', 'timeperiod'], how='left')
     else:
         # object_id-level monthly
+        print(variable_df.columns.tolist())
+        print(f"Processing: {variable}")
         variable_df = variable_df.drop_duplicates(subset=['object_id', 'timeperiod'])
-        cols = ['object_id', 'timeperiod']
-        if variable in variable_df.columns:
-            cols.append(variable)
+        # Keep object_id + timeperiod plus every value column. The filename does not
+        # always match the metric column (e.g. rainfall -> mean_rain/max_rain/sum_rain,
+        # runoff -> Sum_Runoff/..., inundation -> inundation_pct/...), so we cannot rely
+        # on `variable in columns`. Drop metadata/geometry keys and any column already
+        # present in master_df to avoid _x/_y collisions.
+        meta_cols = {
+            'Unnamed: 0', 'District', 'STATE', 'TEHSIL', 'Shape_Leng', 'Shape_Area',
+            'dtcode11', 'tehsil_area', 'object_id_new', 'timeperiod_datetime',
+            'objectid', 'district', 'count',
+        }
+        value_cols = [
+            c for c in variable_df.columns
+            if c not in meta_cols and c not in ('object_id', 'timeperiod')
+            and c not in master_df.columns
+        ]
+        cols = ['object_id', 'timeperiod'] + value_cols
         master_df = master_df.merge(variable_df[cols], on=['object_id', 'timeperiod'], how='left')
 
 # --- Annual variables ---
