@@ -1,7 +1,6 @@
 import os
 import sys
 from datetime import datetime
-
 import geopandas as gpd
 import imdlib as imd
 import numpy as np
@@ -18,7 +17,7 @@ DATA_FOLDER = os.path.abspath(CURRENT_FOLDER + "/../" + "data")
 TIFF_DATA_FOLDER = os.path.join(DATA_FOLDER, "rain", "tiff")
 CSV_DATA_FOLDER = os.path.join(DATA_FOLDER, "rain", "csv")
 
-ADMIN_BDRY_GDF = gpd.read_file(path + r"/Maps/hp_tehsil_final.geojson")
+ADMIN_BDRY_GDF = gpd.read_file(path + "/Maps/hp_tehsil_final.geojson")
 
 
 def download_data(year: int, start_date: str, end_date: str):
@@ -154,23 +153,14 @@ def parse_and_format_data(year: int, start_date: str, end_date: str):
     return None
 
 
-def retrieve_assam_revenue_circle_data(year: int):
-    """
-    Retrives assam revenue circle data from the year wise .tif file
-    """
+def retrieve_subdistrict_data(year: int):
+
     for month in [
         "01",
         "02",
         "03",
         "04",
-        "05",
-        "06",
-        "07",
-        "08",
-        "09",
-        "10",
-        "11",
-        "12",
+        "05"
     ]:
         month_and_year_filename = "{}_{}".format(str(year), str(month))
         try:
@@ -198,8 +188,8 @@ def retrieve_assam_revenue_circle_data(year: int):
 
         dfs = []
 
-        for revenue_circle in mean_dicts:
-            dfs.append(pd.DataFrame([revenue_circle["properties"]]))
+        for subdistrict in mean_dicts:
+            dfs.append(pd.DataFrame([subdistrict["properties"]]))
 
         zonal_stats_df = pd.concat(dfs).reset_index(drop=True)
 
@@ -213,15 +203,21 @@ def retrieve_assam_revenue_circle_data(year: int):
 
 
 if __name__ == "__main__":
-
     # Takes year as an input from the cli
-    #year = str(sys.argv[1])
-    year = 2025#int(year)
+    year = int(input("Enter the year: "))
 
     # IF the year is current year, specify start and end date
-    start_date = "2025-01-01"
-    end_date = "2025-06-30"
+    now = datetime.now()
+
+    if year == now.year:
+        start_date = input("Enter start date (YYYY-MM-DD): ")
+        end_date = input("Enter end date (YYYY-MM-DD): ")
+    else:
+        # For historical years, these will be ignored by the functions
+        start_date = f"{year}-01-01"
+        end_date = f"{year}-04-30"
+
 
     download_data(year, start_date=start_date, end_date=end_date)
     parse_and_format_data(year, start_date=start_date, end_date=end_date)
-    retrieve_assam_revenue_circle_data(year)
+    retrieve_subdistrict_data(year)
