@@ -1,0 +1,15 @@
+source,meeting_number,meeting_date,fund,title,date_inferred,fiscal_year,year
+Bank Sanction Order 2023-2024,,2023-07-19,SDRF,,False,2023-24,2023.0
+CB Sanction Order 2023-2024,,2023-09-16,SDRF,,False,2023-24,2023.0
+SDRF-NDRF_2023-24,,2023-07-19,SDRF,,False,2023-24,2023.0
+ndmf-sanction-order_2023-24,,2023-04-10,SDMF,,False,2023-24,2023.0
+ndrf-sanction-order_2019-2020,,2019-09-01,NDRF,,False,2019-20,2019.0
+ndrf-sanction-order_2022-23,,2023-03-22,NDRF,,False,2022-23,2023.0
+ndrf-sanction-order_2023-24,,2023-08-14,NDRF,,False,2023-24,2023.0
+sdmf-sanction-order_2021-22,,2020-11-28,SDRF,,False,2020-21,2020.0
+sdmf-sanction-order_2022-23,,2022-09-22,SDMF,,False,2022-23,2022.0
+sdrf-sanction-order_2019-2020,,2019-08-16,SDRF,,False,2019-20,2019.0
+sdrf-sanction-order_2020-21,,2020-07-30,SDRF,,False,2020-21,2020.0
+sdrf-sanction-order_2021-22,,,SDRF,,False,,
+sdrf-sanction-order_2022-23,,2022-07-06,SDRF,,False,2022-23,2022.0
+sdrf-sanction-order_2023-24,,2023-06-13,SDRF,,False,2023-24,2023.0

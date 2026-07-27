@@ -1,0 +1,7 @@
+pandas>=2.0
+matplotlib>=3.7
+tabulate>=0.9           # for DataFrame.to_markdown
+pdfplumber>=0.10        # optional, real-PDF fallback
+pytesseract>=0.3.10     # offline OCR backend (needs system 'tesseract')
+Pillow>=10.0
+openai>=1.30            # only needed for the recommended vision backend
