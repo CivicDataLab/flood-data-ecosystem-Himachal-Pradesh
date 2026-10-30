@@ -24,6 +24,14 @@ for year_month in formatted_dates:
     dfs.append(df)
 master_df = pd.concat(dfs).reset_index(drop = True)
 master_df['district_obj'] = master_df['object_id'].str.rsplit(pat='-', n=1).str[0]
+
+# Geography labels, seeded above from hp_tehsil_final.geojson and static by
+# construction. Several variable files (rainfall.csv, runoff.csv, ...) carry
+# stray copies; those must be dropped before each merge, or the collision
+# renames both sides to TEHSIL_x/TEHSIL_y, the _x/_y cleanup at the end drops
+# them, and the label survives only in the months the variable file happens
+# to cover.
+static_geography_cols = ['TEHSIL']
 #df = pd.DataFrame({'timeperiod': formatted_dates})
 
 # Variables for model input
@@ -68,6 +76,7 @@ for variable in monthly_variables:
         )
     else:
         # your normal object_id-level merge
+        variable_df = variable_df.drop(columns=static_geography_cols, errors='ignore')
         master_df = master_df.merge(
             variable_df.drop_duplicates(subset=['object_id','timeperiod']),
             on=['object_id','timeperiod'],
@@ -150,8 +159,10 @@ master_df['mean_ndbi'] = master_df['mean_ndbi'].ffill()
 '''
 master_df = master_df.drop(columns=['district_obj'])
 
-# Impute all other vars with 0
-master_df = master_df.fillna(0)
+# Impute all other vars with 0. Labels are excluded: zero-filling them is what
+# turned missing tehsil names into a literal '0' instead of surfacing the gap.
+value_cols = [c for c in master_df.columns if c not in static_geography_cols]
+master_df[value_cols] = master_df[value_cols].fillna(0)
 # Drop columns with suffixes "_x" and "_y"
 master_df = master_df.loc[:, ~master_df.columns.str.endswith('_x') & ~master_df.columns.str.endswith('_y')]
 
